@@ -3,7 +3,7 @@
 <head>
 
 		<!-- Title -->
-	<title>About Us| Gnathos</title>
+	<title>Aboutt Us| Gnathos</title>
 	
 	
 	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
