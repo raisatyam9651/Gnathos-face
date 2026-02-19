@@ -1,0 +1,301 @@
+:root {
+            --primary-blue: #1976D2;
+            --light-blue: #64B5F6;
+            --dark-blue: #0D47A1;
+            --accent-blue: #2196F3;
+            --pale-blue: #E3F2FD;
+            --white: #FFFFFF;
+               --med-primary: #1976D2;
+            --med-light: #64B5F6;
+            --med-dark: #0D47A1;
+            --med-pale: #E3F2FD;
+        }
+
+        .challenges-section {
+            background: linear-gradient(135deg, var(--pale-blue) 0%, #F8FBFF 100%);
+            padding: 6rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .challenges-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" stroke="%231976D220" stroke-width="0.5" fill="none"/></svg>') repeat;
+            opacity: 0.5;
+        }
+
+        .section-title {
+            color: var(--dark-blue);
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: var(--primary-blue);
+            border-radius: 2px;
+        }
+
+        .challenge-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(25, 118, 210, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(25, 118, 210, 0.1);
+        }
+
+        .challenge-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(25, 118, 210, 0.05));
+            transition: all 0.4s ease;
+        }
+
+        .challenge-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(25, 118, 210, 0.2);
+            border-color: var(--light-blue);
+        }
+
+        .challenge-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-blue);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            position: relative;
+            transform: rotate(45deg);
+            transition: all 0.4s ease;
+            box-shadow: 0 10px 20px rgba(25, 118, 210, 0.15);
+        }
+
+        .challenge-card:hover .challenge-icon {
+            transform: rotate(0deg);
+            background: var(--accent-blue);
+        }
+
+        .challenge-icon svg {
+            width: 40px;
+            height: 40px;
+            color: var(--white);
+            transform: rotate(-45deg);
+            transition: all 0.4s ease;
+        }
+
+        .challenge-card:hover .challenge-icon svg {
+            transform: rotate(0deg);
+        }
+
+        .card-title {
+            color: var(--primary-blue);
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .card-text {
+            color: #516171;
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(25, 118, 210, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 20px rgba(25, 118, 210, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(25, 118, 210, 0);
+            }
+        }
+
+        .floating-dots {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+
+        .dot {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: var(--light-blue);
+            border-radius: 50%;
+            animation: float 6s infinite;
+            opacity: 0.3;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); opacity: 0.3; }
+            50% { transform: translateY(-20px) rotate(180deg); opacity: 0.6; }
+            100% { transform: translateY(0) rotate(360deg); opacity: 0.3; }
+        }
+
+        .wave-bg {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(180deg, transparent, rgba(25, 118, 210, 0.03));
+            transform: skewY(-3deg);
+            transform-origin: top;
+        }
+         .fracture-guide__wrapper {
+            background: linear-gradient(135deg, var(--med-pale) 0%, #F8FBFF 100%);
+            padding: 3rem 0;
+            position: relative;
+        }
+
+        .fracture-guide__container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(25, 118, 210, 0.1);
+            overflow: hidden;
+        }
+
+        .fracture-guide__content-area {
+            padding: 2rem;
+        }
+
+        .fracture-guide__visual-area {
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100%;
+            padding: 2rem;
+        }
+
+        .fracture-guide__heading {
+      
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .fracture-guide__heading::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: var(--med-primary);
+            border-radius: 2px;
+        }
+
+        .fracture-guide__intro {
+            color: #516171;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .fracture-guide__symptoms {
+            margin-bottom: 1.5rem;
+        }
+
+        .fracture-guide__symptom {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+            padding: 0.5rem;
+            background: rgba(25, 118, 210, 0.03);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .fracture-guide__symptom:hover {
+            background: rgba(25, 118, 210, 0.06);
+            transform: translateX(5px);
+        }
+
+        .fracture-guide__bullet {
+            width: 8px;
+            height: 8px;
+            background: var(--med-primary);
+            border-radius: 50%;
+            margin-top: 8px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .fracture-guide__description {
+            color: #516171;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .fracture-guide__note {
+            color: #516171;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0.75rem;
+            background: rgba(25, 118, 210, 0.03);
+            border-left: 3px solid var(--med-primary);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .fracture-guide__image {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 991.98px) {
+            .fracture-guide__visual-area {
+                min-height: 300px;
+                order: -1;
+            }
+            
+            .fracture-guide__image {
+                max-width: 300px;
+            }
+        }
+        
+        .icon-bx-wraper.style-7.active .icon-bx, .icon-bx-wraper.style-7:hover .icon-bx {
+     background: #fff;
+}
+         

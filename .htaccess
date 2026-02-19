@@ -1,0 +1,28 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+
+# To externally redirect /dir/foo.php to /dir/foo
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=302,L,NE]
+Redirect 301 "/index" "https://gnathosface.com/" 
+
+
+RedirectMatch 301 ^/blog(/.*)?$ /410.php
+
+Redirect 301 '/gallery/' 'https://gnathosface.com/410.php'
+Redirect 301 '/procedures/' 'https://gnathosface.com/410.php'
+Redirect 301 '/procedures/facial-injuries/' 'https://gnathosface.com/410.php'
+Redirect 301 '/procedures/reconstructive-surgery/' 'https://gnathosface.com/410.php'
+Redirect 301 '/procedures/face-jaw-infections/' 'https://gnathosface.com/410.php'
+Redirect 301 '/procedures/wisdom-tooth-third-molar/' 'https://gnathosface.com/410.php'
+Redirect 301 '/testimonials/' 'https://gnathosface.com/410.php'
+
+Redirect 301 '/cosmetic-facial-surgery/' 'https://gnathosface.com/410.php'
+Redirect 301 '/jaw-cysts/' 'https://gnathosface.com/410.php'
+Redirect 301 '/temporo-mandibular-joint-tmj/' 'https://gnathosface.com/410.php'
+Redirect 301 '/benign-jaw-tumors/' 'https://gnathosface.com/410.php'
+Redirect 301 '/about-us/' 'https://gnathosface.com/about'
+Redirect 301 '/testimonials/' 'https://gnathosface.com/410.php'

@@ -1,0 +1,52 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cgi-bin/
+
+# Allow crawling of important resources
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-content/uploads/
+
+# Sitemap location
+Sitemap: https://gnathosface.com/sitemap.xml
+
+User-agent: *
+Disallow: /favicon.ico
+Disallow: /.well-known/apple-app-site-association
+Disallow: /blogs/how-to-remove-injury-marks-from-the-face/images/google.svg
+Disallow: /images/logo.png
+Disallow: /wp-content/uploads/2021/11/imageedit_8_6377402842-300x71.png
+Disallow: /wp-content/uploads/2024/02/gnalogo.png
+Disallow: /assets/css/style4.css
+Disallow: /blogs/top-10-maxillofacial-surgeon-in-india/images/google.svg
+Disallow: /comments/feed/
+Disallow: /blogs/symptoms-of-jaw-infection-after-the-root-canal/images/google.svg
+Disallow: /blogs/does-ear-infection-cause-jaw-pain/images/google.svg
+Disallow: /apple-app-site-association
+Disallow: /blogs/how-to-get-rid-of-jaw-pain-on-one-side/images/google.svg
+Disallow: /wp-content/uploads/2022/02/TMJ-Animate1.gif
+Disallow: /wp-content/uploads/2022/02/TMJ-Animate4-Closed-Lock.gif
+Disallow: /wp-content/uploads/2022/02/TMJ-Animate2.gif
+Disallow: /feed/
+Disallow: /wp-content/uploads/2021/11/imageedit_8_6377402842.png
+Disallow: /wp-content/uploads/2021/12/WhatsApp-Image-2021-12-09-at-20.27.21.jpeg
+Disallow: /wp-content/uploads/2021/12/WhatsApp-Image-2021-12-10-at-10.50.43.jpeg
+Disallow: /wp-content/uploads/2021/12/WhatsApp-Image-2021-12-10-at-10.50.43-3.jpeg
+Disallow: /wp-content/uploads/2021/12/WhatsApp-Image-2021-12-10-at-10.50.43-1.jpeg
+Disallow: /wp-content/uploads/2021/12/WhatsApp-Image-2021-12-10-at-10.50.43-2.jpeg
+Disallow: /wp-content/uploads/2022/01/info-1-e1642588141925.png
+Disallow: /wp-content/uploads/2022/01/tmj01-1000x500-1.jpeg
+Disallow: /wp-content/uploads/2022/02/TMJ-300x300-1.jpeg
+Disallow: /wp-content/uploads/2024/05/Jaw-correction-surgery-scaled.jpg
+Disallow: /wp-content/uploads/2024/09/Cosmetic-Facial-Surgery-2-copy-3-1.jpg
+Disallow: /wp-content/uploads/2024/03/A-Comprehensive-Guide-to-TMJ-Symptoms.jpg
+Disallow: /wp-content/uploads/2024/05/Surgical-Intervention-for-Jaw-Cysts-Types-Procedures.png
+Disallow: /wp-content/uploads/2024/11/stethoscope-with-different-pharmaceutical-stuff-300x200.jpg
+Disallow: /wp-content/uploads/2024/11/Jaw_toothpain-1024x683.jpg
+Disallow: /wp-content/uploads/2024/11/jawsurgery-300x300.jpg
+Disallow: /wp-json/elementskit/v1/
+Disallow: /blogs/category/uncategorized/images/google.svg
+Disallow: /blogs/category/blog/images/google.svg
+Disallow: /blogs/author/admin/images/google.svg
+Disallow: /javascript:void(0);

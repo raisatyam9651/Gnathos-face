@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/fav-icon-png-1748415109.png">
+    <title>Maxillofacial Treatment | Gnathosface</title>
+    <script defer src="https://app.wacrs.com/install-widget/bundle.js?key=03e6414f-d96c-4fdb-88e7-352af69c6730"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.0/swiper-bundle.min.css" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+     
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8QSHV43');</script>
+<!-- End Google Tag Manager -->
+    <style>
+
+          :root {
+      --gnathos-dark-brown: #031B4E;
+      --gnathos-light-cream: #ECF5FB;
+      --gnathos-medium-brown: #00a1be;
+    }
+
+    /* body {
+      background-color: var(--gnathos-light-cream);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } */
+
+
+
+
+@media (max-width: 500px) {
+    .navbar-brand img {
+        height: 50px;
+        width: 166px;
+        transition: all 0.3s ease;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar-brand img {
+        height: 44px;
+        width: 120px;
+        transition: all 0.3s ease;
+    }
+}
+@media (max-width: 320px) {
+    .appointment-btn {
+        background-color: var(--dark-brown);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 50px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border: 2px solid var(--dark-brown);
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        text-decoration: none;
+    }
+}
+
+
+
+
+    @media (min-width: 200px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto !important;
+    }
+}
+        .ivy-btn-group {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .ivy-consult-btn {
+            width: auto;
+            flex-grow: 0;
+            display: inline-block;
+            background-color: var(--light-cream);
+            color: var(--dark-brown);
+            padding: 8px 12px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: all 0.4s ease;
+            border: 2px solid var(--light-cream);
+            text-align: center;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        .ivy-consult-btn:hover {
+            background-color: var(--dark-brown);
+            color: white;
+            border-color: var(--dark-brown);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(102, 66, 0, 0.15);
+        }
+
+        .ivy-whatsapp-btn {
+            position: relative;
+            top: 2px;
+            right: 3px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: all 0.4s ease;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+        }
+
+        .ivy-whatsapp-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 15px rgba(37, 211, 102, 0.4);
+            color: white;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25D366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #20ba5a;
+            color: #FFF;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .whatsapp-float .tooltip {
+            position: absolute;
+            right: 70px;
+            background-color: #333;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 500;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-float .tooltip::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            margin-top: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent #333;
+        }
+
+        .whatsapp-float:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Media query for mobile */
+        @media screen and (max-width: 769px) {
+            .whatsapp-float {
+                display: none;
+                width: 50px;
+                height: 50px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 22px;
+            }
+
+            .form-icon {
+                display: none;
+            }
+
+            .form-container {
+                margin-top: 20px;
+            }
+
+
+        }
+
+        @media only screen and (min-width:768px) {
+            .mob {
+                display: none;
+            }
+        }
+
+        @media (max-width:767px) and (min-width:200px) {
+            .mob {
+                display: block;
+            }
+
+            .copyright-wrap {
+                margin-bottom: 56px;
+            }
+        }
+
+        .custom-bottom-mob-nav {
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1002;
+        }
+
+        .custom-bottom-mob-nav-single-btn {
+            display: block;
+            color: black;
+            font-weight: 600;
+            border-right: 1px solid #e0e0e0;
+            border-top: 1px solid #e0e0e0;
+            font-size: 13px;
+        }
+
+        .custom-bottom-mob-nav-a {
+            text-decoration: none;
+            color: black;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .bp {
+                margin-bottom: 80px;
+            }
+        }
+
+                .navbar {
+            background-color: #f4f4f4 !important;
+        }
+
+
+
+
+        /* meet our doctors */
+
+           body {
+            background-color: var(--light-cream);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .doctor-section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+            color: var(--dark-brown);
+            position: relative;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 3px;
+            background-color: var(--medium-brown);
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .doctor-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(3, 27, 78, 0.1);
+            transition: all 0.3s ease;
+            height: 100%;
+            position: relative;
+            border: none;
+        }
+        
+        .doctor-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(3, 27, 78, 0.18);
+        }
+        
+        .doctor-img-container {
+    height: 335px;
+    background-color: var(--light-cream);
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+        
+        /* .doctor-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            background-color: #e9e9e9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        } */
+        
+        /* .doctor-img i {
+            font-size: 60px;
+            color: var(--dark-brown);
+        } */
+        
+        .card-body {
+            padding: 30px 25px;
+            text-align: center;
+        }
+        
+        .doctor-name {
+            color: var(--dark-brown);
+            font-weight: 700;
+            margin-bottom: 10px;
+            font-size: 24px;
+            /* text-align: center;
+            display: block; */
+        }
+        
+        .doctor-specialty {
+            color: var(--medium-brown);
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        .doctor-experience {
+            margin-bottom: 15px;
+            font-weight: 500;
+            font-size: 15px;
+            color: #555;
+        }
+        
+        .doctor-description {
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .cta-btn {
+            background-color: var(--dark-brown);
+            color: white;
+            border: none;
+            padding: 7px 25px;
+            padding-bottom:5px !important;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 14px;
+            padding-bottom: 6px;
+            box-shadow: 0 5px 15px rgba(0, 161, 190, 0.3);
+        }
+        
+        .cta-btn:hover {
+            background-color: var(--medium-brown);
+            
+            box-shadow: 0 8px 20px rgba(3, 27, 78, 0.35);
+            transform: translateY(-3px);
+        }
+        
+        .highlight {
+            background-color: rgba(0, 161, 190, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            color: var(--dark-brown);
+        }
+        
+        .decoration-shape {
+            position: absolute;
+            background-color: var(--medium-brown);
+            opacity: 0.1;
+            border-radius: 50%;
+            z-index: 0;
+        }
+        
+        .shape-1 {
+            width: 120px;
+            height: 120px;
+            top: -60px;
+            left: -60px;
+        }
+        
+        .shape-2 {
+            width: 80px;
+            height: 80px;
+            bottom: 30px;
+            right: -40px;
+        }
+        
+        @media (max-width: 991px) {
+            .doctor-card {
+                margin-bottom: 30px;
+            }
+        }
+
+        .badge-experience {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: var(--dark-brown);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            z-index: 1;
+            box-shadow: 0 4px 10px rgba(3, 27, 78, 0.2);
+        }
+        
+        .specialist-tag {
+            display: inline-block;
+            background-color: rgba(3, 27, 78, 0.08);
+            color: var(--dark-brown);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            margin: 0 5px 10px 0;
+        }
+        
+        .profile-divider {
+            width: 30%;
+            margin: 15px auto;
+            border-top: 2px dashed rgba(0, 161, 190, 0.2);
+        }
+
+
+        /* testimonia */
+
+       
+    .gnathos-testimonial-section {
+      padding: 80px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .gnathos-section-title {
+      text-align: center;
+      margin-bottom: 60px;
+      /* color: var(--gnathos-medium-brown); */
+      color:white;
+      position: relative;
+      font-weight: 700;
+      font-size: 36px;
+    }
+
+    .gnathos-section-title:after {
+      content: '';
+      position: absolute;
+      width: 80px;
+      height: 3px;
+      background-color: var(--gnathos-medium-brown);
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .gnathos-section-subtitle {
+      text-align: center;
+      color: var(--gnathos-medium-brown);
+      font-size: 20px;
+      margin-top: -30px;
+      margin-bottom: 50px;
+      font-style: italic;
+    }
+
+    .gnathos-testimonial-card {
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(3, 27, 78, 0.1);
+      transition: all 0.3s ease;
+      height: 100%;
+      position: relative;
+      border: none;
+      padding: 30px;
+    }
+
+    .gnathos-testimonial-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(3, 27, 78, 0.18);
+    }
+
+    .gnathos-quote-icon {
+      color: var(--gnathos-medium-brown);
+      opacity: 0.15;
+      font-size: 60px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .gnathos-testimonial-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .gnathos-testimonial-text {
+      color: var(--gnathos-dark-brown);
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+
+    .gnathos-client-info {
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+      border-top: 1px dashed rgba(0, 161, 190, 0.2);
+      padding-top: 20px;
+    }
+
+    .gnathos-client-avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: var(--gnathos-light-cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      border: 2px solid var(--gnathos-medium-brown);
+      box-shadow: 0 4px 10px rgba(0, 161, 190, 0.2);
+    }
+
+    .gnathos-client-avatar i {
+      color: var(--gnathos-medium-brown);
+      font-size: 24px;
+    }
+
+    .gnathos-client-details {
+      flex: 1;
+    }
+
+    .gnathos-client-name {
+      color: var(--gnathos-dark-brown);
+      font-weight: 700;
+      margin-bottom: 0;
+      font-size: 17px;
+    }
+
+    .gnathos-client-location {
+      color: var(--gnathos-medium-brown);
+      font-size: 14px;
+    }
+
+    .gnathos-highlight {
+      font-weight: 700;
+      color: var(--gnathos-medium-brown);
+    }
+
+    .gnathos-decoration-shape {
+      position: absolute;
+      background-color: var(--gnathos-medium-brown);
+      opacity: 0.05;
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    .gnathos-shape-1 {
+      width: 200px;
+      height: 200px;
+      top: 50px;
+      left: -100px;
+    }
+
+    .gnathos-shape-2 {
+      width: 300px;
+      height: 300px;
+      bottom: -150px;
+      right: -150px;
+    }
+
+    .gnathos-testimonial-rating {
+      margin-bottom: 15px;
+    }
+
+    .gnathos-star-icon {
+      color: #FFC107;
+      font-size: 16px;
+      margin-right: 2px;
+    }
+
+    .gnathos-testimonial-tag {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: var(--gnathos-dark-brown);
+      color: white;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      z-index: 2;
+    }
+
+    @media (max-width: 991px) {
+      .gnathos-testimonial-card {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .gnathos-section-title {
+        font-size: 30px;
+      }
+
+      .gnathos-testimonial-text {
+        font-size: 16px;
+      }
+    }
+
+    .gnathos-view-more-btn {
+      display: block;
+      width: fit-content;
+      margin: 40px auto 0;
+      background-color: var(--gnathos-medium-brown) ;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-size: 14px;
+      box-shadow: 0 5px 15px rgba(0, 161, 190, 0.3) !important;
+    }
+
+    .gnathos-view-more-btn:hover {
+      background-color: var(--gnathos-dark-brown);
+      box-shadow: 0 8px 20px rgba(3, 27, 78, 0.35) !important;
+      transform: translateY(-3px);
+      color: white !important;
+    }
+    </style>
+
+    </style>
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8QSHV43"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/gna-logo.png" alt="Gnathos Hospital">
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item">
+                        <a href="#form" class="appointment-btn">
+                            <i class="bi bi-calendar-check"></i> Appointment
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner Section with Form -->
+    <section class="hero-section">
+        <div class="hero-shape"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="hero-title">Get Advanced Maxillofacial Treatment  <span>in Hyderabad
+                        </span></h1>
+                    <p class="hero-subtitle">Expert Face, Jaw & TMJ Care Starts Here! Book a Consultation with the Best Maxillofacial Surgeon in India
+
+                    </p>
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>24/7 Emergency Facial Trauma Care </span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>Best TMJ Specialist in India</span>
+                        </div>
+                        <div class="hero-feature">
+                            <i class="bi bi-check-circle-fill"></i>
+                            <span>100% Personalized Care Plans</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <!-- <div class="form-container" id="form">
+                        
+                        <h3 class="form-title">Book an Appointment</h3>
+                        <form action='https://app.formester.com/forms/pHgD02OdZYo8/submissions' method='POST'>
+                            <div class="row">
+                                <div class="form-group">
+                                    <label class="form-label">First Name</label>
+                                    <input type="text" class="form-control" name="name" placeholder="Your name"
+                                        required>
+                                </div>
+                               
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Phone</label>
+                                <input type="tel" class="form-control" name="phone" placeholder="Your phone number"
+                                    required>
+                            </div>
+                          
+                            <div class="form-group">
+                                <label class="form-label">Age</label>
+                                <input type="number" class="form-control" name="Age" placeholder="Your Age">
+                            </div>
+                            <button type="submit" class="submit-btn">Enquire Now</button>
+                        </form>
+                    </div> -->
+<div id="form">
+    <script defer data-active  data-widget-type="group"
+    data-person="bf7731f6-a3a8-4eba-a55b-a922f9b7c69b" src="https://app.wacrs.com/install-widget/bundle.js?key=03e6414f-d96c-4fdb-88e7-352af69c6730"></script><div data-active id="whatapp-people-widget"></div>
+</div>
+                   
+                    
+            
+                </div>
+            </div>
+        </div>
+    </section> 
+<!-- 
+<section class="hero-section py-5 position-relative">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-lg-5 col-md-6">
+        <div class="bg-white p-4 rounded shadow" id="form">
+          <h3 class="mb-4 text-center">Get Free Second Opinion</h3>
+          <form action="https://app.formester.com/forms/pHgD02OdZYo8/submissions" method="POST">
+            <div class="mb-3">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-control" name="name" placeholder="Your name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone</label>
+              <input type="tel" class="form-control" name="phone" placeholder="Your phone number" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Age</label>
+              <input type="number" class="form-control" name="Age" placeholder="Your Age">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enquire Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+    <!-- Original Heart Section -->
+    <section class="heart-section">
+   <div class="stat-container">
+    <div class="row justify-content-center text-center">
+    <div class="col-lg-2 col-md-4 col-6 mb-4 d-flex">
+        <div class="stat-item d-flex flex-column justify-content-center align-items-center w-100">
+            <i class="bi bi-stars stat-icon"></i>
+            <div class="stat-value">1 Lakh+</div>
+            <div class="stat-label">Faces Transformed with Precision</div>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-6 mb-4 d-flex">
+        <div class="stat-item d-flex flex-column justify-content-center align-items-center w-100">
+            <i class="bi bi-building stat-icon"></i>
+            <div class="stat-value">20+</div>
+            <div class="stat-label">of Excellence in Maxillofacial Surgery</div>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-6 mb-4 d-flex">
+        <div class="stat-item d-flex flex-column justify-content-center align-items-center w-100">
+            <i class="bi bi-hospital stat-icon"></i>
+            <div class="stat-value">5k+</div>
+            <div class="stat-label">TMJ Disorder Cases Successfully Treated</div>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-6 mb-4 d-flex">
+        <div class="stat-item d-flex flex-column justify-content-center align-items-center w-100">
+            <i class="bi bi-person-badge stat-icon"></i>
+            <div class="stat-value">400+</div>
+            <div class="stat-label">Speciality Doctors</div>
+        </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-6 mb-4 d-flex">
+        <div class="stat-item d-flex flex-column justify-content-center align-items-center w-100">
+            <i class="bi bi-person-badge stat-icon"></i>
+            <div class="stat-value">4.9★ </div>
+            <div class="stat-label">Patient Satisfaction Across India</div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+    <!-- CTA section remains untouched -->
+    <div class="cta-container">
+        <div class="row">
+            <div class="col-12 text-center" >
+                <h3 class="cta-title">Your Journey to a Confident Smile Starts Now</h3>
+                <p class="cta-subtitle">Book your consultation with the best oral and maxillofacial surgeon in India. Whether it's jaw surgery, </br>facial reconstruction, or TMJ disorder, we are here to help you heal and shine.</p>
+                <a href="#form" class="btn btn-primary">Book an Appointment</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="ivy-intro-section ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="ivy-intro-content">
+                        <h1 class="ivy-intro-title">Gnathos Face – Best Oral & Maxillofacial Surgery Centre in Hyderabad
+                            </span></h1>
+                        <div class="ivy-intro-text">
+                            <p>
+                               When it comes to facial, jaw, and TMJ treatments, precision and expertise make all the difference. At Gnathos Face, we bring over two decades of experience in maxillofacial surgery and TMJ care. Our team is led by the best oral and maxillofacial surgeons in India, offering personalized solutions using advanced technology and patient-first care. </p>
+                            <p>Whether you're dealing with facial trauma, jaw deformities, or chronic TMJ pain — you're in the hands of experts trusted by thousands across India.</p>
+                            <p>We’re proud to be one of the most advanced and trusted maxillofacial centers in Hyderabad, delivering confident smiles and long-lasting relief.</p>
+                             
+                         </div>
+                        <div class="ivy-intro-cta">
+                            <p class="ivy-intro-consult">Consult our  
+                                <span class="heart-specialists">MAXILLOFACIAL SPECIALISTS
+                                </span> today to take the first step toward pain-free, aesthetic recovery.
+                            </p>
+                            <a href="#form" class="ivy-appointment-btn">Book an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ivy-features">
+                        <div class="ivy-feature-item">
+                            <div class="ivy-feature-icon">
+                                <img src="assets/icons/World-Class Treatment & Expertise.png" alt="Advanced Treatment Options">
+                            </div>
+                            <div class="ivy-feature-content">
+                                <h3 class="ivy-feature-title">World-Class Treatment & Expertise
+
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="ivy-feature-item">
+                            <div class="ivy-feature-icon">
+                                <img src="assets/icons/Multidisciplinary Surgical Team.png" alt="Comprehensive Care">
+                            </div>
+                            <div class="ivy-feature-content">
+                                <h3 class="ivy-feature-title">
+              Multidisciplinary Surgical Team</h3>
+                            </div>
+                        </div>
+
+                        <div class="ivy-feature-item">
+                            <div class="ivy-feature-icon">
+                                <img src="assets/icons/State-of-the-Art Digital Technology.png" alt="State-of-the-Art Facilities">
+                            </div>
+                            <div class="ivy-feature-content">
+                                <h3 class="ivy-feature-title">
+                   State-of-the-Art Digital Technology</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+  
+
+
+    
+     <section class="doctor-section">
+        <div class="container">
+            <h2 class="section-title">Our Expert Specialists</h2>
+            
+            <div class="row">
+                <!-- Dr. Suresh -->
+                <div class="col-lg-6 mb-4">
+                    <div class="doctor-card">
+                        <span class="badge-experience">20+ Years Experience</span>
+                        <div class="doctor-img-container">
+                           <img src="assets/images/Dr-suresh.webp" alt="State-of-the-Art Facilities">
+                            <!-- <div class="doctor-img">
+                                <i class="fas fa-user-md"></i>
+                            </div> -->
+                            <div class="decoration-shape shape-1"></div>
+                            <div class="decoration-shape shape-2"></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="dr-name" style="text-align:center; display:block !important;">
+                            <h3 class="doctor-name">Dr. Suresh</h3>
+                            </div>
+                            <p class="doctor-specialty">Senior Consultant and TMJ Specialist</p>
+                            
+                            <div class="specialist-tag">TMJ Specialist</div>
+                            <div class="specialist-tag">Complex Jaw Surgeries</div>
+                            
+                            <hr class="profile-divider">
+                            
+                            <p class="doctor-description">
+                                With over two decades of clinical excellence, Dr. Suresh is one of the <span class="highlight">best oral and maxillofacial surgeons in India</span>. Specializing in complex jaw surgeries and TMJ disorders, he is known for his precision, patient-centered care, and outstanding results.
+                            </p>
+                            
+                            <a href="#form"> 
+                            <button class="cta-btn">
+                                <i class="far fa-calendar-alt me-2"></i> Schedule Your Consultation
+                            </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dr. Navatha Mortha -->
+                <div class="col-lg-6 mb-4">
+                    <div class="doctor-card">
+                        <span class="badge-experience">15+ Years Experience</span>
+                        <div class="doctor-img-container">
+                           <img src="assets/images/Dr-navatha.webp" alt="State-of-the-Art Facilities">
+                            <!-- <div class="doctor-img">
+                                <i class="fas fa-user-md"></i>
+                            </div> -->
+                            <div class="decoration-shape shape-1"></div>
+                            <div class="decoration-shape shape-2"></div>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="doctor-name">Dr. Navatha Mortha</h3>
+                            <p class="doctor-specialty">Senior Consultant and TMJ Specialist</p>
+                            
+                            <div class="specialist-tag">TMJ Specialist</div>
+                            <div class="specialist-tag">Facial Trauma</div>
+                            
+                            <hr class="profile-divider">
+                            
+                            <p class="doctor-description">
+                                A dedicated and compassionate specialist, Dr. Navatha brings 15+ years of experience in <span class="highlight">oral and maxillofacial surgery</span>. She is highly regarded for her success in treating facial trauma and TMJ conditions with a holistic and minimally invasive approach.
+                            </p>
+                            
+                            <a href="#form"> 
+                            <button class="cta-btn">
+                                <i class="far fa-calendar-alt me-2"></i> Schedule Your Consultation
+                            </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="cardio_treatments_section" style="background-color: #304673;">
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="cardio_treatment_header">
+                <h2 class="cardio_treatment_title" style="color:white">Complete Care for Your Face, Jaw & TMJ — All in One Place
+</h2>
+                <p class="cardio_treatment_subtitle">Our expert surgeons at Gnathos Face offer advanced, personalized care for your face, jaw, and TMJ—restoring function, comfort, and confidence with every treatment.
+                    <!-- <span class="hospital_name">Artemis Hospital</span>, who specialize in different areas of oncology,
+                    diagnose and treat a wide range of conditions. -->
+                </p>
+            </div>
+
+
+            <!-- Treatment Cards -->
+           <div class="cardio_treatment_cards_container">
+    <div class="row g-4">
+        <!-- Facial Trauma Surgery -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+    
+        <div class="cardio_treatment_card">
+            <div class="cardio_icon_wrapper">
+                <div class="cardio_icon">
+                    <img src="assets/icons/Facial Cosmetic Surgery.png" alt="Facial Trauma Surgery">
+                </div>
+            </div>
+            <h3 class="cardio_treatment_name">Facial Trauma Surgery</h3>
+        </div>
+   
+</div>
+
+
+        <!-- TMJ Disorder Treatment -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+           
+              
+
+            <div class="cardio_treatment_card">
+                <div class="cardio_icon_wrapper">
+                    <div class="cardio_icon">
+                        <img src="assets/icons/TMJ Disorder Treatment.png" alt="Epilepsy Management">
+                    </div>
+                </div>
+                <h3 class="cardio_treatment_name">TMJ Disorder Treatment</h3>
+            </div>
+           
+        </div>
+
+        <!-- Orthognathic (Jaw) Surgery -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+      
+
+            <div class="cardio_treatment_card">
+                <div class="cardio_icon_wrapper">
+                    <div class="cardio_icon">
+                        <img src="assets/icons/Orthognathic (Jaw) Surgery.png" alt="Headache and Migraine Treatment">
+                    </div>
+                </div>
+                <h3 class="cardio_treatment_name">Orthognathic (Jaw) Surgery</h3>
+            </div>
+           
+        </div>
+
+        <!-- Facial Cosmetic Surgery -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+         
+            <div class="cardio_treatment_card">
+                <div class="cardio_icon_wrapper">
+                    <div class="cardio_icon">
+                        <img src="assets/icons/Facial Trauma Surgery.png" alt="Spine Disorders">
+                    </div>
+                </div>
+                <h3 class="cardio_treatment_name">Facial Cosmetic Surgery</h3>
+            </div>
+            
+        </div>
+
+
+   
+        <!-- Obstructive Sleep Apnea Surgery -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+    
+
+            <div class="cardio_treatment_card">
+                <div class="cardio_icon_wrapper">
+                    <div class="cardio_icon">
+                        <img src="assets/icons/Obstructive Sleep Apnea Surgery.png" alt="Stroke Care">
+                    </div>
+                </div>
+                <h3 class="cardio_treatment_name"> Obstructive Sleep Apnea Surgery</h3>
+            </div>
+           
+        </div>
+
+        <!-- Oral Cancer Management -->
+         
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+          
+            <div class="cardio_treatment_card">
+                <div class="cardio_icon_wrapper">
+                    <div class="cardio_icon">
+                        <img src="assets/icons/Oral Cancer Management.png" alt="Epilepsy Management">
+                    </div>
+                </div>
+                <h3 class="cardio_treatment_name">Oral Cancer Management</h3>
+            </div>
+          
+        </div>
+
+        <!-- Cysts & Tumors of the Jaw -->
+         
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+       
+            <div class="cardio_treatment_card">
+                <div class="cardio_icon_wrapper">
+                    <div class="cardio_icon">
+                        <img src="assets/icons/Cysts & Tumors of the Jaw.png" alt="Headache and Migraine Treatment">
+                    </div>
+                </div>
+                <h3 class="cardio_treatment_name">Cysts & Tumors of the Jaw</h3>
+            </div>   
+        </div>
+
+        <!-- Reconstructive Jaw Surgery -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+              
+            <div class="cardio_treatment_card">
+                <div class="cardio_icon_wrapper">
+                    <div class="cardio_icon">
+                        <img src="assets/icons/Reconstructive Jaw Surgery.png" alt="Spine Disorders">
+                    </div>
+                </div>
+                <h3 class="cardio_treatment_name">Reconstructive Jaw Surgery</h3>
+            </div>
+       
+    </div>
+        </div>
+</div>
+
+
+        </div>
+    </section>
+
+   <section class="why-choose-section py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="section-header">
+                    <!-- <span class="section-subtitle">Our Commitment</span> -->
+                    <h2 class="section-title">Why Choose Gnathos Face?</h2>
+                    <p class="section-description">
+                        When it comes to your face, experience and precision matter. With a legacy of trust and excellence, we offer world-class maxillofacial care led by the best surgeons in India.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="why-choose-container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="why-choose-image">
+                        <div class="image-container">
+                            <img src="assets/images/why-choose-gna-facial.png" alt="Gnathos Face" class="main-image">
+                            <div class="experience-badge">
+                                <span class="years" style="margin-left: 10px;">20+</span>
+                                <span class="text" style="margin-left: 10px;">Years of Expertise</span>
+                            </div>
+                        </div>
+                        <div class="stats-card">
+                            <div class="stats-item">
+                                <div class="stats-icon">
+                                    <i class="bi bi-person-bounding-box"></i>
+                                </div>
+                                <div class="stats-info">
+                                    <h4>10000+</h4>
+                                    <p>Successful Surgeries</p>
+                                </div>
+                            </div>
+                            <div class="stats-item">
+                                <div class="stats-icon">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </div>
+                                <div class="stats-info">
+                                    <h4>99%</h4>
+                                    <p>Patient Trust Index</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="why-choose-content">
+                        <div class="choose-item">
+                            <div class="choose-icon">
+                                <div class="icon-shape">
+                                    <i class="bi bi-award"></i>
+                                </div>
+                            </div>
+                            <div class="choose-text">
+                                <h3>20+ Years of Specialized Practice</h3>
+                                <p>Our team brings over two decades of focused experience in oral and maxillofacial surgery.</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="choose-item">
+                            <div class="choose-icon">
+                                <div class="icon-shape">
+                                    <i class="bi bi-globe2"></i>
+                                </div>
+                            </div>
+                            <div class="choose-text">
+                                <h3>Internationally Trained Surgeons</h3>
+                                <p>Our surgeons have been trained at top institutions worldwide, ensuring global standards of care.</p>
+                            </div>
+                        </div> -->
+
+                        <div class="choose-item">
+                            <div class="choose-icon">
+                                <div class="icon-shape">
+                                    <i class="bi bi-emoji-smile"></i>
+                                </div>
+                            </div>
+                            <div class="choose-text">
+                                <h3>Highest Patient Trust in Hyderabad</h3>
+                                <p>Recognized for our consistent outcomes and compassionate care, we are trusted by patients across the region.</p>
+                            </div>
+                        </div>
+
+                        <div class="choose-item">
+                            <div class="choose-icon">
+                                <div class="icon-shape">
+                                    <i class="bi bi-cpu"></i>
+                                </div>
+                            </div>
+                            <div class="choose-text">
+                                <h3>Latest Digital & Imaging Technology</h3>
+                                <p>We use advanced imaging and surgical planning tools to deliver precise and predictable results.</p>
+                            </div>
+                        </div>
+
+                        <div class="choose-item">
+                            <div class="choose-icon">
+                                <div class="icon-shape">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                </div>
+                            </div>
+                            <div class="choose-text">
+                                <h3>Personalized Treatment Plans</h3>
+                                <p>Every case is unique — we tailor each treatment plan to your specific needs and facial anatomy.</p>
+                            </div>
+                        </div>
+
+                        <div class="choose-item">
+                            <div class="choose-icon">
+                                <div class="icon-shape">
+                                    <i class="bi bi-arrow-repeat"></i>
+                                </div>
+                            </div>
+                            <div class="choose-text">
+                                <h3>Post-Operative Care & Follow-ups</h3>
+                                <p>Our commitment doesn't end with surgery. We ensure complete recovery with attentive aftercare and follow-ups.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   
+
+    <!-- cta  -->
+
+    <section class="gnathos-testimonial-section" style="background-color: #304673 !important;">
+  <div class="container">
+    <h2 class="gnathos-section-title">Real Stories. Real Results.</h2>
+    <p class="gnathos-section-subtitle" style="color:#fff">What our patients say about their experience</p>
+
+    <div class="gnathos-decoration-shape gnathos-shape-1"></div>
+    <div class="gnathos-decoration-shape gnathos-shape-2"></div>
+
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner gap-3">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active ">
+          <div class="row justify-content-center">
+            <div class="col-md-4 col-12 mb-4 ">
+              <!-- Card 1 -->
+              <div class="gnathos-testimonial-card">
+                <span class="gnathos-testimonial-tag">TMJ Treatment</span>
+                <div class="gnathos-quote-icon"><i class="fas fa-quote-left"></i></div>
+                <div class="gnathos-testimonial-content">
+                  <div class="gnathos-testimonial-rating">
+                    <i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i>
+                  </div>
+                  <p class="gnathos-testimonial-text">"My jaw pain and clicking <span class="gnathos-highlight">vanished</span> after visiting Gnathos. The care was exceptional!"</p>
+                  <div class="gnathos-client-info">
+                    <div class="gnathos-client-avatar"><i class="fas fa-user"></i></div>
+                    <div class="gnathos-client-details"><h5 class="gnathos-client-name">Ravi K.</h5><p class="gnathos-client-location">Hyderabad</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-12 mb-4 d-none d-md-block">
+              <!-- Card 2 -->
+              <div class="gnathos-testimonial-card">
+                <span class="gnathos-testimonial-tag">Facial Injury</span>
+                <div class="gnathos-quote-icon"><i class="fas fa-quote-left"></i></div>
+                <div class="gnathos-testimonial-content">
+                  <div class="gnathos-testimonial-rating">
+                    <i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i>
+                  </div>
+                  <p class="gnathos-testimonial-text">"The <span class="gnathos-highlight">best decision</span> I made for my son's facial injury. Clean clinic and highly professional team."</p>
+                  <div class="gnathos-client-info">
+                    <div class="gnathos-client-avatar"><i class="fas fa-user"></i></div>
+                    <div class="gnathos-client-details"><h5 class="gnathos-client-name">Meena T.</h5><p class="gnathos-client-location">Secunderabad</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+              <div class="col-md-4 col-12 mb-4 d-none d-md-block">
+              <!-- Card 2 -->
+              <div class="gnathos-testimonial-card">
+                <span class="gnathos-testimonial-tag">Facial Injury</span>
+                <div class="gnathos-quote-icon"><i class="fas fa-quote-left"></i></div>
+                <div class="gnathos-testimonial-content">
+                  <div class="gnathos-testimonial-rating">
+                    <i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i>
+                  </div>
+                  <p class="gnathos-testimonial-text">"The <span class="gnathos-highlight">best decision</span> I made for my son's facial injury. Clean clinic and highly professional team."</p>
+                  <div class="gnathos-client-info">
+                    <div class="gnathos-client-avatar"><i class="fas fa-user"></i></div>
+                    <div class="gnathos-client-details"><h5 class="gnathos-client-name">Meena T.</h5><p class="gnathos-client-location">Secunderabad</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-4 col-12 mb-4">
+              <!-- Card 3 -->
+              <div class="gnathos-testimonial-card">
+                <span class="gnathos-testimonial-tag">TMJ Specialist</span>
+                <div class="gnathos-quote-icon"><i class="fas fa-quote-left"></i></div>
+                <div class="gnathos-testimonial-content">
+                  <div class="gnathos-testimonial-rating">
+                    <i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i>
+                  </div>
+                  <p class="gnathos-testimonial-text">"They truly have the <span class="gnathos-highlight">best maxillofacial surgeon</span> in Hyderabad. My TMJ pain is completely gone."</p>
+                  <div class="gnathos-client-info">
+                    <div class="gnathos-client-avatar"><i class="fas fa-user"></i></div>
+                    <div class="gnathos-client-details"><h5 class="gnathos-client-name">Arun M.</h5><p class="gnathos-client-location">Chennai</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Optional 4th Card -->
+            <div class="col-md-4 col-12 mb-4 d-none d-md-block">
+              <!-- Duplicate Card or Add New Testimonial -->
+              <div class="gnathos-testimonial-card">
+                <span class="gnathos-testimonial-tag">Jaw Surgery</span>
+                <div class="gnathos-quote-icon"><i class="fas fa-quote-left"></i></div>
+                <div class="gnathos-testimonial-content">
+                  <div class="gnathos-testimonial-rating">
+                    <i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i>
+                  </div>
+                  <p class="gnathos-testimonial-text">"Thanks to the Gnathos team, my jaw alignment is perfect now. Highly recommend!"</p>
+                  <div class="gnathos-client-info">
+                    <div class="gnathos-client-avatar"><i class="fas fa-user"></i></div>
+                    <div class="gnathos-client-details"><h5 class="gnathos-client-name">Neha P.</h5><p class="gnathos-client-location">Bangalore</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-md-4 col-12 mb-4 d-none d-md-block">
+              <!-- Duplicate Card or Add New Testimonial -->
+              <div class="gnathos-testimonial-card">
+                <span class="gnathos-testimonial-tag">Jaw Surgery</span>
+                <div class="gnathos-quote-icon"><i class="fas fa-quote-left"></i></div>
+                <div class="gnathos-testimonial-content">
+                  <div class="gnathos-testimonial-rating">
+                    <i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i><i class="fas fa-star gnathos-star-icon"></i>
+                  </div>
+                  <p class="gnathos-testimonial-text">"Thanks to the Gnathos team, my jaw alignment is perfect now. Highly recommend!"</p>
+                  <div class="gnathos-client-info">
+                    <div class="gnathos-client-avatar"><i class="fas fa-user"></i></div>
+                    <div class="gnathos-client-details"><h5 class="gnathos-client-name">Neha P.</h5><p class="gnathos-client-location">Bangalore</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<!-- faq -->
+
+    <section class="ivy-faq-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="ivy-faq-header">
+                        <span class="ivy-faq-tagline">Common Questions</span>
+                        <h2 class="ivy-faq-heading">Frequently Asked Questions</h2>
+                        <p class="ivy-faq-intro">Find answers to common questions about our orthopedic services,
+                            procedures, and patient care.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="ivy-accordion" id="faqAccordion">
+                        <!-- FAQ Item 1 -->
+                        <div class="ivy-faq-item">
+                            <div class="ivy-faq-question" id="headingOne">
+                                <button class="ivy-faq-btn" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span>I have jaw pain and clicking sounds—should I see a maxillofacial surgeon?
+
+                                    </span>
+                                    <div class="ivy-faq-icon">
+                                        <i class="bi bi-plus-lg"></i>
+                                        <i class="bi bi-dash-lg"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="ivy-faq-answer">
+                                    <p>Yes! That could be a sign of a TMJ disorder or jaw misalignment. Our specialists at Gnathos Face can diagnose and treat it effectively.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="ivy-faq-item">
+                            <div class="ivy-faq-question" id="headingTwo">
+                                <button class="ivy-faq-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span>Is Gnathos Face located only in Hyderabad?
+
+                                    </span>
+                                    <div class="ivy-faq-icon">
+                                        <i class="bi bi-plus-lg"></i>
+                                        <i class="bi bi-dash-lg"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="ivy-faq-answer">
+                                    <p>Yes, we’re based in Hyderabad—but we also offer online consultations for patients across India.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="ivy-faq-item">
+                            <div class="ivy-faq-question" id="headingThree">
+                                <button class="ivy-faq-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>How long will it take to recover after jaw or TMJ surgery?
+
+
+                                    </span>
+                                    <div class="ivy-faq-icon">
+                                        <i class="bi bi-plus-lg"></i>
+                                        <i class="bi bi-dash-lg"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="ivy-faq-answer">
+                                    <p>Most people start feeling better in 1–2 weeks, but it depends on the treatment. Don’t worry—we guide you at every step.
+
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 4 -->
+                        <div class="ivy-faq-item">
+                            <div class="ivy-faq-question" id="headingFour">
+                                <button class="ivy-faq-btn collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span>Can I use my health insurance for treatment here?
+
+
+                                    </span>
+                                    <div class="ivy-faq-icon">
+                                        <i class="bi bi-plus-lg"></i>
+                                        <i class="bi bi-dash-lg"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordion">
+                                <div class="ivy-faq-answer">
+                                    <p>Absolutely. We help you with the paperwork and support all major insurance plans.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <a href="tel:919000666476" class="whatsapp-float" target="_blank" 
+   style="position: fixed; bottom: 110px; right: 45px; width: 60px; height: 60px; background-color: #003366; color: #fff; border-radius: 50px; font-size: 28px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none;">
+    <i class="bi bi-telephone-fill"></i>
+    <span class="tooltip">Call with us</span>
+</a>
+
+
+    <!-- <a href="https://wa.me/919000666476" class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+        <span class="tooltip">Chat with us</span>
+    </a> -->
+
+    <!-- Footer Section with Registration Banner -->
+   <footer class="ivy-footer">
+        <!-- Online Registration Banner -->
+        <div class="ivy-register-banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="ivy-register-content" >
+                            <h2 class="ivy-register-heading text-center" style="width:100% !important">Get Free Assistance from Our Care Team
+
+                            </h2>
+                            <p class="ivy-register-subtext text-center" style="width:100% !important">Skip the long wait and get help booking your visit or online consultation—quick and easy.
+                         </p>
+                            <div class="ivy-contact-info text-center">
+                                <div class="ivy-contact-item">
+                                    <i class="bi bi-telephone-fill "></i>
+                                    <span>Tel - <a href="tel:+91 9000666476">+91 9000666476
+                           </a></span>
+                                </div>
+                                <div class="ivy-contact-item" style="margin:0px auto;">
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <span> Email: <a
+                                            href="mailto:care@gnathosface.com">care@gnathosface.com
+</a></span>
+                                </div>
+                            </div>
+                             <!-- <a href="https://wa.me/919955708885" class="ivy-appointment-btn ">Book an Appointment</a> -->
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-5 d-none d-lg-block"> -->
+                        <!-- <div class="ivy-register-image">
+                            <img src="assets/images/gna-logo.png" alt="gnathos" class="img-fluid">
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Copyright Section -->
+        <div class="ivy-copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="ivy-copyright-text">© 2025 Gnathos Hospital. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- slider -->
+
+    <script>
+  const row = document.getElementById('testimonialRow');
+  const nextBtn = document.getElementById('nextBtn');
+  const prevBtn = document.getElementById('prevBtn');
+
+  let scrollIndex = 0;
+  const cardWidth = row.querySelector('.testimonial-col').offsetWidth + 20; // 20 for margin
+
+  nextBtn.addEventListener('click', () => {
+    row.scrollBy({ left: cardWidth, behavior: 'smooth' });
+  });
+
+  prevBtn.addEventListener('click', () => {
+    row.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+  });
+</script>
+
+    
+    
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Add active class to nav items on click
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                navLinks.forEach(item => {
+                    item.parentElement.classList.remove('active');
+                });
+                this.parentElement.classList.add('active');
+            });
+        });
+    </script>
+    
+    <script>
+        // Initialize Bootstrap collapse component if not already initialized
+        document.addEventListener('DOMContentLoaded', function () {
+            // Add hover effect to FAQ items
+            const faqItems = document.querySelectorAll('.ivy-faq-item');
+            faqItems.forEach(item => {
+                item.addEventListener('mouseenter', function () {
+                    this.style.backgroundColor = 'rgba(254, 251, 217, 0.2)';
+                });
+
+                item.addEventListener('mouseleave', function () {
+                    this.style.backgroundColor = '#fff';
+                });
+            });
+        });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get all video placeholders
+        const videoPlaceholders = document.querySelectorAll('.ivy-video-placeholder');
+        const videoModal = document.getElementById('videoModal');
+        const closeModal = document.getElementById('closeModal');
+        const videoContainer = document.getElementById('videoContainer');
+        
+        // Add click event to each video placeholder
+        videoPlaceholders.forEach(placeholder => {
+            placeholder.addEventListener('click', function() {
+                const videoId = this.getAttribute('data-video-id');
+                const patientName = this.getAttribute('data-patient-name');
+                const condition = this.getAttribute('data-condition');
+                
+                // Create the iframe only when a placeholder is clicked
+                videoContainer.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" 
+                                            title="${patientName} - ${condition}" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen></iframe>`;
+                
+                // Show the modal
+                videoModal.style.display = 'block';
+                
+                // Prevent body scrolling when modal is open
+                document.body.style.overflow = 'hidden';
+            });
+        });
+        
+        // Function to close the modal and stop the video
+        function closeVideoModal() {
+            // Remove the iframe to stop the video
+            videoContainer.innerHTML = '';
+            
+            // Hide the modal
+            videoModal.style.display = 'none';
+            
+            // Restore body scrolling
+            document.body.style.overflow = '';
+        }
+        
+        // Event listeners for closing
+        closeModal.addEventListener('click', closeVideoModal);
+        
+        // Close when clicking outside the content
+        window.addEventListener('click', function(event) {
+            if (event.target === videoModal) {
+                closeVideoModal();
+            }
+        });
+        
+        // Close with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && videoModal.style.display === 'block') {
+                closeVideoModal();
+            }
+        });
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.0/swiper-bundle.min.js"></script>
+   
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize Swiper
+        const swiper = new Swiper('.doctors-specialists-swiper', {
+            // Default is one slide per view (for mobile)
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            grabCursor: true,
+            // Disable centered slides to allow multiple cards per row
+            centeredSlides: false,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // Responsive breakpoints with more slides per view
+            breakpoints: {
+                // when window width is >= 576px
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                    centeredSlides: false,
+                },
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                    centeredSlides: false,
+                },
+                // when window width is >= 992px
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    centeredSlides: false,
+                },
+                // when window width is >= 1200px
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                    centeredSlides: false,
+                }
+            },
+            // Add a11y features for better accessibility
+            a11y: {
+                prevSlideMessage: 'Previous slide',
+                nextSlideMessage: 'Next slide',
+            },
+            keyboard: {
+                enabled: true,
+            },
+            // Make the carousel more responsive
+            observer: true,
+            observeParents: true,
+        });
+
+        // Add resize listener to refresh swiper when window resizes
+        window.addEventListener('resize', function() {
+            swiper.update();
+        });
+    });
+</script>
+
+</body>
+
+</html>
