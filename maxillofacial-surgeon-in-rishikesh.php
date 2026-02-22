@@ -1054,6 +1054,60 @@
             </div>
         </section>
 
+    
+        <!-- Footer Locations -->
+        <section class="locations-section" style="background-color: #0d1425; padding: 40px 0; border-top: 1px solid #1e293b;">
+            <div class="container">
+                <style>
+                .location-link { color: #cbd5e1 !important; text-decoration: none; font-size: 0.95rem; display: flex; align-items: center; transition: all 0.3s ease; }
+                .location-link:hover { color: #60a5fa !important; padding-left: 5px; }
+                .location-pin { color: #3b82f6; margin-right: 10px; font-size: 1.1em; }
+                .loc-btn { border: 1px solid #475569; color: #cbd5e1; background: transparent; border-radius: 20px; padding: 5px 15px; font-size: 0.9rem; transition: all 0.3s; }
+                .loc-btn:hover { background: #334155; color: white; }
+                </style>
+                <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom" style="border-width: 0.1em !important; border-color: #1e293b !important;">
+                    <h3 class="text-white m-0" style="font-size: 1.25rem; font-weight: 500;">Locations in Uttarakhand</h3>
+                    <button class="btn loc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#locations-uttarakhand" aria-expanded="true" aria-controls="locations-uttarakhand">
+                        Hide Locations <i class="fas fa-chevron-down ms-1"></i>
+                    </button>
+                </div>
+                <div class="collapse show" id="locations-uttarakhand">
+                    <div class="row g-3">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="maxillofacial-surgeon-in-dehradun" class="location-link">
+                                <i class="fas fa-map-marker-alt location-pin"></i> Best Maxillofacial Surgeon in Dehradun
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="maxillofacial-surgeon-in-haridwar" class="location-link">
+                                <i class="fas fa-map-marker-alt location-pin"></i> Best Maxillofacial Surgeon in Haridwar
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="maxillofacial-surgeon-in-roorkee" class="location-link">
+                                <i class="fas fa-map-marker-alt location-pin"></i> Best Maxillofacial Surgeon in Roorkee
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="maxillofacial-surgeon-in-haldwani" class="location-link">
+                                <i class="fas fa-map-marker-alt location-pin"></i> Best Maxillofacial Surgeon in Haldwani
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="maxillofacial-surgeon-in-rudrapur" class="location-link">
+                                <i class="fas fa-map-marker-alt location-pin"></i> Best Maxillofacial Surgeon in Rudrapur
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <a href="maxillofacial-surgeon-in-rishikesh" class="location-link">
+                                <i class="fas fa-map-marker-alt location-pin"></i> Best Maxillofacial Surgeon in Rishikesh
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </main>
     
     <!-- Footer -->
