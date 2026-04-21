@@ -3,10 +3,10 @@
 <head>
 
 		<!-- Title -->
-	<title>Obstructive Sleep Apnea (OSA)</title>
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
+	<title>Sleep Apnea Treatment Hyderabad | OSA Surgery Specialist | Dr. Suresh PL</title>
+
+
+	<meta name="description" content="End snoring & sleep apnea permanently. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Advanced surgical options — Book a free consultation.">
 	 
 	<?php include('header-links.php')?>
 	

@@ -3,10 +3,10 @@
 <head>
 
 		<!-- Title -->
-	<title>Orthognathic Surgery| Gnathos</title>
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
+	<title>Orthognathic Surgery Hyderabad | Jaw Correction Specialist | Dr. Suresh PL</title>
+
+
+	<meta name="description" content="Correct jaw alignment & restore your smile. Dr. Suresh PL, 20+ yr maxillofacial expert in Hyderabad. Free consultation — Book now.">
 	 
 	<?php include('header-links.php')?>
 	

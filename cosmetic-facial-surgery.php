@@ -3,10 +3,10 @@
 <head>
 
 		<!-- Title -->
-	<title>Cosmetic Facial Surgery</title>
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
+	<title>Cosmetic Facial Surgery Hyderabad | Expert Surgeon | Dr. Suresh PL</title>
+
+
+	<meta name="description" content="Transform your look with expert cosmetic facial surgery. Dr. Suresh PL, 20+ yr maxillofacial specialist in Hyderabad. Book your free consultation.">
 	 
 	<?php include('header-links.php')?>
 	

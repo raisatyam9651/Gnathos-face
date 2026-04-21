@@ -3,8 +3,8 @@
 <head>
 
 <!-- SEO Meta Tags -->
-<title>OSA Treatment in Hyderabad | Sleep Apnea Surgery at GnathosFace</title>
-<meta name="description" content="Looking for effective OSA treatment in Hyderabad? GnathosFace offers advanced surgical options for obstructive sleep apnea by top maxillofacial surgeons.">
+<title>Sleep Apnea Treatment Hyderabad | OSA Surgery Specialist | Dr. Suresh PL</title>
+<meta name="description" content="End snoring & sleep apnea permanently. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Advanced surgical options — Book a free consultation.">
 <meta name="keywords" content="OSA treatment in Hyderabad, obstructive sleep apnea treatment in Hyderabad, sleep apnea surgery Hyderabad, OSA specialist in Hyderabad, sleep apnea doctor in India, snoring and apnea treatment Hyderabad, OSA surgery India, maxillofacial sleep disorder surgery Hyderabad">
 <meta name="author" content="GnathosFace">
 <meta name="robots" content="index, follow">

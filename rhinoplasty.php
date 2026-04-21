@@ -3,10 +3,10 @@
 <head>
 
 		<!-- Title -->
-	<title>Rhinoplasty</title>
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
+	<title>Rhinoplasty Hyderabad | Nose Surgery Specialist | Dr. Suresh PL</title>
+
+
+	<meta name="description" content="Nose reshaping & reconstruction by Hyderabad's expert maxillofacial surgeon. Dr. Suresh PL, 20+ yrs experience. Free consultation — Book today.">
 	 
 	<?php include('header-links.php')?>
 	

@@ -3,8 +3,8 @@
 <head>
 
 <!-- SEO Meta Tags -->
-<title>Best Rhinoplasty in Hyderabad | India | GnathosFace</title>
-<meta name="description" content="Looking for rhinoplasty in Hyderabad? Get nose reshaping surgery from top rhinoplasty surgeons in Hyderabad, india at GnathosFace. Book your consultation now.">
+<title>Rhinoplasty Hyderabad | Nose Surgery Specialist | Dr. Suresh PL</title>
+<meta name="description" content="Nose reshaping & reconstruction by Hyderabad's expert maxillofacial surgeon. Dr. Suresh PL, 20+ yrs experience. Free consultation — Book today.">
 <meta name="keywords" content="rhinoplasty in Hyderabad, best rhinoplasty surgeon in Hyderabad, best rhinoplasty in Hyderabad, rhinoplasty surgeon in Hyderabad, rhinoplasty surgery in Hyderabad, top rhinoplasty surgeons in Hyderabad, nose reshaping surgery, nose job Hyderabad, nasal correction surgery">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://gnathosface.com/rhinoplasty-treatment" />

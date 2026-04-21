@@ -4,8 +4,8 @@
 
 		<!-- Title -->
 <!-- SEO Meta Tags -->
-<title>Best Face Cosmetic Surgery in Hyderabad India | GnathosFace</title>
-<meta name="description" content="Looking for the best face cosmetic surgery in Hyderabad? GnathosFace offers expert facial aesthetic treatments by experienced surgeons for a confident you.">
+<title>Cosmetic Facial Surgery Hyderabad | Expert Surgeon | Dr. Suresh PL</title>
+<meta name="description" content="Transform your look with expert cosmetic facial surgery. Dr. Suresh PL, 20+ yr maxillofacial specialist in Hyderabad. Book your free consultation.">
 <meta name="keywords" content="face cosmetic surgery in Hyderabad, best face cosmetic surgery in Hyderabad, facial aesthetic surgery in Hyderabad, facial rejuvenation, face contouring, cosmetic facial surgeon in Hyderabad, plastic and cosmetic surgery Hyderabad, facial plastic surgery specialists">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://gnathosface.com/cosmetic-facial-surgery-treatment" />

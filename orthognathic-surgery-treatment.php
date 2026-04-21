@@ -3,8 +3,8 @@
 <head>
 
 <!-- SEO Meta Tags -->
-<title>Best Orthognathic Surgery in Hyderabad & India | GnathosFace</title>
-<meta name="description" content="Get the best orthognathic surgery in Hyderabad and India at GnathosFace. Expert jaw correction and facial alignment by experienced maxillofacial surgeons.">
+<title>Orthognathic Surgery Hyderabad | Jaw Correction Specialist | Dr. Suresh PL</title>
+<meta name="description" content="Correct jaw alignment & restore your smile. Dr. Suresh PL, 20+ yr maxillofacial expert in Hyderabad. Free consultation — Book now.">
 <meta name="keywords" content="orthognathic surgery in Hyderabad, best orthognathic surgery in Hyderabad, jaw correction surgery in India, corrective jaw surgery, orthognathic surgeons Hyderabad, maxillofacial jaw alignment, double jaw surgery, surgical orthodontics India">
 <meta name="author" content="GnathosFace">
 <meta name="robots" content="index, follow">

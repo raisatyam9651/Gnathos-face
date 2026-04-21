@@ -3,10 +3,10 @@
 <head>
 
 		<!-- Title -->
-	<title>TMJ Disorders| Gnathos</title>
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
+	<title>TMJ Disorder Treatment Hyderabad | Specialist Surgeon | Dr. Suresh PL</title>
+
+
+	<meta name="description" content="Stop jaw pain & clicking. Dr. Suresh PL, Hyderabad's leading TMJ specialist with 20+ yrs experience. Advanced treatments — Book a free consultation.">
 	 
 	<?php include('header-links.php')?>
 	
@@ -909,7 +909,7 @@
                 <div class="col-lg-10 mx-auto">
                     <div class="note-box">
                         <h5 class="note-title">Important Note:</h5>
-                        <p>If you experience any of these concerns, consult the <a href="#" class="specialist-link">leading maxillofacial surgeon in Hyderabad</a> for timely diagnosis and treatment.</p>
+                        <p>If you experience any of these concerns, consult the <a href="tmj-disorders" class="specialist-link">leading maxillofacial surgeon in Hyderabad</a> for timely diagnosis and treatment. Need TMJ treatment in your city? <a href="tmj-treatment-in-india" class="specialist-link">Find a specialist in your state →</a></p>
                     </div>
                 </div>
             </div>
@@ -949,6 +949,11 @@
 					<div class="col-xl-7 col-lg-7 m-b30">
 						<h2 class="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">How to Identify TMJ Disorders?</h2>
 						<p class="m-b0 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">TMJ disorders may present with several signs and symptoms. Some common indicators include:</p>
+					</div>
+					<div class="col-xl-5 col-lg-5 m-b30 text-end">
+						<a href="tmj-treatment-in-india" class="btn btn-primary btn-lg radius-xl">
+							<i class="fas fa-map-marker-alt me-2"></i> TMJ Treatment Across India
+						</a>
 					</div>
 					</div> 
 				</div>

@@ -3,8 +3,8 @@
 <head>
 
 <!-- SEO Meta Tags -->
-<title>Best Oral Cancer Surgeon in Hyderabad & India | GnathosFace</title>
-<meta name="description" content="Looking for the best oral cancer treatment in Hyderabad or India? GnathosFace offers advanced oral cancer surgery by top specialists with excellent outcomes.">
+<title>Oral Cancer Treatment Hyderabad | Expert Surgeon | Dr. Suresh PL</title>
+<meta name="description" content="Early oral cancer detection & advanced treatment. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Free consultation — Book today.">
 <meta name="keywords" content="best oral cancer surgeon in Hyderabad, best oral cancer surgeon in India, best oral cancer treatment in Hyderabad, best oral cancer treatment in India, oral oncology surgeon, mouth cancer surgery Hyderabad, oral tumor removal India, head and neck cancer specialist, oral cancer care Hyderabad, oral cancer specialist Hyderabad">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://gnathosface.com/oral-cancer-treatment" />

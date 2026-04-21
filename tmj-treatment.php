@@ -920,8 +920,11 @@
     <div class="container">
         <!-- Section header -->
         <div class="section-header">
-            <h2 class="section-title">Why Choose Hyderabad for TMJ Treatment?t</h2>
-            <!--<p class="section-intro">TMJ disorders pose unique challenges that require expert intervention from a maxillofacial surgeon in Hyderabad. Here are some of the key concerns:</p>-->
+            <h2 class="section-title">Why Choose Hyderabad for TMJ Treatment?</h2>
+            <p class="section-intro" style="text-align:center; max-width:700px; margin: 1rem auto 0; color:#546E7A;">
+                Need TMJ treatment outside Telangana? Dr. Suresh PL serves patients from <strong>every state in India</strong>.
+                <a href="tmj-treatment-in-india" class="specialist-link">Find TMJ treatment in your state →</a>
+            </p>
         </div>
 
         <!-- TMJ Concerns Cards -->
@@ -1013,6 +1016,9 @@
             <div class="section-header">
             <h2 class="section-title">Treatment Options for TMJ in Hyderabad</h2>
             <p class="section-intro">Treatment for TMJ is not one-size-fits-all. The right solution depends on the root cause, severity, and your overall health. Hyderabad offers a wide range of effective and patient-friendly treatments, from non-invasive therapies to surgical interventions in extreme cases.</p>
+            <p class="section-intro" style="margin-top: 1rem;">
+                Looking for TMJ treatment in a specific city or state? <a href="tmj-treatment-in-india" class="specialist-link">Browse TMJ treatment by state across India →</a>
+            </p>
         </div>
             <div class="row">
                 <div class="col-md-4 mb-4">
@@ -1242,10 +1248,10 @@
                         <div class="tmj-diagnosis-cta-section">
                             <h3 class="tmj-diagnosis-cta-title text-white">Ready to Take the First Step Toward Relief?</h3>
                             <p class="tmj-diagnosis-cta-text">
-                                Jaw pain doesn't have to be part of your everyday life. With the right care, you can chew, talk, laugh—and live—without discomfort. 
+                                Jaw pain doesn't have to be part of your everyday life. With the right care, you can chew, talk, laugh—and live—without discomfort.
                                 TMJ specialists in Hyderabad are ready to help you <span class="tmj-diagnosis-emphasis">feel like yourself again</span>.
                             </p>
-                            <button class="tmj-diagnosis-cta-button">Get Started Today</button>
+                            <a href="https://wa.me/919000666476" class="tmj-diagnosis-cta-button">Get Started Today</a>
                         </div>
                     </div>
                 </div>

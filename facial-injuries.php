@@ -3,10 +3,10 @@
 <head>
 
 		<!-- Title -->
-	<title>Facial-Injuries| Gnathos</title>
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
+	<title>Facial Injury Treatment Hyderabad | Expert Surgeon | Dr. Suresh PL</title>
+
+
+	<meta name="description" content="Expert care for facial trauma & injuries. Dr. Suresh PL, 20+ yr maxillofacial specialist in Hyderabad. Free consultation — Book now.">
 	 
 	<?php include('header-links.php')?>
 	

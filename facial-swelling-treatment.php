@@ -3,8 +3,8 @@
 <head>
 
 <!-- SEO Meta Tags -->
-<title>Facial Swelling Treatment in Hyderabad & India Gnathosface</title>
-<meta name="description" content="GnathosFace offers expert facial swelling treatment in Hyderabad. Consult the best doctor for facial inflammation and jaw swelling in India.">
+<title>Facial Swelling Treatment Hyderabad | Expert Maxillofacial Surgeon | Dr. Suresh PL</title>
+<meta name="description" content="Get lasting relief from facial swelling & infections. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Free consultation — Book today.">
 <meta name="keywords" content="facial swelling treatment in Hyderabad, best doctor for facial swelling in Hyderabad, swelling treatment Hyderabad, facial inflammation India, jaw swelling doctor Hyderabad">
 <meta name="author" content="GnathosFace">
 <meta name="robots" content="index, follow">
@@ -754,7 +754,7 @@
                         </div>
                     </div>
 
-                    <p class="mt-4"><b>In some cases, surgical intervention may be required to remove the cause of facial swelling, helping restore function and aesthetics. Consult the Best Maxillofacial Surgeon in Hyderabad for a thorough evaluation and treatment plan tailored to your needs.</b></p>
+                    <p class="mt-4"><b>In some cases, surgical intervention may be required to remove the cause of facial swelling, helping restore function and aesthetics. Consult the Best Maxillofacial Surgeon in Hyderabad for a thorough evaluation and treatment plan tailored to your needs. Need facial swelling treatment in your state? <a href="facial-swelling-treatment-in-india" style="color: var(--theme-color); font-weight: 600;">Find a specialist in your state →</a></b></p>
                 </div>
             </div>
         </div>
