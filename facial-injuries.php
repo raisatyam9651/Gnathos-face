@@ -646,7 +646,7 @@
                             </div>
 
                             <p class="fracture-guide__note">
-                                <strong>Note:</strong> If you suspect a facial fracture, immediate medical evaluation is necessary to prevent complications and ensure proper healing.
+                                <strong>Note:</strong> If you suspect a facial fracture, immediate medical evaluation is necessary to prevent complications and ensure proper healing. Need facial injury treatment in your state? <a href="facial-injury-treatment-in-india" style="color: var(--theme-color); font-weight: 600;">Find a specialist in your state →</a>
                             </p>
                         </div>
                     </div>

@@ -809,6 +809,21 @@
     	
 		
 		
+t<section class="locations-section" style="background: #0d1425; padding: 40px 0;">
+tt<div class="container">
+ttt<h3 style="color: white; font-size: 1.25rem; margin-bottom: 20px;">Oral Cancer Treatment Across India</h3>
+ttt<div class="row g-3">
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-india" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Best Oral Cancer Treatment in India — All States</a></div>
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-telangana" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Best Oral Cancer Treatment in Telangana</a></div>
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-andhra-pradesh" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Top Oral Cancer Treatment in Andhra Pradesh</a></div>
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-karnataka" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Expert Oral Cancer Treatment in Karnataka</a></div>
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-tamil-nadu" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Oral Cancer Treatment in Tamil Nadu</a></div>
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-maharashtra" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Leading Oral Cancer Treatment in Maharashtra</a></div>
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-delhi" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Oral Cancer Treatment in Delhi (NCR)</a></div>
+tttt<div class="col-xl-3 col-lg-4 col-md-6"><a href="oral-cancer-treatment-in-uttar-pradesh" class="location-link"><i class="fas fa-map-marker-alt" style="color: #3b82f6; margin-right: 10px;"></i>Oral Cancer Treatment in Uttar Pradesh</a></div>
+ttt</div>
+tt</div>
+t</section>
 	<?php include('stats.php')?>
 
 		
