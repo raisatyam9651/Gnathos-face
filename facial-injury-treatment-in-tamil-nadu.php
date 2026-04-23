@@ -538,6 +538,481 @@
 
         <?php include('stats.php')?>
 
+        
+        <!-- Services Content Section -->
+        <style>
+        .services-content-section {
+            padding: 60px 0;
+            background: #fff;
+        }
+        .services-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .services-header h2 {
+            color: var(--med-dark);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .services-header p {
+            color: #516171;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .service-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px 25px;
+            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
+            border: 1px solid #e8eef5;
+            transition: all 0.4s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(25, 95, 172, 0.15);
+            border-color: var(--med-light);
+        }
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--med-primary), var(--med-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .service-icon i {
+            font-size: 1.8rem;
+            color: #fff;
+        }
+        .service-card h3 {
+            color: var(--med-dark);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .service-card p {
+            color: #516171;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .services-cta {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e8eef5;
+        }
+        .services-cta p {
+            color: #516171;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 991px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 767px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .services-header h2 {
+                font-size: 1.8rem;
+            }
+            .service-card {
+                padding: 25px 20px;
+            }
+        }
+        </style>
+
+        <section class="services-content-section">
+            <div class="container">
+                <div class="services-header wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Facial Injury Treatment Services in Tamil Nadu</h2>
+                    <p>Facial injuries require immediate, expert care to ensure proper healing and optimal functional and cosmetic outcomes. Whether you have experienced a sports injury, road accident, fall, or assault resulting in facial trauma, Dr. Suresh P at GnathosFace provides comprehensive emergency and reconstructive facial injury treatment to patients from Tamil Nadu.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-icon">
+                            <i class="fas fa-truck-medical"></i>
+                        </div>
+                        <h3>Emergency Facial Trauma Care</h3>
+                        <p>Time is critical in facial trauma. Dr. Suresh P provides emergency care for facial injuries, ensuring proper wound management, fracture stabilization, and pain control. Patients from Tamil Nadu receive prompt treatment that prevents complications and sets the foundation for successful recovery.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-icon">
+                            <i class="fas fa-bone"></i>
+                        </div>
+                        <h3>Jaw Fracture Treatment</h3>
+                        <p>Jaw fractures require precise treatment to restore proper bite and function. Dr. Suresh P treats mandible and maxilla fractures using both conservative methods (wiring) and surgical techniques (plates and screws). Patients from Tamil Nadu benefit from expert fracture care that promotes proper healing.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Orbital Fracture Repair</h3>
+                        <p>Fractures around the eye and cheek require special attention to prevent complications like double vision or facial asymmetry. Dr. Suresh P has extensive experience in repairing orbital and zygomatic fractures. Patients from Tamil Nadu receive meticulous care that preserves both function and appearance.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-icon">
+                            <i class="fas fa-head-side-virus"></i>
+                        </div>
+                        <h3>Nasal Fracture Treatment</h3>
+                        <p>Nasal fractures are common facial injuries. Dr. Suresh P provides both closed reduction (non-surgical) and open surgical treatment for nasal fractures. Patients from Tamil Nadu receive appropriate treatment based on fracture severity, ensuring proper breathing and cosmetic outcomes.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-icon">
+                            <i class="fas fa-kit-medical"></i>
+                        </div>
+                        <h3>Facial Soft Tissue Repair</h3>
+                        <p>Cuts and soft tissue injuries to the face require careful repair to minimize scarring. Dr. Suresh P performs meticulous facial laceration repair using plastic surgery techniques. Patients from Tamil Nadu benefit from treatment that achieves the best possible cosmetic results.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="service-icon">
+                            <i class="fas fa-person-running"></i>
+                        </div>
+                        <h3>Post-Trauma Rehabilitation</h3>
+                        <p>Recovery from facial trauma extends beyond initial treatment. Dr. Suresh P provides rehabilitation including jaw exercises, speech therapy coordination, and follow-up imaging. Patients from Tamil Nadu receive comprehensive care that ensures full functional recovery.</p>
+                    </div>
+                </div>
+                <div class="services-cta wow fadeInUp" data-wow-delay="0.9s">
+                    <p>Ready to discuss your treatment options? Contact us today.</p>
+                    <a href="https://wa.me/919000666476" class="btn btn-secondary btn-lg">
+                        <i class="fab fa-whatsapp me-2"></i> Book WhatsApp Consultation
+                    </a>
+                    <a href="tel:+919000666476" class="btn btn-outline-primary btn-lg">
+                        <i class="feather icon-phone-call me-2"></i> Call +91 9000666476
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Location-Specific Content Section -->
+        <style>
+        .location-content-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, var(--pale-blue) 0%, #fff 100%);
+        }
+        .location-content-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 15px 40px rgba(25, 95, 172, 0.1);
+        }
+        .location-content-inner h2 {
+            color: var(--med-dark);
+            font-size: 2rem;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .location-content-inner p {
+            color: #516171;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .location-content-inner ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .location-content-inner li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            color: #516171;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .location-content-inner li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--med-primary);
+            font-weight: bold;
+        }
+        .why-choose-us {
+            background: var(--med-pale);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .why-choose-us h3 {
+            color: var(--med-dark);
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 767px) {
+            .location-content-inner {
+                padding: 30px 25px;
+            }
+            .location-content-inner h2 {
+                font-size: 1.6rem;
+            }
+            .location-content-inner p {
+                font-size: 1rem;
+            }
+        }
+        </style>
+
+        <section class="location-content-section">
+            <div class="container">
+                <div class="location-content-inner wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Expert Maxillofacial Care for Patients from Tamil Nadu</h2>
+                    <p>If you are looking for the best maxillofacial surgeon or specialized treatment for TMJ disorders, facial injuries, oral cancer, or cosmetic facial surgery, Dr. Suresh P at GnathosFace is your trusted choice. Serving patients from Tamil Nadu and all surrounding regions, Dr. Suresh brings over 20 years of expertise in oral and maxillofacial surgery, providing exceptional care that combines medical excellence with genuine compassion for every patient.</p>
+
+                    <p>At GnathosFace, located at CARE Hospitals, Hi-tech City, Hyderabad, we understand that seeking treatment for facial, jaw, or oral conditions can be concerning. That is why Dr. Suresh P and our entire team are committed to making your experience as comfortable and reassuring as possible. From your first consultation through treatment and recovery, you will receive personalized attention, clear communication, and the highest standard of care available.</p>
+
+                    <p>Patients from Tamil Nadu choose GnathosFace for several important reasons. Our state-of-the-art facility at CARE Hospitals provides access to the latest diagnostic technology and surgical equipment, ensuring accurate diagnosis and optimal treatment outcomes. Dr. Suresh P's extensive experience means you benefit from techniques refined over thousands of procedures, reducing risks and enhancing results.</p>
+
+                    <div class="why-choose-us">
+                        <h3>Why Choose GnathosFace for Treatment from Tamil Nadu?</h3>
+                        <ul>
+                            <li><strong>20+ Years of Specialized Experience:</strong> Dr. Suresh P has dedicated his career to maxillofacial surgery, mastering the most advanced techniques in the field.</li>
+                            <li><strong>Comprehensive Treatment Options:</strong> From conservative management to complex surgical procedures, we offer the full spectrum of treatment options tailored to your specific needs.</li>
+                            <li><strong>Patient-Centered Approach:</strong> We take time to understand your concerns, explain your condition thoroughly, and involve you in every decision about your treatment.</li>
+                            <li><strong>Modern Facilities:</strong> Our association with CARE Hospitals ensures access to cutting-edge surgical technology, advanced imaging, and comprehensive medical support.</li>
+                            <li><strong>Proven Track Record:</strong> Thousands of patients from Tamil Nadu and across India have achieved excellent outcomes under Dr. Suresh P's care.</li>
+                            <li><strong>Convenient Access:</strong> Despite being based in Hyderabad, we regularly serve patients from Tamil Nadu, making the journey worthwhile for expert care.</li>
+                            <li><strong>Follow-up and Support:</strong> Our care does not end after treatment. We provide comprehensive follow-up and are always available to address any concerns during your recovery.</li>
+                        </ul>
+                    </div>
+
+                    <p style="margin-top: 30px; text-align: center;">Whether you are dealing with chronic jaw pain, recovering from facial trauma, facing an oral cancer diagnosis, or seeking to enhance your facial appearance, Dr. Suresh P and the GnathosFace team are here to help. Contact us today at +91 9000666476 or book a WhatsApp consultation to take the first step toward better oral and facial health.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <style>
+        .faq-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, #f8faff 0%, #fff 100%);
+        }
+        .faq-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .faq-header h2 {
+            color: var(--med-dark);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .faq-header p {
+            color: #516171;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .faq-accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.08);
+            overflow: hidden;
+            border: 1px solid #e8eef5;
+        }
+        .faq-question {
+            width: 100%;
+            padding: 20px 25px;
+            background: none;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--med-dark);
+            transition: all 0.3s ease;
+        }
+        .faq-question:hover {
+            background: #f8faff;
+        }
+        .faq-question.active {
+            background: var(--med-pale);
+            color: var(--med-primary);
+        }
+        .faq-question i {
+            transition: transform 0.3s ease;
+            color: var(--med-primary);
+        }
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .faq-answer-content {
+            padding: 0 25px 20px;
+            color: #516171;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+        .faq-cta {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e8eef5;
+        }
+        .faq-cta p {
+            color: #516171;
+            margin-bottom: 15px;
+        }
+        .faq-cta .btn {
+            margin: 5px;
+        }
+        @media (max-width: 767px) {
+            .faq-header h2 {
+                font-size: 1.8rem;
+            }
+            .faq-question {
+                font-size: 0.95rem;
+                padding: 15px 20px;
+            }
+            .faq-answer-content {
+                padding: 0 20px 15px;
+                font-size: 0.9rem;
+            }
+        }
+        </style>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq-header wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Get answers to common questions about maxillofacial treatment and care</p>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.3s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>1. What types of facial injuries does a maxillofacial surgeon treat?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Maxillofacial surgeons treat various facial injuries including jaw fractures (mandible, maxilla), cheekbone (zygomatic) fractures, nasal fractures, orbital (eye socket) fractures, forehead fractures, and soft tissue injuries to the face. Dr. Suresh P at GnathosFace has extensive experience in treating facial trauma with excellent functional and cosmetic outcomes.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.4s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>2. When should I see a doctor for facial injury?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Seek immediate medical attention for facial injuries involving difficulty breathing, severe bleeding that won&#039;t stop, visible deformity of the face, double vision or vision changes, numbness in the face, inability to open or close the jaw, or teeth that don&#039;t fit together properly. Even minor-looking injuries can have serious underlying damage that requires professional evaluation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.5s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>3. How long does it take for facial fractures to heal?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Facial fractures typically take 6-8 weeks to heal. Treatment may involve wiring the jaws shut (intermaxillary fixation) or using plates and screws for surgical fixation. Most patients can return to normal activities within 2-3 weeks, but full healing and rehabilitation may take longer. Dr. Suresh P provides detailed recovery guidance for each patient.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.6s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>4. Will facial injury treatment leave scars?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Modern maxillofacial surgery techniques minimize scarring. Dr. Suresh P uses approaches that hide incisions within natural skin creases and hairline whenever possible. While some scarring is inevitable, proper surgical technique and post-operative care can make scars virtually unnoticeable. Early treatment also leads to better cosmetic outcomes.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.7s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>5. Is facial trauma treatment covered by insurance?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Treatment for facial trauma is typically covered by insurance when it results from accidents, assaults, or other covered incidents. Workers&#039; compensation may apply for workplace injuries. GnathosFace can help verify your coverage and provide necessary documentation. Contact +91 9000666476 for assistance.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.8s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>6. What should I do immediately after a facial injury?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                After a facial injury: 1) Control bleeding with gentle pressure, 2) Apply ice wrapped in cloth to reduce swelling, 3) Do not attempt to realign broken bones, 4) Seek immediate medical care if there are breathing difficulties, severe bleeding, or visible deformity, 5) Keep the head elevated. Prompt professional care is essential for optimal outcomes.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.9s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>7. Where can I find facial injury treatment near me in Tamil Nadu?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Dr. Suresh P at GnathosFace provides expert facial trauma treatment for patients from Tamil Nadu. With state-of-the-art facilities at CARE Hospitals and 20+ years of experience, you receive the best possible care for facial injuries. Contact +91 9000666476 for immediate assistance.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-cta wow fadeInUp" data-wow-delay="0.9s">
+                    <p>Have more questions? We are here to help.</p>
+                    <a href="https://wa.me/919000666476" class="btn btn-secondary btn-lg">
+                        <i class="fab fa-whatsapp me-2"></i> Ask on WhatsApp
+                    </a>
+                    <a href="tel:+919000666476" class="btn btn-outline-primary btn-lg">
+                        <i class="feather icon-phone-call me-2"></i> Call Us Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <script>
+        function toggleFaq(button) {
+            const faqItem = button.parentElement;
+            const isActive = faqItem.classList.contains("active");
+
+            document.querySelectorAll(".faq-item").forEach(item => {
+                item.classList.remove("active");
+                item.querySelector(".faq-question").classList.remove("active");
+            });
+
+            if (!isActive) {
+                faqItem.classList.add("active");
+                button.classList.add("active");
+            }
+        }
+        </script>
         <!-- Footer Locations -->
         <section class="locations-section" style="background-color: #0d1425; padding: 40px 0; border-top: 1px solid #1e293b;">
             <div class="container">

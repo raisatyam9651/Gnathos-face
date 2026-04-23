@@ -526,6 +526,481 @@
 
         <?php include('stats.php')?>
 
+        
+        <!-- Services Content Section -->
+        <style>
+        .services-content-section {
+            padding: 60px 0;
+            background: #fff;
+        }
+        .services-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .services-header h2 {
+            color: var(--med-dark);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .services-header p {
+            color: #516171;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .service-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px 25px;
+            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
+            border: 1px solid #e8eef5;
+            transition: all 0.4s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(25, 95, 172, 0.15);
+            border-color: var(--med-light);
+        }
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--med-primary), var(--med-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .service-icon i {
+            font-size: 1.8rem;
+            color: #fff;
+        }
+        .service-card h3 {
+            color: var(--med-dark);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .service-card p {
+            color: #516171;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .services-cta {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e8eef5;
+        }
+        .services-cta p {
+            color: #516171;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 991px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 767px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .services-header h2 {
+                font-size: 1.8rem;
+            }
+            .service-card {
+                padding: 25px 20px;
+            }
+        }
+        </style>
+
+        <section class="services-content-section">
+            <div class="container">
+                <div class="services-header wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Facial Swelling Treatment Services in India</h2>
+                    <p>Facial swelling can result from various conditions ranging from minor infections to serious tumors. If you are experiencing persistent or concerning facial swelling and searching for the best treatment near you in India, Dr. Suresh P at GnathosFace provides expert diagnosis and treatment. With specialized expertise in oral and maxillofacial conditions, patients from India receive comprehensive care.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Diagnosis of Facial Swelling</h3>
+                        <p>Accurate diagnosis is essential for effective treatment. Dr. Suresh P uses clinical examination, imaging studies (X-rays, CT, MRI), and biopsies when needed to determine the cause of facial swelling. Patients from India receive thorough evaluation that identifies the underlying problem.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-icon">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <h3>Dental Infection Treatment</h3>
+                        <p>Dental infections are a common cause of facial swelling. Dr. Suresh P treats dental abscesses and infections through antibiotics, drainage procedures, and dental treatment coordination. Patients from India receive relief from painful infections with comprehensive follow-up care.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-icon">
+                            <i class="fas fa-scissors"></i>
+                        </div>
+                        <h3>Cyst and Tumor Removal</h3>
+                        <p>Jaw cysts and tumors can cause significant facial swelling and bone destruction if left untreated. Dr. Suresh P performs surgical removal of oral cysts and tumors with reconstruction as needed. Patients from India benefit from complete treatment that prevents recurrence and restores appearance.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-icon">
+                            <i class="fas fa-droplet"></i>
+                        </div>
+                        <h3>Salivary Gland Treatment</h3>
+                        <p>Salivary gland infections and blockages can cause facial swelling, especially near the jaw and ears. Dr. Suresh P diagnoses and treats salivary gland conditions including stone removal and infection management. Patients from India receive expert care for these often-painful conditions.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-icon">
+                            <i class="fas fa-prescription"></i>
+                        </div>
+                        <h3>Cellulitis Treatment</h3>
+                        <p>Facial cellulitis is a serious bacterial infection requiring prompt treatment. Dr. Suresh P provides aggressive antibiotic therapy and surgical drainage when needed. Patients from India receive urgent care that prevents spread and serious complications.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="service-icon">
+                            <i class="fas fa-allergies"></i>
+                        </div>
+                        <h3>Allergic Reaction Management</h3>
+                        <p>Severe allergic reactions can cause dangerous facial swelling. Dr. Suresh P provides emergency management and investigation of allergy causes. Patients from India receive comprehensive care that addresses both immediate symptoms and underlying triggers.</p>
+                    </div>
+                </div>
+                <div class="services-cta wow fadeInUp" data-wow-delay="0.9s">
+                    <p>Ready to discuss your treatment options? Contact us today.</p>
+                    <a href="https://wa.me/919000666476" class="btn btn-secondary btn-lg">
+                        <i class="fab fa-whatsapp me-2"></i> Book WhatsApp Consultation
+                    </a>
+                    <a href="tel:+919000666476" class="btn btn-outline-primary btn-lg">
+                        <i class="feather icon-phone-call me-2"></i> Call +91 9000666476
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Location-Specific Content Section -->
+        <style>
+        .location-content-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, var(--pale-blue) 0%, #fff 100%);
+        }
+        .location-content-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 15px 40px rgba(25, 95, 172, 0.1);
+        }
+        .location-content-inner h2 {
+            color: var(--med-dark);
+            font-size: 2rem;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .location-content-inner p {
+            color: #516171;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .location-content-inner ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .location-content-inner li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            color: #516171;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .location-content-inner li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--med-primary);
+            font-weight: bold;
+        }
+        .why-choose-us {
+            background: var(--med-pale);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .why-choose-us h3 {
+            color: var(--med-dark);
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 767px) {
+            .location-content-inner {
+                padding: 30px 25px;
+            }
+            .location-content-inner h2 {
+                font-size: 1.6rem;
+            }
+            .location-content-inner p {
+                font-size: 1rem;
+            }
+        }
+        </style>
+
+        <section class="location-content-section">
+            <div class="container">
+                <div class="location-content-inner wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Expert Maxillofacial Care for Patients from India</h2>
+                    <p>If you are looking for the best maxillofacial surgeon or specialized treatment for TMJ disorders, facial injuries, oral cancer, or cosmetic facial surgery, Dr. Suresh P at GnathosFace is your trusted choice. Serving patients from India and all surrounding regions, Dr. Suresh brings over 20 years of expertise in oral and maxillofacial surgery, providing exceptional care that combines medical excellence with genuine compassion for every patient.</p>
+
+                    <p>At GnathosFace, located at CARE Hospitals, Hi-tech City, Hyderabad, we understand that seeking treatment for facial, jaw, or oral conditions can be concerning. That is why Dr. Suresh P and our entire team are committed to making your experience as comfortable and reassuring as possible. From your first consultation through treatment and recovery, you will receive personalized attention, clear communication, and the highest standard of care available.</p>
+
+                    <p>Patients from India choose GnathosFace for several important reasons. Our state-of-the-art facility at CARE Hospitals provides access to the latest diagnostic technology and surgical equipment, ensuring accurate diagnosis and optimal treatment outcomes. Dr. Suresh P's extensive experience means you benefit from techniques refined over thousands of procedures, reducing risks and enhancing results.</p>
+
+                    <div class="why-choose-us">
+                        <h3>Why Choose GnathosFace for Treatment from India?</h3>
+                        <ul>
+                            <li><strong>20+ Years of Specialized Experience:</strong> Dr. Suresh P has dedicated his career to maxillofacial surgery, mastering the most advanced techniques in the field.</li>
+                            <li><strong>Comprehensive Treatment Options:</strong> From conservative management to complex surgical procedures, we offer the full spectrum of treatment options tailored to your specific needs.</li>
+                            <li><strong>Patient-Centered Approach:</strong> We take time to understand your concerns, explain your condition thoroughly, and involve you in every decision about your treatment.</li>
+                            <li><strong>Modern Facilities:</strong> Our association with CARE Hospitals ensures access to cutting-edge surgical technology, advanced imaging, and comprehensive medical support.</li>
+                            <li><strong>Proven Track Record:</strong> Thousands of patients from India and across India have achieved excellent outcomes under Dr. Suresh P's care.</li>
+                            <li><strong>Convenient Access:</strong> Despite being based in Hyderabad, we regularly serve patients from India, making the journey worthwhile for expert care.</li>
+                            <li><strong>Follow-up and Support:</strong> Our care does not end after treatment. We provide comprehensive follow-up and are always available to address any concerns during your recovery.</li>
+                        </ul>
+                    </div>
+
+                    <p style="margin-top: 30px; text-align: center;">Whether you are dealing with chronic jaw pain, recovering from facial trauma, facing an oral cancer diagnosis, or seeking to enhance your facial appearance, Dr. Suresh P and the GnathosFace team are here to help. Contact us today at +91 9000666476 or book a WhatsApp consultation to take the first step toward better oral and facial health.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <style>
+        .faq-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, #f8faff 0%, #fff 100%);
+        }
+        .faq-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .faq-header h2 {
+            color: var(--med-dark);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .faq-header p {
+            color: #516171;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .faq-accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.08);
+            overflow: hidden;
+            border: 1px solid #e8eef5;
+        }
+        .faq-question {
+            width: 100%;
+            padding: 20px 25px;
+            background: none;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--med-dark);
+            transition: all 0.3s ease;
+        }
+        .faq-question:hover {
+            background: #f8faff;
+        }
+        .faq-question.active {
+            background: var(--med-pale);
+            color: var(--med-primary);
+        }
+        .faq-question i {
+            transition: transform 0.3s ease;
+            color: var(--med-primary);
+        }
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .faq-answer-content {
+            padding: 0 25px 20px;
+            color: #516171;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+        .faq-cta {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e8eef5;
+        }
+        .faq-cta p {
+            color: #516171;
+            margin-bottom: 15px;
+        }
+        .faq-cta .btn {
+            margin: 5px;
+        }
+        @media (max-width: 767px) {
+            .faq-header h2 {
+                font-size: 1.8rem;
+            }
+            .faq-question {
+                font-size: 0.95rem;
+                padding: 15px 20px;
+            }
+            .faq-answer-content {
+                padding: 0 20px 15px;
+                font-size: 0.9rem;
+            }
+        }
+        </style>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq-header wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Get answers to common questions about maxillofacial treatment and care</p>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.3s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>1. What causes facial swelling and when is it serious?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Facial swelling can result from infections (dental abscess, cellulitis), cysts or tumors, trauma, allergic reactions, salivary gland disorders, or systemic conditions. Serious swelling that warrants immediate attention includes swelling accompanied by fever, difficulty breathing or swallowing, spreading redness, persistent pain, or swelling after dental procedure. Dr. Suresh P can diagnose and treat the underlying cause.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.4s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>2. How is facial swelling treated?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Treatment depends on the cause. Infections may require antibiotics or surgical drainage. Cysts or tumors may need removal. Allergic reactions may need antihistamines or steroids. Dr. Suresh P performs thorough evaluation including imaging and biopsy if needed to determine the exact cause and appropriate treatment for facial swelling.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.5s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>3. Can facial swelling be a sign of cancer?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                While most facial swelling is due to benign causes, persistent or progressively enlarging swelling can indicate tumors or cysts. Other concerning features include numbness, loosening of teeth, non-healing ulcers, or unexplained weight loss. Any persistent facial swelling should be evaluated by a specialist like Dr. Suresh P to rule out serious conditions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.6s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>4. What is the treatment for dental abscess causing facial swelling?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Dental abscess treatment typically involves antibiotics, drainage of the infection, and addressing the source (root canal treatment or tooth extraction). In severe cases, surgical drainage may be required. Dr. Suresh P works with your dentist to provide comprehensive treatment and prevent recurrence.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.7s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>5. How long does facial swelling take to go down?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Resolution time depends on the cause. Minor swelling from mild trauma may resolve in a few days with ice and rest. Infections may take 1-2 weeks with proper treatment. Post-surgical swelling gradually decreases over several weeks. Following Dr. Suresh P&#039;s instructions is key to faster recovery.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.8s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>6. When should I see a doctor for facial swelling?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                See a doctor immediately if facial swelling is accompanied by fever over 101F, difficulty breathing or swallowing, spreading or rapidly increasing swelling, severe pain, or if it lasts more than a few days without improvement. For evaluation of persistent or recurring facial swelling, schedule an appointment with Dr. Suresh P at GnathosFace.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.9s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>7. Where can I find facial swelling treatment near me in India?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Dr. Suresh P at GnathosFace provides expert evaluation and treatment for facial swelling of all causes. Located at CARE Hospitals, Hi-tech City, Hyderabad, we serve patients from India and surrounding areas. Book your consultation at +91 9000666476 or via WhatsApp.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-cta wow fadeInUp" data-wow-delay="0.9s">
+                    <p>Have more questions? We are here to help.</p>
+                    <a href="https://wa.me/919000666476" class="btn btn-secondary btn-lg">
+                        <i class="fab fa-whatsapp me-2"></i> Ask on WhatsApp
+                    </a>
+                    <a href="tel:+919000666476" class="btn btn-outline-primary btn-lg">
+                        <i class="feather icon-phone-call me-2"></i> Call Us Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <script>
+        function toggleFaq(button) {
+            const faqItem = button.parentElement;
+            const isActive = faqItem.classList.contains("active");
+
+            document.querySelectorAll(".faq-item").forEach(item => {
+                item.classList.remove("active");
+                item.querySelector(".faq-question").classList.remove("active");
+            });
+
+            if (!isActive) {
+                faqItem.classList.add("active");
+                button.classList.add("active");
+            }
+        }
+        </script>
         <!-- Footer Locations -->
         <section class="locations-section" style="background-color: #0d1425; padding: 40px 0; border-top: 1px solid #1e293b;">
             <div class="container">

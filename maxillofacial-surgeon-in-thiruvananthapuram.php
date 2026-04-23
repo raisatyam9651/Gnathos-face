@@ -1055,6 +1055,481 @@
         </section>
 
     
+        
+        <!-- Services Content Section -->
+        <style>
+        .services-content-section {
+            padding: 60px 0;
+            background: #fff;
+        }
+        .services-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .services-header h2 {
+            color: var(--med-dark);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .services-header p {
+            color: #516171;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .service-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 30px 25px;
+            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
+            border: 1px solid #e8eef5;
+            transition: all 0.4s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(25, 95, 172, 0.15);
+            border-color: var(--med-light);
+        }
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--med-primary), var(--med-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .service-icon i {
+            font-size: 1.8rem;
+            color: #fff;
+        }
+        .service-card h3 {
+            color: var(--med-dark);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .service-card p {
+            color: #516171;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .services-cta {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e8eef5;
+        }
+        .services-cta p {
+            color: #516171;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 991px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 767px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .services-header h2 {
+                font-size: 1.8rem;
+            }
+            .service-card {
+                padding: 25px 20px;
+            }
+        }
+        </style>
+
+        <section class="services-content-section">
+            <div class="container">
+                <div class="services-header wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Maxillofacial Surgery Services in Thiruvananthapuram</h2>
+                    <p>If you are searching for the best maxillofacial surgeon in Thiruvananthapuram or nearby regions, you have come to the right place. Dr. Suresh P at GnathosFace provides comprehensive oral and maxillofacial surgery services to patients from Thiruvananthapuram and surrounding areas. With over two decades of experience, Dr. Suresh has established himself as a leading maxillofacial surgeon who combines surgical excellence with compassionate patient care.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-icon">
+                            <i class="fas fa-head-side-virus"></i>
+                        </div>
+                        <h3>TMJ Disorder Treatment</h3>
+                        <p>The temporomandibular joint (TMJ) connects your jawbone to your skull. TMJ disorders can cause significant pain and affect your ability to eat, speak, and yawn. Dr. Suresh P specializes in diagnosing and treating TMJ disorders using the latest techniques, from conservative management to surgical interventions. Patients from Thiruvananthapuram receive personalized treatment plans designed to restore jaw function and eliminate pain.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-icon">
+                            <i class="fas fa-user-gear"></i>
+                        </div>
+                        <h3>Jaw Correction Surgery</h3>
+                        <p>Jaw misalignments can affect not only your appearance but also your ability to chew, speak, and breathe properly. Orthognathic surgery repositions the jaw bones to achieve proper alignment and function. Dr. Suresh P has extensive experience in performing corrective jaw surgeries for patients from Thiruvananthapuram, helping them achieve better facial balance, improved bite, and enhanced quality of life.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-icon">
+                            <i class="fas fa-user-injured"></i>
+                        </div>
+                        <h3>Facial Trauma Treatment</h3>
+                        <p>Facial injuries require immediate and expert care to ensure proper healing and minimize complications. Whether you have suffered a sports injury, road accident, or fall resulting in facial fractures, Dr. Suresh P provides comprehensive trauma care. From diagnosis using advanced imaging to surgical repair and rehabilitation, patients from Thiruvananthapuram receive prompt, expert treatment for all types of facial injuries.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-icon">
+                            <i class="fas fa-teeth"></i>
+                        </div>
+                        <h3>Oral Cyst and Tumor Treatment</h3>
+                        <p>Oral cysts and tumors can develop in the jawbone or soft tissues of the mouth. While many are benign, some may require surgical removal to prevent complications. Dr. Suresh P performs diagnostic evaluation and surgical treatment of oral cysts and tumors for patients from Thiruvananthapuram, using techniques that minimize damage to surrounding tissues and ensure complete removal.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-icon">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <h3>Wisdom Tooth Extraction</h3>
+                        <p>Impacted or problematic wisdom teeth often require surgical extraction. Dr. Suresh P provides safe, effective wisdom tooth removal using advanced surgical techniques. Patients from Thiruvananthapuram benefit from minimal discomfort, faster recovery, and reduced risk of complications like dry socket or nerve damage.</p>
+                    </div>
+                    <div class="service-card wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="service-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Facial Reconstruction</h3>
+                        <p>Following trauma, tumor removal, or congenital conditions, facial reconstruction restores both function and appearance. Dr. Suresh P combines surgical expertise with an artistic eye to achieve natural-looking results. Patients from Thiruvananthapuram receive comprehensive reconstruction services that help them regain confidence and normal facial function.</p>
+                    </div>
+                </div>
+                <div class="services-cta wow fadeInUp" data-wow-delay="0.9s">
+                    <p>Ready to discuss your treatment options? Contact us today.</p>
+                    <a href="https://wa.me/919000666476" class="btn btn-secondary btn-lg">
+                        <i class="fab fa-whatsapp me-2"></i> Book WhatsApp Consultation
+                    </a>
+                    <a href="tel:+919000666476" class="btn btn-outline-primary btn-lg">
+                        <i class="feather icon-phone-call me-2"></i> Call +91 9000666476
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Location-Specific Content Section -->
+        <style>
+        .location-content-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, var(--pale-blue) 0%, #fff 100%);
+        }
+        .location-content-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 15px 40px rgba(25, 95, 172, 0.1);
+        }
+        .location-content-inner h2 {
+            color: var(--med-dark);
+            font-size: 2rem;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .location-content-inner p {
+            color: #516171;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .location-content-inner ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .location-content-inner li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            color: #516171;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .location-content-inner li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--med-primary);
+            font-weight: bold;
+        }
+        .why-choose-us {
+            background: var(--med-pale);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .why-choose-us h3 {
+            color: var(--med-dark);
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 767px) {
+            .location-content-inner {
+                padding: 30px 25px;
+            }
+            .location-content-inner h2 {
+                font-size: 1.6rem;
+            }
+            .location-content-inner p {
+                font-size: 1rem;
+            }
+        }
+        </style>
+
+        <section class="location-content-section">
+            <div class="container">
+                <div class="location-content-inner wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Expert Maxillofacial Care for Patients from Thiruvananthapuram</h2>
+                    <p>If you are looking for the best maxillofacial surgeon or specialized treatment for TMJ disorders, facial injuries, oral cancer, or cosmetic facial surgery, Dr. Suresh P at GnathosFace is your trusted choice. Serving patients from Thiruvananthapuram and all surrounding regions, Dr. Suresh brings over 20 years of expertise in oral and maxillofacial surgery, providing exceptional care that combines medical excellence with genuine compassion for every patient.</p>
+
+                    <p>At GnathosFace, located at CARE Hospitals, Hi-tech City, Hyderabad, we understand that seeking treatment for facial, jaw, or oral conditions can be concerning. That is why Dr. Suresh P and our entire team are committed to making your experience as comfortable and reassuring as possible. From your first consultation through treatment and recovery, you will receive personalized attention, clear communication, and the highest standard of care available.</p>
+
+                    <p>Patients from Thiruvananthapuram choose GnathosFace for several important reasons. Our state-of-the-art facility at CARE Hospitals provides access to the latest diagnostic technology and surgical equipment, ensuring accurate diagnosis and optimal treatment outcomes. Dr. Suresh P's extensive experience means you benefit from techniques refined over thousands of procedures, reducing risks and enhancing results.</p>
+
+                    <div class="why-choose-us">
+                        <h3>Why Choose GnathosFace for Treatment from Thiruvananthapuram?</h3>
+                        <ul>
+                            <li><strong>20+ Years of Specialized Experience:</strong> Dr. Suresh P has dedicated his career to maxillofacial surgery, mastering the most advanced techniques in the field.</li>
+                            <li><strong>Comprehensive Treatment Options:</strong> From conservative management to complex surgical procedures, we offer the full spectrum of treatment options tailored to your specific needs.</li>
+                            <li><strong>Patient-Centered Approach:</strong> We take time to understand your concerns, explain your condition thoroughly, and involve you in every decision about your treatment.</li>
+                            <li><strong>Modern Facilities:</strong> Our association with CARE Hospitals ensures access to cutting-edge surgical technology, advanced imaging, and comprehensive medical support.</li>
+                            <li><strong>Proven Track Record:</strong> Thousands of patients from Thiruvananthapuram and across India have achieved excellent outcomes under Dr. Suresh P's care.</li>
+                            <li><strong>Convenient Access:</strong> Despite being based in Hyderabad, we regularly serve patients from Thiruvananthapuram, making the journey worthwhile for expert care.</li>
+                            <li><strong>Follow-up and Support:</strong> Our care does not end after treatment. We provide comprehensive follow-up and are always available to address any concerns during your recovery.</li>
+                        </ul>
+                    </div>
+
+                    <p style="margin-top: 30px; text-align: center;">Whether you are dealing with chronic jaw pain, recovering from facial trauma, facing an oral cancer diagnosis, or seeking to enhance your facial appearance, Dr. Suresh P and the GnathosFace team are here to help. Contact us today at +91 9000666476 or book a WhatsApp consultation to take the first step toward better oral and facial health.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <style>
+        .faq-section {
+            padding: 60px 0;
+            background: linear-gradient(135deg, #f8faff 0%, #fff 100%);
+        }
+        .faq-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .faq-header h2 {
+            color: var(--med-dark);
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .faq-header p {
+            color: #516171;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .faq-accordion {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.08);
+            overflow: hidden;
+            border: 1px solid #e8eef5;
+        }
+        .faq-question {
+            width: 100%;
+            padding: 20px 25px;
+            background: none;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--med-dark);
+            transition: all 0.3s ease;
+        }
+        .faq-question:hover {
+            background: #f8faff;
+        }
+        .faq-question.active {
+            background: var(--med-pale);
+            color: var(--med-primary);
+        }
+        .faq-question i {
+            transition: transform 0.3s ease;
+            color: var(--med-primary);
+        }
+        .faq-question.active i {
+            transform: rotate(180deg);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .faq-answer-content {
+            padding: 0 25px 20px;
+            color: #516171;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+        }
+        .faq-cta {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #e8eef5;
+        }
+        .faq-cta p {
+            color: #516171;
+            margin-bottom: 15px;
+        }
+        .faq-cta .btn {
+            margin: 5px;
+        }
+        @media (max-width: 767px) {
+            .faq-header h2 {
+                font-size: 1.8rem;
+            }
+            .faq-question {
+                font-size: 0.95rem;
+                padding: 15px 20px;
+            }
+            .faq-answer-content {
+                padding: 0 20px 15px;
+                font-size: 0.9rem;
+            }
+        }
+        </style>
+
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq-header wow fadeInUp" data-wow-delay="0.2s">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Get answers to common questions about maxillofacial treatment and care</p>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.3s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>1. What is a maxillofacial surgeon and when should I see one?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                A maxillofacial surgeon (oral and maxillofacial surgeon) specializes in diagnosing and treating conditions affecting the face, jaw, and mouth. You should see one for issues like jaw pain, TMJ disorders, facial trauma, wisdom teeth problems, jaw misalignment, facial swelling, or suspicious oral lesions. Dr. Suresh P at GnathosFace is a highly experienced maxillofacial surgeon with 20+ years of expertise in these conditions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.4s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>2. How do I find the best maxillofacial surgeon near me in Thiruvananthapuram?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                When searching for the best maxillofacial surgeon, look for qualifications (MDS in Oral and Maxillofacial Surgery), experience in your specific condition, hospital affiliations, and patient reviews. Dr. Suresh P serves patients from Thiruvananthapuram and surrounding areas from GnathosFace at CARE Hospitals, Hi-tech City, Hyderabad. You can book a consultation via WhatsApp at +91 9000666476.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.5s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>3. What treatments does a maxillofacial surgeon provide?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Maxillofacial surgeons provide a wide range of treatments including TMJ disorder management, jaw correction (orthognathic) surgery, facial trauma and fracture treatment, removal of impacted teeth, treatment of oral cysts and tumors, reconstruction after cancer surgery, sleep apnea treatment, and cosmetic facial procedures. Dr. Suresh P specializes in all these areas with particular expertise in TMJ disorders.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.6s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>4. Is maxillofacial surgery covered by insurance?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Most health insurance plans cover maxillofacial surgery when it is medically necessary, such as for facial trauma, tumor removal, or corrective jaw surgery. Procedures considered cosmetic may not be covered. GnathosFace can help you understand your insurance coverage and provide necessary documentation. Contact us at +91 9000666476 for insurance verification assistance.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.7s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>5. How long is the recovery after maxillofacial surgery?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                Recovery time varies depending on the procedure. Minor procedures may require 1-2 weeks, while complex surgeries like jaw correction may need 6-8 weeks for initial recovery. Dr. Suresh P provides detailed post-operative care instructions and follow-up appointments to ensure smooth recovery. Most patients resume normal activities within 2-3 weeks.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.8s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>6. What is the cost of maxillofacial surgery in Thiruvananthapuram?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                The cost of maxillofacial surgery depends on the specific procedure, complexity, and hospital facilities. Simple tooth extractions may cost Rs. 5,000-15,000, while complex procedures like jaw surgery may range from Rs. 80,000-3,00,000+. GnathosFace offers transparent pricing and EMI options. Book a consultation for an accurate estimate tailored to your condition.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-item wow fadeInUp" data-wow-delay="0.9s">
+                        <button class="faq-question" onclick="toggleFaq(this)">
+                            <span>7. Do I need a referral to see a maxillofacial surgeon?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                While a referral from your dentist or physician is helpful, you can directly book an appointment with Dr. Suresh P at GnathosFace. If you have specific symptoms like persistent jaw pain, facial swelling, difficulty opening your mouth, or have been advised to see a specialist, simply contact us at +91 9000666476 or book via WhatsApp for convenient scheduling.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-cta wow fadeInUp" data-wow-delay="0.9s">
+                    <p>Have more questions? We are here to help.</p>
+                    <a href="https://wa.me/919000666476" class="btn btn-secondary btn-lg">
+                        <i class="fab fa-whatsapp me-2"></i> Ask on WhatsApp
+                    </a>
+                    <a href="tel:+919000666476" class="btn btn-outline-primary btn-lg">
+                        <i class="feather icon-phone-call me-2"></i> Call Us Now
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <script>
+        function toggleFaq(button) {
+            const faqItem = button.parentElement;
+            const isActive = faqItem.classList.contains("active");
+
+            document.querySelectorAll(".faq-item").forEach(item => {
+                item.classList.remove("active");
+                item.querySelector(".faq-question").classList.remove("active");
+            });
+
+            if (!isActive) {
+                faqItem.classList.add("active");
+                button.classList.add("active");
+            }
+        }
+        </script>
         <!-- Footer Locations -->
         <section class="locations-section" style="background-color: #0d1425; padding: 40px 0; border-top: 1px solid #1e293b;">
             <div class="container">
