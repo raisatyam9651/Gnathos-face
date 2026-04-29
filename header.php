@@ -127,11 +127,11 @@
                                     <!--<li><a href="reconstructive-surgery">Reconstructive Surgery</a></li>-->
 								</ul>
 							</li>
-							<!--<li >-->
-							<!--	<a class="icon-menuss"  href="javascript:void(0);">-->
-       <!--                             <img src="assets/icons/flaticon/blog.png" height="20px" width="20px">-->
-       <!--                             <span class="text-dark">Blogs</span></a>-->
-							<!--</li>-->
+							<li >
+								<a class="icon-menuss"  href="video">
+                                    <img src="assets/icons/flaticon/blog.png" height="20px" width="20px">
+                                    <span class="text-dark">Videos</span></a>
+							</li>
 							
 							
 							
