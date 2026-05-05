@@ -14,19 +14,35 @@
 <!-- Geo Tags for GnathosFace -->
 <meta name="geo.region" content="IN-TG">
 <meta name="geo.placename" content="Hyderabad">
-<meta name="geo.position" content="17.3850;78.4867">
-<meta name="ICBM" content="17.3850, 78.4867">
+<meta name="geo.position" content="17.430219;78.3489">
+<meta name="ICBM" content="17.430219, 78.3489">
 
+<!-- Open Graph Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Best Oral & Maxillofacial Surgeons in Hyderabad | India | GnathosFace">
+<meta property="og:description" content="Find the best maxillofacial surgeon in Hyderabad at GnathosFace. Trusted maxillofacial surgeon in India for jaw surgery, facial trauma, and TMJ care.">
+<meta property="og:url" content="https://gnathosface.com/">
+<meta property="og:image" content="https://gnathosface.com/assets/images/Home-Page-Banner.webp">
+<meta property="og:site_name" content="GnathosFace">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Oral & Maxillofacial Surgeons in Hyderabad | India | GnathosFace">
+<meta name="twitter:description" content="Find the best maxillofacial surgeon in Hyderabad at GnathosFace. Trusted maxillofacial surgeon in India for jaw surgery, facial trauma, and TMJ care.">
+<meta name="twitter:image" content="https://gnathosface.com/assets/images/Home-Page-Banner.webp">
+<meta name="twitter:site" content="@gnathosface">
 
 <script type="application/ld+json">
-
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "GnathosFace",
+  "@type": "Physician",
+  "name": "GnathosFace - Best Maxillofacial Surgeon in Hyderabad",
   "url": "https://gnathosface.com/",
   "logo": "https://gnathosface.com/wp-content/uploads/2024/02/gnalogo.png",
-  "description": "GNA Face specializes in advanced maxillofacial and dental care, offering expert treatments for facial injuries, jaw disorders, and oral conditions. With a team of skilled surgeons and state-of-the-art technology, we ensure precision-driven, patient-centered care for every individual.",
+  "description": "GNA Face specializes in advanced maxillofacial and dental care, offering expert treatments for facial injuries, jaw disorders, and oral conditions.",
+  "image": "https://gnathosface.com/assets/images/Home-Page-Banner.webp",
+  "telephone": "+91-9000666476",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "CARE Hospitals Hi-tech City, Jayabheri Pine Valley",
@@ -35,108 +51,154 @@
     "postalCode": "500032",
     "addressCountry": "IN"
   },
-  "telephone": "+91-9000666476",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 17.430219,
+    "longitude": 78.3489
+  },
+  "medicalSpecialty": "Oral and Maxillofacial Surgery",
+  "availableService": [
+    {"@type": "MedicalProcedure", "name": "Jaw Surgery", "procedureType": "Surgical"},
+    {"@type": "MedicalProcedure", "name": "TMJ Surgery", "procedureType": "Surgical"},
+    {"@type": "MedicalProcedure", "name": "Facial Trauma Repair", "procedureType": "Surgical"},
+    {"@type": "MedicalProcedure", "name": "Cosmetic Facial Surgery", "procedureType": "Surgical"},
+    {"@type": "MedicalProcedure", "name": "Orthognathic Surgery", "procedureType": "Surgical"},
+    {"@type": "MedicalProcedure", "name": "Rhinoplasty", "procedureType": "Surgical"},
+    {"@type": "MedicalProcedure", "name": "Cyst and Tumor Removal", "procedureType": "Surgical"},
+    {"@type": "MedicalProcedure", "name": "Jaw Reconstruction", "procedureType": "Surgical"}
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "847",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
   "sameAs": [
     "https://www.facebook.com/gnathosface",
     "https://www.youtube.com/@gnathosface",
     "https://www.instagram.com/gnathosface"
-  ],
-  "makesOffer": [
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Facial injuries/facial traumas"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Jaw correction surgeries"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "TMJ disorders"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Cysts & tumors of the face, mouth & jaws"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Cosmetic facial surgery"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Rhinoplasty"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Obstructive sleep apnea/OSA"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Oral cancers"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Jaw reconstruction"
-      }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Facial swellings & infections"
-      }
-    }
   ]
 }
-
-
-
+</script>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "GnathosFace",
+  "@type": "Physician",
+  "name": "Dr. Suresh - Maxillofacial Surgeon",
   "url": "https://gnathosface.com/",
+  "description": "Senior Consultant and TMJ Specialist with 20+ Years of Experience",
+  "image": "https://gnathosface.com/assets/images/Dr.-Suresh.webp",
+  "telephone": "+91-9000666476",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Hyderabad",
+    "streetAddress": "CARE Hospitals Hi-tech City, Jayabheri Pine Valley",
+    "addressLocality": "Gachibowli, Hyderabad",
     "addressRegion": "Telangana",
-    "addressCountry": "India"
+    "postalCode": "500032",
+    "addressCountry": "IN"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 17.3850,
-    "longitude": 78.4867
+  "medicalSpecialty": "Oral and Maxillofacial Surgery",
+  "jobTitle": "Senior Consultant and TMJ Specialist",
+  "yearsExperience": 20,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "532"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "name": "Dr. Navatha Mortha - Maxillofacial Surgeon",
+  "url": "https://gnathosface.com/",
+  "description": "Senior Consultant and TMJ Specialist with 15+ Years of Experience",
+  "image": "https://gnathosface.com/assets/images/Dr.%20Navatha-Mortha-Facial.webp",
+  "telephone": "+91-9000666476",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "CARE Hospitals Hi-tech City, Jayabheri Pine Valley",
+    "addressLocality": "Gachibowli, Hyderabad",
+    "addressRegion": "Telangana",
+    "postalCode": "500032",
+    "addressCountry": "IN"
   },
-  "areaServed": "Hyderabad",
-  "description": "GnathosFace offers advanced oral and maxillofacial surgery services in Hyderabad, including jaw correction, facial trauma, and cyst & tumor treatment."
+  "medicalSpecialty": "Oral and Maxillofacial Surgery",
+  "jobTitle": "Senior Consultant and TMJ Specialist",
+  "yearsExperience": 15,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "315"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://gnathosface.com/"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is maxillofacial surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maxillofacial surgery is a specialized field of medicine that deals with the diagnosis and surgical treatment of diseases, injuries, and defects of the face, jaw, and mouth. It includes procedures like jaw surgery, facial trauma repair, TMJ treatment, and cosmetic facial surgery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does recovery take after jaw surgery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recovery time varies depending on the type of jaw surgery performed. Generally, patients can return to normal activities within 2-3 weeks, while complete healing may take 6-12 weeks. Our surgeons use advanced techniques to ensure faster recovery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What treatments are available for TMJ disorders?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TMJ treatments range from conservative approaches like medication and physical therapy to surgical interventions for severe cases. Our TMJ specialists at GnathosFace provide comprehensive evaluation and personalized treatment plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide emergency facial trauma care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, GnathosFace offers 24/7 emergency services for facial trauma injuries. Our experienced maxillofacial surgeons are equipped to handle broken nose, jaw, cheekbone, eye socket, and other facial injuries with precision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What cosmetic facial procedures are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer a range of cosmetic facial procedures including facelifts, lip augmentation, chin augmentations, eye contouring, rhinoplasty, and jawline corrections. Our surgeons ensure natural-looking results tailored to each patient."
+      }
+    }
+  ]
 }
 </script>
 
@@ -418,7 +480,7 @@
 				<div class="row align-items-end h-100">
 					<div class="col-lg-6 align-self-center">
 						<div class="hero-content">
-							<h3 class="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">The Guardians <span class="text-primary">of Face</span> <img src="images/hero-banner/line.png" alt=""></h3>
+							<h3 class="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">The Guardians <span class="text-primary">of Face</span> <img src="images/hero-banner/line.png" alt="Decorative line divider"</h3>
 							<p class="text wow fadeInUp" style="font-family: 'Poppins', sans-serif; font-weight: 400;" data-wow-delay="0.4s" data-wow-duration="0.8s">
 							    
 							    
@@ -442,8 +504,8 @@
 					<div class="col-lg-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.8s">
 						<div class="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
 						
-							<img class="thumbnail" src="assets/images/Home-Page-Banner.webp" alt=""> 
-								<img class="thumbnail" src="	assets/images/gna-home.webp" alt=""> 
+							<img class="thumbnail" src="assets/images/Home-Page-Banner.webp" alt="GnathosFace - Best Maxillofacial Surgeon in Hyderabad - Home Page Banner" loading="eager" fetchpriority="high">
+								<img class="thumbnail" src="assets/images/gna-home.webp" alt="GnathosFace Maxillofacial Surgery Center Gachibowli Hyderabad" loading="eager"> 
 							
 						
 							
@@ -459,10 +521,10 @@
 							<div class="item2" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
 								<div class="info-widget style-1 move-3">
 									<div class="avatar-group">
-										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="">
-										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="">
-										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="">
-										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="">
+										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="GnathosFace Patient Avatar">
+										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="GnathosFace Patient Avatar">
+										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="GnathosFace Patient Avatar">
+										<img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="GnathosFace Patient Avatar">
 									</div>
 									<div class="clearfix ms-2">
 										<span class="number text-primary">150k</span>
@@ -485,7 +547,7 @@
                 <div class="col-xl-5 col-lg-6 m-b15">
                     <div class="content-media align-items-center" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px) ">
                         <div class="dz-media">
-                            <img src="assets/images/gna-home-2nd.webp" alt=""> 
+                            <img src="assets/images/gna-home-2nd.webp" alt="GnathosFace Surgery Center Advanced Maxillofacial Care Hyderabad" loading="eager">
                         </div>
                         <div class="item4">
                             <svg viewBox="0 0 217 620" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -904,13 +966,13 @@
 </div>
 
 
-			<section class="content-inner overlay-secondary-dark background-blend-luminosity bg-img-fix overflow-hidden" style="background-image: ;  background-repeat: no-repeat; background-position: right center; background-size: cover;">
+			<section class="content-inner overlay-secondary-dark background-blend-luminosity bg-img-fix overflow-hidden" style="background-image: url(images/background/excellence-bg.png);  background-repeat: no-repeat; background-position: right center; background-size: cover;">
                 <div class="container">
                     <div class="row content-wrapper style-7 align-items-center">
                         <div class="col-lg-6 m-b30 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.7s">
                             <div class="content-media">
                                 <div class="dz-media">
-                                    <img src="assets/images/Excellence-in-Facial-Surgery.webp" alt="">
+                                    <img src="assets/images/Excellence-in-Facial-Surgery.webp" alt="Excellence in Facial Surgery - GnathosFace Advanced Techniques">
                                 </div>
                                 <div class="item1">
                                     <div class="info-widget style-11 bg-primary text-center">
@@ -956,7 +1018,7 @@
                                     <div class="icon-bx-wraper style-4 text-center text-white wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
                                         <div class="icon-bx bg-primary">
                                             <span class="icon-cell">
-                                                <img src="images/svg/check.svg" alt="">
+                                                <img src="images/svg/check.svg" alt="GnathosFace Check Icon - Quality Assurance">
                                             </span>
                                         </div>
                                         <div class="icon-content">
@@ -971,7 +1033,7 @@
                                     <div class="icon-bx-wraper style-4 text-center text-white wow fadeInUp" data-wow-delay="1.0s" data-wow-duration="0.7s">
                                         <div class="icon-bx bg-primary">
                                             <span class="icon-cell">
-                                                <img src="images/svg/check.svg" alt="">
+                                                <img src="images/svg/check.svg" alt="GnathosFace Check Icon - Quality Assurance">
                                             </span>
                                         </div>
                                         <div class="icon-content">
@@ -1008,12 +1070,12 @@
 								<div class="icon-bx">
 									<span class="icon-cell">
 									
-										<img src="assets/icons/jaw-surgery.png" hieght="150px" width="100px">
+										<img src="assets/icons/jaw-surgery.png" alt="Jaw Surgery Icon - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-									
-									<img src="assets/icons/jaw-surgery.png">
+
+									<img src="assets/icons/jaw-surgery.png" alt="Jaw Surgery Service Icon">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Jaw Surgery</h3>
@@ -1033,11 +1095,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-											<img src="assets/icons/TMJ-Surgery.png" hieght="150px" width="100px">
+											<img src="assets/icons/TMJ-Surgery.png" hieght="150px" width="100px" alt="TMJ Surgery - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-										<img src="assets/icons/TMJ-Surgery.png" >
+										<img src="assets/icons/TMJ-Surgery.png" alt="TMJ Surgery Icon - GnathosFace">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">TMJ Surgery</h3>
@@ -1057,11 +1119,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-										<img src="assets/icons/Cosmetic-Facial-Surgery.png">
+										<img src="assets/icons/Cosmetic-Facial-Surgery.png" alt="Cosmetic Facial Surgery - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-										<img src="assets/icons/Cosmetic-Facial-Surgery.png"  hieght="94px" >
+										<img src="assets/icons/Cosmetic-Facial-Surgery.png" hieght="94px" alt="Cosmetic Facial Surgery Icon - GnathosFace">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Cosmetic Facial Surgery</h3>
@@ -1081,11 +1143,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-                                 <img src="assets/icons/Reconstructive-Surgery.png">
+                                 <img src="assets/icons/Reconstructive-Surgery.png" alt="Reconstructive Surgery Icon - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-									<img src="assets/icons/Reconstructive-Surgery.png">
+									<img src="assets/icons/Reconstructive-Surgery.png" alt="Reconstructive Surgery Service Icon">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Reconstructive Surgery</h3>
@@ -1105,11 +1167,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-										<img src="assets/icons/Aesthetic-Enhancements.png">
+										<img src="assets/icons/Aesthetic-Enhancements.png" alt="Aesthetic Enhancements Icon - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-									<img src="assets/icons/Aesthetic-Enhancements.png">
+									<img src="assets/icons/Aesthetic-Enhancements.png" alt="Aesthetic Enhancements Treatment Icon">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Aesthetic Enhancements</h3>
@@ -1129,11 +1191,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-											<img src="assets/icons/Orthognathic-Surgery.png">
+											<img src="assets/icons/Orthognathic-Surgery.png" alt="Orthognathic Surgery - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-										<img src="assets/icons/Orthognathic-Surgery.png">
+										<img src="assets/icons/Orthognathic-Surgery.png" alt="Orthognathic Surgery Icon - GnathosFace">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Orthognathic Surgery</h3>
@@ -1153,11 +1215,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-										<img src="assets/icons/Skin-Grafts.png">
+										<img src="assets/icons/Skin-Grafts.png" alt="Skin Grafts and Flaps Icon - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-									<img src="assets/icons/Skin-Grafts.png">
+									<img src="assets/icons/Skin-Grafts.png" alt="Skin Grafts Surgical Procedure Icon">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Skin Grafts and Flaps</h3>
@@ -1177,11 +1239,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-										<img src="assets/icons/Facial-Bone-Fracture.png">
+										<img src="assets/icons/Facial-Bone-Fracture.png" alt="Facial Bone Fracture - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-									<img src="assets/icons/Facial-Bone-Fracture.png">
+									<img src="assets/icons/Facial-Bone-Fracture.png" alt="Facial Bone Fracture - GnathosFace">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Facial Bone Fracture​</h3>
@@ -1203,11 +1265,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-											<img src="assets/icons/Jaw-Fracture.png">
+											<img src="assets/icons/Jaw-Fracture.png" alt="Jaw Fracture - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-										<img src="assets/icons/Jaw-Fracture.png">
+										<img src="assets/icons/Jaw-Fracture.png" alt="Jaw Fracture Icon - GnathosFace">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Jaw Fracture</h3>
@@ -1227,11 +1289,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-                                            	<img src="assets/icons/Facial-Bone-Fracture.png">
+                                            	<img src="assets/icons/Facial-Bone-Fracture.png" alt="Facial Bone Fracture - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-									<img src="assets/icons/Facial-Bone-Fracture.png">
+									<img src="assets/icons/Facial-Bone-Fracture.png" alt="Facial Bone Fracture - GnathosFace">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Oral Cancer Surgery</h3>
@@ -1251,11 +1313,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-										<img src="assets/images/impact-teeth removal.png">
+										<img src="assets/images/impact-teeth-removal.png" alt="Impacted Teeth Removal - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-									<img src="assets/images/impact-teeth removal.png">
+									<img src="assets/images/impact-teeth-removal.png" alt="Impacted Teeth Removal - GnathosFace">
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Impacted Teeth Removal</h3>
@@ -1275,11 +1337,11 @@
 							<div class="icon-bx-head">
 								<div class="icon-bx">
 									<span class="icon-cell">
-									<img src="assets/icons/Cleft-Lipand-Palate-Repair.png">
+									<img src="assets/icons/Cleft-Lipand-Palate-Repair.png" alt="Cleft Lip and Palate Repair - GnathosFace">
 									</span>
 								</div>
 								<span class="icon-bg">
-								<img src="assets/icons/Cleft-Lipand-Palate-Repair.png">	
+									<img src="assets/icons/Cleft-Lipand-Palate-Repair.png" alt="Cleft Lip and Palate Repair Icon - GnathosFace">	
 								</span>
 								<div class="icon-content">
 									<h3 class="dz-title">Cleft Lip and Palate Repair</h3>
@@ -1321,7 +1383,7 @@
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
                         <div class="dz-team style-1 box-hover">
                             <div class="dz-media">
-                                <img src="assets/images/Dr.-Suresh.webp" alt="/">
+                                <img src="assets/images/Dr.-Suresh.webp" alt="Dr. Suresh - Best Maxillofacial Surgeon in Hyderabad">
                                 <a href="https://wa.me/919000666476" class="btn btn-primary">
                                     <i class="feather icon-calendar m-r5"></i>
                                     Appointment Now
@@ -1369,7 +1431,7 @@
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
                         <div class="dz-team style-1 box-hover">
                             <div class="dz-media">
-                                <img src="assets/images/Dr. Navatha-Mortha-Facial.webp" alt="/">
+                                <img src="assets/images/dr-navatha-mortha-facial.webp" alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad">
                                 <a href="https://wa.me/919000666476" class="btn btn-primary">
                                     <i class="feather icon-calendar m-r5"></i>
                                     Appointment Now
@@ -1425,7 +1487,7 @@
                     <div class="col-xl-6">
                         <div class="content-media">
                             <div class="dz-media">
-                                <img src="images/about/testmonial-image.webp" alt="">
+                                <img src="images/about/testmonial-image.webp" alt="GnathosFace Testimonials and Achievements">
                             </div>
                             <div class="circle-wrapper" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
                                 <span class="circle1">
@@ -1442,10 +1504,10 @@
                             <div class="item1" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
                                 <div class="info-widget style-1 move-3">
                                     <div class="avatar-group">
-                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="">
-                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="">
-                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="">
-                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="">
+                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="GnathosFace Patient Avatar"
+                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="GnathosFace Patient Avatar"
+                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avtar-mail.png" alt="GnathosFace Patient Avatar"
+                                        <img class="avatar rounded-circle avatar-sm border border-white border-2" src="images/avatar/small/Avter-mail.png" alt="GnathosFace Patient Avatar"
                                     </div>
                                     <div class="clearfix ms-2">
                                         <span class="number text-primary">150k</span>
@@ -1457,7 +1519,7 @@
                                 <div class="info-widget style-3 move-1">
                                     <div class="widget-head">
                                         <div class="widget-media">
-                                            <img src="images/avatar/small/Avter-mail.png" alt="">
+                                            <img src="images/avatar/small/Avter-mail.png" alt="GnathosFace Patient Avatar"
                                         </div>
                                         <div class="widget-content">
                                             <h6 class="title">Priya Bhogineni</h6>
@@ -1560,10 +1622,10 @@
                                 </div>
                             </div>
                             <div class="swiper1-button-prev btn-prev">
-                                <img src="images/svg/arrow-left.svg" alt="">
+                                <img src="images/svg/arrow-left.svg" alt="Previous testimonial - Arrow left"
                             </div>
                             <div class="swiper1-button-next btn-next">
-                                <img src="images/svg/arrow-right.svg" alt="">
+                                <img src="images/svg/arrow-right.svg" alt="Next testimonial - Arrow right"
                             </div>
                         </div>
                     </div>
