@@ -16,7 +16,8 @@ $pageTypes = array(
     'oral-cancer-treatment-in-' => 'oral_cancer',
     'facial-injury-treatment-in-' => 'facial_injury',
     'facial-swelling-treatment-in-' => 'facial_swelling',
-    'cosmetic-facial-surgery-in-' => 'cosmetic'
+    'cosmetic-facial-surgery-in-' => 'cosmetic',
+    'rhinoplasty-treatment-in-' => 'rhinoplasty'
 );
 
 // Get all PHP files
@@ -469,6 +470,36 @@ function getFaqs($pageType, $location) {
                 'question' => 'Where can I find cosmetic facial surgery near me in ' . $location . '?',
                 'answer' => 'GnathosFace offers expert cosmetic facial surgery for patients from ' . $location . ' and surrounding areas. Dr. Suresh P\'s dual expertise in maxillofacial surgery and aesthetics ensures beautiful, natural-looking results. Contact +91 9000666476 to schedule a consultation and discuss your cosmetic goals.'
             )
+        ),
+        'rhinoplasty' => array(
+            array(
+                'question' => 'What is rhinoplasty and why is it performed?',
+                'answer' => 'Rhinoplasty, often called a nose job, is a surgical procedure to change the shape or improve the function of the nose. It is performed for cosmetic reasons to enhance facial harmony or for functional reasons to correct breathing problems caused by structural defects like a deviated septum. Dr. Suresh P at GnathosFace specializes in both aesthetic and functional rhinoplasty.'
+            ),
+            array(
+                'question' => 'How do I find the best rhinoplasty surgeon in ' . $location . '?',
+                'answer' => 'The best rhinoplasty surgeon should have extensive experience in facial surgery, a keen aesthetic eye, and a deep understanding of nasal anatomy. Dr. Suresh P, with over 20 years of expertise in maxillofacial surgery, provides expert rhinoplasty for patients from ' . $location . '. You can book a consultation via WhatsApp at +91 9000666476.'
+            ),
+            array(
+                'question' => 'What is the difference between open and closed rhinoplasty?',
+                'answer' => 'Closed rhinoplasty involves incisions made inside the nostrils, leaving no visible scars. Open rhinoplasty involves a small incision across the columella (the tissue between the nostrils), allowing better visibility for complex reshaping. Dr. Suresh P chooses the technique that best suits your specific needs and goals.'
+            ),
+            array(
+                'question' => 'Is rhinoplasty surgery painful?',
+                'answer' => 'Rhinoplasty is performed under general anesthesia, so you won\'t feel anything during the procedure. Post-surgery, most patients experience some discomfort and nasal congestion rather than severe pain. Dr. Suresh P provides effective pain management and detailed recovery instructions to ensure a comfortable healing process.'
+            ),
+            array(
+                'question' => 'How long is the recovery after nose surgery?',
+                'answer' => 'Initial recovery takes about 1-2 weeks, after which most patients can return to work or school. While major swelling subsides within a few weeks, the final results may take up to a year to fully settle as the nose continues to refine. Dr. Suresh P monitors your progress through regular follow-up appointments.'
+            ),
+            array(
+                'question' => 'Will insurance cover my rhinoplasty?',
+                'answer' => 'Insurance typically covers rhinoplasty if it is performed for functional reasons, such as correcting a deviated septum that obstructs breathing. Cosmetic rhinoplasty is usually not covered. GnathosFace can help you understand your coverage and provide the necessary medical documentation.'
+            ),
+            array(
+                'question' => 'Where can I get expert rhinoplasty treatment from ' . $location . '?',
+                'answer' => 'Dr. Suresh P at GnathosFace provides specialized rhinoplasty for patients from ' . $location . '. Our clinic at CARE Hospitals, Hyderabad, is equipped with advanced surgical technology to ensure the best outcomes. Contact us at +91 9000666476 to schedule your consultation.'
+            )
         )
     );
 
@@ -620,7 +651,8 @@ function getServicesTitle($pageType, $location) {
         'oral_cancer' => 'Oral Cancer Treatment Services in ' . $location,
         'facial_injury' => 'Facial Injury Treatment Services in ' . $location,
         'facial_swelling' => 'Facial Swelling Treatment Services in ' . $location,
-        'cosmetic' => 'Cosmetic Facial Surgery Services in ' . $location
+        'cosmetic' => 'Cosmetic Facial Surgery Services in ' . $location,
+        'rhinoplasty' => 'Rhinoplasty & Nose Surgery Services in ' . $location
     );
     return isset($titles[$pageType]) ? $titles[$pageType] : 'Our Services in ' . $location;
 }
@@ -632,7 +664,8 @@ function getServicesIntro($pageType, $location) {
         'oral_cancer' => 'Oral cancer requires expert, prompt treatment for the best outcomes. If you or a loved one has been diagnosed with oral cancer or shows concerning symptoms, Dr. Suresh P at GnathosFace provides comprehensive oral cancer treatment services to patients from ' . $location . ' and surrounding areas. With specialized training and extensive experience in oral oncology, Dr. Suresh offers hope and healing to cancer patients.',
         'facial_injury' => 'Facial injuries require immediate, expert care to ensure proper healing and optimal functional and cosmetic outcomes. Whether you have experienced a sports injury, road accident, fall, or assault resulting in facial trauma, Dr. Suresh P at GnathosFace provides comprehensive emergency and reconstructive facial injury treatment to patients from ' . $location . '.',
         'facial_swelling' => 'Facial swelling can result from various conditions ranging from minor infections to serious tumors. If you are experiencing persistent or concerning facial swelling and searching for the best treatment near you in ' . $location . ', Dr. Suresh P at GnathosFace provides expert diagnosis and treatment. With specialized expertise in oral and maxillofacial conditions, patients from ' . $location . ' receive comprehensive care.',
-        'cosmetic' => 'Enhance your facial appearance and confidence with expert cosmetic facial surgery. Dr. Suresh P at GnathosFace provides a range of cosmetic procedures to patients from ' . $location . ' and surrounding areas. As a maxillofacial surgeon with artistic vision and surgical expertise, Dr. Suresh helps patients achieve their aesthetic goals while ensuring functional improvement.'
+        'cosmetic' => 'Enhance your facial appearance and confidence with expert cosmetic facial surgery. Dr. Suresh P at GnathosFace provides a range of cosmetic procedures to patients from ' . $location . ' and surrounding areas. As a maxillofacial surgeon with artistic vision and surgical expertise, Dr. Suresh helps patients achieve their aesthetic goals while ensuring functional improvement.',
+        'rhinoplasty' => 'Achieve the perfect balance for your face with expert rhinoplasty. If you are looking for the best nose surgery in ' . $location . ', Dr. Suresh P at GnathosFace offers both cosmetic and functional rhinoplasty. With over 20 years of specialized experience, Dr. Suresh provides personalized care for patients from ' . $location . ' seeking aesthetic improvement or breathing correction.'
     );
     return isset($intros[$pageType]) ? $intros[$pageType] : 'Expert care available for patients from ' . $location . ' and surrounding areas at GnathosFace.';
 }
@@ -686,6 +719,14 @@ function getServices($pageType, $location) {
             array('title' => 'Facial Liposuction', 'icon' => 'fa-person-dots-from-line', 'desc' => 'Excess fat deposits in the face and neck can be removed through liposuction for a more sculpted appearance. Dr. Suresh P performs facial liposuction with precision for natural-looking results. Patients from ' . $location . ' achieve a more defined facial contour.'),
             array('title' => 'Facial Fat Grafting', 'icon' => 'fa-syringe', 'desc' => 'Fat grafting restores volume to areas that have lost fullness due to aging or genetics. Dr. Suresh P uses advanced fat harvesting and injection techniques for long-lasting results. Patients from ' . $location . ' benefit from natural enhancement using their own tissue.'),
             array('title' => 'Scar Revision', 'icon' => 'fa-wand-magic-sparkles', 'desc' => 'Facial scars from injuries, surgery, or acne can be minimized through scar revision techniques. Dr. Suresh P uses surgical excision, steroid injections, laser treatment, and other methods to improve scar appearance. Patients from ' . $location . ' receive treatment that significantly reduces scar visibility.')
+        ),
+        'rhinoplasty' => array(
+            array('title' => 'Cosmetic Nose Reshaping', 'icon' => 'fa-magic', 'desc' => 'Improve the aesthetic appearance of your nose to achieve better facial harmony. Dr. Suresh P provides expert cosmetic rhinoplasty for patients from ' . $location . ', addressing concerns like nose humps, wide nostrils, or drooping tips with natural-looking results.'),
+            array('title' => 'Functional Septoplasty', 'icon' => 'fa-wind', 'desc' => 'Correct structural issues within the nose that obstruct breathing. For patients from ' . $location . ' suffering from a deviated septum, Dr. Suresh performs functional rhinoplasty to restore clear breathing and improve quality of life.'),
+            array('title' => 'Revision Rhinoplasty', 'icon' => 'fa-redo', 'desc' => 'Correction of results from previous nasal surgeries. If you are unsatisfied with a past nose job, Dr. Suresh P offers revision rhinoplasty for patients from ' . $location . ', focusing on restoring both structural integrity and aesthetic balance.'),
+            array('title' => 'Reconstructive Nasal Surgery', 'icon' => 'fa-crutch', 'desc' => 'Restoration of the nose after trauma or tumor removal. Dr. Suresh P provides specialized reconstructive services for patients from ' . $location . ', using advanced techniques to rebuild nasal form and function.'),
+            array('title' => 'Nasal Tip Correction', 'icon' => 'fa-arrows-alt-h', 'desc' => 'Targeted refinement of the nasal tip for a more balanced look. Dr. Suresh P offers precise tip contouring for patients from ' . $location . ' who wish to refine their nose without changing the entire nasal structure.'),
+            array('title' => 'Comprehensive Aftercare', 'icon' => 'fa-user-check', 'desc' => 'Dedicated post-operative support to ensure the best possible healing and results. Patients from ' . $location . ' receive detailed recovery protocols and regular follow-up monitoring after their rhinoplasty procedure.')
         )
     );
 

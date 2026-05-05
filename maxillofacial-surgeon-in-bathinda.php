@@ -571,7 +571,7 @@
         </div>
         
         <!-- Main Doctor Intro Section -->
-        <section class="content-inner" style="background-image: url(images/background/bg1.pg); background-repeat: no-repeat; background-position: right bottom;">
+        <section class="content-inner" style="background-image: url(images/background/bg1.webp); background-repeat: no-repeat; background-position: right bottom;">
             <div class="container">
                 <div class="row content-wrapper style-1 align-items-center">
                     <div class="col-xl-6 m-b30">

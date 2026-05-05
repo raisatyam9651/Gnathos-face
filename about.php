@@ -391,7 +391,7 @@
             </div>
 
             <section class="content-inner"
-                style="background-image: url(images/background/bg1.pg); background-repeat: no-repeat; background-position: right bottom;">
+                style="background-image: url(images/background/bg1.webp); background-repeat: no-repeat; background-position: right bottom;">
                 <div class="container">
                     <div class="row content-wrapper style-1 align-items-center">
                         <div class="col-xl-6 m-b30">
@@ -629,7 +629,7 @@
                         <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
                             <div class="dz-team style-1 box-hover">
                                 <div class="dz-media">
-                                    <img src="assets/images/Dr-(1).webp" alt="/">
+                                    <img src="assets/images/Dr.-Suresh.webp" alt="/">
                                     <a href="https://wa.me/919000666476" class="btn btn-primary">
                                         <i class="feather icon-calendar m-r5"></i>
                                         Appointment Now
@@ -677,7 +677,7 @@
                         <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
                             <div class="dz-team style-1 box-hover">
                                 <div class="dz-media">
-                                    <img src="assets/images/Dr.webp" alt="/">
+                                    <img src="assets/images/dr-navatha-mortha-facial.webp" alt="/">
                                     <a href="https://wa.me/919000666476" class="btn btn-primary">
                                         <i class="feather icon-calendar m-r5"></i>
                                         Appointment Now
@@ -736,7 +736,7 @@
 
 
             <section class="content-inner overlay-secondary-dark background-blend-luminosity bg-img-fix overflow-hidden"
-                style=" background-repeat: no-repeat; background-position: right center; background-size: cover;">
+                style="background-image: url(images/background/excellence-bg.png); background-repeat: no-repeat; background-position: right center; background-size: cover;">
                 <div class="container">
                     <div class="row content-wrapper style-7 align-items-center">
                         <div class="col-lg-6 m-b30 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.7s">

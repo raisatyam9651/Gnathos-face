@@ -145,7 +145,7 @@
 	
 	<main class="page-content">
 	
-    		<div class="dz-bnr-inr dz-banner-dark dz-bnr-inr-md" style="background-image:url('assets/images/contact-us-(1).webp')">
+    		<div class="dz-bnr-inr dz-banner-dark dz-bnr-inr-md" style="background-image:url('assets/images/contact-us-banner.webp')">
 
 		<div class="container">
 			<div class="dz-bnr-inr-entry d-table-cell">
