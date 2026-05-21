@@ -1,17 +1,33 @@
 <?php
 // Generate sitemap with all location pages
-$files = glob("*.php");
 $locationPages = array();
 
-foreach ($files as $file) {
-    $skipFiles = array("header.php", "footer.php", "header-links.php", "footer-links.php",
-                       "index.php", "about-us.php", "contact-us.php", "faq-include.php",
-                       "services-content.php", "stats.php", "410.php", "update-pages.php");
-    if (in_array($file, $skipFiles)) continue;
+$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator('.'));
+foreach ($iterator as $fileInfo) {
+    if ($fileInfo->isFile() && $fileInfo->getExtension() === 'php') {
+        $file = $fileInfo->getPathname();
+        $file = preg_replace('/^\.\//', '', $file); // remove leading ./
 
-    if (preg_match("/^((maxillofacial-surgeon|cosmetic-facial-surgery|facial-injury-treatment|facial-swelling-treatment|oral-cancer-treatment|tmj-treatment)-in-.+)\.php$/", $file, $matches)) {
-        $url = "https://gnathosface.com/" . $matches[1];
-        $locationPages[] = $url;
+        // 1. Root location pages (e.g., cosmetic-facial-surgery-in-delhi.php)
+        if (strpos($file, '/') === false) {
+            if (preg_match("/^[a-z0-9\-]+-in-[a-z0-9\-]+\.php$/", $file)) {
+                $urlPath = preg_replace('/\.php$/', '', $file);
+                $locationPages[] = "https://gnathosface.com/" . $urlPath;
+            }
+        } 
+        // 2. Directory location pages
+        else {
+            $allowedDirs = ['difficulty-chewing-treatment', 'face-swelling-doctor', 'face-treatment', 'jaw-clicking-treatment', 'jaw-pain-treatment', 'maxillofacial', 'mouth-opening-problem-treatment', 'facial-injury-doctor'];
+            $parts = explode('/', $file);
+            $dir = $parts[0];
+            
+            if (in_array($dir, $allowedDirs)) {
+                $urlPath = preg_replace('/\.php$/', '', $file);
+                // If it's an index.php, map it to the directory
+                $urlPath = preg_replace('/\/index$/', '/', $urlPath);
+                $locationPages[] = "https://gnathosface.com/" . $urlPath;
+            }
+        }
     }
 }
 
