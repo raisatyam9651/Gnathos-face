@@ -3,10 +3,11 @@
 <head>
 
 		<!-- Title -->
-	<title>Oral Cancer Treatment Hyderabad | Expert Surgeon | Dr. Suresh PL</title>
-
-
-	<meta name="description" content="Early oral cancer detection & advanced treatment. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Free consultation — Book today.">
+	<title>Oral Cancers
+</title>
+	
+	
+	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
 	 
 	<?php include('header-links.php')?>
 	

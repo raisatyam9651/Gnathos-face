@@ -3,10 +3,12 @@
 <head>
 
 		<!-- Title -->
-	<title>Facial Swelling Treatment Hyderabad | Expert Maxillofacial Surgeon | Dr. Suresh PL</title>
+	<title>Facial Swellings & Infections
 
-
-	<meta name="description" content="Get lasting relief from facial swelling & infections. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Free consultation — Book today.">
+</title>
+	
+	
+	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
 	 
 	<?php include('header-links.php')?>
 	
@@ -768,7 +770,7 @@
 </div>
 
 <p class="fracture-guide__note">
-    <strong>Note:</strong> If you experience any of these symptoms, consult a <strong>maxillofacial surgeon in Hyderabad</strong> or the <strong>best maxillofacial surgeon in India</strong> for expert treatment. Need facial swelling treatment in your state? <a href="facial-swelling-treatment-in-india" style="color: var(--theme-color); font-weight: 600;">Find a specialist in your state →</a>
+    <strong>Note:</strong> If you experience any of these symptoms, consult a <strong>maxillofacial surgeon in Hyderabad</strong> or the <strong>best maxillofacial surgeon in India</strong> for expert treatment.
 </p>
 
                     </div>
