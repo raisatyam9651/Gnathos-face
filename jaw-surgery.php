@@ -28,7 +28,7 @@ include $path_prefix . 'header.php';
           Restore facial harmony, correct bite abnormalities, and improve breathing functionality. Led by Dr. Suresh, utilizing 3D Virtual Surgical Planning for unparalleled precision in complex maxillofacial reconstructions.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="contact.php" class="inline-flex items-center justify-center bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:brightness-110 hover:shadow-[0_0_20px_rgba(19,104,112,0.4)] transition-all duration-300 text-center font-bold">
+          <a href="index.php#contact" class="inline-flex items-center justify-center bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:brightness-110 hover:shadow-[0_0_20px_rgba(19,104,112,0.4)] transition-all duration-300 text-center font-bold">
             Request Assessment
           </a>
           <a href="conditions.php" class="inline-flex items-center justify-center border border-outline-variant/60 text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-white/10 hover:border-white/40 hover:shadow-lg transition-all duration-300 text-center">

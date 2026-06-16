@@ -27,7 +27,7 @@ include $path_prefix . 'header.php';
           Delivering world-class surgical precision and comprehensive care with over 20 years of clinical expertise in complex facial and jaw reconstructions.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="contact.php" class="inline-flex items-center justify-center bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:brightness-110 hover:shadow-[0_0_20px_rgba(19,104,112,0.4)] transition-all duration-300 text-center font-bold gap-2">
+          <a href="#contact" class="inline-flex items-center justify-center bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:brightness-110 hover:shadow-[0_0_20px_rgba(19,104,112,0.4)] transition-all duration-300 text-center font-bold gap-2">
             Schedule Consultation
             <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
           </a>

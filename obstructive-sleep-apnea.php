@@ -43,7 +43,7 @@ include $path_prefix . 'header.php';
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant">
                 <a href="index.php" class="hover:text-primary">Home</a>
                 <span class="material-symbols-outlined text-base">chevron_right</span>
-                <a href="services.php" class="hover:text-primary">Services</a>
+                <a href="treatments.php" class="hover:text-primary">Treatments</a>
                 <span class="material-symbols-outlined text-base">chevron_right</span>
                 <span class="text-primary">Obstructive Sleep Apnea</span>
             </nav>

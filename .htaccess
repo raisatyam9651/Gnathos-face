@@ -1,4 +1,9 @@
-RewriteEngine on 
+RewriteEngine on
+
+# Redirect old paths to the new pages to prevent 403 Forbidden errors and 404s
+RewriteRule ^services(\.php)?/?$ /treatments [R=301,L,NC]
+RewriteRule ^contact\.php$ /#contact [R=301,L,NC]
+
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.php -f 
 RewriteRule ^(.*)$ $1.php
@@ -10,8 +15,7 @@ RewriteRule ^ %1 [R=302,L,NE]
 
 # --- BEGIN GNA-Face-New-Website 301 Redirects ---
 
-Redirect 301 "/services" "/treatments"
-Redirect 301 "/services.php" "/treatments"
+# Services and contact.php are redirected via RewriteRules at the top of the file to prevent conflicts.
 Redirect 301 "/about" "/#about"
 Redirect 301 "/contact-us" "/#contact"
 Redirect 301 "/cosmetic-facial-surgery" "/cosmetic-facial-surgery-treatment"
