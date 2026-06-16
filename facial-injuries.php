@@ -55,93 +55,19 @@ include $path_prefix . 'header.php';
 <p class="text-on-surface-variant text-sm">Located at CARE Hospitals—a Level 1 trauma center with full emergency and ICU support.</p>
 </div>
 <div class="text-center">
-<?
-<di>
-<sp
-</sp
-</di>
-<di>
-</sp
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
-</di>
-</sp>
+<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+<span class="material-symbols-outlined text-3xl">precision_manufacturing</span>
+</div>
+<h3 class="font-headline-sm text-lg text-primary mb-2">Precision Reconstruction</h3>
+<p class="text-on-surface-variant text-sm">Advanced plating and rigid fixation techniques to restore natural pre-injury appearance and jaw alignment.</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+<span class="material-symbols-outlined text-3xl">healing</span>
+</div>
+<h3 class="font-headline-sm text-lg text-primary mb-2">Scar Minimization</h3>
+<p class="text-on-surface-variant text-sm">Meticulous layered suturing techniques focused on preserving cosmetics and minimizing visible scarring.</p>
+</div>
 </div>
 </div>
 </section>
