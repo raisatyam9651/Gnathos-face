@@ -157,7 +157,7 @@ include $path_prefix . 'header.php';
 <div class="grid md:grid-cols-2 gap-8">
 <div class="flex items-start gap-4 bg-surface-container-lowest p-6 rounded-xl border border-surface-variant">
 <div class="w-12 h-12 rounded-full bg-error/10 flex items-center justify-center text-error shrink-0">
-<span class="material-symbols-outlined text-2xl">heaint_dissatisfied</span>
+<span class="material-symbols-outlined text-2xl">sentiment_dissatisfied</span>
 </div>
 <div>
 <h3 class="font-headline-sm text-lg text-primary mb-2">Persistent Mouth Ulcers</h3>
@@ -202,7 +202,7 @@ include $path_prefix . 'header.php';
 </div>
 <div class="flex items-start gap-4 bg-surface-container-lowest p-6 rounded-xl border border-surface-variant">
 <div class="w-12 h-12 rounded-full bg-error/10 flex items-center justify-center text-error shrink-0">
-<span class="material-symbols-outlined text-2xl">neuropathic_pain</span>
+<span class="material-symbols-outlined text-2xl">personal_injury</span>
 </div>
 <div>
 <h3 class="font-headline-sm text-lg text-primary mb-2">Numbness or Pain</h3>
