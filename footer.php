@@ -101,8 +101,7 @@
         <a class="hover:text-white transition-colors" href="#">Clinical Governance</a>
       </div>
     </div>
-    <!-- Callback Tracker Widget -->
-    <noindex><script src="//widget.callbacktracker.com/tracker/c6394a9dc8ccb04b818e29bf42baa036761ffc07" charset="UTF-8"  async="async" type="text/javascript"></script></noindex>
+
   </div>
 </footer>
 
