@@ -1,1012 +1,511 @@
-<!DOCTYPE html>
-<html lang="en" data-theme-color="skin-1">
-<head>
-
-<!-- SEO Meta Tags -->
-<title>Facial Swelling Treatment Hyderabad | Expert Maxillofacial Surgeon | Dr. Suresh PL</title>
-<meta name="description" content="Get lasting relief from facial swelling & infections. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Free consultation — Book today.">
-<meta name="keywords" content="facial swelling treatment in Hyderabad, best doctor for facial swelling in Hyderabad, swelling treatment Hyderabad, facial inflammation India, jaw swelling doctor Hyderabad">
-<meta name="author" content="GnathosFace">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://gnathosface.com/facial-swelling-treatment" />
-
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Facial Swelling Treatment in Hyderabad | Best Doctor for Facial Inflammation">
-<meta property="og:description" content="GnathosFace offers facial swelling treatment in Hyderabad. Get expert care from the best doctor for facial inflammation in India.">
-<meta property="og:url" content="https://gnathosface.com/facial-swelling-treatment">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="GnathosFace">
-
-<!-- Twitter Card Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Facial Swelling Treatment in Hyderabad | Best Doctor for Facial Inflammation">
-<meta name="twitter:description" content="Looking for facial swelling treatment in Hyderabad? GnathosFace provides expert care for facial inflammation and jaw swelling in India.">
-
-<!-- Geo Tags -->
-<meta name="geo.region" content="IN-TG">
-<meta name="geo.placename" content="Hyderabad">
-<meta name="geo.position" content="17.3850;78.4867">
-<meta name="ICBM" content="17.3850, 78.4867">
-
-<!-- JSON-LD Schema Markup -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "name": "GnathosFace",
-  "url": "https://gnathosface.com",
-  "image": "https://gnathosface.com/images/logo.png",
-  "description": "GnathosFace offers expert facial swelling treatment in Hyderabad, India. Get the best care for jaw swelling, facial inflammation, and related conditions.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli",
-    "addressLocality": "Hyderabad",
-    "addressRegion": "Telangana",
-    "postalCode": "500032",
-    "addressCountry": "India"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 17.3850,
-    "longitude": 78.4867
-  },
-  "openingHours": "Mo-Sa 09:00-18:00",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91-9000666476",
-    "contactType": "Customer Service"
-  },
-  "medicalSpecialty": "Oral and Maxillofacial Surgery",
-  "areaServed": ["Hyderabad", "India"]
-}
-</script>
-
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
-	 
-	<?php include('header-links.php')?>
-	
-	
-	 
-	<!-- FAVICONS ICON -->
-   <style>
-        .site-header{
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        :root {
-            --theme-color: #195FAC;
-            --theme-light: #2196f3;
-             --med-primary: #1976D2;
-            --med-light: #64B5F6;
-            --med-dark: #0D47A1;
-            --med-pale: #E3F2FD;
-            --gna-theme-color: #195FAC;
-            --gna-theme-light: #2196f3;
-            --gna-med-primary: #1976D2;
-            --gna-med-light: #64B5F6;
-            --gna-med-dark: #0D47A1;
-            --gna-med-pale: #E3F2FD;
-        }
-       
-        .section-title {
-            position: relative;
-            margin-bottom: 2.5rem;
-            color: var(--theme-color);
-        }
-      .DZ-theme-btn{
-          display:none  !important ;
-      }
-
-       
-        .marquee-container {
-            background: linear-gradient(45deg, #172C5A, #2a4380, #172C5A);
-            background-size: 200% 200%;
-            padding: 20px 0;
-            overflow: hidden;
-            position: relative;
-            box-shadow: 0 4px 15px rgba(23, 44, 90, 0.3);
-            animation: gradientBG 20s ease infinite;
-        }
-
-        .marquee-content {
-            white-space: nowrap;
-            display: inline-block;
-            animation: marquee 30s linear infinite;
-            color: #ffffff;
-            font-size: 1.4rem;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-            padding: 0 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Location icon styling */
-        .location-icon {
-            margin-right: 10px;
-            color: #ffffff;
-        }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        /* Smooth pause on hover */
-        .marquee-container:hover .marquee-content {
-            animation-play-state: paused;
-            transform: scale(1.01);
-            transition: transform 0.3s ease;
-        }
-
-        /* Add a subtle glow effect */
-        .marquee-content::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.1);
-            filter: blur(5px);
-            z-index: -1;
-        }
-       @media (max-width: 767px) and (min-width: 200px) {
-           .mob{
-               display:none;
-           }
-       }
-      
-        @media (max-width: 991.98px) {
-           
-        }
-        
-        
-        .tmj-section {
-           padding: 20px 80px;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .bg-shape {
-            position: absolute;
-            border-radius: 50%;
-            background: linear-gradient(145deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            opacity: 0.05;
-        }
-        
-        .shape-1 {
-            width: 400px;
-            height: 400px;
-            top: -200px;
-            right: -200px;
-        }
-        
-        .shape-2 {
-            width: 300px;
-            height: 300px;
-            bottom: -100px;
-            left: -150px;
-        }
-        
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-            position: relative;
-        }
-        
-        .section-title {
-            color: var(--med-dark);
-            font-weight: 800;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -15px;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-            border-radius: 2px;
-        }
-        
-        .section-intro {
-            max-width: 700px;
-            margin: 30px auto 0;
-            color: #546E7A;
-            font-size: 1.1rem;
-        }
-        
-        .symptoms-container {
-            position: relative;
-        }
-        
-        .symptom-card {
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            transition: all 0.4s ease;
-            margin-bottom: 30px;
-            position: relative;
-            z-index: 1;
-            overflow: hidden;
-            border: none;
-        }
-        
-        .symptom-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 6px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-        }
-        
-        .symptom-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(33, 150, 243, 0.15);
-        }
-        
-        .number-badge {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, var(--theme-color), var(--theme-light));
-            color: white;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            font-size: 18px;
-            box-shadow: 0 4px 8px rgba(33, 150, 243, 0.25);
-        }
-        
-        .card-body {
-            padding: 35px 25px 30px 70px;
-        }
-        
-        .symptom-title {
-            color: var(--med-dark);
-            font-weight: 700;
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            position: relative;
-        }
-        
-        .symptom-desc {
-            color: #546E7A;
-            line-height: 1.7;
-        }
-        
-        .note-container {
-            margin-top: 50px;
-            position: relative;
-        }
-        
-        .note-box {
-            background: white;
-            border-radius: 16px;
-            padding: 35px 40px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .note-box::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 6px;
-            height: 100%;
-            background: linear-gradient(to bottom, var(--theme-color), var(--theme-light));
-        }
-        
-        .note-title {
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--med-dark);
-            font-size: 1.25rem;
-            position: relative;
-        }
-        
-        .specialist-link {
-            color: var(--theme-color);
-            font-weight: 700;
-            text-decoration: none;
-            background-image: linear-gradient(to right, var(--theme-color), var(--theme-color));
-            background-position: bottom;
-            background-size: 100% 2px;
-            background-repeat: no-repeat;
-            transition: all 0.3s ease;
-            padding-bottom: 2px;
-        }
-        
-        .specialist-link:hover {
-            color: var(--theme-light);
-            background-size: 0% 2px;
-        }
-        
-        .gradient-accent {
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            filter: blur(50px);
-            opacity: 0.07;
-            z-index: 0;
-        }
-        
-        .accent-1 {
-            top: 10%;
-            right: 5%;
-        }
-        
-        .accent-2 {
-            bottom: 20%;
-            left: 10%;
-        }
-        
-        @media (max-width: 768px) {
-            .tmj-section {
-                padding: 60px 0;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            .card-body {
-                padding: 30px 20px 25px 60px;
-            }
-        }
-
-         .gna-tmj-section {
-            padding: 80px 0;
-            position: relative;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-        }
-        
-        
-        
-        .gna-section-title {
-            color: var(--gna-med-dark);
-            font-weight: 700;
-            margin-bottom: 15px;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .gna-section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: var(--gna-theme-light);
-            border-radius: 2px;
-        }
-        
-        .gna-tmj-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            height: 100%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none;
-        }
-        
-        .gna-tmj-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-        }
-        
-        .gna-card-img-container {
-            /*height: 300px;*/
-            overflow: hidden;
-            position: relative;
-        }
-        
-        @media (min-width: 768px){
-             .unique-section{
-                 padding:20px !important;
-             }
-         }
-        
-        .gna-card-img-overlay {
-            background: linear-gradient(to bottom, rgba(25, 95, 172, 0.1), rgba(25, 95, 172, 0.7));
-            display: flex;
-            align-items: flex-end;
-            padding: 20px;
-        }
-        
-        .gna-card-img-title {
-            color: white;
-            font-weight: 600;
-            margin: 0;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        
-        .gna-card-body {
-            padding: 25px;
-        }
-        
-        .gna-tmj-icon {
-            font-size: 24px;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .gna-tmj-card:hover .gna-tmj-icon {
-            background-color: var(--gna-med-primary);
-            color: white;
-        }
-        
-        .gna-treatment-badge {
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-        
-        .gna-main-content {
-            background-color: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            margin-bottom: 40px;
-        }
-        
-        .gna-highlight-text {
-            color: var(--gna-med-primary);
-            font-weight: 600;
-        }
-        
-        .gna-cta-button {
-            background: linear-gradient(45deg, var(--gna-med-dark), var(--gna-med-primary));
-            border: none;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.3);
-        }
-        
-        .gna-cta-button:hover {
-            background: linear-gradient(45deg, var(--gna-med-primary), var(--gna-theme-light));
-            transform: translateY(-2px);
-            color:white;
-            box-shadow: 0 6px 20px rgba(25, 95, 172, 0.4);
-        }
-        
-        .gna-feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        
-        .gna-feature-icon {
-            margin-right: 15px;
-            min-width: 40px;
-            height: 40px;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        @media (max-width: 768px) {
-            .gna-tmj-section {
-                padding: 50px 0;
-            }
-            
-            .gna-main-content {
-                padding: 25px;
-            }
-        }
-
-    </style>
-
-</head>	
-<body id="bg">
-<div class="page-wraper">
-	
-
-		<!-- Header Star -->
-		<?php include('header.php')?>
-	<!-- Header End -->
-	
-	<main class="page-content">
-	
-    		<div class="dz-bnr-inr dz-banner-dark  dz-bnr-inr-md" style="background-image:url(assets/images/breadcrumbs/Face-swellings.webp);">
-		<div class="container">
-			<div class="dz-bnr-inr-entry d-table-cell">
-				<h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Facial Swellings
+<?php
+$path_prefix = "";
+$page_title = "Facial Swelling Treatment Hyderabad | Gnathos Facial Surgery";
+$page_description = "Expert facial swelling treatment in Hyderabad at CARE Hospitals. Dr. Suresh P.L. diagnoses & treats face swelling from dental infections, trauma, cysts & oral pathology. Book evaluation today.";
+include $path_prefix . 'header-include.php';
+include $path_prefix . 'header.php';
+?>
 
 
-</h1> 
-				<nav aria-label="breadcrumb" class="breadcrumb-row wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-					<ul class="breadcrumb">
-						<li class="breadcrumb-item "><a  class ="text-white"href="index">Home</a></li>
-						<li class="breadcrumb-item">Services</li>
-					</ul>
-				</nav>
-				<div class="dz-btn">
-					<a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
-						<span class="left-icon">
-							<i class="feather icon-phone-call"></i>
-						</span>
-						+919000666476
-					</a>					
-				</div>
-			</div>
-		</div>
-		<!--<span class="text-vertical">24/7 EMERGENCY SERVICE</span>-->
-		
-	</div>
-	
-	
-	<section class="gna-tmj-section">
-        <div class="container">
-            <div class="section-header">
-            <h2 class="section-title">Facial Swellings
-
-
-</h2>
-            <!--<p class="section-intro">TMJ disorders pose unique challenges that require expert intervention from a maxillofacial surgeon in Hyderabad. Here are some of the key concerns:</p>-->
-        </div>
-            
-            <div class="row">
-                <div class="col-lg-12 mx-auto">
-                    <div class="gna-main-content">
-                        <p class="mb-4">Facial swelling can result from a variety of causes, such as infections, injuries, or underlying health issues. At GNA Face, we provide effective treatments like Incision and Drainage, Antibiotics, and Removal of Cause to manage and treat facial swelling with expert care. With the guidance of the Best Maxillofacial Surgeon in India, we ensure that you receive the best possible care for a smooth and speedy recovery.
-
-</p>
-                        
-                              
-                        <div class="text-center py-1">
-                            <a href="https://wa.me/919000666476" class="gna-cta-button">Schedule a Consultation</a>
-                        </div>
-                    </div>
+<main>
+    <!-- Hero Section -->
+    <section class="relative pt-section-gap pb-section-gap overflow-hidden">
+        <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-6 z-10">
+                <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
+                <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Facial Swelling Diagnosis & Treatment</h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                    Identify the root cause of facial swelling with precision diagnostics. From dental infections to cysts, our oral and maxillofacial surgeons at CARE Hospitals, Banjara Hills provide targeted treatment for lasting relief.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                        Book Evaluation
+                    </button>
                 </div>
             </div>
-            
-           
+            <div class="md:col-span-6 relative mt-12 md:mt-0">
+                <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                    <img alt="Oral maxillofacial surgeon examining patient with facial swelling at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="asset/facial-injuries.png"/>
+                </div>
+            </div>
         </div>
     </section>
-    
 
-
-<section class="unique-section m-3">
-    <div class="section-header">
-        <h2 class="section-title">Facial Swelling Treatments</h2>
-    </div>
-    <div class="row">
-        <!-- Incision and Drainage -->
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/facial-swelling/Antibiotics.webp" class="card-img-top" alt="Incision and Drainage">
+    <!-- Why Choose Us -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Why Choose Gnathos Facial for Facial Swelling Treatment</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Accurate diagnosis is critical for effective facial swelling treatment. Our team combines clinical expertise with advanced imaging to identify underlying causes.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">search</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Precision Diagnosis</h3>
+                    <p class="text-on-surface-variant text-sm">CBCT and 3D imaging to pinpoint exact cause of facial swelling — infection, cyst, tumor, or trauma.</p>
                 </div>
-                <div class="gna-card-body">
-                    <h5 class="card-title mb-3">Incision and Drainage: Relieving Swelling with Precision</h5>
-                    <p class="card-text">When an infection or abscess causes facial swelling, Incision and Drainage (I&D) is often necessary to remove the pus and relieve pressure. This procedure helps reduce the swelling, ease pain, and prevent further complications.</p>
-
-                    <h6 class="mt-4 mb-3">How It Works:</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Swift Relief:</strong> I&D allows for quick removal of infected material, providing immediate pain relief and reducing swelling.</p>
-                        </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
                     </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Effective for Abscesses:</strong> Often used to treat abscesses that form in soft tissues, gums, or jaw regions.</p>
-                        </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Care</h3>
+                    <p class="text-on-surface-variant text-sm">Treatment at CARE Hospitals, Banjara Hills — full access to ICU, specialists, and emergency care if needed.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">medical_services</span>
                     </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Minimal Scarring:</strong> Done with small incisions to ensure minimal scarring, promoting faster healing.</p>
-                        </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Comprehensive Treatment</h3>
+                    <p class="text-on-surface-variant text-sm">From antibiotics to surgical intervention — we offer the full spectrum of facial swelling treatments in one place.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">schedule</span>
                     </div>
-
-                    <p class="mt-4"><b>If you're experiencing significant swelling due to an infection, Incision and Drainage is a safe and effective option, performed by the Best Oral and Maxillofacial Surgeon in India.</b></p>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Emergency Availability</h3>
+                    <p class="text-on-surface-variant text-sm">Rapid evaluation for severe facial swelling, especially when airway or vision may be compromised.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Antibiotics -->
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/facial-swelling/Incision and Drainage.webp" class="card-img-top" alt="Antibiotics">
+    <!-- Causes of Facial Swelling -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Understanding Facial Swelling: Common Causes</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Facial swelling (facial edema) can result from various conditions ranging from minor infections to serious pathology. Accurate diagnosis guides effective treatment.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">healing</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Dental Infections</h3>
+                    <p class="text-on-surface-variant">Swelling from infected teeth or gums, including periapical abscesses, periodontal infections, and Ludwig's angina — a serious floor-of-mouth infection.</p>
                 </div>
-                <div class="gna-card-body">
-                    <h5 class="card-title mb-3">Antibiotics: Fighting Infection from the Inside Out</h5>
-                    <p class="card-text">In cases of infection, antibiotics play a crucial role in reducing inflammation and preventing the infection from spreading. Antibiotic treatment helps control swelling and ensures a faster recovery.</p>
-
-                    <h6 class="mt-4 mb-3">Why Antibiotics Help:</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Prevent Infection Spread:</strong> Antibiotics fight off harmful bacteria that may be causing the swelling.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Reduce Inflammation:</strong> Help reduce pain, swelling, and redness associated with infection.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Complementary to Other Treatments:</strong> Often prescribed alongside other treatments like Incision and Drainage for a complete recovery.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4"><b>Antibiotics are a vital part of the treatment plan when dealing with facial swelling caused by bacterial infections, offering relief and ensuring proper healing.</b></p>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">bubble_chart</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Odontogenic Cysts & Tumors</h3>
+                    <p class="text-on-surface-variant">Jaw cysts (dentigerous, radicular, odontogenic keratocysts) and benign tumors like ameloblastoma can cause progressive facial swelling.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">air</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Salivary Gland Disorders</h3>
+                    <p class="text-on-surface-variant">Blocked salivary ducts (sialolithiasis), infections (sialadenitis), and salivary gland tumors can cause significant facial and neck swelling.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">personal_injury</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Trauma & Fractures</h3>
+                    <p class="text-on-surface-variant">Facial bone fractures, soft tissue injuries, and post-surgical swelling require careful evaluation and appropriate management.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">dermatology</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Skin & Soft Tissue Infections</h3>
+                    <p class="text-on-surface-variant">Cellulitis, abscesses, and severe skin infections of the face can spread rapidly and require urgent medical attention.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">warning</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Other Pathologies</h3>
+                    <p class="text-on-surface-variant">Oral cancer, osteomyelitis (bone infection), and systemic conditions can present as facial swelling requiring specialist evaluation.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Removal of Cause -->
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/facial-swelling/Removal of Cause.webp" class="card-img-top" alt="Removal of Cause">
+    <!-- The Diagnostic Journey -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Our Diagnostic Protocol</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    A thorough evaluation is essential to determine the cause of facial swelling and guide appropriate treatment.
+                </p>
+            </div>
+            <!-- Step 1 -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">1</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Clinical Examination</h3>
+                    <p class="text-on-surface-variant mb-6">
+                        Your evaluation begins with a detailed clinical examination. Our surgeons assess the location, extent, and characteristics of facial swelling — checking for tenderness, warmth, fluctuance, and any associated symptoms like fever, trismus, or difficulty swallowing.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Extraoral and intraoral examination</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Dental and periodontal assessment</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Lymph node evaluation</span></li>
+                    </ul>
                 </div>
-                <div class="gna-card-body">
-                    <h5 class="card-title mb-3">Removal of Cause: Addressing the Root of the Issue</h5>
-                    <p class="card-text">While draining an abscess or using antibiotics can provide temporary relief, addressing the root cause of the swelling is essential for long-term recovery. Whether it’s a tumor, cyst, or dental issue, removing the underlying cause is the key to preventing recurrence.</p>
-
-                    <h6 class="mt-4 mb-3">Why Removal of Cause is Essential:</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Target the Source:</strong> It eliminates the root cause of swelling, ensuring it doesn't return.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Comprehensive Treatment:</strong> Allows for a more holistic approach, focusing on both the symptoms and underlying conditions.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Prevention of Future Problems:</strong> Prevents long-term complications by addressing the cause directly.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4"><b>In some cases, surgical intervention may be required to remove the cause of facial swelling, helping restore function and aesthetics. Consult the Best Maxillofacial Surgeon in Hyderabad for a thorough evaluation and treatment plan tailored to your needs. Need facial swelling treatment in your state? <a href="facial-swelling-treatment-in-india" style="color: var(--theme-color); font-weight: 600;">Find a specialist in your state →</a></b></p>
+                <div class="order-1 md:order-2">
+                    <img alt="Oral maxillofacial surgeon performing clinical examination for facial swelling diagnosis at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/dr_suresh_defining_excellence.png"/>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-1 md:order-1">
+                    <img alt="Advanced CBCT 3D imaging for facial swelling diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/tmj-disorders-advanced-treatment-clinical-protocols.png"/>
+                </div>
+                <div class="order-2 md:order-2">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Advanced Imaging</h3>
+                    <p class="text-on-surface-variant mb-6">
+                        We utilize state-of-the-art imaging to visualize the underlying structures. CBCT provides detailed 3D views of jaw bones and teeth, while MRI helps assess soft tissue involvement. Ultrasound can evaluate cystic versus solid masses in real-time.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">3D CBCT scanning for bone evaluation</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">MRI for soft tissue assessment</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Ultrasound for real-time evaluation</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">3</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Biopsy & Laboratory Analysis</h3>
+                    <p class="text-on-surface-variant mb-6">
+                        When needed, we perform targeted biopsies for histopathological examination. Fine needle aspiration (FNA) or incisional biopsy provides definitive diagnosis for cysts, tumors, or suspicious lesions. Culture and sensitivity testing guides antibiotic therapy for infections.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Fine needle aspiration (FNA)</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Incisional or excisional biopsy</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Microbial culture and sensitivity</span></li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img alt="Laboratory biopsy procedure for facial swelling diagnosis at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/dr-navatha-mortha-facial.webp"/>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-
-       
-       
-          <div class="container-fluid p-0">
-        <div class="marquee-container">
-            <div class="marquee-content">
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
+    <!-- Treatment Options -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Comprehensive Treatment Pathways</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Treatment for facial swelling depends entirely on the underlying cause. We offer both conservative and surgical approaches.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Non-Surgical -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                            <span class="material-symbols-outlined">medication</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Non-Surgical Management</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Antibiotic Therapy</h4>
+                            <p class="text-on-surface-variant text-sm">Targeted antibiotics for bacterial infections, tailored based on culture and sensitivity results. IV antibiotics may be required for severe infections.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Incision & Drainage</h4>
+                            <p class="text-on-surface-variant text-sm">For abscesses, a small incision allows drainage of pus, providing immediate relief and enabling healing. Performed under local anesthesia.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Root Canal or Extraction</h4>
+                            <p class="text-on-surface-variant text-sm">Removing the source of dental infection through root canal therapy or tooth extraction often resolves associated facial swelling completely.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Surgical -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined">medical_services</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Surgical Interventions</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Cyst Enucleation</h4>
+                            <p class="text-on-surface-variant text-sm">Complete removal of jaw cysts with preservation of adjacent teeth and nerves. Large cysts may require bone regeneration procedures.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Tumor Resection</h4>
+                            <p class="text-on-surface-variant text-sm">For benign or malignant tumors, complete surgical excision with appropriate margins. Reconstruction may follow for larger defects.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Facial Fracture Repair</h4>
+                            <p class="text-on-surface-variant text-sm">Open reduction and internal fixation (ORIF) for facial bone fractures causing swelling, restoring both function and aesthetics.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                    Request a Consultation
+                </button>
             </div>
         </div>
-    </div>  
-	
-	   <section class="tmj-section">
-   
-    <!--<div class="bg-shape shape-1"></div>-->
-    <!--<div class="bg-shape shape-2"></div>-->
+    </section>
 
-    <!-- Gradient accents -->
-    <!--<div class="gradient-accent accent-1"></div>-->
-    <!--<div class="gradient-accent accent-2"></div>-->
-
- <div class="container">
-    <!-- Section header -->
-    <div class="section-header">
-        <h2 class="section-title">Why Choose GNA Face for Your Facial Swelling Treatment?</h2>
-    </div>
-
-    <!-- Why Choose GNA Face for Facial Swelling Treatment -->
-    <div class="symptoms-container">
-        <div class="row">
-            <!-- Best Maxillofacial Surgeon in India -->
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">1</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Best Maxillofacial Surgeon in India</h4>
-                        <p class="symptom-desc">Our expert team provides comprehensive care for facial swelling, ensuring the best treatment options and outcomes.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- State-of-the-Art Facilities -->
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">2</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">State-of-the-Art Facilities</h4>
-                        <p class="symptom-desc">We use advanced techniques like Incision and Drainage, Antibiotics, and surgical interventions to treat facial swelling effectively.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tailored Treatment Plans -->
-            <div class="col-lg-6 mx-auto">
-                <div class="symptom-card">
-                    <span class="number-badge">3</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Tailored Treatment Plans</h4>
-                        <p class="symptom-desc">Every patient’s condition is unique, and we offer personalized solutions for optimal recovery.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Focus on Relief and Recovery -->
-            <!--<div class="col-lg-6">-->
-            <!--    <div class="symptom-card">-->
-            <!--        <span class="number-badge">4</span>-->
-            <!--        <div class="card-body">-->
-            <!--            <h4 class="symptom-title">Focus on Relief and Recovery</h4>-->
-                        <p class="symptom-desc">At GNA Face, we focus on relieving pain, reducing swelling, and restoring function, so you can feel better and regain your health quickly.</p>
-            <!--        </div>-->
-            <!--    </div>-->
-            <!--</div>-->
-        </div>
-    </div>
-
-    <!-- Optional Note Box -->
-    <div class="note-container">
-        <!-- Any additional notes or information can be added here -->
-    </div>
-</div>
-
-
-
-</section>
-
-
-
-  
-  
-
-   
-
-    
-    
-    	
-		
-		
-	<?php include('stats.php')?>
-
-  
-		
-		  
-
-		
-		<section class="content-inner pt-5 pb-5" style="background-image: url(images/background/bg3.png); background-position: right bottom; background-repeat: no-repeat;">
-<div class="container">
-    <div class="row content-wrapper style-5">
-        <div class="col-xxl-7 col-xl-6 col-lg-5 m-b30 align-self-center">
-            <div class="content-info">
-                <div class="section-head style-1 m-b30">
-                    <h2 class="title wow fadeInUp mb-3" data-wow-delay="0.2s" data-wow-duration="0.7s">Frequently Asked Questions</h2>
-                </div>
-                <div class="accordion dz-accordion style-1" id="accordionExample">
-                    <!-- FAQ 1: What causes facial swelling? -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What causes facial swelling?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Facial swelling can result from infections, injuries, abscesses, or underlying health conditions, such as cysts or tumors.</p>
-                            </div>
+    <!-- When to Seek Emergency Care -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="bg-red-50 rounded-2xl p-8 md:p-12 border border-red-200">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <span class="material-symbols-outlined text-red-600 text-3xl">emergency</span>
+                            <h2 class="font-headline-md text-headline-md text-red-700">When Facial Swelling Is an Emergency</h2>
                         </div>
+                        <p class="font-body-lg text-body-lg text-red-800 mb-6">
+                            Some facial swelling requires immediate medical attention. Seek emergency care if you experience:
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-red-600 shrink-0 mt-1 icon-fill-1">warning</span>
+                                <span class="text-red-700">Rapidly spreading swelling involving the eye or neck</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-red-600 shrink-0 mt-1 icon-fill-1">warning</span>
+                                <span class="text-red-700">Difficulty breathing, swallowing, or opening mouth</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-red-600 shrink-0 mt-1 icon-fill-1">warning</span>
+                                <span class="text-red-700">High fever (above 101°F) with facial swelling</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-red-600 shrink-0 mt-1 icon-fill-1">warning</span>
+                                <span class="text-red-700">Numbness, weakness, or vision changes</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="material-symbols-outlined text-red-600 shrink-0 mt-1 icon-fill-1">warning</span>
+                                <span class="text-red-700">Swelling after facial trauma with deformity</span>
+                            </li>
+                        </ul>
                     </div>
-
-                    <!-- FAQ 2: How is facial swelling treated? -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.7s">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                How is facial swelling treated?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Treatment options include Incision and Drainage to remove infected material, antibiotics to fight infection, and removal of the underlying cause.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- FAQ 3: How long does it take to recover from facial swelling? -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="0.7s">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How long does it take to recover from facial swelling?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Recovery time depends on the cause of the swelling, but with appropriate treatment, most patients experience significant improvement within a few days to weeks.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- FAQ 4: Is Incision and Drainage painful? -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Is Incision and Drainage painful?
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>The procedure is performed under local anesthesia, ensuring you’re comfortable during the process. Any discomfort is usually minimal and temporary.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- FAQ 5: When should I seek medical attention for facial swelling? -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                When should I seek medical attention for facial swelling?
-                            </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>If you notice severe pain, difficulty breathing, or if the swelling doesn’t improve with home care, consult a Maxillofacial Surgeon in Hyderabad for an evaluation.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- FAQ 6: Can I avoid facial swelling? -->
-                    <div class="accordion-item wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="0.7s">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                Can I avoid facial swelling?
-                            </button>
-                        </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Maintaining good oral hygiene, protecting your face from injuries, and seeking prompt treatment for infections can help reduce the risk of facial swelling.</p>
-                            </div>
+                    <div class="text-center">
+                        <div class="bg-white p-8 rounded-xl shadow-sm border border-red-200">
+                            <span class="material-symbols-outlined text-red-500 text-5xl mb-4">phone_in_talk</span>
+                            <h3 class="font-headline-sm text-xl text-red-700 mb-2">Emergency Contact</h3>
+                            <p class="text-red-600 mb-4">For severe facial swelling emergencies, call immediately:</p>
+                            <a href="tel:+91XXXXXXXXXX" class="inline-block bg-red-600 text-white font-label-md px-6 py-3 rounded hover:bg-red-700 transition-colors">
+                                +91 XX XXX XXXX
+                            </a>
+                            <p class="text-sm text-red-500 mt-4">CARE Hospitals, Banjara Hills</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="col-xxl-5 col-xl-6 col-lg-7 m-b30">
-            <div class="content-media" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                <div class="dz-media">
-                    <img src="assets/images/services/Facial-injuries/Frequently-Asked-Questions.webp" alt="">
-                </div>
-                <div class="item1">
-                    <div class="info-widget style-5">
-                        <div class="widget-media text-primary">
-                            <i class="feather icon-phone-call dz-ring-effect"></i>
+    <!-- Recovery Timeline -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Recovery After Facial Swelling Treatment</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Recovery varies based on the cause and treatment. Our team provides detailed post-treatment guidance for optimal healing.
+                </p>
+            </div>
+            <div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xl shadow-sm border border-surface-variant overflow-hidden">
+                <div class="divide-y divide-surface-variant">
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Days 1-7</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Initial Healing</span>
                         </div>
-                        <div class="widget-content">
-                            <h6 class="title">Contact us?</h6>
-                            <a href="https://wa.me/919000666476" class="text-secondary">+919000666476</a>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">For infection-related swelling, antibiotics work over several days. Swelling peaks around days 2-3, then gradually subsides. Pain and discomfort are managed with prescribed medications.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Complete prescribed antibiotic course</li>
+                                <li>Apply ice packs for first 48 hours</li>
+                                <li>Soft diet as tolerated</li>
+                            </ul>
                         </div>
                     </div>
-                    <a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary btn-shadow">
-                        <span class="w-100">Appointment</span> <span class="right-icon"><i class="feather icon-arrow-right"></i></span>
-                    </a>
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Weeks 2-4</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Active Recovery</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Following surgical treatment, soft tissues heal while bone remodels. Most patients return to normal activities within 1-2 weeks for minor procedures.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Gradual return to normal diet</li>
+                                <li>Follow-up imaging if needed</li>
+                                <li>Sutures removed at 1-2 weeks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Months 2-6</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Full Recovery</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Bone healing continues for several months. Long-term outcomes are excellent for most conditions treated. Regular follow-up ensures complete resolution.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Complete bone remodeling</li>
+                                <li>Final functional assessment</li>
+                                <li>Ongoing monitoring for recurrence if indicated</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
+    <!-- The Surgical Team -->
+    <section class="py-section-gap bg-primary text-on-primary">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Swelling Treatment Team</h2>
+                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
+                    Our oral and maxillofacial surgeons have extensive experience diagnosing and treating the full spectrum of conditions causing facial swelling.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Suresh P.L. - Oral and Maxillofacial Surgeon treating facial swelling at CARE Hospitals Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant & Facial Surgery Specialist</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
+                                With over 20 years of experience in oral and maxillofacial surgery, Dr. Suresh has treated thousands of patients with facial swelling from infections, cysts, tumors, and trauma. His expertise spans from conservative management to complex reconstructive surgery.
+                            </p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years of Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon evaluating facial swelling in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant & Maxillofacial Surgeon</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
+                                Dr. Navatha specializes in diagnosing complex facial conditions and managing facial swelling from oral pathology. Her patient-centered approach ensures thorough evaluation and personalized treatment plans.
+                            </p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years of Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</section>
+    <!-- Patient FAQs -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Frequently Asked Questions</h2>
+                <p class="text-on-surface-variant">Common concerns about facial swelling evaluation and treatment.</p>
+            </div>
+            <div class="space-y-4">
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        What causes facial swelling on one side of the face?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Unilateral (one-sided) facial swelling is commonly caused by dental infections, cysts, salivary gland disorders, or trauma. Less commonly, tumors can present as one-sided swelling. Accurate diagnosis requires clinical examination and imaging. At our facility in Hyderabad, we use CBCT and other advanced imaging to identify the exact cause of unilateral facial swelling.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How long does facial swelling from a dental infection last?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        With appropriate antibiotic treatment, dental infection-related facial swelling typically begins to subside within 48-72 hours. Complete resolution usually occurs within 7-10 days. However, the underlying dental problem (such as an abscessed tooth) must also be treated to prevent recurrence. Root canal therapy or extraction of the infected tooth is often necessary for lasting resolution.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Can facial swelling indicate oral cancer?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        While most facial swelling is caused by benign conditions like infections or cysts, persistent, painless swelling that gradually increases in size can sometimes indicate oral cancer or other malignancies. Other warning signs include non-healing ulcers, numbness, loose teeth, and difficulty swallowing. Our oral and maxillofacial surgeons perform thorough evaluations and biopsies when indicated to rule out malignancy.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Is surgery always needed for jaw cysts causing facial swelling?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Not always. Small, asymptomatic cysts may be monitored with regular imaging. However, most jaw cysts causing facial swelling or other symptoms require surgical treatment. Cyst enucleation (complete removal) is the standard approach, which also allows for biopsy to confirm the diagnosis. Early treatment prevents cyst expansion, bone weakening, and potential infection. Our surgeons at CARE Hospitals, Hyderabad, specialize in minimally invasive techniques for cyst removal.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How much does facial swelling treatment cost in Hyderabad?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Treatment costs vary widely based on the cause and required treatment. Initial consultation and imaging (CBCT) may cost between INR 1,000-5,000. Conservative treatment with antibiotics may be relatively inexpensive. Surgical procedures like cyst removal or tumor resection range from INR 30,000 to several lakhs depending on complexity. Many health insurance plans cover medically necessary facial swelling treatment. Our billing team provides detailed estimates and assists with insurance processing.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
 
-		
-	</main>
-	
-		<!-- Footer -->
-	<?php include('footer.php')?>
+    <!-- Related Conditions -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Related Conditions We Treat</h2>
+                <p class="text-on-surface-variant">Explore other facial and jaw conditions treated at Gnathos Facial Surgery.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+                <a href="tmj-treatment.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
+                    <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">TMJ Disorders</h3>
+                    <p class="text-sm text-on-surface-variant">Jaw joint pain and dysfunction treatment</p>
+                </a>
+                <a href="jaw-surgery.php" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
+                    <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Jaw Surgery</h3>
+                    <p class="text-sm text-on-surface-variant">Orthognathic surgery for jaw alignment</p>
+                </a>
+                <a href="#" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
+                    <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Oral Pathology</h3>
+                    <p class="text-sm text-on-surface-variant">Cysts, tumors, and oral disease treatment</p>
+                </a>
+                <a href="#" class="bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-surface-variant hover:border-secondary transition-all duration-300 group">
+                    <h3 class="font-headline-sm text-primary mb-2 group-hover:text-secondary transition-colors">Facial Trauma</h3>
+                    <p class="text-sm text-on-surface-variant">Injury repair and reconstruction</p>
+                </a>
+            </div>
+        </div>
+    </section>
 
-</div>
-<!-- JAVASCRIPT FILES ========================================= -->
-<?php include('footer-links.php')?>
-</body>
-</html>
+    <!-- Final CTA -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+            <h2 class="font-headline-md text-headline-md text-primary mb-6">Don't Ignore Persistent Facial Swelling</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
+                Early evaluation leads to better outcomes. If you're experiencing facial swelling that persists, worsens, or is accompanied by pain, fever, or difficulty eating, schedule an evaluation with our specialists today.
+            </p>
+            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
+                Schedule Facial Swelling Evaluation
+                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
+            </button>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<?php
+include $path_prefix . 'footer.php';
+?>

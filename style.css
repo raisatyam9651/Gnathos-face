@@ -1,0 +1,54 @@
+/* Custom Stylesheet for Gnathos Facial Surgery / Dr. Suresh Maxillofacial Portfolio */
+
+/* Body default styling */
+body {
+    background-color: #f7f9fb;
+    color: #191c1e;
+}
+
+/* Material symbols custom rendering */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.material-symbols-outlined[data-weight="fill"] {
+    font-variation-settings: 'FILL' 1;
+}
+
+/* Custom classes replacing inline styles */
+.icon-fill-1 {
+    font-variation-settings: 'FILL' 1;
+}
+.icon-fill-0 {
+    font-variation-settings: 'FILL' 0;
+}
+.icon-weight-300 {
+    font-variation-settings: 'wght' 300;
+}
+
+/* Visual effects classes */
+.ambient-shadow {
+    box-shadow: 0 10px 40px -10px rgba(26, 43, 72, 0.05);
+}
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 50px -10px rgba(26, 43, 72, 0.08);
+}
+.glass-panel {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(224, 227, 229, 0.5);
+}
+.gradient-overlay {
+    background: linear-gradient(to right, rgba(3, 22, 50, 0.6) 0%, rgba(3, 22, 50, 0.2) 100%);
+}
+
+/* Custom Details/Summary Styles for FAQ */
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}

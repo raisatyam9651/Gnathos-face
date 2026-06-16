@@ -1,1001 +1,517 @@
-<!DOCTYPE html>
-<html lang="en" data-theme-color="skin-1">
-<head>
+<?php
+$path_prefix = "";
+$page_title = "Obstructive Sleep Apnea Treatment Hyderabad | Gnathos Facial Surgery";
+$page_description = "Expert OSA treatment in Hyderabad by Dr. Suresh P.L. Advanced surgical and non-surgical solutions for sleep apnea at CARE Hospitals, Banjara Hills.";
+include $path_prefix . 'header-include.php';
+include $path_prefix . 'header.php';
+?>
 
-<!-- SEO Meta Tags -->
-<title>Sleep Apnea Treatment Hyderabad | OSA Surgery Specialist | Dr. Suresh PL</title>
-<meta name="description" content="End snoring & sleep apnea permanently. Dr. Suresh PL, 20+ yr specialist in Hyderabad. Advanced surgical options — Book a free consultation.">
-<meta name="keywords" content="OSA treatment in Hyderabad, obstructive sleep apnea treatment in Hyderabad, sleep apnea surgery Hyderabad, OSA specialist in Hyderabad, sleep apnea doctor in India, snoring and apnea treatment Hyderabad, OSA surgery India, maxillofacial sleep disorder surgery Hyderabad">
-<meta name="author" content="GnathosFace">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://gnathosface.com/osa-treatment" />
 
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="OSA Treatment in Hyderabad | Sleep Apnea Surgery at GnathosFace">
-<meta property="og:description" content="Get expert care for sleep apnea at GnathosFace Hyderabad. Specialized OSA surgery and sleep disorder treatment by experienced maxillofacial surgeons.">
-<meta property="og:url" content="https://gnathosface.com/osa-treatment">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="GnathosFace">
-
-<!-- Twitter Card Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="OSA Treatment in Hyderabad | Sleep Apnea Surgery at GnathosFace">
-<meta name="twitter:description" content="Advanced OSA treatment in Hyderabad at GnathosFace. We offer expert surgical solutions for obstructive sleep apnea and sleep-related breathing disorders.">
-
-<!-- Geo Tags -->
-<meta name="geo.region" content="IN-TG">
-<meta name="geo.placename" content="Hyderabad">
-<meta name="geo.position" content="17.3850;78.4867">
-<meta name="ICBM" content="17.3850, 78.4867">
-
-<!-- JSON-LD Schema Markup -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "name": "GnathosFace",
-  "url": "https://gnathosface.com",
-  "image": "https://gnathosface.com/images/logo.png",
-  "description": "GnathosFace in Hyderabad provides advanced surgical treatment for obstructive sleep apnea (OSA). Our maxillofacial specialists ensure effective relief from snoring and sleep disorders.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli",
-    "addressLocality": "Hyderabad",
-    "addressRegion": "Telangana",
-    "postalCode": "500032",
-    "addressCountry": "India"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 17.3850,
-    "longitude": 78.4867
-  },
-  "openingHours": "Mo-Sa 09:00-18:00",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+91-9000666476",
-    "contactType": "Customer Service"
-  },
-  "medicalSpecialty": "Oral and Maxillofacial Surgery",
-  "areaServed": ["Hyderabad", "India"]
-}
-</script>
-
-	 
-	<?php include('header-links.php')?>
-	
-	
-	 
-	<!-- FAVICONS ICON -->
-   <style>
-        .site-header{
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        :root {
-            --theme-color: #195FAC;
-            --theme-light: #2196f3;
-             --med-primary: #1976D2;
-            --med-light: #64B5F6;
-            --med-dark: #0D47A1;
-            --med-pale: #E3F2FD;
-            --gna-theme-color: #195FAC;
-            --gna-theme-light: #2196f3;
-            --gna-med-primary: #1976D2;
-            --gna-med-light: #64B5F6;
-            --gna-med-dark: #0D47A1;
-            --gna-med-pale: #E3F2FD;
-        }
-       
-        .section-title {
-            position: relative;
-            margin-bottom: 2.5rem;
-            color: var(--theme-color);
-        }
-      .DZ-theme-btn{
-          display:none  !important ;
-      }
-
-       
-        .marquee-container {
-            background: linear-gradient(45deg, #172C5A, #2a4380, #172C5A);
-            background-size: 200% 200%;
-            padding: 20px 0;
-            overflow: hidden;
-            position: relative;
-            box-shadow: 0 4px 15px rgba(23, 44, 90, 0.3);
-            animation: gradientBG 20s ease infinite;
-        }
-
-        .marquee-content {
-            white-space: nowrap;
-            display: inline-block;
-            animation: marquee 30s linear infinite;
-            color: #ffffff;
-            font-size: 1.4rem;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-            padding: 0 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Location icon styling */
-        .location-icon {
-            margin-right: 10px;
-            color: #ffffff;
-        }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        /* Smooth pause on hover */
-        .marquee-container:hover .marquee-content {
-            animation-play-state: paused;
-            transform: scale(1.01);
-            transition: transform 0.3s ease;
-        }
-
-        /* Add a subtle glow effect */
-        .marquee-content::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.1);
-            filter: blur(5px);
-            z-index: -1;
-        }
-       @media (max-width: 767px) and (min-width: 200px) {
-           .mob{
-               display:none;
-           }
-       }
-      
-        @media (max-width: 991.98px) {
-           
-        }
-        
-        
-        .tmj-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .bg-shape {
-            position: absolute;
-            border-radius: 50%;
-            background: linear-gradient(145deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            opacity: 0.05;
-        }
-        
-        .shape-1 {
-            width: 400px;
-            height: 400px;
-            top: -200px;
-            right: -200px;
-        }
-        
-        .shape-2 {
-            width: 300px;
-            height: 300px;
-            bottom: -100px;
-            left: -150px;
-        }
-        
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-            position: relative;
-        }
-        
-        .section-title {
-            color: var(--med-dark);
-            font-weight: 800;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -15px;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-            border-radius: 2px;
-        }
-        
-        .section-intro {
-            max-width: 700px;
-            margin: 30px auto 0;
-            color: #546E7A;
-            font-size: 1.1rem;
-        }
-        
-        .symptoms-container {
-            position: relative;
-        }
-        
-        .symptom-card {
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            transition: all 0.4s ease;
-            margin-bottom: 30px;
-            position: relative;
-            z-index: 1;
-            overflow: hidden;
-            border: none;
-        }
-        
-        .symptom-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 6px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-        }
-        
-        .symptom-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(33, 150, 243, 0.15);
-        }
-        
-        .number-badge {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, var(--theme-color), var(--theme-light));
-            color: white;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            font-size: 18px;
-            box-shadow: 0 4px 8px rgba(33, 150, 243, 0.25);
-        }
-        
-        .card-body {
-            padding: 35px 25px 30px 70px;
-        }
-        
-        .symptom-title {
-            color: var(--med-dark);
-            font-weight: 700;
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            position: relative;
-        }
-        
-        .symptom-desc {
-            color: #546E7A;
-            line-height: 1.7;
-        }
-        
-        .note-container {
-            margin-top: 50px;
-            position: relative;
-        }
-        
-        .note-box {
-            background: white;
-            border-radius: 16px;
-            padding: 35px 40px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .note-box::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 6px;
-            height: 100%;
-            background: linear-gradient(to bottom, var(--theme-color), var(--theme-light));
-        }
-        
-        .note-title {
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--med-dark);
-            font-size: 1.25rem;
-            position: relative;
-        }
-        
-        .specialist-link {
-            color: var(--theme-color);
-            font-weight: 700;
-            text-decoration: none;
-            background-image: linear-gradient(to right, var(--theme-color), var(--theme-color));
-            background-position: bottom;
-            background-size: 100% 2px;
-            background-repeat: no-repeat;
-            transition: all 0.3s ease;
-            padding-bottom: 2px;
-        }
-        
-        .specialist-link:hover {
-            color: var(--theme-light);
-            background-size: 0% 2px;
-        }
-        
-        .gradient-accent {
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            filter: blur(50px);
-            opacity: 0.07;
-            z-index: 0;
-        }
-        
-        .accent-1 {
-            top: 10%;
-            right: 5%;
-        }
-        
-        .accent-2 {
-            bottom: 20%;
-            left: 10%;
-        }
-        
-        @media (max-width: 768px) {
-            .tmj-section {
-                padding: 60px 0;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            .card-body {
-                padding: 30px 20px 25px 60px;
-            }
-        }
-
-         .gna-tmj-section {
-            padding: 80px 0;
-            position: relative;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-        }
-        
-        
-        
-        .gna-section-title {
-            color: var(--gna-med-dark);
-            font-weight: 700;
-            margin-bottom: 15px;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .gna-section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: var(--gna-theme-light);
-            border-radius: 2px;
-        }
-        
-        .gna-tmj-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            height: 100%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none;
-        }
-        
-        .gna-tmj-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-        }
-        
-        .gna-card-img-container {
-            /*height: 400px;*/
-            overflow: hidden;
-            position: relative;
-        }
-        
-        @media (min-width: 768px){
-             .unique-section{
-                 padding:20px !important;
-             }
-         }
-        
-        .gna-card-img-overlay {
-            background: linear-gradient(to bottom, rgba(25, 95, 172, 0.1), rgba(25, 95, 172, 0.7));
-            display: flex;
-            align-items: flex-end;
-            padding: 20px;
-        }
-        
-        .gna-card-img-title {
-            color: white;
-            font-weight: 600;
-            margin: 0;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        
-        .gna-card-body {
-            padding: 25px;
-        }
-        
-        .gna-tmj-icon {
-            font-size: 24px;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .gna-tmj-card:hover .gna-tmj-icon {
-            background-color: var(--gna-med-primary);
-            color: white;
-        }
-        
-        .gna-treatment-badge {
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-        
-        .gna-main-content {
-            background-color: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            margin-bottom: 40px;
-        }
-        
-        .gna-highlight-text {
-            color: var(--gna-med-primary);
-            font-weight: 600;
-        }
-        
-        .gna-cta-button {
-            background: linear-gradient(45deg, var(--gna-med-dark), var(--gna-med-primary));
-            border: none;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.3);
-        }
-        
-        .gna-cta-button:hover {
-            background: linear-gradient(45deg, var(--gna-med-primary), var(--gna-theme-light));
-            transform: translateY(-2px);
-              color: white;
-            box-shadow: 0 6px 20px rgba(25, 95, 172, 0.4);
-        }
-        
-        .gna-feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        
-        .gna-feature-icon {
-            margin-right: 15px;
-            min-width: 40px;
-            height: 40px;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        @media (max-width: 768px) {
-            .gna-tmj-section {
-                padding: 50px 0;
-            }
-            
-            .gna-main-content {
-                padding: 25px;
-            }
-        }
-
-    </style>
-
-</head>	
-<body id="bg">
-<div class="page-wraper">
-	
-
-		<!-- Header Star -->
-		<?php include('header.php')?>
-	<!-- Header End -->
-	
-	<main class="page-content">
-	
-    		<div class="dz-bnr-inr dz-banner-dark  dz-bnr-inr-md" style="background-image:url(assets/images/breadcrumbs/Obstructive-Sleep-Apnea.webp);">
-		<div class="container">
-			<div class="dz-bnr-inr-entry d-table-cell">
-				<h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Obstructive Sleep Apnea
-</h1> 
-				<nav aria-label="breadcrumb" class="breadcrumb-row wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-					<ul class="breadcrumb">
-						<li class="breadcrumb-item "><a  class ="text-white"href="index">Home</a></li>
-						<li class="breadcrumb-item">Services</li>
-					</ul>
-				</nav>
-				<div class="dz-btn">
-					<a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
-						<span class="left-icon">
-							<i class="feather icon-phone-call"></i>
-						</span>
-						+919000666476
-					</a>					
-				</div>
-			</div>
-		</div>
-		<!--<span class="text-vertical">24/7 EMERGENCY SERVICE</span>-->
-		
-	</div>
-	
-	
-	<section class="gna-tmj-section">
-        <div class="container">
-            <div class="section-header">
-            <h2 class="section-title">Obstructive Sleep Apnea
-</h2>
-            <!--<p class="section-intro">TMJ disorders pose unique challenges that require expert intervention from a maxillofacial surgeon in Hyderabad. Here are some of the key concerns:</p>-->
-        </div>
-            
-            <div class="row">
-                <div class="col-lg-12 mx-auto">
-                    <div class="gna-main-content">
-                        <p class="mb-4">Obstructive Sleep Apnea (OSA) is a serious sleep disorder where your airway becomes blocked, affecting your breathing during sleep. At GNA Face, we offer effective treatment options to help improve your sleep quality and overall health. With the expertise of the Best Maxillofacial Surgeon in India, we utilize advanced treatments such as CPAP therapy and cutting-edge advancements to manage OSA and restore restful sleep.
-</p>
-                        
-                              <!--<h4 class="text-dark">Open Reduction and Internal Fixation (ORIF): Stabilizing the Jaw and Skin Tissue</h4>-->
-                              
-                              <!--<p class="mb-4">When facial bones are damaged due to trauma or other conditions, proper bone fixation is essential for healing. Open Reduction and Internal Fixation (ORIF) involves surgically opening the area to realign the bones and securing them with hardware, like plates and screws, to stabilize the structure. This treatment ensures that the bone heals correctly, allowing for effective skin grafting.</p>-->
-                                 
-                                  <!--<h6 class="mt-4 mb-3">How ORIF Helps:</h6>-->
-                                  
-                                  
-                            <!--     <div class="gna-feature-item">-->
-                            <!--    <div class="gna-feature-icon">-->
-                            <!--        <i class="fas fa-check"></i>-->
-                            <!--    </div>-->
-                            <!--    <div>-->
-                            <!--        <p class="mb-0"><strong>Stabilizes Fractured Bones:</strong> Plates and screws secure the bones, ensuring they heal in the correct position and reducing the risk of further damage.</p>-->
-                            <!--    </div>-->
-                            <!--</div>-->
-                            
-                            <!--<div class="gna-feature-item">-->
-                            <!--    <div class="gna-feature-icon">-->
-                            <!--        <i class="fas fa-check"></i>-->
-                            <!--    </div>-->
-                            <!--    <div>-->
-                            <!--        <p class="mb-0"><strong>Supports Skin Grafting:</strong> Proper bone fixation creates a stable surface for grafts to adhere, promoting faster healing.</p>-->
-                            <!--    </div>-->
-                            <!--</div>-->
-                            
-                            <!--<div class="gna-feature-item">-->
-                            <!--    <div class="gna-feature-icon">-->
-                            <!--        <i class="fas fa-check"></i>-->
-                            <!--    </div>-->
-                            <!--    <div>-->
-                            <!--        <p class="mb-0"><strong>Minimizes Discomfort:</strong> By securely fixing the bones, this procedure reduces unnecessary movement, improving comfort during recovery.</p>-->
-                            <!--    </div>-->
-                            <!--</div>-->
-                              
-                   <p class="mb-4">This technique is especially beneficial for patients dealing with severe facial trauma or bone loss. The <b>Best Maxillofacial Surgeon in India</b> ensures a precise and effective procedure to restore both function and aesthetics.</p>
-
-                        <div class="text-center my-5">
-                            <a href="https://wa.me/919000666476" class="gna-cta-button">Schedule a Consultation</a>
-                        </div>
-                    </div>
+<main>
+    <!-- HERO SECTION -->
+    <section class="relative pt-section-gap pb-section-gap overflow-hidden">
+        <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-6 z-10">
+                <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
+                <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">
+                    Advanced Obstructive Sleep Apnea Treatment in Hyderabad
+                </h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                    Reclaim restful sleep and improve your quality of life with precision diagnostics and specialized surgical expertise. Our team at CARE Hospitals, Banjara Hills offers comprehensive OSA treatment tailored to your needs.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                        Book Consultation
+                    </button>
                 </div>
             </div>
-            
-           
-        <!--</div>-->
+            <div class="md:col-span-6 relative mt-12 md:mt-0">
+                <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                    <img alt="Patient resting peacefully after successful OSA treatment - Sleep apnea surgery at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    
-     
-            
-            
-	<section class="unique-section m-3">
-    <div class="section-header">
-        <h2 class="section-title">CPAP Therapy for OSA Treatment</h2>
-        <!--<p class="section-intro">OSA (Obstructive Sleep Apnea) is a common condition that affects sleep quality. CPAP therapy is one of the most effective treatments for it.</p>-->
-    </div>
-    <div class="row">
-        <!-- CPAP Therapy Card -->
-        <div class="col-md-6 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/osa-images/CPAP Therapy.webp" class="card-img-top" alt="CPAP Therapy for OSA">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">CPAP Therapy: The Most Common Treatment for OSA</h5>-->
-                    <!--</div>-->
+
+    <!-- WHY CHOOSE US: Trust Signals -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">
+                    Why Choose Gnathos Facial for Obstructive Sleep Apnea Treatment
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Recognized leaders in complex maxillofacial surgery and sleep disorder management in Hyderabad, delivering lasting relief through personalized care.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">school</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Specialized Expertise</h3>
+                    <p class="text-on-surface-variant text-sm">35+ years of combined experience in oral and maxillofacial surgery with sleep medicine focus.</p>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-lungs"></i>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
                     </div>
-                    <h5 class="card-title mb-3">How CPAP Helps:</h5>
-                    <p class="card-text">CPAP (Continuous Positive Airway Pressure) therapy is the most widely used and effective treatment for OSA. It involves wearing a mask over the nose or mouth while sleeping, providing a continuous flow of air to keep your airways open.</p>
-                    
-                    <!-- How CPAP Helps -->
-                    <h6 class="mt-4 mb-3">Benefits of CPAP Therapy:</h6>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><b>Prevents Airway Collapse:</b> CPAP ensures that your airway stays open throughout the night, preventing breathing interruptions.</p>
-                        </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Care</h3>
+                    <p class="text-on-surface-variant text-sm">Surgeries performed at CARE Hospitals, Banjara Hills—a premier tertiary care facility.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">biotech</span>
                     </div>
-                    
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><b>Improved Sleep Quality:</b> By preventing snoring and airway blockages, CPAP helps you sleep soundly, reducing daytime fatigue.</p>
-                        </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Advanced Diagnostics</h3>
+                    <p class="text-on-surface-variant text-sm">Comprehensive sleep studies and 3D imaging for precise airway assessment.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">air</span>
                     </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><b>Effective and Non-Surgical:</b> CPAP is a non-invasive treatment that offers immediate relief from OSA symptoms.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">If you have OSA and are struggling with poor sleep, CPAP therapy can significantly improve your rest and overall health.</p>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Airway-Centered Approach</h3>
+                    <p class="text-on-surface-variant text-sm">Comprehensive evaluation addressing all levels of airway obstruction for lasting results.</p>
                 </div>
             </div>
         </div>
-        
-        <!-- Advancements in OSA Treatment Card -->
-        <div class="col-md-6 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/osa-images/OSA Treatment.webp" class="card-img-top" alt="Advancements in OSA Treatment">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Advancements in OSA Treatment: Better Solutions for Better Sleep</h5>-->
-                    <!--</div>-->
+    </section>
+
+    <!-- SYMPTOMS / INDICATIONS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Recognizing Obstructive Sleep Apnea</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    OSA affects millions worldwide. Understanding the signs and symptoms is the first step toward effective treatment and better sleep health.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">nightlight</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Nighttime Symptoms</h3>
+                    <p class="text-on-surface-variant">Loud, chronic snoring, gasping or choking during sleep, witnessed apneas, and frequent nighttime urination.</p>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Innovative Solutions for OSA</h5>
-                    <p class="card-text">At GNA Face, we are committed to offering the latest advancements in OSA treatment. Here are some of the exciting developments:</p>
-                    
-                    <h6 class="mt-4 mb-3">Exciting Developments in OSA Treatment:</h6>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><b>Customized CPAP Devices:</b> New, more comfortable CPAP masks and devices are available, designed for easier use and a better fit.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><b>Minimally Invasive Surgeries:</b> For patients who cannot tolerate CPAP, surgical options like Jaw Surgery and Nasal Surgery can provide lasting relief by addressing the root cause of OSA.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><b>Home Sleep Studies:</b> Advances in home sleep study technology allow for easier and more convenient diagnosis of OSA, ensuring quicker treatment.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><b>Technology-Driven Solutions:</b> Cutting-edge devices and therapy methods are making it easier to manage OSA effectively.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">As a Maxillofacial Surgeon in Hyderabad, we use these innovative treatments to ensure that you get the best possible care for your OSA, improving both your sleep and overall health.</p>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">wb_sunny</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Daytime Effects</h3>
+                    <p class="text-on-surface-variant">Excessive daytime sleepiness, morning headaches, difficulty concentrating, and mood changes or depression.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">favorite</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Health Risks</h3>
+                    <p class="text-on-surface-variant">Increased risk of hypertension, heart disease, stroke, type 2 diabetes, and impaired cognitive function.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div>
-</section>
-
-       
-       
-          <div class="container-fluid p-0">
-        <div class="marquee-container">
-            <div class="marquee-content">
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
+    <!-- THE SURGICAL JOURNEY: 3-Step Clinical Protocol -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">The Surgical Journey: Our Clinical Protocol</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    A meticulous, step-by-step approach to ensure optimal outcomes and lasting relief from obstructive sleep apnea.
+                </p>
+            </div>
+            <!-- Step 1 -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">1</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Comprehensive Assessment</h3>
+                    <p class="text-on-surface-variant mb-6">
+                        Our protocol begins with a thorough evaluation including polysomnography (sleep study), drug-induced sleep endoscopy (DISE), and advanced 3D imaging to identify the exact level and nature of airway obstruction. This detailed analysis guides personalized treatment planning.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Polysomnography (Sleep Study)</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Drug-Induced Sleep Endoscopy (DISE)</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">3D CBCT Airway Analysis</span></li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img alt="Sleep study monitoring equipment in clinical setting - OSA diagnosis at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-1 md:order-1">
+                    <img alt="Advanced surgical suite for maxillofacial procedures - OSA surgery at CARE Hospitals, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+                </div>
+                <div class="order-2 md:order-2">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Personalized Treatment</h3>
+                    <p class="text-on-surface-variant mb-6">
+                        Based on your assessment, we develop a tailored treatment plan. This may include CPAP therapy, oral appliances, or surgical intervention. For surgical cases, we address the specific anatomical contributors to your airway obstruction using minimally invasive techniques.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Multilevel Airway Surgery</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Tonsillectomy & Adenoidectomy</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Genioglossus Advancement</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">3</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Recovery & Long-Term Care</h3>
+                    <p class="text-on-surface-variant mb-6">
+                        Following treatment, our team provides comprehensive post-operative care and follow-up. We monitor your sleep quality, ensure proper healing, and make any necessary adjustments to optimize your long-term outcomes and quality of life.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Post-Surgery Sleep Monitoring</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Follow-up Polysomnography</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Long-term Support & Maintenance</span></li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img alt="Doctor reviewing patient recovery progress after OSA treatment - Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
+                </div>
             </div>
         </div>
-    </div>  
-	
-	   <section class="tmj-section">
-   
-    <div class="bg-shape shape-1"></div>
-    <div class="bg-shape shape-2"></div>
+    </section>
 
-    <!-- Gradient accents -->
-    <div class="gradient-accent accent-1"></div>
-    <div class="gradient-accent accent-2"></div>
-
-   <div class="container">
-    <!-- Section header -->
-    <div class="section-header">
-        <h2 class="section-title">Why Choose GNA Face for OSA Treatment?</h2>
-    </div>
-
-    <!-- OSA Treatment Benefits Cards -->
-    <div class="symptoms-container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">1</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Best Maxillofacial Surgeon in India</h4>
-                        <p class="symptom-desc">Our expert team specializes in managing and treating Obstructive Sleep Apnea with the latest technology and techniques.</p>
+    <!-- RECOVERY TIMELINE -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Comprehensive Recovery Timeline</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    What to expect during your healing journey following OSA surgical intervention.
+                </p>
+            </div>
+            <div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xl shadow-sm border border-surface-variant overflow-hidden">
+                <div class="divide-y divide-surface-variant">
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Days 1-14</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Initial Healing</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Focus on rest, managing swelling, and adhering to a soft diet. Some throat discomfort and swelling is expected during this phase.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Soft or liquid diet only</li>
+                                <li>Pain management as prescribed</li>
+                                <li>Voice rest may be recommended</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Weeks 3-6</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Functional Return</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Gradual return to normal activities and diet. Initial sleep improvement may be noticed as swelling decreases and airway opens.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Gradual return to normal diet</li>
+                                <li>Resume light physical activity</li>
+                                <li>Follow-up appointment scheduled</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">3-6 Months+</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Full Recovery</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Maximum healing achieved. Sleep study may be repeated to confirm treatment success and assess overall sleep quality improvement.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Complete soft tissue healing</li>
+                                <li>Polysomnography to verify results</li>
+                                <li>Long-term follow-up as needed</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">2</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Comprehensive Treatment Options</h4>
-                        <p class="symptom-desc">From CPAP therapy to advanced surgical interventions, we provide personalized care tailored to your needs.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 mx-auto">
-                <div class="symptom-card">
-                    <span class="number-badge">3</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">State-of-the-Art Facilities</h4>
-                        <p class="symptom-desc">At GNA Face, we offer the most advanced treatment options to ensure a comfortable and effective recovery.</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
+    </section>
 
-    <!-- Note box -->
-    <div class="note-container">
-        <p class="note-desc">If you’re suffering from Obstructive Sleep Apnea, don’t wait. Consult with the Best TMJ Specialist in India or a Maxillofacial Surgeon in Hyderabad today for expert treatment and improved sleep.</p>
-    </div>
-</div>
+    <!-- PATIENT PREPARATION CHECKLIST -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="bg-primary-container rounded-2xl p-8 md:p-12 border border-primary/10">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md text-on-primary mb-4">Preparing for Your Consultation</h2>
+                        <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
+                            To make the most of your initial OSA evaluation with our specialists, we recommend preparing the following information to help us understand your complete sleep health picture.
+                        </p>
+                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
+                            Download Checklist PDF
+                        </button>
+                    </div>
+                    <div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">medical_information</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Previous Sleep Studies</strong>
+                                    <span class="text-sm text-on-surface-variant">Bring any previous polysomnography reports or sleep study results if available.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">list_alt</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Sleep Partner's Observations</strong>
+                                    <span class="text-sm text-on-surface-variant">Note any witnessed apneas, gasping, or unusual movements during sleep observed by a partner.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">medication</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Current Medications</strong>
+                                    <span class="text-sm text-on-surface-variant">Complete list of all medications, including any current CPAP or oral appliance use.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</section>
+    <!-- ADVANCED DIAGNOSTICS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
+                    <img alt="Advanced airway imaging technology for OSA diagnosis - Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+                </div>
+                <div>
+                    <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
+                        Accurate diagnosis is the foundation of successful OSA treatment. We utilize state-of-the-art diagnostic tools to identify the precise nature and location of your airway obstruction.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Polysomnography</strong>
+                                <span class="text-on-surface-variant">Comprehensive sleep study monitoring brain activity, breathing patterns, oxygen levels, and heart rate.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Drug-Induced Sleep Endoscopy (DISE)</strong>
+                                <span class="text-on-surface-variant">Direct visualization of airway collapse patterns during induced sleep for targeted treatment planning.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">CBCT Airway Analysis</strong>
+                                <span class="text-on-surface-variant">3D imaging to assess bony structures and soft tissue dimensions of the upper airway.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- TREATMENT PATHWAYS -->
+    <section class="py-section-gap">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Comprehensive Treatment Pathways</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    We believe in a patient-centered approach, offering both conservative and surgical options to achieve optimal sleep quality and overall health.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Non-Surgical Card -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                            <span class="material-symbols-outlined">health_and_safety</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Non-Surgical Management</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">CPAP/BiPAP Therapy</h4>
+                            <p class="text-on-surface-variant text-sm">Continuous positive airway pressure devices that keep the airway open during sleep using gentle air pressure.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Oral Appliances</h4>
+                            <p class="text-on-surface-variant text-sm">Custom-fitted mandibular advancement devices that reposition the jaw and tongue to maintain airway patency.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Lifestyle Modifications</h4>
+                            <p class="text-on-surface-variant text-sm">Weight management, positional therapy, alcohol reduction, and sleep hygiene improvements.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Surgical Card -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined">medical_services</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Surgical Interventions</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Uvulopalatopharyngoplasty (UPPP)</h4>
+                            <p class="text-on-surface-variant text-sm">Removal of excess tissue in the throat to widen the airway, addressing soft palate and pharyngeal obstruction.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Maxillomandibular Advancement (MMA)</h4>
+                            <p class="text-on-surface-variant text-sm">Bony advancement of the upper and lower jaw to enlarge the entire airway passage for permanent resolution.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Hypoglossal Nerve Stimulation</h4>
+                            <p class="text-on-surface-variant text-sm">Implantable device that stimulates tongue muscles to keep the airway open during sleep.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                    Request a Consultation
+                </button>
+            </div>
+        </div>
+    </section>
 
+    <!-- THE SURGICAL TEAM -->
+    <section class="py-section-gap bg-primary text-on-primary">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md mb-4">Expert Sleep Apnea Surgical Team</h2>
+                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
+                    Decades of specialized experience in managing complex maxillofacial conditions and sleep-disordered breathing.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Dr. Suresh Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
+                                Senior Consultant with 20+ years of dedicated experience in oral and maxillofacial surgery. Specializes in complex airway reconstruction and sleep apnea surgery.
+                            </p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dr. Navatha Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">
+                                Senior Consultant with 15+ years of dedicated experience. Expert in diagnostic evaluation and treatment planning for sleep-disordered breathing conditions.
+                            </p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  
-  
+    <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Frequently Asked Questions</h2>
+                <p class="text-on-surface-variant">Common concerns about Obstructive Sleep Apnea treatment and recovery.</p>
+            </div>
+            <div class="space-y-4">
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How do I know if I have Obstructive Sleep Apnea?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Common signs include loud, chronic snoring, gasping or choking during sleep (often noticed by a partner), excessive daytime sleepiness, morning headaches, and difficulty concentrating. If you experience these symptoms, a polysomnography (sleep study) can confirm the diagnosis. Our team at CARE Hospitals, Banjara Hills offers comprehensive sleep assessment services.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Is OSA treatment covered by insurance?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Coverage varies by insurance provider and policy. Diagnostic sleep studies and surgical treatments for OSA are often covered under medical insurance when deemed medically necessary. Our billing team works closely with patients and insurance providers to determine coverage and out-of-pocket costs before treatment.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Will I need CPAP therapy forever after surgery?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Not necessarily. The goal of surgical intervention is to reduce or eliminate the need for CPAP therapy. Many patients experience significant improvement and can reduce or discontinue CPAP use after successful surgery. However, some patients with severe OSA may still benefit from CPAP as adjunct therapy. Your follow-up sleep study will help determine your individual outcome.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How long is the recovery after OSA surgery?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Recovery varies by procedure type. Soft tissue surgeries like UPPP typically require 2-3 weeks of recovery with soft diet restrictions. Bone-moving procedures like MMA require longer healing of 6-8 weeks. Most patients can return to work within 1-2 weeks for minor procedures, though complete healing and final results may take several months.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        What are the risks of OSA surgery?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        As with any surgery, there are inherent risks including bleeding, infection, and anesthesia complications. Specific to airway surgery, risks may include temporary throat numbness, changes in voice, difficulty swallowing, or incomplete resolution of symptoms. Our surgical team takes extensive precautions and discusses all risks thoroughly during consultation to ensure informed decision-making.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Can weight loss cure my sleep apnea?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Weight loss can significantly improve or even resolve mild to moderate OSA, particularly when obesity is a primary contributing factor. However, anatomical factors like airway anatomy, tongue size, and jaw position may still contribute to obstruction even with weight loss. Our comprehensive approach addresses all contributing factors, with weight management as a key component of overall treatment.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
 
-   
+    <!-- FINAL CTA -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Reclaim Restful Sleep?</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
+                Don't let obstructive sleep apnea affect your health and quality of life. Schedule a comprehensive evaluation with our specialists to discuss your personalized treatment options at CARE Hospitals, Banjara Hills.
+            </p>
+            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
+                Schedule Your Sleep Evaluation
+                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
+            </button>
+        </div>
+    </section>
+</main>
 
-    
-    
-    	
-		
-		
-	<?php include('stats.php')?>
-
-  
-		
-		  
-
-		
-		<section class="content-inner pt-5 pb-5" style="background-image: url(images/background/bg3.png); background-position: right bottom; background-repeat: no-repeat;">
-		<div class="container">
-			<div class="row content-wrapper style-5">
-			<div class="col-xxl-7 col-xl-6 col-lg-5 m-b30 align-self-center">
-				<div class="content-info">
-					<div class="section-head style-1 m-b30">
-						<h2 class="title wow fadeInUp mb-3" data-wow-delay="0.2s" data-wow-duration="0.7s">Frequently Asked Questions</h2>
-					</div>
-					<div class="accordion dz-accordion style-1" id="accordionExample">
-						<div class="accordion-item wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s">
-							<h2 class="accordion-header">
-								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-									What is Obstructive Sleep Apnea (OSA)?
-								</button>
-							</h2>
-							<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>OSA is a sleep disorder where your airway becomes blocked during sleep, causing breathing pauses and poor sleep quality.</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.7s">
-							<h2 class="accordion-header">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									How does CPAP therapy work for OSA?
-								</button>
-							</h2>
-							<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>CPAP therapy uses a machine that delivers a continuous stream of air to keep your airway open during sleep, preventing breathing interruptions.</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="0.7s">
-							<h2 class="accordion-header">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-									Are there any side effects of CPAP?
-								</button>
-							</h2>
-							<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>CPAP is generally well-tolerated, but some people may experience dry mouth, nasal congestion, or discomfort from the mask. These issues can be managed with adjustments to the device.</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-							<h2 class="accordion-header">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-									Can OSA affect my health?
-								</button>
-							</h2>
-							<div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>Yes, untreated OSA can increase the risk of high blood pressure, heart disease, stroke, and diabetes due to poor oxygen levels during sleep.</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-							<h2 class="accordion-header">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-									How long does it take to see results with CPAP therapy?
-								</button>
-							</h2>
-							<div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>Most patients notice improvements in sleep quality and daytime fatigue within the first few nights to weeks of using CPAP.</p>
-								</div>
-							</div>
-						</div>
-						<div class="accordion-item wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="0.7s">
-							<h2 class="accordion-header">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-									Why should I consult a maxillofacial surgeon for OSA?
-								</button>
-							</h2>
-							<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-								<div class="accordion-body">
-									<p>A Maxillofacial Surgeon in Hyderabad can provide personalized care, from CPAP treatment to advanced surgical interventions, for long-lasting relief from OSA symptoms.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				</div>
-				<div class="col-xxl-5 col-xl-6 col-lg-7 m-b30">
-					<div class="content-media" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-						<div class="dz-media">
-							<img src="assets/images/services/Facial-injuries/Frequently-Asked-Questions.webp" alt="">
-						</div>
-						<div class="item1">
-							<div class="info-widget style-5">
-								<div class="widget-media text-primary">
-									<i class="feather icon-phone-call dz-ring-effect"></i>
-								</div>
-								<div class="widget-content">
-									<h6 class="title">Contact us?</h6>
-									<a href="https://wa.me/919000666476" class="text-secondary">+919000666476</a>
-								</div>
-							</div>
-							<a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary btn-shadow">
-								<span class="w-100">Appointment</span> <span class="right-icon"><i class="feather icon-arrow-right"></i></span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-        
-
-
-        
-		
-	
-		
-		
-		
-	
-		
-		
-
-	</main>
-	
-		<!-- Footer -->
-	<?php include('footer.php')?>
-
-</div>
-<!-- JAVASCRIPT FILES ========================================= -->
-<?php include('footer-links.php')?>
-</body>
-</html>
+<!-- Detailed Footer -->
+<?php
+include $path_prefix . 'footer.php';
+?>

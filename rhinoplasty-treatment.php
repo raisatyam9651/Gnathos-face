@@ -1,1243 +1,510 @@
-<!DOCTYPE html>
-<html lang="en" data-theme-color="skin-1">
-<head>
-
-<!-- SEO Meta Tags -->
-<title>Rhinoplasty Hyderabad | Nose Surgery Specialist | Dr. Suresh PL</title>
-<meta name="description" content="Nose reshaping & reconstruction by Hyderabad's expert maxillofacial surgeon. Dr. Suresh PL, 20+ yrs experience. Free consultation — Book today.">
-<meta name="keywords" content="rhinoplasty in Hyderabad, best rhinoplasty surgeon in Hyderabad, best rhinoplasty in Hyderabad, rhinoplasty surgeon in Hyderabad, rhinoplasty surgery in Hyderabad, top rhinoplasty surgeons in Hyderabad, nose reshaping surgery, nose job Hyderabad, nasal correction surgery">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://gnathosface.com/rhinoplasty-treatment" />
-
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Best Rhinoplasty Surgeon in Hyderabad | Nose Surgery | GnathosFace">
-<meta property="og:description" content="Top rhinoplasty and nose reshaping experts in Hyderabad. Natural results by trusted surgeons at GnathosFace.">
-<meta property="og:url" content="https://gnathosface.com/rhinoplasty-treatment">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="GnathosFace">
-
-<!-- Twitter Card Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Rhinoplasty Surgeon in Hyderabad | Nose Reshaping Surgery">
-<meta name="twitter:description" content="Top rhinoplasty and nose reshaping experts in Hyderabad. Natural results by trusted surgeons at GnathosFace.">
-
-<!-- Geo Tags -->
-<meta name="geo.region" content="IN-TG">
-<meta name="geo.placename" content="Hyderabad">
-<meta name="geo.position" content="17.3850;78.4867">
-<meta name="ICBM" content="17.3850, 78.4867">
-
-<!-- JSON-LD Schema Markup -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "GnathosFace",
-  "url": "https://gnathosface.com/",
-  "image": "https://gnathosface.com/images/logo.png",
-  "description": "GnathosFace offers expert rhinoplasty in Hyderabad, including nose reshaping, nasal correction, and aesthetic nose surgery by top facial surgeons.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Hyderabad",
-    "addressRegion": "Telangana",
-    "addressCountry": "India"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 17.3850,
-    "longitude": 78.4867
-  },
-  "areaServed": "Hyderabad",
-  "department": {
-    "@type": "MedicalSpecialty",
-    "name": "Rhinoplasty Surgery"
-  }
-}
-</script>
-
-	
-	
-	<meta name="description" content="Gnathos provides advanced surgical care for face, mouth, and jaw, specializing in maxillofacial treatments to restore function and enhance appearance.">
-	 
-	<?php include('header-links.php')?>
-	
-	
-	 
-	<!-- FAVICONS ICON -->
-   <style>
-        .site-header{
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        :root {
-            --theme-color: #195FAC;
-            --theme-light: #2196f3;
-             --med-primary: #1976D2;
-            --med-light: #64B5F6;
-            --med-dark: #0D47A1;
-            --med-pale: #E3F2FD;
-            --gna-theme-color: #195FAC;
-            --gna-theme-light: #2196f3;
-            --gna-med-primary: #1976D2;
-            --gna-med-light: #64B5F6;
-            --gna-med-dark: #0D47A1;
-            --gna-med-pale: #E3F2FD;
-        }
-       
-        .section-title {
-            position: relative;
-            margin-bottom: 2.5rem;
-            color: var(--theme-color);
-        }
-      .DZ-theme-btn{
-          display:none  !important ;
-      }
-
-       
-        .marquee-container {
-            background: linear-gradient(45deg, #172C5A, #2a4380, #172C5A);
-            background-size: 200% 200%;
-            padding: 20px 0;
-            overflow: hidden;
-            position: relative;
-            box-shadow: 0 4px 15px rgba(23, 44, 90, 0.3);
-            animation: gradientBG 20s ease infinite;
-        }
-
-        .marquee-content {
-            white-space: nowrap;
-            display: inline-block;
-            animation: marquee 30s linear infinite;
-            color: #ffffff;
-            font-size: 1.4rem;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-            padding: 0 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Location icon styling */
-        .location-icon {
-            margin-right: 10px;
-            color: #ffffff;
-        }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        /* Smooth pause on hover */
-        .marquee-container:hover .marquee-content {
-            animation-play-state: paused;
-            transform: scale(1.01);
-            transition: transform 0.3s ease;
-        }
-
-        /* Add a subtle glow effect */
-        .marquee-content::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.1);
-            filter: blur(5px);
-            z-index: -1;
-        }
-       @media (max-width: 767px) and (min-width: 200px) {
-           .mob{
-               display:none;
-           }
-       }
-      
-        @media (max-width: 991.98px) {
-           
-        }
-        
-        
-        .tmj-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .bg-shape {
-            position: absolute;
-            border-radius: 50%;
-            background: linear-gradient(145deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            opacity: 0.05;
-        }
-        
-        .shape-1 {
-            width: 400px;
-            height: 400px;
-            top: -200px;
-            right: -200px;
-        }
-        
-        .shape-2 {
-            width: 300px;
-            height: 300px;
-            bottom: -100px;
-            left: -150px;
-        }
-        
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-            position: relative;
-        }
-        
-        .section-title {
-            color: var(--med-dark);
-            font-weight: 800;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -15px;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-            border-radius: 2px;
-        }
-        
-        .section-intro {
-            max-width: 700px;
-            margin: 30px auto 0;
-            color: #546E7A;
-            font-size: 1.1rem;
-        }
-        
-        .symptoms-container {
-            position: relative;
-        }
-        
-        .symptom-card {
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            transition: all 0.4s ease;
-            margin-bottom: 30px;
-            position: relative;
-            z-index: 1;
-            overflow: hidden;
-            border: none;
-        }
-        
-        .symptom-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 6px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-        }
-        
-        .symptom-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(33, 150, 243, 0.15);
-        }
-        
-        .number-badge {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, var(--theme-color), var(--theme-light));
-            color: white;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            font-size: 18px;
-            box-shadow: 0 4px 8px rgba(33, 150, 243, 0.25);
-        }
-        
-        .card-body {
-            padding: 35px 25px 30px 70px;
-        }
-        
-        .symptom-title {
-            color: var(--med-dark);
-            font-weight: 700;
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            position: relative;
-        }
-        
-        .symptom-desc {
-            color: #546E7A;
-            line-height: 1.7;
-        }
-        
-        .note-container {
-            margin-top: 50px;
-            position: relative;
-        }
-        
-        .note-box {
-            background: white;
-            border-radius: 16px;
-            padding: 35px 40px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .note-box::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 6px;
-            height: 100%;
-            background: linear-gradient(to bottom, var(--theme-color), var(--theme-light));
-        }
-        
-        .note-title {
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--med-dark);
-            font-size: 1.25rem;
-            position: relative;
-        }
-        
-        .specialist-link {
-            color: var(--theme-color);
-            font-weight: 700;
-            text-decoration: none;
-            background-image: linear-gradient(to right, var(--theme-color), var(--theme-color));
-            background-position: bottom;
-            background-size: 100% 2px;
-            background-repeat: no-repeat;
-            transition: all 0.3s ease;
-            padding-bottom: 2px;
-        }
-        
-        .specialist-link:hover {
-            color: var(--theme-light);
-            background-size: 0% 2px;
-        }
-        
-        .gradient-accent {
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            filter: blur(50px);
-            opacity: 0.07;
-            z-index: 0;
-        }
-        
-        .accent-1 {
-            top: 10%;
-            right: 5%;
-        }
-        
-        .accent-2 {
-            bottom: 20%;
-            left: 10%;
-        }
-        
-        @media (max-width: 768px) {
-            .tmj-section {
-                padding: 60px 0;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            .card-body {
-                padding: 30px 20px 25px 60px;
-            }
-        }
-
-         .gna-tmj-section {
-            padding: 80px 0;
-            position: relative;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-        }
-        
-        
-        
-        .gna-section-title {
-            color: var(--gna-med-dark);
-            font-weight: 700;
-            margin-bottom: 15px;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .gna-section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: var(--gna-theme-light);
-            border-radius: 2px;
-        }
-        
-        .gna-tmj-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            height: 100%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none;
-        }
-        
-        .gna-tmj-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-        }
-        
-        .gna-card-img-container {
-            height: 200px;
-            overflow: hidden;
-            position: relative;
-        }
-        
-        .gna-card-img-overlay {
-            background: linear-gradient(to bottom, rgba(25, 95, 172, 0.1), rgba(25, 95, 172, 0.7));
-            display: flex;
-            align-items: flex-end;
-            padding: 20px;
-        }
-        
-        .gna-card-img-title {
-            color: white;
-            font-weight: 600;
-            margin: 0;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        
-        .gna-card-body {
-            padding: 25px;
-        }
-        
-        .gna-tmj-icon {
-            font-size: 24px;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .gna-tmj-card:hover .gna-tmj-icon {
-            background-color: var(--gna-med-primary);
-            color: white;
-        }
-        
-        .gna-treatment-badge {
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-        
-        .gna-main-content {
-            background-color: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            margin-bottom: 40px;
-        }
-        
-        .gna-highlight-text {
-            color: var(--gna-med-primary);
-            font-weight: 600;
-        }
-        
-        .gna-cta-button {
-            background: linear-gradient(45deg, var(--gna-med-dark), var(--gna-med-primary));
-            border: none;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.3);
-        }
-        
-        .gna-cta-button:hover {
-            background: linear-gradient(45deg, var(--gna-med-primary), var(--gna-theme-light));
-            transform: translateY(-2px);
-            color: white;
-            box-shadow: 0 6px 20px rgba(25, 95, 172, 0.4);
-        }
-        
-        .gna-feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        
-        .gna-feature-icon {
-            margin-right: 15px;
-            min-width: 40px;
-            height: 40px;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        @media (max-width: 768px) {
-            .gna-tmj-section {
-                padding: 50px 0;
-            }
-            
-            .gna-main-content {
-                padding: 25px;
-            }
-        }
-
-    </style>
-
-</head>	
-<body id="bg">
-<div class="page-wraper">
-	
-
-		<!-- Header Star -->
-		<?php include('header.php')?>
-	<!-- Header End -->
-	
-	<main class="page-content">
-	
-    		<div class="dz-bnr-inr dz-banner-dark  dz-bnr-inr-md" style="background-image:url(assets/images/breadcrumbs/Rhino.webp);">
-		<div class="container">
-			<div class="dz-bnr-inr-entry d-table-cell">
-				<h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Rhinoplasty
-
-</h1> 
-				<nav aria-label="breadcrumb" class="breadcrumb-row wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-					<ul class="breadcrumb">
-						<li class="breadcrumb-item "><a  class ="text-white"href="index">Home</a></li>
-						<li class="breadcrumb-item">Services</li>
-					</ul>
-				</nav>
-				<div class="dz-btn">
-					<a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
-						<span class="left-icon">
-							<i class="feather icon-phone-call"></i>
-						</span>
-						+919000666476
-					</a>					
-				</div>
-			</div>
-		</div>
-		<!--<span class="text-vertical">24/7 EMERGENCY SERVICE</span>-->
-		
-	</div>
-	
-	
-	<section class="gna-tmj-section">
-        <div class="container">
-            <div class="section-header">
-            <h2 class="section-title">Rhinoplasty
-
-</h2>
-            <!--<p class="section-intro">TMJ disorders pose unique challenges that require expert intervention from a maxillofacial surgeon in Hyderabad. Here are some of the key concerns:</p>-->
-        </div>
-            
-            <div class="row">
-                <div class="col-lg-12 mx-auto">
-                    <div class="gna-main-content">
-                        <p class="mb-4">If you’re unhappy with the shape of your nose or experiencing difficulty breathing, Rhinoplasty might be the solution you’re looking for. At GNA Face, our expert team, led by the Best Maxillofacial Surgeon in India, provides personalized Rhinoplasty procedures to improve both the appearance and function of your nose. Whether you're looking to enhance your facial symmetry or address functional issues like breathing difficulties, rhinoplasty can restore balance to your face and improve your quality of life.
-.</p>
-                        
-                              <h4 class="text-dark">What is Rhinoplasty?
-</h4>
-                              
-                              <p class="mb-4">Rhinoplasty, also known as nose reshaping surgery, is a procedure that can correct both cosmetic and functional issues with the nose. Whether you're seeking aesthetic improvement or better breathing, rhinoplasty can address the following concerns:
-</p>
-                                  
+<?php
+$path_prefix = "";
+$page_title = "Rhinoplasty in Hyderabad | Gnathos Facial Surgery";
+$page_description = "Expert rhinoplasty surgery in Hyderabad at Gnathos Facial Surgery. Board-certified maxillofacial surgeons specializing in nose reshaping and functional rhinoplasty. Book consultation today.";
+include $path_prefix . 'header-include.php';
+include $path_prefix . 'header.php';
+?>
 
 
-
-                                  <!--<h6 class="mt-4 mb-3">How Orthognathic Surgery Helps:</h6>-->
-                                  
-                                  
-                                 <div class="gna-feature-item">
-                                <div class="gna-feature-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-0"><b>Cosmetic Enhancements:</b>Refine the shape and size of your nose to achieve better facial balance.
-.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="gna-feature-item">
-                                <div class="gna-feature-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-0"><b>Functional Improvements:</b> Functional Improvements: Correct breathing problems caused by a deviated septum or structural issues.
-</p>
-                                </div>
-                            </div>
-                                                                <p class="mb-0"><b>With Rhinoplasty:</b>, we work to create a more balanced, harmonious appearance and restore your ability to breathe freely, ensuring that the results look natural and suit your unique facial features.</p>
-
-                            
-                              
-                   <!--<p class="mb-4">This technique is especially beneficial for patients dealing with severe facial trauma or bone loss. The <b>Best Maxillofacial Surgeon in India</b> ensures a precise and effective procedure to restore both function and aesthetics.</p>-->
-
-                        <div class="text-center my-5">
-                            <a href="https://wa.me/919000666476" class="gna-cta-button">Schedule a Consultation</a>
-                        </div>
-                    </div>
+<main>
+    <!-- HERO SECTION -->
+    <section class="relative pt-section-gap pb-section-gap overflow-hidden">
+        <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-6 z-10">
+                <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
+                <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">
+                    Rhinoplasty Surgery in Hyderabad
+                </h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                    Expert nose reshaping and functional rhinoplasty by board-certified maxillofacial surgeons at Gnathos Facial. Achieve improved nasal form and function with personalized treatment plans.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                        Book Consultation
+                    </button>
                 </div>
             </div>
-            
-           
+            <div class="md:col-span-6 relative mt-12 md:mt-0">
+                <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                    <img alt="Rhinoplasty surgery consultation at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800&q=80"/>
+                </div>
+            </div>
         </div>
     </section>
-    
-    
-     
-            
-            
-<!--	<section class="p-5 m-3">-->
-<!--    <div class="section-header">-->
-<!--        <h2 class="section-title">Treatments</h2>-->
-<!--    </div>-->
-<!--    <div class="row">-->
-        <!-- Face Lift Card -->
-<!--        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">-->
-<!--            <div class="gna-tmj-card">-->
-<!--                <div class="gna-card-img-container">-->
-<!--                    <img src="assets/images/services/Facial-injuries/Face-Lift.webp" class="card-img-top" alt="Face Lift Treatment">-->
-<!--                    <div class="gna-card-img-overlay">-->
-<!--                        <h5 class="gna-card-img-title">Face Lift: Rejuvenating Your Youthful Look</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="gna-card-body">-->
-<!--                    <div class="gna-tmj-icon">-->
-<!--                        <i class="fas fa-face"></i>-->
-<!--                    </div>-->
-<!--                    <h5 class="card-title mb-3">Face Lift: Rejuvenating Your Youthful Look</h5>-->
-<!--                    <p class="card-text">A facelift procedure can help you achieve a smoother, younger appearance by tightening the skin and removing excess fat. This surgery addresses sagging skin, deep creases, and loose muscles to restore a youthful contour to the face.</p>-->
 
-<!--                    <h6 class="mt-4 mb-3">Why Choose a Face Lift?</h6>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Tightens and Firms Skin:</strong> Reduces sagging for a more youthful look.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Long-Lasting Results:</strong> Enjoy smoother skin that lasts for years.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Restores Natural Contours:</strong> Corrects signs of aging around the neck and face.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <p class="mt-4">A facelift can dramatically enhance your appearance, restoring youthful firmness and rejuvenation.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <!-- Eyelid Surgery Card -->
-<!--       <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">-->
-<!--            <div class="gna-tmj-card">-->
-<!--                <div class="gna-card-img-container">-->
-<!--                    <img src="assets/images/services/Facial-injuries/Eyelid-Surgery.webp" class="card-img-top" alt="Eyelid Surgery Treatment">-->
-<!--                    <div class="gna-card-img-overlay">-->
-<!--                        <h5 class="gna-card-img-title">Eyelid Surgery: Revitalize Your Eyes</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="gna-card-body">-->
-<!--                    <div class="gna-tmj-icon">-->
-<!--                        <i class="fas fa-eye"></i>-->
-<!--                    </div>-->
-<!--                    <h5 class="card-title mb-3">Eyelid Surgery: Revitalize Your Eyes</h5>-->
-<!--                    <p class="card-text">Eyelid surgery (blepharoplasty) is a procedure to correct drooping eyelids and remove excess skin or fat around the eyes. Whether done for cosmetic or medical reasons, it can refresh your eyes, making them look more alert and youthful.</p>-->
-
-<!--                    <h6 class="mt-4 mb-3">Why Consider Eyelid Surgery?</h6>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Corrects Droopy Eyelids:</strong> Removes excess skin that may cause vision obstruction.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Reduces Puffiness:</strong> Removes fatty deposits, resulting in a fresher look.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Enhances Overall Appearance:</strong> Creates a more open and rested look.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <p class="mt-4">Eyelid surgery can restore the natural beauty of your eyes and improve both appearance and vision.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <!-- Brow Lift Card -->
-<!--        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">-->
-<!--            <div class="gna-tmj-card">-->
-<!--                <div class="gna-card-img-container">-->
-<!--                    <img src="assets/images/services/Facial-injuries/Brow-Lift.webp" class="card-img-top" alt="Brow Lift Surgery">-->
-<!--                    <div class="gna-card-img-overlay">-->
-<!--                        <h5 class="gna-card-img-title">Brow Lift: Lift Your Look, Lift Your Confidence</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="gna-card-body">-->
-<!--                    <div class="gna-tmj-icon">-->
-<!--                        <i class="fas fa-laugh-beam"></i>-->
-<!--                    </div>-->
-<!--                    <h5 class="card-title mb-3">Brow Lift: Lift Your Look, Lift Your Confidence</h5>-->
-<!--                    <p class="card-text">Brow lift (also known as forehead lift) addresses sagging brows and forehead lines, giving you a more refreshed and youthful expression. It smoothens out wrinkles, elevates the brow, and provides a more open, vibrant appearance.</p>-->
-
-<!--                    <h6 class="mt-4 mb-3">Why Choose Brow Lift Surgery?</h6>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Corrects Sagging Eyebrows:</strong> Provides a natural, lifted look.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Smoothens Forehead Wrinkles:</strong> Reduces forehead lines and wrinkles.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Opens the Eye Area:</strong> Creates a more youthful and refreshed expression.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <p class="mt-4">A brow lift can refresh your appearance, giving you a youthful, relaxed look.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-    
-    <!--2nd row -->
-    
-<!--      <div class="row">-->
-        <!-- Botox Card -->
-<!--       <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">-->
-<!--            <div class="gna-tmj-card">-->
-<!--                <div class="gna-card-img-container">-->
-<!--                    <img src="assets/images/services/Facial-injuries/Botox.webp" class="card-img-top" alt="Botox Treatment">-->
-<!--                    <div class="gna-card-img-overlay">-->
-<!--                        <h5 class="gna-card-img-title">Botox: Smooth Wrinkles with a Non-Surgical Solution</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="gna-card-body">-->
-<!--                    <div class="gna-tmj-icon">-->
-<!--                        <i class="fas fa-syringe"></i>-->
-<!--                    </div>-->
-<!--                    <h5 class="card-title mb-3">Botox: Smooth Wrinkles with a Non-Surgical Solution</h5>-->
-<!--                    <p class="card-text">Botox injections are a quick, non-surgical way to treat fine lines and wrinkles. It relaxes the muscles that cause wrinkles, providing smoother skin without the need for invasive surgery.</p>-->
-
-<!--                    <h6 class="mt-4 mb-3">Why Consider Botox?</h6>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Quick & Painless:</strong> Injections take just a few minutes.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Temporary Yet Effective:</strong> Smooths out forehead lines, crow’s feet, and frown lines.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Minimal Downtime:</strong> Return to normal activities immediately.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <p class="mt-4">Botox is a popular treatment for those seeking a non-invasive solution for facial wrinkles.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <!-- Fillers Card -->
-<!--        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">-->
-<!--            <div class="gna-tmj-card">-->
-<!--                <div class="gna-card-img-container">-->
-<!--                    <img src="assets/images/services/Facial-injuries/Fillers.webp" class="card-img-top" alt="Fillers Treatment">-->
-<!--                    <div class="gna-card-img-overlay">-->
-<!--                        <h5 class="gna-card-img-title">Fillers: Restore Volume and Smoothness</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="gna-card-body">-->
-<!--                    <div class="gna-tmj-icon">-->
-<!--                        <i class="fas fa-syringe"></i>-->
-<!--                    </div>-->
-<!--                    <h5 class="card-title mb-3">Fillers: Restore Volume and Smoothness</h5>-->
-<!--                    <p class="card-text">Fillers are injectable treatments used to add volume and smooth out wrinkles, fine lines, and facial folds. They can restore youthful contours by plumping areas of the face that have lost volume due to aging.</p>-->
-
-<!--                    <h6 class="mt-4 mb-3">Why Choose Fillers?</h6>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Non-Surgical Treatment:</strong> No incisions required.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Restores Volume:</strong> Plumps up areas like cheeks and lips for a fuller look.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Quick Results:</strong> See immediate improvements in facial appearance.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <p class="mt-4">Fillers can provide a fuller, younger look without surgery.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <!-- Lip Augmentation Card -->
-<!--        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">-->
-<!--            <div class="gna-tmj-card">-->
-<!--                <div class="gna-card-img-container">-->
-<!--                    <img src="assets/images/services/Facial-injuries/Lip-Augmentation.webp" class="card-img-top" alt="Lip Augmentation Treatment">-->
-<!--                    <div class="gna-card-img-overlay">-->
-<!--                        <h5 class="gna-card-img-title">Lip Augmentation: Enhance Your Natural Smile</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="gna-card-body">-->
-<!--                    <div class="gna-tmj-icon">-->
-<!--                        <i class="fas fa-lips"></i>-->
-<!--                    </div>-->
-<!--                    <h5 class="card-title mb-3">Lip Augmentation: Enhance Your Natural Smile</h5>-->
-<!--                    <p class="card-text">Lip augmentation is a procedure to enhance the size and shape of your lips. It can involve the use of fillers or implants to create fuller, more defined lips.</p>-->
-
-<!--                    <h6 class="mt-4 mb-3">Why Consider Lip Augmentation?</h6>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Natural-Looking Results:</strong> Achieve a fuller pout with subtle changes.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Improves Symmetry:</strong> Corrects uneven lips for a balanced look.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Boosts Confidence:</strong> Enhances your smile and overall appearance.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <p class="mt-4">Lip augmentation gives you fuller lips, enhancing your smile and overall facial harmony.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            </div>-->
-<!--    </div>-->
-    
-<!--     <div class="col-12  mb-4 mx-auto">-->
-        <!-- Chin Augmentation Card -->
-<!--        <div class="col-md-4 mb-4">-->
-<!--            <div class="gna-tmj-card">-->
-<!--                <div class="gna-card-img-container">-->
-<!--                    <img src="assets/images/services/Facial-injuries/Chin-Augmentation.webp" class="card-img-top" alt="Chin Augmentation Treatment">-->
-<!--                    <div class="gna-card-img-overlay">-->
-<!--                        <h5 class="gna-card-img-title">Chin Augmentation: Balance Your Facial Proportions</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="gna-card-body">-->
-<!--                    <div class="gna-tmj-icon">-->
-<!--                        <i class="fas fa-bone"></i>-->
-<!--                    </div>-->
-<!--                    <h5 class="card-title mb-3">Chin Augmentation: Balance Your Facial Proportions</h5>-->
-<!--                    <p class="card-text">Chin augmentation (mentoplasty) involves reshaping or adding volume to the chin to improve facial balance and profile. Whether done with implants or through natural tissue manipulation, it creates a more harmonious and youthful appearance.</p>-->
-
-<!--                    <h6 class="mt-4 mb-3">Why Consider Chin Augmentation?</h6>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Improves Facial Balance:</strong> A well-proportioned chin enhances the overall look.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Adds Definition:</strong> Shapes and defines the chin for a more attractive profile.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <div class="gna-feature-item">-->
-<!--                        <div class="gna-feature-icon">-->
-<!--                            <i class="fas fa-check"></i>-->
-<!--                        </div>-->
-<!--                        <div>-->
-<!--                            <p class="mb-0"><strong>Permanent Results:</strong> Achieve long-lasting changes to your facial structure.</p>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                    <p class="mt-4">Chin augmentation can bring balance to your face, improving overall proportions and enhancing your profile.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-       
-       
-          <div class="container-fluid p-0">
-        <div class="marquee-container">
-            <div class="marquee-content">
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
+    <!-- WHY CHOOSE US: Trust Signals -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">
+                    Why Choose Gnathos Facial for Rhinoplasty Surgery
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Our maxillofacial surgeons combine surgical precision with aesthetic artistry to deliver natural-looking rhinoplasty results in Hyderabad.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">school</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Surgeons</h3>
+                    <p class="text-on-surface-variant text-sm">Both surgeons hold MDS degrees in Oral & Maxillofacial Surgery with specialized training in facial procedures.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">facial_surgery</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Facial Anatomy Experts</h3>
+                    <p class="text-on-surface-variant text-sm">Deep expertise in facial structure ensures precise bone and cartilage modifications for optimal outcomes.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">monitoring</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">3D Imaging Technology</h3>
+                    <p class="text-on-surface-variant text-sm">Advanced imaging allows detailed pre-surgical planning and realistic outcome preview.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Surgery</h3>
+                    <p class="text-on-surface-variant text-sm">Procedures performed at CARE Hospitals, Banjara Hills, ensuring highest safety standards.</p>
+                </div>
             </div>
         </div>
-    </div>  
-	
-	   <section class="tmj-section">
-   
-    <div class="bg-shape shape-1"></div>
-    <div class="bg-shape shape-2"></div>
+    </section>
 
-    <!-- Gradient accents -->
-    <div class="gradient-accent accent-1"></div>
-    <div class="gradient-accent accent-2"></div>
-
-  <div class="container">
-    <!-- Section header -->
-    <div class="section-header">
-        <h2 class="section-title">Why Choose GNA Face for Rhinoplasty?</h2>
-    </div>
-
-    <!-- Rhinoplasty Benefits Cards -->
-    <div class="symptoms-container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">1</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Best Maxillofacial Surgeon in India:</h4>
-                        <p class="symptom-desc">Our team has extensive experience in performing rhinoplasty with a focus on both functionality and aesthetics.</p>
-                    </div>
+    <!-- SYMPTOMS / INDICATIONS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">When Rhinoplasty May Be Recommended</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Rhinoplasty can address both cosmetic concerns and functional issues that affect breathing and quality of life.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">air</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Breathing Difficulties</h3>
+                    <p class="text-on-surface-variant">Chronic nasal obstruction affecting sleep, exercise, or daily activities may indicate a deviated septum or internal valve collapse.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">face</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Nasal Asymmetry</h3>
+                    <p class="text-on-surface-variant">A crooked nose from injury or natural development can be straightened through septorhinoplasty for both form and function.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">hourglass_bottom</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Post-Trauma Reconstruction</h3>
+                    <p class="text-on-surface-variant">Facial injuries affecting the nose often require specialized reconstruction to restore both appearance and nasal function.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">2</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Advanced Techniques</h4>
-                        <p class="symptom-desc">Using the latest techniques, we ensure minimal scarring and quicker recovery times, achieving beautiful, natural results.</p>
-                    </div>
+    <!-- THE SURGICAL JOURNEY: 3-Step Clinical Protocol -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">The Surgical Journey: Our Clinical Protocol</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    A meticulous, step-by-step approach to ensure optimal outcomes and patient comfort.
+                </p>
+            </div>
+            <!-- Step 1: Text Left, Image Right -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">1</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Comprehensive Consultation</h3>
+                    <p class="text-on-surface-variant mb-6">Your rhinoplasty journey begins with a detailed consultation at our Hyderabad clinic. We discuss your goals, examine nasal structure, and review your medical history.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">3D facial imaging and nasal analysis</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Discussion of realistic expectations</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Review of before-and-after cases</span></li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img alt="Rhinoplasty consultation with 3D imaging at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"/>
                 </div>
             </div>
-
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">3</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Personalized Treatment Plans</h4>
-                        <p class="symptom-desc">We tailor the surgery to meet your specific needs, whether it’s correcting a nasal deformity or improving breathing.</p>
-                    </div>
+            <!-- Step 2: Image Left, Text Right -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-1 md:order-1">
+                    <img alt="Rhinoplasty surgical procedure at CARE Hospitals, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80"/>
+                </div>
+                <div class="order-2 md:order-2">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Surgical Technique</h3>
+                    <p class="text-on-surface-variant mb-6">Rhinoplasty is performed under general anesthesia at CARE Hospitals. Our surgeons use either closed technique (incisions inside nostrils) or open technique based on your specific needs.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Cartilage reshaping and grafting</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Septal straightening if deviated</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Bone refinement with ultrasonic tools</span></li>
+                    </ul>
                 </div>
             </div>
+            <!-- Step 3: Text Left, Image Right -->
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">3</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Recovery and Follow-Up</h3>
+                    <p class="text-on-surface-variant mb-6">Most patients return home the same day or next morning. We provide detailed post-operative instructions and schedule regular follow-ups to monitor healing progress.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Custom splint placement for support</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Personalized recovery plan</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Long-term outcome monitoring</span></li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img alt="Post-rhinoplasty recovery care at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80"/>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">4</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Natural-Looking Results</h4>
-                        <p class="symptom-desc">Our goal is to enhance your features while maintaining natural beauty.</p>
+    <!-- RECOVERY TIMELINE -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Comprehensive Recovery Timeline</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    What to expect during your healing journey following rhinoplasty surgery.
+                </p>
+            </div>
+            <div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xl shadow-sm border border-surface-variant overflow-hidden">
+                <div class="divide-y divide-surface-variant">
+                    <!-- Phase 1 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Week 1-2</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Initial Healing</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">The initial healing phase focuses on managing swelling, bruising, and discomfort. External splint and internal packing are typically removed within 5-7 days.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Bruising around eyes peaks at day 3, then gradually fades</li>
+                                <li>Nasal stuffiness and mild bleeding normal</li>
+                                <li>Sleep with head elevated 30-45 degrees</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Phase 2 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Week 2-6</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Visible Improvement</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Most visible swelling subsides, and you can return to work and light activities. The nose continues to refine internally.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>80% of swelling resolves within first 6 weeks</li>
+                                <li>Resume light exercise after 3 weeks</li>
+                                <li>Avoid contact sports for 6-8 weeks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Phase 3 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Months 3-12</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Final Refinement</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">The final shape of your nose gradually emerges as residual swelling resolves. Internal tissues continue to settle and soften.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Final contour visible at 12 months</li>
+                                <li>Tip refinement continues for several months</li>
+                                <li>Long-term follow-up at 3, 6, and 12 months</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Note box -->
-    <div class="note-container">
-        <p class="note-desc">Whether you're looking to enhance the appearance of your nose or improve your nasal function, Rhinoplasty at GNA Face provides effective and lasting results.</p>
-    </div>
-</div>
-
-
-</section>
-
-
-
-  
-  
-
-   
-
-    
-    
-    	
-		
-		
-	<?php include('stats.php')?>
-
-		
-		  
-
-	<section class="content-inner pt-5 pb-5" style="background-image: url(images/background/bg3.png); background-position: right bottom; background-repeat: no-repeat;">
-    <div class="container">
-        <div class="row content-wrapper style-5">
-            <div class="col-xxl-7 col-xl-6 col-lg-5 m-b30 align-self-center">
-                <div class="content-info">
-                    <div class="section-head style-1 m-b30">
-                        <h2 class="title wow fadeInUp mb-3" data-wow-delay="0.2s" data-wow-duration="0.7s">Frequently Asked Questions</h2>
+    <!-- PATIENT PREPARATION CHECKLIST -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="bg-primary-container rounded-2xl p-8 md:p-12 border border-primary/10">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md text-on-primary mb-4">Preparing for Your Rhinoplasty Consultation</h2>
+                        <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
+                            Proper preparation ensures a smooth consultation and helps us understand your goals better. Download our checklist to prepare effectively.
+                        </p>
+                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
+                            Download Checklist PDF
+                        </button>
                     </div>
-                    <div class="accordion dz-accordion style-1" id="accordionExample">
-                        <!-- Question 1 -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is rhinoplasty?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Rhinoplasty is a surgical procedure to reshape or correct the nose, improving both its appearance and function. It can address both cosmetic concerns and breathing issues.</p>
+                    <div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">medical_information</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Medical History Review</strong>
+                                    <span class="text-sm text-on-surface-variant">Prepare list of medications, allergies, and previous nasal surgeries or injuries.</span>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Question 2 -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How long is the recovery time for rhinoplasty?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Most patients can return to normal activities within 1-2 weeks, though complete healing may take a few months as swelling fully subsides.</p>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">camera_alt</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Reference Photos</strong>
+                                    <span class="text-sm text-on-surface-variant">Bring photos showing your ideal nose shape to discuss realistic expectations.</span>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Question 3 -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Will rhinoplasty affect my breathing?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Rhinoplasty can improve breathing by correcting structural issues, such as a deviated septum or nasal obstruction.</p>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">schedule</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Recovery Planning</strong>
+                                    <span class="text-sm text-on-surface-variant">Arrange for 1-2 weeks off work and someone to drive you home after surgery.</span>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Question 4 -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Is the result permanent?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Yes, the results of rhinoplasty are long-lasting, although the nose may continue to subtly change as you age.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Question 5 -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    How do I know if I’m a candidate for rhinoplasty?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>If you’re concerned about the appearance of your nose or have difficulty breathing through your nose, consult with a Maxillofacial Surgeon in Hyderabad to determine if rhinoplasty is the right solution.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xxl-5 col-xl-6 col-lg-7 m-b30">
-                <div class="content-media" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                    <div class="dz-media">
-                        <img src="assets/images/services/Facial-injuries/Frequently-Asked-Questions.webp" alt="">
-                    </div>
-                    <div class="item1">
-                        <div class="info-widget style-5">
-                            <div class="widget-media text-primary">
-                                <i class="feather icon-phone-call dz-ring-effect"></i>
-                            </div>
-                            <div class="widget-content">
-                                <h6 class="title">Contact us?</h6>
-                                <a href="https://wa.me/919000666476" class="text-secondary">+919000666476</a>
-                            </div>
-                        </div>
-                        <a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary btn-shadow">
-                            <span class="w-100">Appointment</span> <span class="right-icon"><i class="feather icon-arrow-right"></i></span>
-                        </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- ADVANCED DIAGNOSTICS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
+                    <img alt="3D facial imaging for rhinoplasty planning at Gnathos Facial Surgery, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80"/>
+                </div>
+                <div>
+                    <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
+                        We utilize state-of-the-art imaging and analysis tools to plan your rhinoplasty with precision, ensuring predictable and satisfying results.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">3D Facial Analysis</strong>
+                                <span class="text-on-surface-variant">Comprehensive mapping of facial proportions to design your ideal nasal structure.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Internal Nasal Endoscopy</strong>
+                                <span class="text-on-surface-variant">Direct visualization of internal structures to assess breathing function.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Digital Outcome Simulation</strong>
+                                <span class="text-on-surface-variant">Preview potential results to align expectations with achievable outcomes.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        
-		
-	
-		
-		
-		
-	
-		
-		
+    <!-- TREATMENT PATHWAYS -->
+    <section class="py-section-gap">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Comprehensive Rhinoplasty Approaches</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Whether your priority is functional improvement, cosmetic refinement, or both, we tailor our approach to your specific needs.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Functional Rhinoplasty -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                            <span class="material-symbols-outlined">health_and_safety</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Functional Rhinoplasty</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Septorhinoplasty</h4>
+                            <p class="text-on-surface-variant text-sm">Combined correction of deviated septum and nasal structure to improve airflow and breathing.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Nasal Valve Repair</h4>
+                            <p class="text-on-surface-variant text-sm">Strengthening of collapsed internal or external valves using cartilage grafts.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Turbinate Reduction</h4>
+                            <p class="text-on-surface-variant text-sm">Minimally invasive reduction of swollen turbinates to reduce obstruction.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Cosmetic Rhinoplasty -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined">medical_services</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Cosmetic Rhinoplasty</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Nasal Hump Reduction</h4>
+                            <p class="text-on-surface-variant text-sm">Smoothing of dorsal hump for a straighter, more refined nasal profile.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Tip Refinement</h4>
+                            <p class="text-on-surface-variant text-sm">Reshaping of the nasal tip for better definition and proportion.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Base Reduction</h4>
+                            <p class="text-on-surface-variant text-sm">Narrowing of the nostril width for better facial harmony.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                    Request a Consultation
+                </button>
+            </div>
+        </div>
+    </section>
 
-	</main>
-	<?php include('footer.php')?>
+    <!-- THE SURGICAL TEAM -->
+    <section class="py-section-gap bg-primary text-on-primary">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md mb-4">Expert Facial Surgery Team</h2>
+                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
+                    Decades of specialized experience in managing complex facial conditions and cosmetic procedures.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Dr. Suresh Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Leading expert in complex facial reconstruction and cosmetic nasal surgery with extensive experience in trauma-related rhinoplasty and functional airway restoration.</p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dr. Navatha Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Specializes in aesthetic facial procedures with focus on harmonious facial proportions and natural-looking rhinoplasty outcomes.</p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Frequently Asked Questions</h2>
+                <p class="text-on-surface-variant">Common concerns about rhinoplasty and recovery.</p>
+            </div>
+            <div class="space-y-4">
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How long does rhinoplasty surgery take?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Rhinoplasty typically takes 2-4 hours depending on the complexity of the procedure. Simple tip refinements may be shorter, while comprehensive septorhinoplasty with multiple corrections takes longer. The procedure is performed under general anesthesia at CARE Hospitals, Banjara Hills.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Will there be visible scars after rhinoplasty?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        In closed rhinoplasty, all incisions are hidden inside the nostrils leaving no visible scars. Open rhinoplasty uses a small incision across the columella (the skin between nostrils) which typically heals to become nearly invisible within a few months. Our surgeons are experienced in minimizing visible scarring.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        When can I return to work after rhinoplasty?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Most patients can return to desk work or light duties within 1-2 weeks after splint removal. However, you should avoid strenuous activities, heavy lifting, and bending for at least 3-4 weeks. Visible bruising typically subsides within 10-14 days, though swelling can persist longer.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Does rhinoplasty improve breathing?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Yes, when combined with septoplasty or nasal valve repair, rhinoplasty can significantly improve breathing. Septorhinoplasty addresses both cosmetic concerns and functional issues simultaneously. Our surgeons evaluate breathing function during every consultation and incorporate necessary corrections into the surgical plan.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        What is the cost of rhinoplasty in Hyderabad?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Rhinoplasty costs vary based on the complexity of the procedure, whether functional corrections are needed, and hospital charges. We provide detailed cost estimates during consultation after evaluating your specific needs. Some functional procedures may be partially covered by insurance if deemed medically necessary.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How long until I see the final results?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        While you'll see significant improvement within the first 6 weeks as major swelling resolves, the final refined result emerges over 12-18 months. The nasal tip takes longest to settle and may feel firm or slightly elevated initially before softening into its final position.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
 
-<!-- JAVASCRIPT FILES ========================================= -->
-<?php include('footer-links.php')?>
-</body>
-</html>
+    <!-- FINAL CTA -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Transform Your Nasal Form and Function?</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
+                Schedule a consultation with our expert surgeons to discuss your rhinoplasty goals. We'll create a personalized treatment plan tailored to your unique facial structure and aesthetic aspirations.
+            </p>
+            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
+                Book Your Consultation
+                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
+            </button>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<?php
+include $path_prefix . 'footer.php';
+?>

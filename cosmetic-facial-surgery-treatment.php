@@ -1,1209 +1,509 @@
-<!DOCTYPE html>
-<html lang="en" data-theme-color="skin-1">
-<head>
+<?php
+$path_prefix = "";
+$page_title = "Cosmetic Facial Surgery Hyderabad | Gnathos Facial Surgery";
+$page_description = "Transform your appearance with expert cosmetic facial surgery in Hyderabad. Dr. Suresh P.L. and Dr. Navatha Mortha offer facial contouring, rhinoplasty, and aesthetic procedures at CARE Hospitals, Banjara Hills.";
+include $path_prefix . 'header-include.php';
+include $path_prefix . 'header.php';
+?>
 
-		<!-- Title -->
-<!-- SEO Meta Tags -->
-<title>Cosmetic Facial Surgery Hyderabad | Expert Surgeon | Dr. Suresh PL</title>
-<meta name="description" content="Transform your look with expert cosmetic facial surgery. Dr. Suresh PL, 20+ yr maxillofacial specialist in Hyderabad. Book your free consultation.">
-<meta name="keywords" content="face cosmetic surgery in Hyderabad, best face cosmetic surgery in Hyderabad, facial aesthetic surgery in Hyderabad, facial rejuvenation, face contouring, cosmetic facial surgeon in Hyderabad, plastic and cosmetic surgery Hyderabad, facial plastic surgery specialists">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://gnathosface.com/cosmetic-facial-surgery-treatment" />
 
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Best Face Cosmetic Surgery in Hyderabad | GnathosFace">
-<meta property="og:description" content="Expert facial cosmetic surgery in Hyderabad by trusted specialists. Book your consultation today at GnathosFace.">
-<meta property="og:url" content="https://gnathosface.com/cosmetic-facial-surgery-treatment">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="GnathosFace">
-
-<!-- Twitter Card Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Face Cosmetic Surgery in Hyderabad | GnathosFace">
-<meta name="twitter:description" content="Expert facial cosmetic surgery in Hyderabad by trusted specialists. Book your consultation today at GnathosFace.">
-
-<!-- Geo Tags -->
-<meta name="geo.region" content="IN-TG">
-<meta name="geo.placename" content="Hyderabad">
-<meta name="geo.position" content="17.3850;78.4867">
-<meta name="ICBM" content="17.3850, 78.4867">
-
-<!-- JSON-LD Schema Markup -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "GnathosFace",
-  "url": "https://gnathosface.com/",
-  "image": "https://gnathosface.com/images/logo.png",
-  "description": "GnathosFace provides top-rated face cosmetic surgery in Hyderabad, including facial contouring, rejuvenation, and aesthetic facial procedures.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Hyderabad",
-    "addressRegion": "Telangana",
-    "addressCountry": "India"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 17.3850,
-    "longitude": 78.4867
-  },
-  "areaServed": "Hyderabad",
-  "department": {
-    "@type": "MedicalSpecialty",
-    "name": "Cosmetic Facial Surgery"
-  }
-}
-</script>
-
-	 
-	<?php include('header-links.php')?>
-	
-	
-	 
-	<!-- FAVICONS ICON -->
-   <style>
-        .site-header{
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        :root {
-            --theme-color: #195FAC;
-            --theme-light: #2196f3;
-             --med-primary: #1976D2;
-            --med-light: #64B5F6;
-            --med-dark: #0D47A1;
-            --med-pale: #E3F2FD;
-            --gna-theme-color: #195FAC;
-            --gna-theme-light: #2196f3;
-            --gna-med-primary: #1976D2;
-            --gna-med-light: #64B5F6;
-            --gna-med-dark: #0D47A1;
-            --gna-med-pale: #E3F2FD;
-        }
-                icon-bx-wraper.style-7.active .icon-bx, .icon-bx-wraper.style-7:hover .icon-bx {
-    background: #FFF !important;
-}
-       
-        .section-title {
-            position: relative;
-            margin-bottom: 2.5rem;
-            color: var(--theme-color);
-        }
-      .DZ-theme-btn{
-          display:none  !important ;
-      }
-
-       
-        .marquee-container {
-            background: linear-gradient(45deg, #172C5A, #2a4380, #172C5A);
-            background-size: 200% 200%;
-            padding: 20px 0;
-            overflow: hidden;
-            position: relative;
-            box-shadow: 0 4px 15px rgba(23, 44, 90, 0.3);
-            animation: gradientBG 20s ease infinite;
-        }
-
-        .marquee-content {
-            white-space: nowrap;
-            display: inline-block;
-            animation: marquee 30s linear infinite;
-            color: #ffffff;
-            font-size: 1.4rem;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-            padding: 0 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Location icon styling */
-        .location-icon {
-            margin-right: 10px;
-            color: #ffffff;
-        }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        /* Smooth pause on hover */
-        .marquee-container:hover .marquee-content {
-            animation-play-state: paused;
-            transform: scale(1.01);
-            transition: transform 0.3s ease;
-        }
-
-        /* Add a subtle glow effect */
-        .marquee-content::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.1);
-            filter: blur(5px);
-            z-index: -1;
-        }
-       @media (max-width: 767px) and (min-width: 200px) {
-           .mob{
-               display:none;
-           }
-       }
-      
-        @media (max-width: 991.98px) {
-           
-        }
-        
-        
-        .tmj-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .bg-shape {
-            position: absolute;
-            border-radius: 50%;
-            background: linear-gradient(145deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            opacity: 0.05;
-        }
-        
-        .shape-1 {
-            width: 400px;
-            height: 400px;
-            top: -200px;
-            right: -200px;
-        }
-        
-        .shape-2 {
-            width: 300px;
-            height: 300px;
-            bottom: -100px;
-            left: -150px;
-        }
-        
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-            position: relative;
-        }
-        
-        .section-title {
-            color: var(--med-dark);
-            font-weight: 800;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -15px;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-            border-radius: 2px;
-        }
-        
-        .section-intro {
-            max-width: 700px;
-            margin: 30px auto 0;
-            color: #546E7A;
-            font-size: 1.1rem;
-        }
-        
-        .symptoms-container {
-            position: relative;
-        }
-        
-        .symptom-card {
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            transition: all 0.4s ease;
-            margin-bottom: 30px;
-            position: relative;
-            z-index: 1;
-            overflow: hidden;
-            border: none;
-        }
-        
-        .symptom-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 6px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-        }
-        
-        .symptom-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(33, 150, 243, 0.15);
-        }
-        
-        .number-badge {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, var(--theme-color), var(--theme-light));
-            color: white;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            font-size: 18px;
-            box-shadow: 0 4px 8px rgba(33, 150, 243, 0.25);
-        }
-        
-        .card-body {
-            padding: 35px 25px 30px 70px;
-        }
-        
-        .symptom-title {
-            color: var(--med-dark);
-            font-weight: 700;
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            position: relative;
-        }
-        
-        .symptom-desc {
-            color: #546E7A;
-            line-height: 1.7;
-        }
-        
-        .note-container {
-            margin-top: 50px;
-            position: relative;
-        }
-        
-        .note-box {
-            background: white;
-            border-radius: 16px;
-            padding: 35px 40px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .note-box::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 6px;
-            height: 100%;
-            background: linear-gradient(to bottom, var(--theme-color), var(--theme-light));
-        }
-        
-        .note-title {
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--med-dark);
-            font-size: 1.25rem;
-            position: relative;
-        }
-        
-        .specialist-link {
-            color: var(--theme-color);
-            font-weight: 700;
-            text-decoration: none;
-            background-image: linear-gradient(to right, var(--theme-color), var(--theme-color));
-            background-position: bottom;
-            background-size: 100% 2px;
-            background-repeat: no-repeat;
-            transition: all 0.3s ease;
-            padding-bottom: 2px;
-        }
-        
-        .specialist-link:hover {
-            color: var(--theme-light);
-            background-size: 0% 2px;
-        }
-        
-        .gradient-accent {
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            filter: blur(50px);
-            opacity: 0.07;
-            z-index: 0;
-        }
-        
-        .accent-1 {
-            top: 10%;
-            right: 5%;
-        }
-        
-        .accent-2 {
-            bottom: 20%;
-            left: 10%;
-        }
-        
-        @media (max-width: 768px) {
-            .tmj-section {
-                padding: 60px 0;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            .card-body {
-                padding: 30px 20px 25px 60px;
-            }
-        }
-
-         .gna-tmj-section {
-            padding: 80px 0;
-            position: relative;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-        }
-        
-        
-        
-        .gna-section-title {
-            color: var(--gna-med-dark);
-            font-weight: 700;
-            margin-bottom: 15px;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .gna-section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: var(--gna-theme-light);
-            border-radius: 2px;
-        }
-        
-        .gna-tmj-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            height: 100%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none;
-        }
-        
-        .gna-tmj-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-        }
-        
-        .gna-card-img-container {
-            /*height: 300px;*/
-            overflow: hidden;
-            position: relative;
-        }
-        
-        @media (min-width: 768px){
-             .unique-section{
-                 padding:20px !important;
-             }
-         }
-        
-        .gna-card-img-overlay {
-            background: linear-gradient(to bottom, rgba(25, 95, 172, 0.1), rgba(25, 95, 172, 0.7));
-            display: flex;
-            align-items: flex-end;
-            padding: 20px;
-        }
-        
-        .gna-card-img-title {
-            color: white;
-            font-weight: 600;
-            margin: 0;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        
-        .gna-card-body {
-            padding: 25px;
-        }
-        
-        .gna-tmj-icon {
-            font-size: 24px;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .gna-tmj-card:hover .gna-tmj-icon {
-            background-color: var(--gna-med-primary);
-            color: white;
-        }
-        
-        .gna-treatment-badge {
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-        
-        .gna-main-content {
-            background-color: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            margin-bottom: 40px;
-        }
-        
-        .gna-highlight-text {
-            color: var(--gna-med-primary);
-            font-weight: 600;
-        }
-        
-        .gna-cta-button {
-            background: linear-gradient(45deg, var(--gna-med-dark), var(--gna-med-primary));
-            border: none;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.3);
-        }
-        
-        .gna-cta-button:hover {
-            background: linear-gradient(45deg, var(--gna-med-primary), var(--gna-theme-light));
-            transform: translateY(-2px);
-            color:white;
-            box-shadow: 0 6px 20px rgba(25, 95, 172, 0.4);
-        }
-        
-        .gna-feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        
-        .gna-feature-icon {
-            margin-right: 15px;
-            min-width: 40px;
-            height: 40px;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        @media (max-width: 768px) {
-            .gna-tmj-section {
-                padding: 50px 0;
-            }
-            
-            .gna-main-content {
-                padding: 25px;
-            }
-        }
-
-    </style>
-
-</head>	
-<body id="bg">
-<div class="page-wraper">
-	
-
-		<!-- Header Star -->
-		<?php include('header.php')?>
-	<!-- Header End -->
-	
-	<main class="page-content">
-	
-    		<div class="dz-bnr-inr dz-banner-dark  dz-bnr-inr-md" style="background-image:url(assets/images/breadcrumbs/Cosmetic-Facial-Surgery.webp);">
-		<div class="container">
-			<div class="dz-bnr-inr-entry d-table-cell">
-				<h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Cosmetic Facial Surgery
-</h1> 
-				<nav aria-label="breadcrumb" class="breadcrumb-row wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-					<ul class="breadcrumb">
-						<li class="breadcrumb-item "><a  class ="text-white"href="index">Home</a></li>
-						<li class="breadcrumb-item">Services</li>
-					</ul>
-				</nav>
-				<div class="dz-btn">
-					<a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
-						<span class="left-icon">
-							<i class="feather icon-phone-call"></i>
-						</span>
-						+919000666476
-					</a>					
-				</div>
-			</div>
-		</div>
-		<!--<span class="text-vertical">24/7 EMERGENCY SERVICE</span>-->
-		
-	</div>
-	
-	
-	<section class="gna-tmj-section">
-        <div class="container">
-            <div class="section-header">
-            <h2 class="section-title">Cosmetic Facial Surgery
-</h2>
-            <!--<p class="section-intro">TMJ disorders pose unique challenges that require expert intervention from a maxillofacial surgeon in Hyderabad. Here are some of the key concerns:</p>-->
-        </div>
-            
-            <div class="row">
-                <div class="col-lg-12 mx-auto">
-                    <div class="gna-main-content">
-                        <p class="mb-4">Orthognathic surgery, also known as jaw surgery, is a procedure used to correct misaligned jaws and improve both function and appearance. Whether you're dealing with jaw misalignment due to congenital issues or trauma, GNA Face offers specialized care under the guidance of the<b> Best Maxillofacial Surgeon in India.</b> Our team of experts utilizes advanced techniques like <b>BSSO, Le Fort,</b> and other methods to provide effective solutions tailored to your needs.</p>
-                        
-                              <!--<h4 class="text-dark">Treatment for Correction of Misaligned Jaws</h4>-->
-                              
-                              <!--<p class="mb-4">Misaligned jaws can cause several problems, including difficulty chewing, speaking, or even breathing. <b>Orthognathic surgery</b> is often the solution for patients dealing with jaw misalignment, ensuring improved functionality and aesthetic balance.</p>-->
-                                 
-                                  
-                        <div class="text-center my-1">
-                            <a href="https://wa.me/919000666476" class="gna-cta-button">Schedule a Consultation</a>
-                        </div>
-                    </div>
+<main>
+    <!-- HERO SECTION -->
+    <section class="relative pt-section-gap pb-section-gap overflow-hidden">
+        <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-6 z-10">
+                <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Specialized Care in Hyderabad</span>
+                <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">
+                    Cosmetic Facial Surgery for a Balanced, Natural Appearance
+                </h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                    Enhance your facial harmony and confidence with precision cosmetic procedures performed by Dr. Suresh P.L. at CARE Hospitals, Banjara Hills. From rhinoplasty to facial contouring, we combine artistry with surgical excellence for natural-looking results.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                        Book Consultation
+                    </button>
                 </div>
             </div>
-            
-           
+            <div class="md:col-span-6 relative mt-12 md:mt-0">
+                <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                    <img alt="Patient consultation for cosmetic facial surgery - discussing facial aesthetics with maxillofacial surgeon in Hyderabad" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChts0sllDg6XHVLTO4rlB2hy9-Yjmelgs37m-F0VZROVMDz9L7UnuViG2Et1zbjL0p9O4BAIqLCKKLngBeUUkOkq6TBUc7clYyb0wX6jGyxvQyVzfyvMXwY9xEeADAzaLEt5Z9kSoB8OG8-oR7a45ZhezAYXT8aQtA1eSjxrHh0-_Mri3y8Q8Jcz6fOnLHNNo52Z5K4mk1gFMMuqpcOj-1ckO4muuSPwL3BUPgvNCCRODIa2lBDCwv-XOVU7L5d-yiC892jrDDNaY"/>
+                </div>
+            </div>
         </div>
     </section>
-    
-    
-     
-            
-            
-	<section class="unique-section m-3">
-    <div class="section-header">
-        <h2 class="section-title">Treatments</h2>
-    </div>
-    <div class="row">
-        <!-- Face Lift Card -->
-        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/cosmetic-facial-surgery/Face Lift.webp" class="card-img-top" alt="Face Lift Treatment">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Face Lift: Rejuvenating Your Youthful Look</h5>-->
-                    <!--</div>-->
+
+    <!-- WHY CHOOSE US: Trust Signals -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">
+                    Why Choose Gnathos Facial for Cosmetic Facial Surgery
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    When considering facial cosmetic surgery, choosing an experienced maxillofacial surgeon ensures both aesthetic excellence and functional preservation.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">face</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Facial Anatomy Expertise</h3>
+                    <p class="text-on-surface-variant text-sm">As oral and maxillofacial surgeons, we possess unparalleled knowledge of facial bones, muscles, and soft tissues.</p>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                         <i class="fas fa-check"></i>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
                     </div>
-                    <h5 class="card-title mb-3">Face Lift: Rejuvenating Your Youthful Look</h5>
-                    <p class="card-text">A facelift procedure can help you achieve a smoother, younger appearance by tightening the skin and removing excess fat. This surgery addresses sagging skin, deep creases, and loose muscles to restore a youthful contour to the face.</p>
-
-                    <h6 class="mt-4 mb-3">Why Choose a Face Lift?</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Tightens and Firms Skin:</strong> Reduces sagging for a more youthful look.</p>
-                        </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Hospital-Based Safety</h3>
+                    <p class="text-on-surface-variant text-sm">All procedures performed at CARE Hospitals, Banjara Hills—a premier tertiary care facility with full emergency support.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">auto_awesome</span>
                     </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Long-Lasting Results:</strong> Enjoy smoother skin that lasts for years.</p>
-                        </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Natural-Looking Results</h3>
+                    <p class="text-on-surface-variant text-sm">Our philosophy prioritizes harmonious, natural results that enhance your features without appearing artificial.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">3d_rotation</span>
                     </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Restores Natural Contours:</strong> Corrects signs of aging around the neck and face.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">A facelift can dramatically enhance your appearance, restoring youthful firmness and rejuvenation.</p>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">3D Planning</h3>
+                    <p class="text-on-surface-variant text-sm">Advanced 3D imaging and virtual surgical planning for predictable, customized outcomes.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Eyelid Surgery Card -->
-       <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/cosmetic-facial-surgery/Eyelid Surgery.webp" class="card-img-top" alt="Eyelid Surgery Treatment">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Eyelid Surgery: Revitalize Your Eyes</h5>-->
-                    <!--</div>-->
+    <!-- COMMON CONCERNS / INDICATIONS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Common Aesthetic Concerns We Address</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Whether congenital, age-related, or trauma-induced, we offer surgical solutions to restore facial balance and proportion.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">face_retouching_natural</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Facial Imbalance</h3>
+                    <p class="text-on-surface-variant">Asymmetry between facial halves, uneven features, or disproportionate jaw-to-cheek relationships that affect overall harmony.</p>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-eye"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Eyelid Surgery: Revitalize Your Eyes</h5>
-                    <p class="card-text">Eyelid surgery (blepharoplasty) is a procedure to correct drooping eyelids and remove excess skin or fat around the eyes. Whether done for cosmetic or medical reasons, it can refresh your eyes, making them look more alert and youthful.</p>
-
-                    <h6 class="mt-4 mb-3">Why Consider Eyelid Surgery?</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Corrects Droopy Eyelids:</strong> Removes excess skin that may cause vision obstruction.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Reduces Puffiness:</strong> Removes fatty deposits, resulting in a fresher look.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Enhances Overall Appearance:</strong> Creates a more open and rested look.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">Eyelid surgery can restore the natural beauty of your eyes and improve both appearance and vision.</p>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">visibility</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Prominent Features</h3>
+                    <p class="text-on-surface-variant">Protruding chin, prominent cheekbones, or pronounced jaw angles that create self-consciousness or functional issues.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">mood</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Age-Related Changes</h3>
+                    <p class="text-on-surface-variant">Sagging facial tissues, loss of jawline definition, or descended chin position that adds years to your appearance.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Brow Lift Card -->
-        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/cosmetic-facial-surgery/Brow Lift.webp" class="card-img-top" alt="Brow Lift Surgery">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Brow Lift: Lift Your Look, Lift Your Confidence</h5>-->
-                    <!--</div>-->
+    <!-- THE SURGICAL JOURNEY: 3-Step Clinical Protocol -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">The Surgical Journey: Our Clinical Protocol</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    A meticulous, step-by-step approach to ensure optimal aesthetic outcomes while prioritizing your safety and comfort throughout the process.
+                </p>
+            </div>
+            <!-- Step 1: Consultation & Planning -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">1</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Comprehensive Consultation</h3>
+                    <p class="text-on-surface-variant mb-6">Your journey begins with a detailed consultation where we discuss your aesthetic goals, examine facial structure, and create a personalized surgical plan. We utilize 3D imaging to show projected results and ensure alignment between your expectations and achievable outcomes.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Detailed facial analysis and proportion assessment</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">3D imaging for outcome visualization</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Customized surgical plan development</span></li>
+                    </ul>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-laugh-beam"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Brow Lift: Lift Your Look, Lift Your Confidence</h5>
-                    <p class="card-text">Brow lift (also known as forehead lift) addresses sagging brows and forehead lines, giving you a more refreshed and youthful expression. It smoothens out wrinkles, elevates the brow, and provides a more open, vibrant appearance.</p>
-
-                    <h6 class="mt-4 mb-3">Why Choose Brow Lift Surgery?</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Corrects Sagging Eyebrows:</strong> Provides a natural, lifted look.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Smoothens Forehead Wrinkles:</strong> Reduces forehead lines and wrinkles.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Opens the Eye Area:</strong> Creates a more youthful and refreshed expression.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">A brow lift can refresh your appearance, giving you a youthful, relaxed look.</p>
+                <div class="order-1 md:order-2">
+                    <img alt="Surgeon reviewing 3D facial imaging with patient during cosmetic consultation at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALZZmj6_CAFtHy1vjXdbgnvuwqwnWdk_19QuvDwG7i0mDVRvdLGV05_43z3vvdldkKpstRUl-guoUaftbE5CwioKDaq5UVRxVAq0U8MGjGGnlSm4htoUiK9tI08QygsZdIE6fAW0tK3GLUdbMjaWzgMiRGr0vmWz94CBZCAz5n98VK4wg6s8B_4q7qH50Kaisg_8K1fkcOpoN94riL7idTd-mmNaOJ3BB3Dd_lfNVLvh2AzJQD5CYSFJuSDgGq37lTF8537L1ZhCA"/>
+                </div>
+            </div>
+            <!-- Step 2: The Procedure -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-1 md:order-1">
+                    <img alt="State-of-the-art operating room at CARE Hospitals, Banjara Hills Hyderabad for cosmetic facial surgery" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEFkiI4mjDEE18YDwFhytADXKSi52219_ImkXimFwvR_u_lEi32i_FGV-fHjIDfiuUGL1lJeadbUQP-VudLVyKwmYno2hUz4EdWrurPoOkszJUln7aMR43klGyT4vRj2F-e9ksMWzt4q9dm_IKwmSyFF36Jj32w61XM7ifV4JQo3iOufuJ2-9_ghJAMrR2v5dtBYCQPel3QIstAIejIFPRUIyA66943uzujXTS879KGpz70wCQ4303HF08bi3co5b4l1czHWqRntk"/>
+                </div>
+                <div class="order-2 md:order-2">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Surgical Execution</h3>
+                    <p class="text-on-surface-variant mb-6">Performed in the advanced surgical suites at CARE Hospitals, our procedures follow meticulous protocols. Whether chin augmentation, jaw contouring, or cheek enhancement, we employ minimally invasive techniques where possible to minimize scarring and accelerate recovery.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Board-certified anesthesiologists</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">State-of-the-art surgical facilities</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Minimally invasive approaches when applicable</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Step 3: Recovery & Aftercare -->
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">3</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Recovery & Long-Term Follow-Up</h3>
+                    <p class="text-on-surface-variant mb-6">Your recovery is closely monitored by our team. We provide comprehensive post-operative care instructions, schedule regular follow-up appointments, and ensure you're supported throughout the healing process until final results are achieved.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Dedicated post-operative care team</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Regular progress monitoring</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Long-term result evaluation</span></li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img alt="Patient follow-up consultation during cosmetic surgery recovery at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaRrHjwgG0DezjZgnjLmuq6RL9CyI85YBcNb1u3osq4A4qjOMgl1FeY22wgz1GXaf51SQJapMSN4qOB7Ntve8uN8i5Q4S48Hn695gFZ9eKoZ8eTbmszzEQ78BpWwI-se6eUoFxf0h0aAO8dzm8lBl6-GV_E63HyvhJXZKhyj1Ee6egcvFyGgiZFD2ECzbtctYIDqWdp5KmFKBKFTXcHMsu8grBLzpzaoDbJAb95GvjMmPOkDMVOUWXBOt3tNSmZTrHhvPct27CxAY"/>
                 </div>
             </div>
         </div>
-   
-    
-    <!--2nd row -->
-    
-      
-        <!-- Botox Card -->
-       <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/cosmetic-facial-surgery/Botox.webp" class="card-img-top" alt="Botox Treatment">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Botox: Smooth Wrinkles with a Non-Surgical Solution</h5>-->
-                    <!--</div>-->
-                </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-syringe"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Botox: Smooth Wrinkles with a Non-Surgical Solution</h5>
-                    <p class="card-text">Botox injections are a quick, non-surgical way to treat fine lines and wrinkles. It relaxes the muscles that cause wrinkles, providing smoother skin without the need for invasive surgery.</p>
+    </section>
 
-                    <h6 class="mt-4 mb-3">Why Consider Botox?</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Quick & Painless:</strong> Injections take just a few minutes.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Temporary Yet Effective:</strong> Smooths out forehead lines, crow’s feet, and frown lines.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Minimal Downtime:</strong> Return to normal activities immediately.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">Botox is a popular treatment for those seeking a non-invasive solution for facial wrinkles.</p>
-                </div>
+    <!-- RECOVERY TIMELINE -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Comprehensive Recovery Timeline</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Understanding the recovery process helps set realistic expectations. Most patients return to social activities within 2-3 weeks, with final results visible after 3-6 months.
+                </p>
             </div>
-        </div>
-
-        <!-- Fillers Card -->
-        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/cosmetic-facial-surgery/Filler.webp" class="card-img-top" alt="Fillers Treatment">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Fillers: Restore Volume and Smoothness</h5>-->
-                    <!--</div>-->
-                </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-syringe"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Fillers: Restore Volume and Smoothness</h5>
-                    <p class="card-text">Fillers are injectable treatments used to add volume and smooth out wrinkles, fine lines, and facial folds. They can restore youthful contours by plumping areas of the face that have lost volume due to aging.</p>
-
-                    <h6 class="mt-4 mb-3">Why Choose Fillers?</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
+            <div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xl shadow-sm border border-surface-variant overflow-hidden">
+                <div class="divide-y divide-surface-variant">
+                    <!-- Phase 1 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Week 1-2</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Initial Healing</span>
                         </div>
-                        <div>
-                            <p class="mb-0"><strong>Non-Surgical Treatment:</strong> No incisions required.</p>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">The most noticeable swelling and bruising occurs during this period. Patients typically experience mild discomfort managed with prescribed medications. Liquid or soft diet may be recommended depending on the procedure.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Swelling peaks around day 3-5 then gradually subsides</li>
+                                <li>May resume light activities after 7-10 days</li>
+                                <li>Sutures removed at follow-up appointment</li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
+                    <!-- Phase 2 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Weeks 3-6</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Visible Improvement</span>
                         </div>
-                        <div>
-                            <p class="mb-0"><strong>Restores Volume:</strong> Plumps up areas like cheeks and lips for a fuller look.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Quick Results:</strong> See immediate improvements in facial appearance.</p>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Most patients feel confident returning to work and social activities. Significant swelling has resolved, and early results become apparent. Normal eating and daily activities can typically resume.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>80% of swelling has resolved</li>
+                                <li>Can return to most normal activities</li>
+                                <li>Gradual transition to regular diet</li>
+                            </ul>
                         </div>
                     </div>
-
-                    <p class="mt-4">Fillers can provide a fuller, younger look without surgery.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Lip Augmentation Card -->
-        <div class="col-12 col-sm-6 col-md-6  col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/cosmetic-facial-surgery/Lip Augmentation.webp" class="card-img-top" alt="Lip Augmentation Treatment">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Lip Augmentation: Enhance Your Natural Smile</h5>-->
-                    <!--</div>-->
-                </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-syringe"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Lip Augmentation: Enhance Your Natural Smile</h5>
-                    <p class="card-text">Lip augmentation is a procedure to enhance the size and shape of your lips. It can involve the use of fillers or implants to create fuller, more defined lips.</p>
-
-                    <h6 class="mt-4 mb-3">Why Consider Lip Augmentation?</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
+                    <!-- Phase 3 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">3-6 Months</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Final Results</span>
                         </div>
-                        <div>
-                            <p class="mb-0"><strong>Natural-Looking Results:</strong> Achieve a fuller pout with subtle changes.</p>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Final aesthetic results are achieved as all residual swelling resolves and tissues settle into their new position. The face achieves its permanent, harmonious contour.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Complete soft tissue healing</li>
+                                <li>Final bone contour established</li>
+                                <li>Long-term follow-up scheduled</li>
+                            </ul>
                         </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Improves Symmetry:</strong> Corrects uneven lips for a balanced look.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Boosts Confidence:</strong> Enhances your smile and overall appearance.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">Lip augmentation gives you fuller lips, enhancing your smile and overall facial harmony.</p>
-                </div>
-            </div>
-            </div>
-    
-    
-     <div class="col-12    mb-4 mx-auto">
-        <!-- Chin Augmentation Card -->
-        <div class="col-md-6 col-sm-6 mb-4 mx-auto">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/cosmetic-facial-surgery/Chin Augmentation.webp" class="card-img-top" alt="Chin Augmentation Treatment">
-                    <!--<div class="gna-card-img-overlay">-->
-                    <!--    <h5 class="gna-card-img-title">Chin Augmentation: Balance Your Facial Proportions</h5>-->
-                    <!--</div>-->
-                </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-bone"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Chin Augmentation: Balance Your Facial Proportions</h5>
-                    <p class="card-text">Chin augmentation (mentoplasty) involves reshaping or adding volume to the chin to improve facial balance and profile. Whether done with implants or through natural tissue manipulation, it creates a more harmonious and youthful appearance.</p>
-
-                    <h6 class="mt-4 mb-3">Why Consider Chin Augmentation?</h6>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Improves Facial Balance:</strong> A well-proportioned chin enhances the overall look.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Adds Definition:</strong> Shapes and defines the chin for a more attractive profile.</p>
-                        </div>
-                    </div>
-
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div>
-                            <p class="mb-0"><strong>Permanent Results:</strong> Achieve long-lasting changes to your facial structure.</p>
-                        </div>
-                    </div>
-
-                    <p class="mt-4">Chin augmentation can bring balance to your face, improving overall proportions and enhancing your profile.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-     </div>
-</section>
-
-       
-       
-          <div class="container-fluid p-0">
-        <div class="marquee-container">
-            <div class="marquee-content">
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-            </div>
-        </div>
-    </div>  
-	
-	   <section class="tmj-section">
-   
-    <div class="bg-shape shape-1"></div>
-    <div class="bg-shape shape-2"></div>
-
-    <!-- Gradient accents -->
-    <div class="gradient-accent accent-1"></div>
-    <div class="gradient-accent accent-2"></div>
-
-    <div class="container">
-    <!-- Section header -->
-    <div class="section-header">
-        <h2 class="section-title">Why Choose GNA Face for Cosmetic Facial Surgery?</h2>
-    </div>
-
-    <!-- Cosmetic Facial Surgery Benefits Cards -->
-    <div class="symptoms-container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">1</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Best Maxillofacial Surgeon in India:</h4>
-                        <p class="symptom-desc">Our team of skilled surgeons provides expertise in all cosmetic facial procedures.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">2</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Tailored Treatment Plans</h4>
-                        <p class="symptom-desc">We offer customized solutions based on your individual aesthetic goals.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">3</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Advanced Techniques</h4>
-                        <p class="symptom-desc">We use the latest technology to deliver the best results with minimal downtime.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="symptom-card">
-                    <span class="number-badge">4</span>
-                    <div class="card-body">
-                        <h4 class="symptom-title">Natural-Looking Results</h4>
-                        <p class="symptom-desc">Our goal is to enhance your features while maintaining natural beauty.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Note box -->
-    <div class="note-container">
-        <p class="note-desc">At GNA Face, we’re committed to helping you achieve the appearance you desire with safe and effective cosmetic treatments.</p>
-    </div>
-</div>
-
-</section>
-
-
-
-  
-  
-
-   
-
-    
-    
-    	
-		
-		
-	<?php include('stats.php')?>
-
-  
-		
-		  
-
-	<section class="content-inner pt-5 pb-5" style="background-image: url(images/background/bg3.png); background-position: right bottom; background-repeat: no-repeat;">
-    <div class="container">
-        <div class="row content-wrapper style-5">
-            <div class="col-xxl-7 col-xl-6 col-lg-5 m-b30 align-self-center">
-                <div class="content-info">
-                    <div class="section-head style-1 m-b30">
-                        <h2 class="title wow fadeInUp mb-3" data-wow-delay="0.2s" data-wow-duration="0.7s">Frequently Asked Questions</h2>
+    <!-- PATIENT PREPARATION CHECKLIST -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="bg-primary-container rounded-2xl p-8 md:p-12 border border-primary/10">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md text-on-primary mb-4">Preparing for Your Consultation</h2>
+                        <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
+                            A productive consultation begins with preparation. Bring the following to help us understand your goals and create the best treatment plan for you.
+                        </p>
+                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
+                            Download Consultation Guide
+                        </button>
                     </div>
-                    <div class="accordion dz-accordion style-1" id="accordionExample">
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is rhinoplasty?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Rhinoplasty is a surgical procedure that reshapes the nose to improve its appearance or function, often correcting deformities or breathing problems.</p>
+                    <div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">photo_library</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Reference Photos</strong>
+                                    <span class="text-sm text-on-surface-variant">Bring examples of the appearance you hope to achieve. Photos of your face from different angles help us understand your goals.</span>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How long does it take to recover from a facelift?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Most patients experience a full recovery within 2 to 3 weeks, but it may take a few months for the swelling to completely subside.</p>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">medical_information</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Medical History</strong>
+                                    <span class="text-sm text-on-surface-variant">Complete records of previous facial surgeries, medical conditions, and current medications.</span>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Can Botox be used for all types of wrinkles?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Botox is effective for smoothing out dynamic wrinkles like forehead lines, crow’s feet, and frown lines caused by muscle movement.</p>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">question_answer</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Questions List</strong>
+                                    <span class="text-sm text-on-surface-variant">Write down questions about the procedure, recovery, risks, and expected outcomes.</span>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    How long do results from fillers last?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Results from fillers typically last from 6 months to a year, depending on the type of filler and the area treated.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Are the results from chin augmentation permanent?
-                                </button>
-                            </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>Yes, chin augmentation provides permanent results, though minor touch-ups may be necessary over time for optimal appearance.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-5 col-xl-6 col-lg-7 m-b30">
-                <div class="content-media" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-                    <div class="dz-media">
-                        <img src="assets/images/services/Facial-injuries/Frequently-Asked-Questions.webp" alt="">
-                    </div>
-                    <div class="item1">
-                        <div class="info-widget style-5">
-                            <div class="widget-media text-primary">
-                                <i class="feather icon-phone-call dz-ring-effect"></i>
-                            </div>
-                            <div class="widget-content">
-                                <h6 class="title">Contact us?</h6>
-                                <a href="https://wa.me/919000666476" class="text-secondary">+919000666476</a>
-                            </div>
-                        </div>
-                        <a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary btn-shadow">
-                            <span class="w-100">Appointment</span> <span class="right-icon"><i class="feather icon-arrow-right"></i></span>
-                        </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- ADVANCED DIAGNOSTICS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="order-2 md:order-1 relative">
+                    <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
+                    <img alt="3D facial imaging and analysis technology at Gnathos Facial Surgery for cosmetic planning in Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgiZgTqnVcGDk7B4fhXOjMiLV4DGjNzOgX9yuT4UMyPanmr2lRO15oN3w3OfKdMSKhk4ad2cRuLpHc5ZhBBlNK_M2FlNzVWA_lHbUA99hV_AoAAK6_1dIQyTAZpJ9L-dMhrbg3j3gmXq9M7_q6Y6MksM8DJnHFzvq2H1REx1zD_OmalTO7POfydhxeqR-Mm8EcMQH1v-EMTzkRccwHCOvk3b5-QF5hk76-BOBh-PabfF_B9aQY2BCUXnmv856NFuMAsl5O1Sdmr5Y"/>
+                </div>
+                <div class="order-1 md:order-2">
+                    <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
+                        Successful cosmetic surgery begins with meticulous planning. We utilize cutting-edge imaging technology to analyze facial proportions and plan procedures with precision.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">3D Facial Scanning</strong>
+                                <span class="text-on-surface-variant">Precise digital capture of facial contours for detailed analysis and surgical planning.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">CBCT Imaging</strong>
+                                <span class="text-on-surface-variant">3D bone imaging essential for procedures involving jaw bones, implants, or skeletal structure.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Digital Smile Design</strong>
+                                <span class="text-on-surface-variant">Software-based facial aesthetic analysis to predict and plan optimal outcomes.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        
-		
-	
-		
-		
-		
-	
-		
-		
+    <!-- TREATMENT PATHWAYS -->
+    <section class="py-section-gap">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Cosmetic Facial Surgery Procedures</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    We offer a comprehensive range of aesthetic procedures tailored to address your specific concerns and achieve your desired appearance.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Surgical Procedures Card -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined">medical_services</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Surgical Procedures</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Chin Augmentation/Genioplasty</h4>
+                            <p class="text-on-surface-variant text-sm">Reshaping or enhancing the chin to achieve better facial balance using implants or bone repositioning.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Cheek Augmentation</h4>
+                            <p class="text-on-surface-variant text-sm">Enhancement of cheekbones with implants or fat grafting to create more defined facial contours.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Jaw Contouring</h4>
+                            <p class="text-on-surface-variant text-sm">Sculpting of the jawline to reduce width, enhance definition, or correct asymmetry.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Facial Fat Grafting</h4>
+                            <p class="text-on-surface-variant text-sm">Transfer of your body's own fat to restore volume and enhance facial contours naturally.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Combined & Complementary Card -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                            <span class="material-symbols-outlined">auto_fix_high</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Combined & Complementary</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Rhinoplasty</h4>
+                            <p class="text-on-surface-variant text-sm">Reshaping of the nose for aesthetic improvement and better facial harmony.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Neck Liposuction</h4>
+                            <p class="text-on-surface-variant text-sm">Removal of excess fat under the chin and along the neck for improved jawline definition.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Facelift Consultation</h4>
+                            <p class="text-on-surface-variant text-sm">Comprehensive assessment for facial rejuvenation procedures in coordination with plastic surgery colleagues.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Orthognathic Combined with Aesthetic</h4>
+                            <p class="text-on-surface-variant text-sm">Combining functional jaw surgery with cosmetic refinements for comprehensive facial transformation.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                    Request a Consultation
+                </button>
+            </div>
+        </div>
+    </section>
 
-	</main>
-	
-		 
-	<?php include('footer.php')?>
+    <!-- THE SURGICAL TEAM -->
+    <section class="py-section-gap bg-primary text-on-primary">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md mb-4">Expert Cosmetic Facial Surgery Team</h2>
+                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
+                    Our dual expertise in maxillofacial surgery and facial aesthetics ensures safe, natural-looking results.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Dr. Suresh Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon and Cosmetic Facial Surgery Specialist in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/Dr.-Suresh.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Senior Consultant with 20+ years of experience in complex maxillofacial surgery. His expertise in facial anatomy ensures precise, natural-looking cosmetic outcomes for chin, jaw, and facial contouring procedures.</p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Dr. Navatha Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon and Cosmetic Facial Surgery Specialist in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Senior Consultant specializing in aesthetic maxillofacial surgery with 15+ years of experience. Known for her meticulous approach to facial contouring and commitment to achieving harmonious, natural results.</p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
+    <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Frequently Asked Questions</h2>
+                <p class="text-on-surface-variant">Common concerns about cosmetic facial surgery and recovery.</p>
+            </div>
+            <div class="space-y-4">
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Will cosmetic facial surgery leave visible scars?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Scarring depends on the procedure and approach used. Many cosmetic facial procedures are performed using intraoral incisions (inside the mouth), leaving no visible external scars. When external incisions are necessary, our surgeons place them in natural skin creases or hidden areas to minimize visibility. Full scar maturation takes 12-18 months, after which scars typically become barely perceptible.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How long do the results of cosmetic facial surgery last?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        The results of bone-contouring procedures (chin, jaw) are permanent. Soft tissue procedures and fat grafting may show some age-related changes over time, but the improvement is long-lasting. Maintaining a stable weight and healthy lifestyle helps preserve results. The natural aging process continues, but you'll always look better than if you hadn't had the procedure.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Is cosmetic facial surgery painful?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Most patients experience manageable discomfort rather than severe pain. Discomfort is typically described as pressure or soreness, similar to recovering from dental work. Pain is well-controlled with prescribed medications during the first week. The majority of patients are pleasantly surprised that discomfort is less than they expected, especially with the advanced techniques we employ.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        When can I return to work after cosmetic facial surgery?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        This varies by procedure and your job requirements. For office-based work, most patients return within 1-2 weeks once initial swelling subsides. Jobs requiring physical labor or public interaction may require 3-4 weeks. We provide a detailed timeline during your consultation based on your specific procedure and occupation.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Can cosmetic facial surgery be combined with other procedures?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Yes, combining procedures is common and often beneficial. Common combinations include chin augmentation with rhinoplasty, jaw contouring with cheek augmentation, or cosmetic procedures with orthognathic surgery. Combining procedures reduces overall recovery time and costs while achieving comprehensive improvement. We carefully evaluate safety considerations when planning combined procedures.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
 
-<!-- JAVASCRIPT FILES ========================================= -->
-<?php include('footer-links.php')?>
-</body>
-</html>
+    <!-- FINAL CTA -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Enhance Your Facial Harmony?</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
+                Take the first step toward achieving the facial balance you desire. Schedule a consultation with our specialists to discuss your goals and explore your options.
+            </p>
+            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
+                Schedule Your Consultation
+                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
+            </button>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<?php
+include $path_prefix . 'footer.php';
+?>

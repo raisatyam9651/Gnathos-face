@@ -1,996 +1,521 @@
-<!DOCTYPE html>
-<html lang="en" data-theme-color="skin-1">
-<head>
+<?php
+$path_prefix = "";
+$page_title = "Orthognathic Surgery Hyderabad | Jaw Correction Surgery | Gnathos Facial";
+$page_description = "Expert orthognathic surgery in Hyderabad. Board-certified maxillofacial surgeons at Gnathos Facial offer advanced jaw correction surgery for improved function and aesthetics. Book consultation today.";
+include $path_prefix . 'header-include.php';
+include $path_prefix . 'header.php';
+?>
 
-<!-- SEO Meta Tags -->
-<title>Orthognathic Surgery Hyderabad | Jaw Correction Specialist | Dr. Suresh PL</title>
-<meta name="description" content="Correct jaw alignment & restore your smile. Dr. Suresh PL, 20+ yr maxillofacial expert in Hyderabad. Free consultation — Book now.">
-<meta name="keywords" content="orthognathic surgery in Hyderabad, best orthognathic surgery in Hyderabad, jaw correction surgery in India, corrective jaw surgery, orthognathic surgeons Hyderabad, maxillofacial jaw alignment, double jaw surgery, surgical orthodontics India">
-<meta name="author" content="GnathosFace">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://gnathosface.com/orthognathic-surgery-treatment" />
 
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Best Orthognathic Surgery in Hyderabad & India | GnathosFace">
-<meta property="og:description" content="Trusted center for orthognathic surgery in Hyderabad & India. Get expert facial jaw correction by GnathosFace's skilled maxillofacial surgeons.">
-<meta property="og:url" content="https://gnathosface.com/orthognathic-surgery-treatment">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="GnathosFace">
-
-<!-- Twitter Card Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Orthognathic Surgery in Hyderabad & India | GnathosFace">
-<meta name="twitter:description" content="Trusted center for orthognathic surgery in Hyderabad & India. Get expert facial jaw correction by GnathosFace's skilled maxillofacial surgeons.">
-
-<!-- Geo Tags -->
-<meta name="geo.region" content="IN-TG">
-<meta name="geo.placename" content="Hyderabad">
-<meta name="geo.position" content="17.3850;78.4867">
-<meta name="ICBM" content="17.3850, 78.4867">
-
-<!-- JSON-LD Schema Markup -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "name": "GnathosFace",
-  "url": "https://gnathosface.com/",
-  "image": "https://gnathosface.com/images/logo.png",
-  "description": "GnathosFace offers the best orthognathic surgery in Hyderabad and India, including jaw correction, facial alignment, and advanced surgical orthodontics.",
-  "author": {
-    "@type": "Organization",
-    "name": "GnathosFace"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Hyderabad",
-    "addressRegion": "Telangana",
-    "addressCountry": "India"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 17.3850,
-    "longitude": 78.4867
-  },
-  "areaServed": ["Hyderabad", "India"],
-  "medicalSpecialty": "Orthognathic Surgery",
-  "department": {
-    "@type": "MedicalSpecialty",
-    "name": "Jaw Correction Surgery"
-  }
-}
-</script>
-
-	 
-	<?php include('header-links.php')?>
-
-	
-	 
-	<!-- FAVICONS ICON -->
-   <style>
-        .site-header{
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        :root {
-            --theme-color: #195FAC;
-            --theme-light: #2196f3;
-             --med-primary: #1976D2;
-            --med-light: #64B5F6;
-            --med-dark: #0D47A1;
-            --med-pale: #E3F2FD;
-            --gna-theme-color: #195FAC;
-            --gna-theme-light: #2196f3;
-            --gna-med-primary: #1976D2;
-            --gna-med-light: #64B5F6;
-            --gna-med-dark: #0D47A1;
-            --gna-med-pale: #E3F2FD;
-        }
-       
-        .section-title {
-            position: relative;
-            margin-bottom: 2.5rem;
-            color: var(--theme-color);
-        }
-      .DZ-theme-btn{
-          display:none  !important ;
-      }
-
-       
-        .marquee-container {
-            background: linear-gradient(45deg, #172C5A, #2a4380, #172C5A);
-            background-size: 200% 200%;
-            padding: 20px 0;
-            overflow: hidden;
-            position: relative;
-            box-shadow: 0 4px 15px rgba(23, 44, 90, 0.3);
-            animation: gradientBG 20s ease infinite;
-        }
-
-        .marquee-content {
-            white-space: nowrap;
-            display: inline-block;
-            animation: marquee 30s linear infinite;
-            color: #ffffff;
-            font-size: 1.4rem;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-            padding: 0 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Location icon styling */
-        .location-icon {
-            margin-right: 10px;
-            color: #ffffff;
-        }
-
-        @keyframes marquee {
-            0% {
-                transform: translateX(100%);
-            }
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-
-        @keyframes gradientBG {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-
-        /* Smooth pause on hover */
-        .marquee-container:hover .marquee-content {
-            animation-play-state: paused;
-            transform: scale(1.01);
-            transition: transform 0.3s ease;
-        }
-
-        /* Add a subtle glow effect */
-        .marquee-content::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.1);
-            filter: blur(5px);
-            z-index: -1;
-        }
-       @media (max-width: 767px) and (min-width: 200px) {
-           .mob{
-               display:none;
-           }
-       }
-      
-        @media (max-width: 991.98px) {
-           
-        }
-        
-        
-        .tmj-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .bg-shape {
-            position: absolute;
-            border-radius: 50%;
-            background: linear-gradient(145deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            opacity: 0.05;
-        }
-        
-        .shape-1 {
-            width: 400px;
-            height: 400px;
-            top: -200px;
-            right: -200px;
-        }
-        
-        .shape-2 {
-            width: 300px;
-            height: 300px;
-            bottom: -100px;
-            left: -150px;
-        }
-        
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-            position: relative;
-        }
-        
-        .section-title {
-            color: var(--med-dark);
-            font-weight: 800;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title::after {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            bottom: -15px;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-            border-radius: 2px;
-        }
-        
-        .section-intro {
-            max-width: 700px;
-            margin: 30px auto 0;
-            color: #546E7A;
-            font-size: 1.1rem;
-        }
-        
-        .symptoms-container {
-            position: relative;
-        }
-        
-        .symptom-card {
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            transition: all 0.4s ease;
-            margin-bottom: 30px;
-            position: relative;
-            z-index: 1;
-            overflow: hidden;
-            border: none;
-        }
-        
-        .symptom-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 6px;
-            background: linear-gradient(to right, var(--theme-color), var(--theme-light));
-        }
-        
-        .symptom-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 35px rgba(33, 150, 243, 0.15);
-        }
-        
-        .number-badge {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, var(--theme-color), var(--theme-light));
-            color: white;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            font-size: 18px;
-            box-shadow: 0 4px 8px rgba(33, 150, 243, 0.25);
-        }
-        
-        .card-body {
-            padding: 35px 25px 30px 70px;
-        }
-        
-        .symptom-title {
-            color: var(--med-dark);
-            font-weight: 700;
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            position: relative;
-        }
-        
-        .symptom-desc {
-            color: #546E7A;
-            line-height: 1.7;
-        }
-        
-        .note-container {
-            margin-top: 50px;
-            position: relative;
-        }
-        
-        .note-box {
-            background: white;
-            border-radius: 16px;
-            padding: 35px 40px;
-            box-shadow: 0 10px 30px rgba(25, 95, 172, 0.08);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .note-box::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 6px;
-            height: 100%;
-            background: linear-gradient(to bottom, var(--theme-color), var(--theme-light));
-        }
-        
-        .note-title {
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--med-dark);
-            font-size: 1.25rem;
-            position: relative;
-        }
-        
-        .specialist-link {
-            color: var(--theme-color);
-            font-weight: 700;
-            text-decoration: none;
-            background-image: linear-gradient(to right, var(--theme-color), var(--theme-color));
-            background-position: bottom;
-            background-size: 100% 2px;
-            background-repeat: no-repeat;
-            transition: all 0.3s ease;
-            padding-bottom: 2px;
-        }
-        
-        .specialist-link:hover {
-            color: var(--theme-light);
-            background-size: 0% 2px;
-        }
-        
-        .gradient-accent {
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--theme-light) 0%, var(--med-primary) 100%);
-            filter: blur(50px);
-            opacity: 0.07;
-            z-index: 0;
-        }
-        
-        .accent-1 {
-            top: 10%;
-            right: 5%;
-        }
-        
-        .accent-2 {
-            bottom: 20%;
-            left: 10%;
-        }
-        
-        @media (max-width: 768px) {
-            .tmj-section {
-                padding: 60px 0;
-            }
-            
-            .section-title {
-                font-size: 2rem;
-            }
-            
-            .card-body {
-                padding: 30px 20px 25px 60px;
-            }
-        }
-
-         .gna-tmj-section {
-            padding: 80px 0;
-            position: relative;
-            background: linear-gradient(135deg, white 0%, var(--med-pale) 100%);
-        }
-        
-        
-        
-        .gna-section-title {
-            color: var(--gna-med-dark);
-            font-weight: 700;
-            margin-bottom: 15px;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .gna-section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: var(--gna-theme-light);
-            border-radius: 2px;
-        }
-        
-        .gna-tmj-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            height: 100%;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none;
-        }
-        
-        .gna-tmj-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-        }
-        
-        .gna-card-img-container {
-            /*height: 300px;*/
-            overflow: hidden;
-            position: relative;
-        }
-        
-        @media (min-width: 768px){
-             .unique-section{
-                 padding:20px !important;
-             }
-         }
-        
-        /*.gna-card-img-overlay {*/
-        /*    background: linear-gradient(to bottom, rgba(25, 95, 172, 0.1), rgba(25, 95, 172, 0.7));*/
-        /*    display: flex;*/
-        /*    align-items: flex-end;*/
-        /*    padding: 20px;*/
-        /*}*/
-        
-        /*.gna-card-img-title {*/
-        /*    color: white;*/
-        /*    font-weight: 600;*/
-        /*    margin: 0;*/
-        /*    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
-        /*}*/
-        
-        .gna-card-body {
-            padding: 25px;
-        }
-        
-        .gna-tmj-icon {
-            font-size: 24px;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            margin-bottom: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .gna-tmj-card:hover .gna-tmj-icon {
-            background-color: var(--gna-med-primary);
-            color: white;
-        }
-        
-        .gna-treatment-badge {
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-        
-        .gna-main-content {
-            background-color: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            margin-bottom: 40px;
-        }
-        
-        .gna-highlight-text {
-            color: var(--gna-med-primary);
-            font-weight: 600;
-        }
-        
-        .gna-cta-button {
-            background: linear-gradient(45deg, var(--gna-med-dark), var(--gna-med-primary));
-            border: none;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(25, 95, 172, 0.3);
-        }
-        
-        .gna-cta-button:hover {
-            background: linear-gradient(45deg, var(--gna-med-primary), var(--gna-theme-light));
-            transform: translateY(-2px);
-            color: white;
-            box-shadow: 0 6px 20px rgba(25, 95, 172, 0.4);
-        }
-        
-        .gna-feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        
-        .gna-feature-icon {
-            margin-right: 15px;
-            min-width: 40px;
-            height: 40px;
-            background-color: var(--gna-med-pale);
-            color: var(--gna-med-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        @media (max-width: 768px) {
-            .gna-tmj-section {
-                padding: 50px 0;
-            }
-            
-            .gna-main-content {
-                padding: 25px;
-            }
-        }
-
-    </style>
-
-</head>	
-<body id="bg">
-<div class="page-wraper">
-	
-
-		<!-- Header Star -->
-		<?php include('header.php')?>
-	<!-- Header End -->
-	
-	<main class="page-content">
-	
-    		<div class="dz-bnr-inr dz-banner-dark  dz-bnr-inr-md" style="background-image:url(assets/images/breadcrumbs/Orthognathic-Surgery.webp);">
-		<div class="container">
-			<div class="dz-bnr-inr-entry d-table-cell">
-				<h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Orthognathic Surgery
-</h1> 
-				<nav aria-label="breadcrumb" class="breadcrumb-row wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-					<ul class="breadcrumb">
-						<li class="breadcrumb-item "><a  class ="text-white"href="index">Home</a></li>
-						<li class="breadcrumb-item">Services</li>
-					</ul>
-				</nav>
-				<div class="dz-btn">
-					<a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
-						<span class="left-icon">
-							<i class="feather icon-phone-call"></i>
-						</span>
-						+919000666476
-					</a>					
-				</div>
-			</div>
-		</div>
-		<!--<span class="text-vertical">24/7 EMERGENCY SERVICE</span>-->
-		
-	</div>
-	
-	
-	<section class="gna-tmj-section">
-        <div class="container">
-            <div class="section-header">
-            <h2 class="section-title">Orthognathic Surgery
-</h2>
-            <!--<p class="section-intro">TMJ disorders pose unique challenges that require expert intervention from a maxillofacial surgeon in Hyderabad. Here are some of the key concerns:</p>-->
-        </div>
-            
-            <div class="row">
-                <div class="col-lg-12 mx-auto">
-                    <div class="gna-main-content">
-                        <p class="mb-4">Orthognathic surgery, also known as jaw surgery, is a procedure used to correct misaligned jaws and improve both function and appearance. Whether you're dealing with jaw misalignment due to congenital issues or trauma, GNA Face offers specialized care under the guidance of the Best Maxillofacial Surgeon in India. Our team of experts utilizes advanced techniques like BSSO, Le Fort, and other methods to provide effective solutions tailored to your needs.
-
-</p>
-                        
-                              <h4 class="text-dark">Treatment for Correction of Misaligned Jaws</h4>
-                              
-                              <p class="mb-4">Misaligned jaws can cause several problems, including difficulty chewing, speaking, or even breathing. <b>Orthognathic surgery</b> is often the solution for patients dealing with jaw misalignment, ensuring improved functionality and aesthetic balance.</p>
-                                 
-                                  <h6 class="mt-4 mb-3">How Orthognathic Surgery Helps:</h6>
-                                  
-                                  
-                                 <div class="gna-feature-item">
-                                <div class="gna-feature-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-0"><b>Improves Functionality:</b> Surgery restores proper jaw alignment, making eating, speaking, and breathing easier.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="gna-feature-item">
-                                <div class="gna-feature-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-0"><b>Enhances Aesthetics:</b> Correcting jaw position improves facial symmetry and overall appearance.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="gna-feature-item">
-                                <div class="gna-feature-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div>
-                                    <p class="mb-0"><b>Relieves Pain:</b> Misaligned jaws can lead to TMJ disorders, jaw pain, and discomfort—orthognathic surgery helps alleviate these issues.</p>
-                                </div>
-                            </div>
-                              
-                   <!--<p class="mb-4">This technique is especially beneficial for patients dealing with severe facial trauma or bone loss. The <b>Best Maxillofacial Surgeon in India</b> ensures a precise and effective procedure to restore both function and aesthetics.</p>-->
-
-                        <div class="text-center my-5">
-                            <a href="https://wa.me/919000666476" class="gna-cta-button">Schedule a Consultation</a>
-                        </div>
-                    </div>
+<main>
+    <!-- HERO SECTION -->
+    <section class="relative pt-section-gap pb-section-gap overflow-hidden">
+        <div class="absolute inset-0 bg-surface-container-low -z-10"></div>
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-6 z-10">
+                <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Advanced Jaw Surgery in Hyderabad</span>
+                <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">
+                    Orthognathic Surgery for a Balanced, Functional Smile
+                </h1>
+                <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+                    Transform your bite, facial symmetry, and quality of life with precision orthognathic surgery. Our expert maxillofacial surgeons at CARE Hospitals, Banjara Hills, deliver life-changing results using advanced 3D planning technology.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 text-center">
+                        Book Consultation
+                    </button>
+                    <button class="border border-primary text-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-primary hover:text-on-primary transition-colors duration-300 text-center">
+                        View Treatment Options
+                    </button>
                 </div>
             </div>
-            
-           
+            <div class="md:col-span-6 relative mt-12 md:mt-0">
+                <div class="aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                    <img alt="Patient consultation for orthognathic jaw surgery at Gnathos Facial Surgery, Hyderabad" class="w-full h-full object-cover" src="asset/orthognathic-hero.jpg"/>
+                </div>
+            </div>
         </div>
     </section>
-    
-    
-     
-            
-            
-	<section class="unique-section m-3">
-    <div class="section-header">
-        <h2 class="section-title">Treatments</h2>
-    </div>
-    <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/ortho-images/BSSO.webp" class="card-img-top" alt="Occlusal Splints Treatment">
+
+    <!-- WHY CHOOSE US: Trust Signals -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">
+                    Why Choose Gnathos Facial for Orthognathic Surgery
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Our oral and maxillofacial surgeons in Hyderabad combine decades of experience with cutting-edge technology to deliver predictable, transformative outcomes.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">school</span>
+                    </div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Board-Certified Surgeons</h3>
+                    <p class="text-on-surface-variant text-sm">MDS-trained maxillofacial surgeons with specialized fellowship training in orthognathic surgery.</p>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-tooth"></i>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">desktop_windows</span>
                     </div>
-                    <h5 class="card-title mb-3">BSSO (Bilateral Sagittal Split Osteotomy): Precision for Jaw Alignment</h5>
-                    <p class="card-text">BSSO is a common surgical technique used to correct the position of the lower jaw (mandible)...</p>
-                    <h6 class="mt-4 mb-3">Why Choose BSSO?</h6>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Effective for Lower Jaw Issues:</strong> BSSO is ideal for patients with underbite or overbite...</p></div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">3D Virtual Planning</h3>
+                    <p class="text-on-surface-variant text-sm">Advanced CBCT scanning and surgical simulation for precise, predictable surgical outcomes.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">local_hospital</span>
                     </div>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Prevents Further Damage:</strong> Secures the jaw in place, preventing movement...</p></div>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">CARE Hospitals Facility</h3>
+                    <p class="text-on-surface-variant text-sm">State-of-the-art operating theatres in Banjara Hills with full ICU backup and specialist support.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary mx-auto mb-4">
+                        <span class="material-symbols-outlined text-3xl">group</span>
                     </div>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Faster Healing:</strong> Properly aligned jaws heal more efficiently...</p></div>
-                    </div>
-                    <p class="mt-4"><b>BSSO is a critical part of treatment when dealing with lower jaw misalignment</b>...</p>
+                    <h3 class="font-headline-sm text-lg text-primary mb-2">Multidisciplinary Team</h3>
+                    <p class="text-on-surface-variant text-sm">Coordinated care with orthodontists, anesthesiologists, and speech therapists for comprehensive treatment.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/ortho-images/Le Fort.webp" class="card-img-top" alt="TMJ Arthroscopy Procedure">
+    <!-- SYMPTOMS / INDICATIONS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Is Orthognathic Surgery Right for You?</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Orthognathic surgery corrects significant jaw misalignments that cannot be resolved with orthodontics alone. Common conditions that benefit from jaw surgery include severe skeletal discrepancies affecting bite, facial balance, and daily function.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">sentiment_dissatisfied</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Severe Malocclusion</h3>
+                    <p class="text-on-surface-variant">Significant overbite, underbite, or crossbite causing difficulty chewing, speaking, or maintaining oral hygiene.</p>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-procedures"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Le Fort: Correcting Upper Jaw Alignment</h5>
-                    <p class="card-text">Le Fort surgery focuses on the upper jaw (maxilla), addressing issues like overbite or misalignment...</p>
-                    <h6 class="mt-4 mb-3">Why Choose Le Fort?</h6>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Corrects Upper Jaw Issues:</strong> Le Fort is used when the upper jaw needs repositioning...</p></div>
-                    </div>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Restores Facial Balance:</strong> This procedure helps align the upper jaw...</p></div>
-                    </div>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Improves Breathing:</strong> In some cases, Le Fort can also help open airways...</p></div>
-                    </div>
-                    <p class="mt-4">Le Fort procedures are customized to each patient's needs...</p>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">face</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Facial Asymmetry</h3>
+                    <p class="text-on-surface-variant">Noticeable imbalance between upper and lower jaw causing aesthetic concerns and functional limitations.</p>
+                </div>
+                <div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm border border-surface-variant hover-lift">
+                    <span class="material-symbols-outlined text-4xl text-secondary mb-4 icon-fill-1">air</span>
+                    <h3 class="font-headline-sm text-xl text-primary mb-3">Sleep Breathing Issues</h3>
+                    <p class="text-on-surface-variant">Jaw positioning contributing to obstructive sleep apnea or severe snoring affecting quality of life.</p>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-            <div class="gna-tmj-card">
-                <div class="gna-card-img-container">
-                    <img src="assets/images/treatmets/ortho-images/Overbite,.webp" class="card-img-top" alt="TMJ Arthroscopy Procedure">
+    <!-- THE SURGICAL JOURNEY: 3-Step Clinical Protocol -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Your Surgical Journey: Our Clinical Protocol</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    A meticulous, step-by-step approach from initial consultation through final results ensures optimal outcomes and patient comfort.
+                </p>
+            </div>
+            <!-- Step 1: Text Left, Image Right -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">1</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Comprehensive Evaluation & 3D Planning</h3>
+                    <p class="text-on-surface-variant mb-6">Your journey begins with a thorough assessment including CBCT scans, digital impressions, and facial photography. Our surgeons analyze your unique anatomy to develop a customized surgical plan.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">3D facial and skeletal imaging</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Digital smile design and simulation</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Coordinated orthodontist planning</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Risk assessment and outcome discussion</span></li>
+                    </ul>
                 </div>
-                <div class="gna-card-body">
-                    <div class="gna-tmj-icon">
-                        <i class="fas fa-procedures"></i>
-                    </div>
-                    <h5 class="card-title mb-3">Overbite, Underbite, Crossbite, Openbite: Treating Various Bite Issues</h5>
-                    <p class="card-text">Misalignment of the upper and lower jaws can result in different types of bite problems...</p>
-                    <h6 class="mt-4 mb-3">How Surgery Helps</h6>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Restores Normal Bite:</strong> Orthognathic surgery realigns the jaws to create a more natural bite...</p></div>
-                    </div>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Enhances Aesthetics:</strong> Aligning the jaws restores facial balance and symmetry.</p></div>
-                    </div>
-                    <div class="gna-feature-item">
-                        <div class="gna-feature-icon"><i class="fas fa-check"></i></div>
-                        <div><p class="mb-0"><strong>Reduces Jaw Pain:</strong> Correcting the bite reduces the strain on the TMJ and alleviates pain.</p></div>
-                    </div>
-                    <p class="mt-4"><b>Orthognathic surgery:</b> is an effective solution for all types of bite issues...</p>
+                <div class="order-1 md:order-2">
+                    <img alt="3D CBCT scan planning for orthognathic surgery at Gnathos Facial, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="asset/3d-planning-orthognathic.jpg"/>
+                </div>
+            </div>
+            <!-- Step 2: Image Left, Text Right -->
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div class="order-1 md:order-1">
+                    <img alt="Orthognathic surgery procedure in operating theatre at CARE Hospitals, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="asset/orthognathic-surgery-procedure.jpg"/>
+                </div>
+                <div class="order-2 md:order-2">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">2</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Precision Surgical Correction</h3>
+                    <p class="text-on-surface-variant mb-6">Using stereolithographic models and virtual surgical guides, our surgeons perform osteotomies to reposition the jaw bones with sub-millimeter precision. Procedures are performed under general anesthesia with real-time navigation support.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Maxillary osteotomy (upper jaw)</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Mandibular osteotomy (lower jaw)</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Bilateral sagittal split osteotomy (BSSO)</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Genioplasty (chin repositioning)</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Step 3: Text Left, Image Right -->
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="order-2 md:order-1">
+                    <div class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm mb-6">3</div>
+                    <h3 class="font-headline-sm text-2xl text-primary mb-4">Recovery & Final Orthodontic Refinement</h3>
+                    <p class="text-on-surface-variant mb-6">Post-surgery, you'll follow a structured recovery protocol with regular monitoring. Once initial healing completes, final orthodontic treatment fine-tunes your bite for optimal function and aesthetics.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Liquid diet progression to soft foods</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Facial exercises and physical therapy</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Regular follow-up and imaging review</span></li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary">check_circle</span> <span class="text-on-surface-variant">Final orthodontic alignment (6-12 months)</span></li>
+                    </ul>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img alt="Post-operative recovery consultation at Gnathos Facial Surgery, Hyderabad" class="rounded-xl aspect-[4/3] object-cover shadow-lg w-full" src="asset/orthognathic-recovery.jpg"/>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-       
-       
-          <div class="container-fluid p-0">
-        <div class="marquee-container">
-            <div class="marquee-content">
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
-                 <span style="margin: 0 50px;">•</span>
-                <i class="fas fa-location-dot location-icon"></i>
-                CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032
+    <!-- RECOVERY TIMELINE -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Comprehensive Recovery Timeline</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    What to expect during your healing journey following orthognathic surgery at our facility in Hyderabad.
+                </p>
             </div>
-        </div>
-    </div>  
-	
-	   <section class="tmj-section">
-   
-    <div class="bg-shape shape-1"></div>
-    <div class="bg-shape shape-2"></div>
-
-    <!-- Gradient accents -->
-    <div class="gradient-accent accent-1"></div>
-    <div class="gradient-accent accent-2"></div>
-
-    <div class="container">
-        <!-- Section header -->
-        <div class="section-header">
-            <h2 class="section-title">Why Choose GNA Face for Orthognathic Surgery?</h2>
-            <!--<p class="section-intro">TMJ disorders pose unique challenges that require expert intervention from a maxillofacial surgeon in Hyderabad. Here are some of the key concerns:</p>-->
-        </div>
-
-        <!-- TMJ Concerns Cards -->
-        <div class="symptoms-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="symptom-card">
-                        <span class="number-badge">1</span>
-                        <div class="card-body">
-                            <h4 class="symptom-title">Best Maxillofacial Surgeon in India:</h4>
-                            <p class="symptom-desc">Our team of specialists provides the highest level of care for complex facial injuries and conditions.</p>
+            <div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xl shadow-sm border border-surface-variant overflow-hidden">
+                <div class="divide-y divide-surface-variant">
+                    <!-- Phase 1 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Week 1-2</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Initial Healing</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Peak swelling and bruising occur in the first week. You will be on a liquid diet with careful oral hygiene protocols. Most patients are discharged within 2-3 days.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Facial swelling peaks days 3-5, then gradually subsides</li>
+                                <li>Intermaxillary fixation (wire bands) may be used</li>
+                                <li>Soft diet only; no chewing for 4-6 weeks</li>
+                                <li>Speech therapy begins early to maintain function</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Phase 2 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Week 3-6</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Progressive Recovery</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Swelling continues to decrease significantly. You may transition to pureed and soft foods. Most patients can return to desk work within 3-4 weeks.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>80% of swelling resolves by week 4</li>
+                                <li>Bands may be removed to allow limited mouth opening</li>
+                                <li>Light activity resumes; avoid strenuous exercise</li>
+                                <li>Sensation gradually returns to lips and chin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Phase 3 -->
+                    <div class="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4 shrink-0">
+                            <h4 class="font-headline-sm text-lg text-primary">Month 2-6</h4>
+                            <span class="text-sm font-semibold text-secondary uppercase tracking-wider">Functional Recovery</span>
+                        </div>
+                        <div class="md:w-3/4 text-on-surface-variant">
+                            <p class="mb-3">Normal diet gradually resumes. Final orthodontic treatment begins around month 2-3. You can expect near-final facial appearance and improved function.</p>
+                            <ul class="list-disc list-inside space-y-1 text-sm">
+                                <li>Return to normal diet by month 3-4</li>
+                                <li>Full social activities by week 6</li>
+                                <li>Final orthodontic alignment (6-12 months total)</li>
+                                <li>Numbness continues to improve; may take 6-12 months</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-lg-6">
-                    <div class="symptom-card">
-                        <span class="number-badge">2</span>
-                        <div class="card-body">
-                            <h4 class="symptom-title">Advanced Techniques</h4>
-                            <p class="symptom-desc">We offer state-of-the-art surgical and non-surgical treatment options tailored to your needs.</p>
+    <!-- PATIENT PREPARATION CHECKLIST -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="bg-primary-container rounded-2xl p-8 md:p-12 border border-primary/10">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="font-headline-md text-headline-md text-on-primary mb-4">Preparing for Your Orthognathic Surgery Consultation</h2>
+                        <p class="font-body-lg text-body-lg text-primary-fixed-dim mb-6">
+                            Your initial consultation is the foundation of your treatment. Come prepared with your medical history, previous dental records, and any imaging you may have had.
+                        </p>
+                        <button class="bg-primary text-on-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-tertiary transition-colors duration-300">
+                            Download Preparation Guide
+                        </button>
+                    </div>
+                    <div>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">medical_information</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Medical History Documentation</strong>
+                                    <span class="text-sm text-on-surface-variant">Previous surgeries, medications, allergies, and any bleeding disorders or chronic conditions.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">content_paste</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Dental Records & X-rays</strong>
+                                    <span class="text-sm text-on-surface-variant">Recent panoramic X-rays, cephalometric analysis, or any existing treatment records from your dentist or orthodontist.</span>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-4 bg-surface-container-lowest p-4 rounded-lg shadow-sm border border-surface-variant">
+                                <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">photo_library</span>
+                                <div>
+                                    <strong class="text-primary block mb-1">Photographs & Concerns</strong>
+                                    <span class="text-sm text-on-surface-variant">Photos showing your bite from different angles and a list of specific concerns or goals for the surgery.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADVANCED DIAGNOSTICS -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="aspect-square rounded-full bg-secondary/10 absolute -inset-4 blur-2xl -z-10"></div>
+                    <img alt="CBCT 3D imaging for orthognathic surgery planning at Gnathos Facial, Hyderabad" class="rounded-xl shadow-lg w-full object-cover aspect-[4/3]" src="asset/cbct-3d-imaging.jpg"/>
+                </div>
+                <div>
+                    <span class="text-secondary font-label-md text-label-md uppercase tracking-wider mb-4 block">Precision Assessment</span>
+                    <h2 class="font-headline-md text-headline-md text-primary mb-6">Advanced Diagnostic Technology</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-6">
+                        Our practice in Hyderabad is equipped with state-of-the-art imaging technology that enables surgical planning with unprecedented precision, resulting in more predictable outcomes and shorter operative times.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Cone Beam CT (CBCT) Scanning</strong>
+                                <span class="text-on-surface-variant">3D volumetric imaging with sub-millimeter resolution for accurate skeletal assessment and surgical simulation.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Digital Smile Design</strong>
+                                <span class="text-on-surface-variant">Computer-guided aesthetic analysis to visualize post-surgical results and optimize facial harmony.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-secondary shrink-0 mt-1 icon-fill-1">check_circle</span>
+                            <div>
+                                <strong class="text-primary block">Stereolithographic Models</strong>
+                                <span class="text-on-surface-variant">3D-printed surgical guides and models for precise osteotomies and optimal bone positioning during surgery.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TREATMENT PATHWAYS -->
+    <section class="py-section-gap">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Surgical Intervention Options</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                    Depending on your specific condition, our maxillofacial surgeons may recommend one or more of the following surgical procedures to restore optimal function and aesthetics.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Single Jaw Surgery Card -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center text-secondary">
+                            <span class="material-symbols-outlined"> straighten</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Single Jaw Surgery</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Maxillary Osteotomy (Le Fort I)</h4>
+                            <p class="text-on-surface-variant text-sm">Repositioning of the upper jaw to correct vertical excess or deficiency, open bite, or facial asymmetry involving the mid-face.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Mandibular Osteotomy (BSSO/IVRO)</h4>
+                            <p class="text-on-surface-variant text-sm">Correction of lower jaw protrusion, recession, or asymmetry through bilateral sagittal split or vertical ramus osteotomy.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Genioplasty</h4>
+                            <p class="text-on-surface-variant text-sm">Chin augmentation or reduction to achieve facial balance when the chin position requires adjustment independent of the bite.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Double Jaw Surgery Card -->
+                <div class="bg-surface-container-lowest p-8 md:p-12 rounded-xl shadow-sm border border-surface-variant">
+                    <div class="flex items-center gap-4 mb-6 pb-6 border-b border-surface-variant">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                            <span class="material-symbols-outlined"> medical_services</span>
+                        </div>
+                        <h3 class="font-headline-sm text-primary">Double Jaw Surgery (Bimaxillary)</h3>
+                    </div>
+                    <ul class="space-y-6">
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Bimaxillary Osteotomy</h4>
+                            <p class="text-on-surface-variant text-sm">Combined upper and lower jaw repositioning for severe skeletal discrepancies affecting both dental arches and facial balance.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Jaw Surgery for Sleep Apnea</h4>
+                            <p class="text-on-surface-variant text-sm">Mandibular advancement and genioplasty to enlarge the airway passage for patients with moderate to severe obstructive sleep apnea.</p>
+                        </li>
+                        <li>
+                            <h4 class="font-semibold text-primary mb-2">Facial Asymmetry Correction</h4>
+                            <p class="text-on-surface-variant text-sm">Comprehensive correction involving differential repositioning of jaw segments to achieve symmetry and proper function.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <button class="bg-secondary text-on-secondary font-label-md text-label-md px-8 py-4 rounded hover:bg-secondary-container hover:text-on-secondary-container transition-colors duration-300">
+                    Request a Consultation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- THE SURGICAL TEAM -->
+    <section class="py-section-gap bg-primary text-on-primary">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-md text-headline-md mb-4">Expert Orthognathic Surgical Team</h2>
+                <p class="font-body-lg text-body-lg text-on-primary/80 max-w-2xl mx-auto">
+                    Decades of specialized experience in managing complex jaw conditions with predictable, life-changing results.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Dr. Suresh Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Suresh P.L. - Maxillofacial Surgeon Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr_suresh_pl.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Suresh P.L.</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">With over two decades of experience in maxillofacial surgery, Dr. Suresh has performed hundreds of successful orthognathic procedures. His expertise includes complex bimaxillary surgeries and revision cases.</p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 20+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">stars</span> Fellowship in Craniomaxillofacial Surgery</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6 ">
-                    <div class="symptom-card">
-                        <span class="number-badge">3</span>
-                        <div class="card-body">
-                            <h4 class="symptom-title">Expert Care</h4>
-                            <p class="symptom-desc">Our experienced team ensures that each procedure is done with precision, enhancing both the function and aesthetics of your face.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="symptom-card">
-                        <span class="number-badge">4</span>
-                        <div class="card-body">
-                            <h4 class="symptom-title">Comprehensive Solutions</h4>
-                            <p class="symptom-desc">From bone fixation to non-surgical methods, we provide a range of treatments to promote healing and restore your facial features.</p>
+                <!-- Dr. Navatha Card -->
+                <div class="bg-surface-container-lowest/10 p-8 rounded-xl backdrop-blur-sm border border-on-primary/20">
+                    <div class="flex flex-col md:flex-row gap-6 items-start">
+                        <img alt="Dr. Navatha Mortha - Maxillofacial Surgeon in Hyderabad" class="w-32 h-32 rounded-full object-cover border-4 border-surface/20" src="asset/dr-navatha-mortha-facial.webp"/>
+                        <div>
+                            <h3 class="font-headline-sm text-xl font-bold mb-1">Dr. Navatha Mortha</h3>
+                            <p class="text-secondary-fixed mb-4">Senior Consultant</p>
+                            <p class="text-on-primary/80 text-sm leading-relaxed mb-4">Dr. Navatha specializes in aesthetic facial surgery and orthognathic procedures. She brings a keen eye for facial harmony and works closely with orthodontists to achieve optimal functional and aesthetic outcomes.</p>
+                            <ul class="text-sm space-y-2 text-on-primary/90">
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">verified</span> 15+ Years Experience</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">school</span> MDS Oral & Maxillofacial Surgery</li>
+                                <li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">stars</span> Training in Virtual Surgical Planning</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Note box -->
-        <div class="note-container">
-        <!--    <div class="row">-->
-        <!--        <div class="col-lg-10 mx-auto">-->
-        <!--            <div class="note-box">-->
-        <!--                <h5 class="note-title">Important Note:</h5>-->
-        <!--                <p>If you experience any of these concerns, consult the <a href="#" class="specialist-link">leading maxillofacial surgeon in Hyderabad</a> for timely diagnosis and treatment.</p>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</div>-->
-    </div>
-</section>
+    <!-- PATIENT FAQs (SCHEMA MARKUP REQUIRED) -->
+    <section class="py-section-gap bg-surface">
+        <div class="max-w-3xl mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="text-center mb-12">
+                <h2 class="font-headline-md text-headline-md text-primary mb-4">Frequently Asked Questions</h2>
+                <p class="text-on-surface-variant">Common concerns about orthognathic surgery and recovery in Hyderabad.</p>
+            </div>
+            <div class="space-y-4">
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        What is the cost of orthognathic surgery in Hyderabad?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        The cost of orthognathic surgery varies based on the complexity of your case, whether single or double jaw surgery is required, and hospital facilities. At Gnathos Facial Surgery in Hyderabad, orthognathic surgery typically ranges from INR 1,50,000 to INR 4,50,000 depending on the procedure. This includes surgeon fees, hospital charges, anesthesia, and follow-up care. We offer flexible payment options and can provide detailed estimates after your initial consultation and diagnostic evaluation.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Is orthognathic surgery covered by insurance in India?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Insurance coverage for orthognathic surgery depends on whether the procedure is deemed medically necessary. Functional issues such as difficulty chewing, sleep apnea, or significant skeletal abnormalities may qualify for coverage under health insurance. Cosmetic concerns related solely to aesthetics are typically not covered. We can provide detailed medical documentation and assist with insurance pre-authorization processes. Our team works with all major insurance providers in Hyderabad.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How long does orthognathic surgery take?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Surgical time varies based on the complexity of the procedure. Single jaw surgery typically takes 2-4 hours, while double jaw surgery (bimaxillary osteotomy) may require 4-6 hours or longer. Complex cases involving multiple segments or revision surgery may take additional time. You will be under general anesthesia throughout the procedure, and most patients stay in the hospital for 2-4 days post-operatively for monitoring and initial recovery.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        Will I need braces before and after jaw surgery?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Yes, orthodontic treatment is an essential component of orthognathic surgery. Most patients require pre-surgical orthodontics for 12-18 months to align the teeth within their current jaw position. After surgery, orthodontic treatment continues for another 6-12 months to fine-tune the bite and ensure proper alignment. Our team coordinates closely with experienced orthodontists in Hyderabad who specialize in surgical orthodontic treatment.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        What are the risks and complications of orthognathic surgery?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Like any major surgery, orthognathic procedures carry some risks. These include temporary or permanent numbness of the lips and chin (particularly with mandibular surgery), bleeding, infection, jaw joint issues, and the possibility of requiring revision surgery. However, serious complications are rare when performed by experienced surgeons. Our practice uses advanced techniques and thorough pre-operative planning to minimize risks. We discuss all potential complications during your consultation and provide detailed post-operative instructions.
+                    </div>
+                </details>
+                <details class="group bg-surface-container-lowest border border-surface-variant rounded-lg [&_summary::-webkit-details-marker]:hidden">
+                    <summary class="flex items-center justify-between p-6 cursor-pointer font-semibold text-primary">
+                        How long before I can return to work or normal activities?
+                        <span class="material-symbols-outlined transition duration-300 group-open:-rotate-180">expand_more</span>
+                    </summary>
+                    <div class="px-6 pb-6 text-on-surface-variant text-sm">
+                        Initial recovery varies by individual and the type of surgery. Most patients can return to desk work or light activities within 3-4 weeks. Full return to strenuous exercise and normal diet typically takes 2-3 months. The final aesthetic and functional results continue to improve over 6-12 months as swelling resolves and orthodontic treatment completes. We provide detailed return-to-activity guidelines based on your specific procedure and healing progress.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
 
+    <!-- FINAL CTA -->
+    <section class="py-section-gap bg-surface-container-low">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+            <h2 class="font-headline-md text-headline-md text-primary mb-6">Ready to Transform Your Smile and Facial Balance?</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-2xl mx-auto">
+                Schedule your consultation with our expert orthognathic surgery team at Gnathos Facial Surgery in Hyderabad. We'll create a personalized treatment plan tailored to your unique needs and goals.
+            </p>
+            <button class="bg-primary text-on-primary font-label-md text-label-md px-8 py-4 rounded hover:bg-tertiary transition-colors duration-300 inline-flex items-center gap-2">
+                Book Your Consultation
+                <span class="material-symbols-outlined icon-fill-0">arrow_forward</span>
+            </button>
+        </div>
+    </section>
+</main>
 
-
-  
-  
-
-   
-
-    
-    
-    	
-		
-		
-	<?php include('stats.php')?>
-
-  
-		
-		  
-
-		
-		<section class="content-inner pt-5 pb-5" style="background-image: url(images/background/bg3.png); background-position: right bottom; background-repeat: no-repeat;">
-		<div class="container">
-			<div class="row content-wrapper style-5">
-				<div class="col-xxl-7 col-xl-6 col-lg-5 m-b30 align-self-center">
-					<div class="content-info">
-						<div class="section-head style-1 m-b30">
-							<h2 class="title wow fadeInUp mb-3" data-wow-delay="0.2s" data-wow-duration="0.7s">Frequently Asked Questions</h2>
-						</div>
-						<div class="accordion dz-accordion style-1" id="accordionExample">
-							<div class="accordion-item wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s">
-								<h2 class="accordion-header">
-									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						               What is orthognathic surgery?
-									</button>
-								</h2>
-								<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-									<div class="accordion-body">
-										<p>Orthognathic surgery is a procedure that corrects misaligned jaws and teeth, improving function and appearance.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.7s">
-								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							 How long does recovery take after orthognathic surgery?
-									</button>
-								</h2>
-								<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-									<div class="accordion-body">
-										<p>Recovery typically takes a few weeks to a few months, depending on the complexity of the procedure.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="0.7s">
-								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-						        Will I need braces after surgery?
-									</button>
-								</h2>
-								<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-									<div class="accordion-body">
-										<p>Yes, most patients need braces before and after surgery to ensure the best alignment of their teeth.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-					         	How soon can I return to work after surgery?
-
-									</button>
-								</h2>
-								<div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-									<div class="accordion-body">
-										<p>You can usually return to work after 1-2 weeks, but it may take longer if your job requires physical activity. Your surgeon will guide you on this based on your recovery.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">
-								<h2 class="accordion-header">
-									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-					                 Is the surgery painful?
-									</button>
-								</h2>
-								<div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-									<div class="accordion-body">
-										<p>While there may be some discomfort, pain is managed with medication, and most patients experience significant improvement after a few days.</p>
-									</div>
-								</div>
-							</div>
-							<!--<div class="accordion-item wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.7s">-->
-							<!--	<h2 class="accordion-header">-->
-							<!--		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">-->
-							<!--		How soon should I seek treatment for TMJ issues?-->
-							<!--		</button>-->
-							<!--	</h2>-->
-							<!--	<div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">-->
-							<!--		<div class="accordion-body">-->
-							<!--			<p>As soon as you notice symptoms! Early intervention ensures a better recovery and minimizes the risk of long-term complications.</p>-->
-							<!--		</div>-->
-							<!--	</div>-->
-							<!--</div>-->
-						</div>
-					</div>
-				</div>
-				<div class="col-xxl-5 col-xl-6 col-lg-7 m-b30">
-					<div class="content-media" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
-						<div class="dz-media">
-							<img src="assets/images/services/Facial-injuries/Frequently-Asked-Questions.webp" alt="">
-						</div>
-						<div class="item1">
-							<div class="info-widget style-5">
-								<div class="widget-media text-primary">
-									<i class="feather icon-phone-call dz-ring-effect"></i>
-								</div>
-								<div class="widget-content">
-									<h6 class="title">Contact us?</h6>
-									<a href="https://wa.me/919000666476" class="text-secondary">+919000666476</a>
-								</div>
-							</div>
-							<a href="https://wa.me/919000666476" class="btn btn-lg btn-icon btn-primary btn-shadow">
-								<span class="w-100">Appointment</span> <span class="right-icon"><i class="feather icon-arrow-right"></i></span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-        
-
-
-        
-		
-	
-		
-		
-		
-	
-		
-		
-
-	</main>
-	
-		<!-- Footer -->
-	<?php include('footer.php')?>
-
-</div>
-<!-- JAVASCRIPT FILES ========================================= -->
-<?php include('footer-links.php')?>
-</body>
-</html>
+<!-- FOOTER -->
+<?php
+include $path_prefix . 'footer.php';
+?>

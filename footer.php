@@ -1,244 +1,111 @@
-<footer class="site-footer style-1 overlay-primary-light" style="background-image: url(images/background/bg4.webp)">
-		
+<footer class="bg-primary text-on-primary font-body-md w-full mt-section-gap">
+  <!-- Full-bleed Map at the top of the footer -->
+  <div class="w-full h-[350px] md:h-[400px] overflow-hidden relative border-b border-white/10">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6119556239087!2d78.3722385!3d17.430400400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9377bfbc844d%3A0x89619bc38eaa02ca!2sGnathos!5e0!3m2!1sen!2sin!4v1779796141375!5m2!1sen!2sin"
+      width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade" class="w-full h-full grayscale opacity-80 contrast-125 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+    </iframe>
+  </div>
 
-		<!-- Footer Top -->
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-4 col-sm-12  wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
-						<div class="widget widget_about me-2">
-							<div class="footer-logo logo-white">
-								<a href="index"><img src="images/gna-logop.png" alt=""></a> 
-							</div>
-							<p><span class="text-primary">Gnathos Face</span> specializes in advanced maxillofacial surgery, offering expert treatments for facial injuries, jaw disorders, and oral conditions. With a team of skilled surgeons and state-of-the-art technology, we ensure precision-driven, patient-centered care for every individual. Our mission is to restore function, aesthetics, and confidence with innovative treatments and compassionate service.
-</p>
-						</div>
-					</div>
-					
-					<div class="col-xl-2 col-md-3 col-6 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-						<div class="widget widget_services">
-							<h2 class="footer-title">Conditions</h2>
-							<ul class="list-hover1">
-								<li><a href="tmj-disorders"><span> ✤ TMJ Disorders</span></a></li>
-								<li><a href="facial-injuries"><span> ✤ Facial Injuries</span></a></li>
-								<!--<li><a href=""><span> ✤ TMJ</span></a></li>-->
-								<li><a href="rhinoplasty"><span> ✤ Rhinoplasty</span></a></li>
-								<li><a href="obstructive-sleep-apnea"><span> ✤ Obstructive Sleep Apnea (OSA)</span></a></li>
-                                <li><a href="oral-cancer"><span> ✤ Oral Cancers</span></a></li>
-                                 <li><a href="jaw-reconstruction"><span> ✤ Jaw Reconstruction</span></a></li>
-							</ul>   
-						</div>
-					</div>
-                    <div class="col-xl-2 col-md-3 col-6 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-						<div class="widget widget_services">
-							<h2 class="footer-title">Treatments</h2>
-							<ul class="list-hover1">
-							    
-							    <li><a href="tmj-arthroscopy"><span> ✤ TMJ Arthroscopy</span></a></li>
-								  <li><a href="skin-grafts-and-flaps"><span> ✤ Skin Grafts and Flaps</span></a></li>
-								  <li><a href="orthognathic-surgery-treatment"><span> ✤ Orthognathic Surgery</span></a></li>
-									<li><a href="cyst-&-tumors-treatment"><span> ✤ Cyst & Tumors</span></a></li>
-                                    <li><a href="cosmetic-facial-surgery-treatment"><span> ✤ Cosmetic Facial Surgery</span></a></li>
-                                    
-                                     <li><a href="rhinoplasty-treatment"><span> ✤ Rhinoplasty</span></a></li>
-                                    <!--<li><a href="osa(treatment)"><span> ✤ Obstructive Sleep Apnea (OSA)</span></a></li>-->
-                                    <!--<li><a href="oral-cancer(treatment)"><span> ✤ Oral Cancers</span></a></li>-->
-                                    
-                                    
-								<!--<li><a href="javascript:void(0);"><span> ✤ Cosmetic Facial Surgery</span></a></li>-->
-								<!--<li><a href="javascript:void(0);"><span> ✤ Reconstructive Surgerys</span></a></li>-->
-								<!--<li><a href="#"><span> ✤ Aesthetic Enhancements</span></a></li>-->
-								<!--<li><a href="#"><span> ✤ Jaw Surgery</span></a></li>-->
-								<!--<li><a href="#"><span> ✤ TMJ Surgery</span></a></li>-->
-        <!--                        <li><a href="#"><span> ✤ Jaw Fractured </span></a></li>-->
-                                
-							</ul>   
-						</div>
-					</div>
+  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-16 pb-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 border-b border-white/10 pb-12 mb-8">
 
-                    <div class="col-xl-2 col-md-3 col-6 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-						<div class="widget widget_services">
-							<h2 class="footer-title">Quick Links</h2>
-							<ul class="list-hover1">
-								<li><a href="index"><span> ✤ Home </span></a></li>
-								<li><a href="about"><span> ✤ About Us</span></a></li>
-								<li><a href="contact-us"><span> ✤ Contact Us</span></a></li>
-								<!--<li><a href="#"><span> ✤ Testimonials</span></a></li>-->
-								<!-- <li><a href="#"><span> ✤ Outdoor Checkup</span></a></li> -->
-							</ul>   
-						</div>
-					</div>
-					
-					<div class="col-xl-2 col-md-3 col-6 wow fadeInUp" data-wow-delay="1.0s" data-wow-duration="0.8s">
-						<div class="widget widget_services">
-							<h2 class="footer-title">Get In Touch</h2>
-							<ul class="list-hover1">
-								<li><a href="#"><span> 📍 CARE Hospitals Hi-tech City, Jayabheri Pine Valley, Gachibowli, Hyderabad, Telangana 500032</span></a></li>
-								<li><a href="mailto: gnathosface@gmail.com"><span style="text-transform: lowercase;">✉️ gnathosface@gmail.com</span></a></li>
-								<li><a href="https://wa.me/919000666476"><span> ☎️ +91-9000666476</span></a></li>
-								<!--<li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6080799832944!2d78.372188!3d17.4305862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93fa7fd6b125%3A0x948f5250e54521b9!2sCARE%20Hospitals%20Hi-tech%20City%2C%20Hyderabad%2C%20Old%20Mumbai%20Hwy%2C%20Near%20Cyberabad%20Police%20Commissionerate%2C%20Jayabheri%20Pine%20Valley%2C%20Gachibowli%2C%20Hyderabad%2C%20Telangana%20500032!5e0!3m2!1sen!2sin!4v1748434841537!5m2!1sen!2sin" width="200" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>-->
-								
-								
-							</ul>
-						</div>
-					</div>
-					
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.615737359505!2d78.37222!3d17.430219100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9377bfbc844d%3A0x89619bc38eaa02ca!2sGnathos%20Facial%20%E2%80%93%20Oral%20and%20Maxillofacial%20Surgeon%20in%20Hyderabad%2C%20India%20%7C%20Facial%20Surgery%2C%20TMJ%20%26%20Jaw%20Specialist!5e0!3m2!1sen!2sin!4v1748939622953!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					
-				</div>
-			</div>
-		</div>
-		<!-- Footer Top End -->
-		
-		<!-- Footer Top -->
-		
-		
-		<!-- Footer Bottom -->
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="fb-inner">
-					<div class="row">
-						<div class="col-lg-4 col-md-12 text-start"> 
-							<p class="copyright-text">© <span class="current-year">2025</span> <span class="text-primary" style="color:rgb(0 189 224);"><a href="index" target="_blank"><b>Gnathos</b></a></span> All Rights Reserved.</p>
-						</div>
-							<div class="col-lg-4 col-md-12 text-start"> 
-							<p class=""> <span class=""> Designed and Developed by</span> <span class="text-primary" style="color:rgb(0 189 224);"><a href="https://brandingpioneers.com/" target="_blank"><b>Branding Pioneers</b></a></span></p>
-						</div>
-						<div class="col-lg-4 col-md-12 text-end"> 
-							<div class="d-flex align-items-center justify-content-center justify-content-md-center justify-content-xl-end">
-								<div class="widget-rating1">
-									<img src="images/google.svg" alt="">
-									<ul class="star-list">
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-										<li><i class="fa fa-star"></i></li>
-									</ul>
-									<span class="rating">(4.8)</span>
-									<span class="text">12k+ ratings on google</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer Bottom End -->
-		
-		<noindex><script src="//widget.callbacktracker.com/tracker/c6394a9dc8ccb04b818e29bf42baa036761ffc07" charset="UTF-8"  async="async" type="text/javascript"></script></noindex>
-		
-		
-		
-	</footer>
-	
- <div class="sticky-container">
-        <ul class="sticky floating-sidebar-sec">
-            <li class="sidebar-0">
-                <p class="sidebar-icon-block">
-                    <span>
-                        <i class="fab fa-facebook-f"></i>
-                    </span>
-                    <a href="https://www.facebook.com/gnathosface" target="_blank">Facebook</a>
-                </p>
-            </li>
-            <li class="sidebar-0">
-                <p class="sidebar-icon-block">
-                    <span>
-                        <i class="fab fa-youtube"></i>
-                    </span>
-                    <a href="https://youtube.com/@gnathosfacial9881?si=Fpe3cOvvgRMOkyF2" target="_blank">Youtube</a>
-                </p>
-            </li>
-            <li class="sidebar-0">
-                <p class="sidebar-icon-block">
-                    <span>
-                        <i class="fab fa-instagram"></i>
-                    </span>
-                    <a href="https://www.instagram.com/gnathosfacialsurgery" target="_blank">Instagram</a>
-                </p>
-            </li>
-            <!--<li class="sidebar-0">-->
-            <!--    <p class="sidebar-icon-block">-->
-            <!--        <span>-->
-            <!--            <i class="fab fa-twitter"></i>-->
-            <!--        </span>-->
-            <!--        <a href="#" target="_blank">Twitter</a>-->
-            <!--    </p>-->
-            <!--</li>-->
+      <!-- Col 1: Brand & Intro -->
+      <div>
+        <div class="text-xl font-bold text-white mb-4">Gnathos Facial Surgery</div>
+        <p class="text-white/70 text-sm mb-6 leading-relaxed">Advanced oral and maxillofacial surgical care dedicated to restoring function, aesthetics, and quality of life through precision expertise.</p>
+        <div class="flex gap-3">
+          <a class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors" href="#">
+            <span class="sr-only">LinkedIn</span>
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors" href="#">
+            <span class="sr-only">Facebook</span>
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </a>
+          <a class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors" href="#">
+            <span class="sr-only">Instagram</span>
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Conditions -->
+      <div>
+        <h4 class="text-xs font-semibold text-white/50 mb-5 uppercase tracking-widest">Conditions</h4>
+        <ul class="space-y-3">
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="<?php echo $path_prefix; ?>conditions.php">All Conditions</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="<?php echo $path_prefix; ?>tmj-disorders.php">TMJ Disorders</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="#">Facial Injuries</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="#">Rhinoplasty</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="#">Oral Cancers</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="#">Sleep Apnea (OSA)</a></li>
         </ul>
+      </div>
+
+      <!-- Col 3: Treatments -->
+      <div>
+        <h4 class="text-xs font-semibold text-white/50 mb-5 uppercase tracking-widest">Treatments</h4>
+        <ul class="space-y-3">
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="<?php echo $path_prefix; ?>treatments.php">All Treatments</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="<?php echo $path_prefix; ?>tmj-treatment.php">TMJ Treatment</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="<?php echo $path_prefix; ?>jaw-surgery.php">Jaw Surgery</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="<?php echo $path_prefix; ?>advanced-jaw-surgery.php">Advanced Jaw Surgery</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="<?php echo $path_prefix; ?>skin-grafts-and-flaps.php">Skin Grafts & Flaps</a></li>
+          <li><a class="text-white/70 hover:text-white transition-colors text-sm" href="#">Sleep Apnea (OSA)</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Location & Contact -->
+      <div>
+        <h4 class="text-xs font-semibold text-white/50 mb-5 uppercase tracking-widest">Location &amp; Contact</h4>
+        <div class="mb-5 flex items-start gap-3">
+          <span class="material-symbols-outlined text-white/50 shrink-0 mt-0.5" style="font-size:18px;">location_on</span>
+          <div>
+            <p class="font-semibold text-white text-sm mb-1">Gnathos Maxillofacial Surgery</p>
+            <p class="text-white/70 text-sm leading-relaxed">Cabin No. 214, Regency Prime,<br/>Plot No. 46 &amp; 47, Jayabheri Pine Valley,<br/>Gachibowli, Hyderabad,<br/>Telangana 500032</p>
+          </div>
+        </div>
+        <div class="mb-4 flex items-start gap-3">
+          <span class="material-symbols-outlined text-white/50 shrink-0 mt-0.5" style="font-size:18px;">phone</span>
+          <div>
+            <p class="text-white/40 text-xs uppercase tracking-wider mb-1">Call Us</p>
+            <a class="text-white/80 hover:text-white transition-colors text-sm font-medium" href="tel:+919000666476">+91 90006 66476</a>
+          </div>
+        </div>
+        <div class="mb-4 flex items-start gap-3">
+          <span class="material-symbols-outlined text-white/50 shrink-0 mt-0.5" style="font-size:18px;">email</span>
+          <div>
+            <p class="text-white/40 text-xs uppercase tracking-wider mb-1">Send us a Mail</p>
+            <a class="text-white/80 hover:text-white transition-colors text-sm font-medium" href="mailto:gnathosface@gmail.com">gnathosface@gmail.com</a>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="material-symbols-outlined text-white/50 shrink-0 mt-0.5" style="font-size:18px;">schedule</span>
+          <div>
+            <p class="text-white/40 text-xs uppercase tracking-wider mb-1">Opening Time</p>
+            <p class="text-white/80 text-sm">Mon–Thu: 8:00am – 5:00pm</p>
+            <p class="text-white/80 text-sm">Fri: 8:00am – 1:00pm</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <style>
-        
-.sticky-container {
-                padding: 0px;
-                margin: 0px;
-                position: fixed;
-                right: -160px;
-                top: 40%;
-                width: 200px;
-                z-index: 99;
-            }
-            .floating-sidebar-sec li {
-                width: 350px;
-                list-style-type: none;
-                color: #ffffff;
-                height: 43px;
-                padding: 0px;
-                margin: 0px 0px 1px 0px;
-                border-bottom-left-radius: 30px;
-                border-top-left-radius: 30px;
-                -webkit-transition: all 0.25s ease-in-out;
-                -moz-transition: all 0.25s ease-in-out;
-                -o-transition: all 0.25s ease-in-out;
-                transition: all 0.25s ease-in-out;
-                cursor: pointer;
-                background: linear-gradient(to right, rgb(3, 27, 78) 60%, rgba(255, 255, 255, 0.9));
-            }
-            .floating-sidebar-sec li p {
-                padding-top: 5px;
-                color: #fff;
-                padding-top: 10px;
-                margin: 0px;
-                line-height: 16px;
-                font-size: 11px;
-            }
-            .floating-sidebar-sec li p span {
-                top: 2px;
-                position: relative;
-                padding: 10px 15px;
-                font-size: 20px;
-            }
-            .floating-sidebar-sec li p a {
-                font-size: 16px;
-                line-height: 0;
-                text-decoration: none;
-                color: #fff;
-                text-decoration: none;
-            }
-            .floating-sidebar-sec li:hover {
-                margin-left: -180px;
-            }
-            @media screen and (max-width: 768px) {
-                .sticky-container ul {
-                    top: 150px !important;
-                }
-            }
-        /* -- above sidebar links*/
-   @media screen and (max-width: 1199px) {
-        #mobile_navbar {
-            display: block !important;
-        }
-        #desk_Navbar {
-             display: none !important;
-        }
-        
-   }
-   
-        .breadcumb-wrapper .p-4 div:first-child{
-           padding:0px !important;
-        }
-    </style>
-	<!-- Footer End -->
-	
-	<button class="scroltop" type="button"><i class="fas fa-arrow-up"></i></button>
+    <!-- Bottom Bar -->
+    <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/40">
+      <p>© 2026 Gnathos Maxillofacial Surgery. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+        <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+        <a class="hover:text-white transition-colors" href="#">Clinical Governance</a>
+      </div>
+    </div>
+    <!-- Callback Tracker Widget -->
+    <noindex><script src="//widget.callbacktracker.com/tracker/c6394a9dc8ccb04b818e29bf42baa036761ffc07" charset="UTF-8"  async="async" type="text/javascript"></script></noindex>
+  </div>
+</footer>
+
+</main>
+</body>
+</html>
