@@ -10,6 +10,8 @@ RewriteRule ^ %1 [R=302,L,NE]
 
 # --- BEGIN GNA-Face-New-Website 301 Redirects ---
 
+Redirect 301 "/services" "/treatments"
+Redirect 301 "/services.php" "/treatments"
 Redirect 301 "/about" "/#about"
 Redirect 301 "/contact-us" "/#contact"
 Redirect 301 "/cosmetic-facial-surgery" "/cosmetic-facial-surgery-treatment"
