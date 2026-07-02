@@ -5,7 +5,7 @@ $page_description = "Explore our latest articles, case studies, and patient guid
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-<link href="blog-style.css" rel="stylesheet">
+<link href="/blogs/blog-style.css" rel="stylesheet">
 
 
 <main>

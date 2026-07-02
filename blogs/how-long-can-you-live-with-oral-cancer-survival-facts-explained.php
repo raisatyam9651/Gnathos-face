@@ -7,7 +7,7 @@ $canonical_url = "https://gnathosface.com/blogs/how-long-can-you-live-with-oral-
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-<link href="blog-style.css" rel="stylesheet">
+<link href="/blogs/blog-style.css" rel="stylesheet">
 <main>
 <div class="bg-surface-container-low border-b border-surface-container-high py-8"><div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
 <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
@@ -16,7 +16,7 @@ include $path_prefix . 'header.php';
 <span class="text-secondary">Oncology</span></nav>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6 leading-tight max-w-4xl">How Long Can You Live With Oral Cancer?</h1>
 <div class="flex items-center gap-6"><div class="flex items-center gap-3">
-<img src="../asset/dr-navatha-mortha-facial.webp" alt="Author" class="w-10 h-10 rounded-full object-cover shadow-sm"/>
+<img src="/asset/dr-navatha-mortha-facial.webp" alt="Author" class="w-10 h-10 rounded-full object-cover shadow-sm"/>
 <div class="flex flex-col"><span class="text-sm font-semibold text-primary">Dr. Navatha Mortha</span>
 <span class="text-xs text-on-surface-variant uppercase tracking-wider">April 18, 2026</span></div></div></div></div></div>
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-16">
@@ -174,7 +174,7 @@ include $path_prefix . 'header.php';
 <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm"><summary class="font-headline-sm text-primary text-[18px] flex justify-between items-center list-none font-semibold">Can you live 20 years with oral cancer?<span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span></summary><p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">Yes — many patients treated at Stage I or II live full, normal lifespans after cure. Long-term survival is most likely when the original disease was caught early, margins were clear, and tobacco use stopped permanently. Patients treated for advanced disease can also live two decades or more, especially when HPV-positive, though lifelong follow-up remains essential.</p></details>
 </div></div>
 <div class="bg-surface-container-low p-8 rounded-2xl border border-surface-container-high flex flex-col md:flex-row gap-6 items-center mt-12">
-<div class="w-24 h-24 rounded-full overflow-hidden shrink-0 shadow-md"><img alt="Dr. Navatha Mortha" class="w-full h-full object-cover" src="../asset/dr-navatha-mortha-facial.webp"/></div>
+<div class="w-24 h-24 rounded-full overflow-hidden shrink-0 shadow-md"><img alt="Dr. Navatha Mortha" class="w-full h-full object-cover" src="/asset/dr-navatha-mortha-facial.webp"/></div>
 <div><h4 class="font-headline-sm text-lg text-primary mb-1">Dr. Navatha Mortha</h4>
 <p class="font-label-md text-secondary uppercase tracking-wider mb-3 text-sm">Senior Consultant &amp; Maxillofacial Surgeon</p>
 <p class="text-sm text-on-surface-variant m-0 leading-relaxed">Dr. Mortha is part of the head-and-neck oncology team at Gnathos Facial Surgery, providing surgical management and reconstruction for oral cancer patients.</p></div></div>

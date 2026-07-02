@@ -7,7 +7,7 @@ $canonical_url = "https://gnathosface.com/blogs/maxillomandibular-advancement-fo
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-<link href="blog-style.css" rel="stylesheet">
+<link href="/blogs/blog-style.css" rel="stylesheet">
 
 
 <main>
@@ -25,7 +25,7 @@ include $path_prefix . 'header.php';
             <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6 leading-tight max-w-4xl">Maxillomandibular Advancement for OSA</h1>
             <div class="flex items-center gap-6">
                 <div class="flex items-center gap-3">
-                    <img src="../asset/dr-navatha-mortha-facial.webp" alt="Author" class="w-10 h-10 rounded-full object-cover shadow-sm"/>
+                    <img src="/asset/dr-navatha-mortha-facial.webp" alt="Author" class="w-10 h-10 rounded-full object-cover shadow-sm"/>
                     <div class="flex flex-col">
                         <span class="text-sm font-semibold text-primary">Dr. Navatha Mortha</span>
                         <span class="text-xs text-on-surface-variant uppercase tracking-wider">May 28, 2026</span>
@@ -418,7 +418,7 @@ include $path_prefix . 'header.php';
                 <!-- Author Bio Box -->
                 <div class="bg-surface-container-low p-8 rounded-2xl border border-surface-container-high flex flex-col md:flex-row gap-6 items-center mt-12">
                     <div class="w-24 h-24 rounded-full overflow-hidden shrink-0 shadow-md">
-                        <img alt="Dr. Navatha Mortha" class="w-full h-full object-cover" src="../asset/dr-navatha-mortha-facial.webp"/>
+                        <img alt="Dr. Navatha Mortha" class="w-full h-full object-cover" src="/asset/dr-navatha-mortha-facial.webp"/>
                     </div>
                     <div>
                         <h4 class="font-headline-sm text-lg text-primary mb-1">Dr. Navatha Mortha</h4>

@@ -80,15 +80,9 @@
     border-radius: 0.75rem !important;
 }
 
-/* Hide featured images, inline images, and any SVGs in the blog pages */
-main img,
-main svg {
-    display: none !important;
-}
-
-/* Collapse layout wrappers of hidden images to prevent empty space gaps */
+/* Hide featured images (hero), inline content images, and SVGs inside the main content area */
 main .aspect-\[16\/9\],
 main .h-56,
-main .w-24.h-24.rounded-full {
+main svg {
     display: none !important;
 }

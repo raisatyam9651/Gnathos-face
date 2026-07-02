@@ -8,7 +8,7 @@ $is_blog_active = (strpos($_SERVER['PHP_SELF'], '/blogs/') !== false || strpos($
 <header class="w-full top-0 sticky z-50 bg-surface/95 backdrop-blur-md shadow-sm dark:shadow-none shadow-[0_20px_40px_rgba(26,43,72,0.05)] bg-surface dark:bg-surface-container-highest">
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex items-center justify-between h-20">
 <a class="flex items-center gap-4" href="<?php echo $path_prefix; ?>index.php">
-<img alt="Gnathos Facial Logo" class="h-10 md:h-14 w-auto" src="<?php echo $path_prefix; ?>asset/gna-logop.png"/>
+<img alt="Gnathos Facial Logo" class="h-10 md:h-14 w-auto" src="/asset/gna-logop.png"/>
 </a>
 <nav class="hidden md:flex items-center gap-8 font-label-md text-label-md tracking-wider uppercase">
 <a class="<?php echo (($current_page == 'index.php' || $current_page == '') && !$is_blog_active) ? 'text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1' : 'text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:opacity-90 duration-200'; ?>" href="<?php echo $path_prefix; ?>index.php">Home</a>

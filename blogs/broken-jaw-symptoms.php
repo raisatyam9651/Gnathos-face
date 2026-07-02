@@ -9,7 +9,7 @@ $og_description = "Severe pain, swelling, malocclusion, numbness — learn the 1
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
-<link href="blog-style.css" rel="stylesheet">
+<link href="/blogs/blog-style.css" rel="stylesheet">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"MedicalWebPage","name":"Broken Jaw Symptoms: 10 Warning Signs & Emergency Care","url":"https://gnathosface.com/blogs/broken-jaw-symptoms/","description":"A medical-information page explaining the symptoms, diagnosis, and emergency care of mandibular (jaw) fractures.","about":{"@type":"MedicalCondition","name":"Mandibular Fracture (Broken Jaw)"},"lastReviewed":"2026-06-19","reviewedBy":{"@type":"Person","name":"Dr. Navatha Mortha","jobTitle":"Senior Consultant & Maxillofacial Surgeon"},"publisher":{"@type":"Organization","name":"Gnathos Facial Surgery","url":"https://gnathosface.com/"},"medicalAudience":{"@type":"PeopleAudience","suggestedMinAge":12}}
 </script>
@@ -33,7 +33,7 @@ include $path_prefix . 'header.php';
 <span class="text-secondary">Trauma Care</span></nav>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6 leading-tight max-w-4xl">Broken Jaw Symptoms: 10 Warning Signs &amp; Emergency Care Guide</h1>
 <div class="flex items-center gap-6"><div class="flex items-center gap-3">
-<img src="../asset/dr-navatha-mortha-facial.webp" alt="Author" class="w-10 h-10 rounded-full object-cover shadow-sm"/>
+<img src="/asset/dr-navatha-mortha-facial.webp" alt="Author" class="w-10 h-10 rounded-full object-cover shadow-sm"/>
 <div class="flex flex-col"><span class="text-sm font-semibold text-primary">Dr. Navatha Mortha</span>
 <span class="text-xs text-on-surface-variant uppercase tracking-wider">April 21, 2026</span></div></div></div></div></div>
 <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 md:py-16">
@@ -329,7 +329,7 @@ include $path_prefix . 'header.php';
 </ol>
 <p class="text-xs text-on-surface-variant mt-4 italic"><strong>Medical disclaimer:</strong> This page is for educational purposes only and is not a substitute for an in-person assessment by a qualified maxillofacial surgeon. If you suspect a broken jaw, seek emergency care immediately.</p>
 <div class="bg-surface-container-low p-8 rounded-2xl border border-surface-container-high flex flex-col md:flex-row gap-6 items-center mt-12">
-<div class="w-24 h-24 rounded-full overflow-hidden shrink-0 shadow-md"><img alt="Dr. Navatha Mortha" class="w-full h-full object-cover" src="../asset/dr-navatha-mortha-facial.webp"/></div>
+<div class="w-24 h-24 rounded-full overflow-hidden shrink-0 shadow-md"><img alt="Dr. Navatha Mortha" class="w-full h-full object-cover" src="/asset/dr-navatha-mortha-facial.webp"/></div>
 <div><h4 class="font-headline-sm text-lg text-primary mb-1">Dr. Navatha Mortha</h4>
 <p class="font-label-md text-secondary uppercase tracking-wider mb-3 text-sm">Senior Consultant &amp; Maxillofacial Surgeon</p>
 <p class="text-sm text-on-surface-variant m-0 leading-relaxed">Dr. Mortha is on call for facial trauma 24/7 at Gnathos Facial Surgery, Hyderabad.</p></div></div>
