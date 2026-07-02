@@ -1,0 +1,51 @@
+# Gnathos Face — Blogs Robots.txt
+# Purpose: Tell crawlers that only the actual blog post URLs should be
+# indexed, and to ignore pagination, image uploads, and category indices.
+
+User-agent: *
+Allow: /blogs/
+
+# Allow individual blog post directories (the canonical URLs)
+Allow: /blogs/can-a-sinus-infection-cause-jaw-pain/
+Allow: /blogs/causes-of-jaw-pain-on-one-side/
+Allow: /blogs/does-ear-infection-cause-jaw-pain/
+Allow: /blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/
+Allow: /blogs/symptoms-of-jaw-infection-after-the-root-canal/
+Allow: /blogs/can-wisdom-teeth-cause-tmj/
+Allow: /blogs/can-braces-fix-an-asymmetrical-jaw/
+Allow: /blogs/broken-jaw-symptoms/
+Allow: /blogs/can-jaw-surgery-improve-facial-appearance/
+Allow: /blogs/causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons/
+Allow: /blogs/how-long-can-you-live-with-oral-cancer-survival-facts-explained/
+Allow: /blogs/facial-trauma-first-aid-steps-everyone-must-know-in-emergencies/
+Allow: /blogs/how-to-get-rid-of-jaw-pain-on-one-side/
+Allow: /blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/
+Allow: /blogs/can-jaw-surgery-help-with-sleep-apnea/
+Allow: /blogs/how-to-cure-tmj-permanently/
+Allow: /blogs/herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means/
+Allow: /blogs/what-is-orthognathic-surgery/
+Allow: /blogs/symptoms-of-impacted-wisdom-tooth/
+Allow: /blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/
+Allow: /blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/
+Allow: /blogs/what-are-the-symptoms-of-jaw-disease/
+Allow: /blogs/what-is-tmj-disorder/
+Allow: /blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/
+Allow: /blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/
+Allow: /blogs/jaw-surgery-orthognathic-complete-guide-for-patients/
+Allow: /blogs/what-are-the-symptoms-of-oral-cancer/
+Allow: /blogs/what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained/
+Allow: /blogs/best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance/
+
+# Disallow category archives and pagination
+Disallow: /blogs/category/
+Disallow: /blogs/page/
+Disallow: /blogs/*/page/
+Disallow: /blogs/*/feed/
+
+# Disallow image upload paths
+Disallow: /blogs/wp-content/
+Disallow: /blogs/wp-admin/
+Disallow: /blogs/wp-includes/
+
+# Disallow direct .php file access (the .htaccess will 301 to /)
+Disallow: /blogs/*.php$

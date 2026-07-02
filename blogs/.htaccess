@@ -1,0 +1,153 @@
+# Gnathos Face — Blogs Directory .htaccess
+# Purpose: Keep the canonical URL https://gnathosface.com/blogs/broken-jaw-symptoms/
+# (and every other blog post) stable regardless of whether visitors or
+# crawlers append a trailing slash, request the .php file directly, or
+# use any alternate form.
+
+# ------------------------------------------------------------------
+# 1. Default charset and basic server hardening
+# ------------------------------------------------------------------
+AddDefaultCharset UTF-8
+ServerSignature Off
+Options -Indexes
+
+# Disable ETags (avoid weak-validator caching across servers)
+<IfModule mod_headers.c>
+    Header unset ETag
+</IfModule>
+FileETag None
+
+# ------------------------------------------------------------------
+# 2. Custom error pages
+# ------------------------------------------------------------------
+ErrorDocument 404 /blogs/index.php
+ErrorDocument 403 /blogs/index.php
+
+# ------------------------------------------------------------------
+# 3. Rewrite engine — keep canonical blog URLs stable
+# ------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /blogs/
+
+    # Force HTTPS (production only)
+    # RewriteCond %{HTTPS} off
+    # RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # ------------------------------------------------------------------
+    # 3a. KEEP https://gnathosface.com/blogs/broken-jaw-symptoms/ stable.
+    #     The anchor URL for this goal. Any of the following variations
+    #     should resolve to the canonical form with the trailing slash:
+    #       /blogs/broken-jaw-symptoms
+    #       /blogs/broken-jaw-symptoms/
+    #       /blogs/broken-jaw-symptoms.php
+    #       /blogs/broken-jaw-symptoms/index.php
+    # ------------------------------------------------------------------
+
+    # a) Add trailing slash if missing
+    RewriteCond %{REQUEST_URI} ^/blogs/broken-jaw-symptoms$ [NC]
+    RewriteRule ^broken-jaw-symptoms$ broken-jaw-symptoms/ [L,R=301]
+
+    # b) Redirect .php request for broken-jaw-symptoms to the directory form
+    RewriteCond %{REQUEST_URI} ^/blogs/broken-jaw-symptoms\.php$ [NC]
+    RewriteRule ^broken-jaw-symptoms\.php$ broken-jaw-symptoms/ [L,R=301]
+
+    # c) Redirect /broken-jaw-symptoms/index.php to the directory root
+    RewriteCond %{REQUEST_URI} ^/blogs/broken-jaw-symptoms/index\.php$ [NC]
+    RewriteRule ^broken-jaw-symptoms/index\.php$ broken-jaw-symptoms/ [L,R=301]
+
+    # ------------------------------------------------------------------
+    # 3b. Generic rules — apply the same canonicalisation to every blog
+    #     post so the entire /blogs/ directory behaves consistently.
+    # ------------------------------------------------------------------
+
+    # a) Add trailing slash to blog post URLs that don't have one
+    RewriteCond %{REQUEST_URI} ^/blogs/[a-z0-9\-]+$ [NC]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([^/]+)$ $1/ [L,R=301]
+
+    # b) Redirect *.php requests inside /blogs/ to the directory form
+    #    so the canonical URL is always /blogs/post-slug/
+    RewriteCond %{REQUEST_URI} ^/blogs/[a-z0-9\-]+\.php$ [NC]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([a-z0-9\-]+)\.php$ $1/ [L,R=301]
+
+    # c) Redirect /blogs/post-slug/index.php to /blogs/post-slug/
+    RewriteCond %{REQUEST_URI} ^/blogs/[a-z0-9\-]+/index\.php$ [NC]
+    RewriteRule ^([a-z0-9\-]+)/index\.php$ $1/ [L,R=301]
+
+    # ------------------------------------------------------------------
+    # 3c. Pagination — keep canonical URLs clean and prevent paginated
+    #     blog index pages from competing with the root index.
+    # ------------------------------------------------------------------
+
+    # Redirect /blogs/category/blog/ and /blogs/category/blog to /blogs/
+    RewriteCond %{REQUEST_URI} ^/blogs/category/blog/?$ [NC]
+    RewriteRule ^category/blog/?$ /blogs/ [L,R=301]
+
+    # Redirect paginated category pages to the canonical blog index
+    RewriteCond %{REQUEST_URI} ^/blogs/category/blog/page/[0-9]+/?$ [NC]
+    RewriteRule ^category/blog/page/[0-9]+/?$ /blogs/ [L,R=301]
+
+    # ------------------------------------------------------------------
+    # 3d. Serve .php files when the directory form is requested
+    #     (e.g. /blogs/broken-jaw-symptoms/ serves broken-jaw-symptoms.php)
+    # ------------------------------------------------------------------
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} ^/blogs/([a-z0-9\-]+)/$ [NC]
+    RewriteCond %{DOCUMENT_ROOT}/blogs/%1.php -f [NC]
+    RewriteRule ^([a-z0-9\-]+)/$ $1.php [L]
+
+    # ------------------------------------------------------------------
+    # 3e. Image upload paths and pagination are not blog posts — they
+    #     remain accessible to visitors but are not rewritten. Crawlers
+    #     are handled in /blogs/robots.txt.
+    # ------------------------------------------------------------------
+</IfModule>
+
+# ------------------------------------------------------------------
+# 4. Pretty URLs — let the server serve /blogs/post-slug/ via the
+#    matching PHP file when mod_dir is loaded. Falls back to mod_rewrite.
+# ------------------------------------------------------------------
+<IfModule mod_dir.c>
+    DirectorySlash On
+</IfModule>
+
+# ------------------------------------------------------------------
+# 5. Compression
+# ------------------------------------------------------------------
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+    AddOutputFilterByType DEFLATE application/javascript application/json application/xml
+</IfModule>
+
+# ------------------------------------------------------------------
+# 6. Browser caching for static assets
+# ------------------------------------------------------------------
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+</IfModule>
+
+# ------------------------------------------------------------------
+# 7. Security headers
+# ------------------------------------------------------------------
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# ------------------------------------------------------------------
+# End of .htaccess
+# ------------------------------------------------------------------

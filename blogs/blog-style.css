@@ -1,0 +1,81 @@
+/* Custom typography styles simulating @tailwindcss/typography prose style */
+
+.prose h1:not(.not-prose *),
+.prose h2:not(.not-prose *),
+.prose h3:not(.not-prose *),
+.prose h4:not(.not-prose *),
+.prose h5:not(.not-prose *),
+.prose h6:not(.not-prose *) {
+    font-family: 'Playfair Display', serif;
+    color: #031632 !important; /* text-primary */
+    margin-top: 2.5rem !important; /* mt-10 */
+    margin-bottom: 1.25rem !important; /* mb-4 */
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+}
+
+.prose h1:not(.not-prose *) {
+    font-size: 2.25rem !important;
+}
+
+.prose h2:not(.not-prose *) {
+    font-size: 1.875rem !important; /* ~30px */
+    border-bottom: 1px solid #e6e8ea;
+    padding-bottom: 0.5rem;
+}
+
+.prose h3:not(.not-prose *) {
+    font-size: 1.5rem !important; /* ~24px */
+}
+
+.prose p:not(.not-prose *) {
+    font-family: 'Inter', sans-serif;
+    color: #44474d !important; /* text-on-surface-variant */
+    font-size: 1.05rem !important;
+    line-height: 1.75 !important;
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+}
+
+.prose ul:not(.not-prose *) {
+    list-style-type: disc !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.prose ol:not(.not-prose *) {
+    list-style-type: decimal !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.prose li:not(.not-prose *) {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    line-height: 1.75 !important;
+    color: #44474d !important;
+}
+
+.prose strong:not(.not-prose *) {
+    color: #031632 !important;
+    font-weight: 600 !important;
+}
+
+.prose a:not(.not-prose *) {
+    color: #136870 !important; /* text-secondary */
+    text-decoration: underline !important;
+    font-weight: 600 !important;
+    transition: opacity 0.2s !important;
+}
+
+.prose a:not(.not-prose *):hover {
+    opacity: 0.8 !important;
+}
+
+.prose img:not(.not-prose *) {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    border-radius: 0.75rem !important;
+}
