@@ -429,9 +429,9 @@ include $path_prefix . 'header.php';
                         Explore our latest articles, case studies, and academic updates on maxillofacial surgery.
                     </p>
 </div>
-<button class="hidden md:block px-6 py-3 border border-secondary text-secondary font-label-md text-label-md tracking-wider uppercase rounded hover:bg-surface-container transition-colors">
+<a href="blogs/" class="hidden md:inline-flex items-center justify-center px-6 py-3 border border-secondary text-secondary font-label-md text-label-md tracking-wider uppercase rounded hover:bg-surface-container transition-colors">
                     View All Articles
-                </button>
+                </a>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
 <!-- Blog Post 1 -->
@@ -445,7 +445,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3">
                             An in-depth look at how advanced arthroscopic techniques are transforming the treatment of complex temporomandibular joint disorders with faster recovery times.
                         </p>
-<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity" href="#">
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity" href="blogs/evolution-of-tmj-arthroscopy/">
                             Read Article
                             <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
 </a>
@@ -462,7 +462,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3">
                             Navigating the critical post-operative phases of orthognathic surgery with our comprehensive, step-by-step clinical recovery guidelines.
                         </p>
-<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity" href="#">
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity" href="blogs/recovery-protocols-jaw-reconstruction/">
                             Read Article
                             <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
 </a>
@@ -479,7 +479,7 @@ include $path_prefix . 'header.php';
 <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3">
                             How virtual surgical planning (VSP) and 3D printing are enhancing accuracy and predictability in complex facial trauma and reconstructive surgeries.
                         </p>
-<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity" href="#">
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity" href="blogs/role-of-3d-virtual-planning/">
                             Read Article
                             <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
 </a>
@@ -487,9 +487,9 @@ include $path_prefix . 'header.php';
 </article>
 </div>
 <div class="mt-8 text-center md:hidden">
-<button class="px-6 py-3 border border-secondary text-secondary font-label-md text-label-md tracking-wider uppercase rounded hover:bg-surface-container transition-colors">
+<a href="blogs/" class="inline-flex items-center justify-center px-6 py-3 border border-secondary text-secondary font-label-md text-label-md tracking-wider uppercase rounded hover:bg-surface-container transition-colors">
                     View All Articles
-                </button>
+                </a>
 </div>
 </div>
 </section>

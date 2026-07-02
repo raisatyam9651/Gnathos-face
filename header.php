@@ -2,6 +2,7 @@
 $current_page = basename($_SERVER['PHP_SELF']);
 $is_conditions_active = in_array($current_page, ['conditions.php', 'tmj-disorders.php']);
 $is_treatments_active = in_array($current_page, ['treatments.php', 'tmj-treatment.php', 'tmj-arthroscopy.php', 'jaw-surgery.php', 'advanced-jaw-surgery.php', 'skin-grafts-and-flaps.php']);
+$is_blog_active = (strpos($_SERVER['PHP_SELF'], '/blogs/') !== false || strpos($_SERVER['PHP_SELF'], '/blog/') !== false);
 ?>
 <!-- TopAppBar Shared Component -->
 <header class="w-full top-0 sticky z-50 bg-surface/95 backdrop-blur-md shadow-sm dark:shadow-none shadow-[0_20px_40px_rgba(26,43,72,0.05)] bg-surface dark:bg-surface-container-highest">
@@ -10,7 +11,7 @@ $is_treatments_active = in_array($current_page, ['treatments.php', 'tmj-treatmen
 <img alt="Gnathos Facial Logo" class="h-10 md:h-14 w-auto" src="<?php echo $path_prefix; ?>asset/gna-logop.png"/>
 </a>
 <nav class="hidden md:flex items-center gap-8 font-label-md text-label-md tracking-wider uppercase">
-<a class="<?php echo ($current_page == 'index.php' || $current_page == '') ? 'text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1' : 'text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:opacity-90 duration-200'; ?>" href="<?php echo $path_prefix; ?>index.php">Home</a>
+<a class="<?php echo (($current_page == 'index.php' || $current_page == '') && !$is_blog_active) ? 'text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1' : 'text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:opacity-90 duration-200'; ?>" href="<?php echo $path_prefix; ?>index.php">Home</a>
 <div class="relative group">
 <a class="<?php echo $is_conditions_active ? 'text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1' : 'text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:opacity-90 duration-200'; ?> flex items-center gap-1 cursor-pointer">
 <span>Conditions</span>
@@ -42,6 +43,7 @@ $is_treatments_active = in_array($current_page, ['treatments.php', 'tmj-treatmen
 </div>
 </div>
 <a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:opacity-90 duration-200" href="<?php echo $path_prefix; ?>index.php#about">About Us</a>
+<a class="<?php echo $is_blog_active ? 'text-primary dark:text-primary-fixed font-bold border-b-2 border-primary dark:border-primary-fixed pb-1' : 'text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:opacity-90 duration-200'; ?>" href="<?php echo $path_prefix; ?>blogs/">Blog</a>
 <a class="text-on-surface-variant dark:text-on-tertiary-container hover:text-primary transition-colors hover:opacity-90 duration-200" href="<?php echo $path_prefix; ?>index.php#contact">Contact</a>
 </nav>
 <button onclick="window.location.href='<?php echo $path_prefix; ?>index.php#contact'" class="hidden md:flex items-center justify-center px-6 py-3 bg-primary-container text-on-primary font-label-md text-label-md tracking-wider uppercase rounded hover:opacity-90 transition-opacity">

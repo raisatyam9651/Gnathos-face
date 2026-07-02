@@ -96,6 +96,7 @@
     <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/40">
       <p>© 2026 Gnathos Maxillofacial Surgery. All rights reserved.</p>
       <div class="flex gap-6">
+        <a class="hover:text-white transition-colors" href="<?php echo $path_prefix; ?>blogs/">Blog</a>
         <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
         <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
         <a class="hover:text-white transition-colors" href="#">Clinical Governance</a>
