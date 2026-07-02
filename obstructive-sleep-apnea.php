@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Obstructive Sleep Apnea Treatment Hyderabad | Gnathos Facial Surgery";
+$page_title = "Obstructive Sleep Apnea | Gnathos Facial Surgery";
 $page_description = "Expert obstructive sleep apnea treatment in Hyderabad. Dr. Suresh P.L. offers advanced OSA diagnosis and surgical solutions at CARE Hospitals, Banjara Hills.";
+$canonical_url = "https://gnathosface.com/obstructive-sleep-apnea/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

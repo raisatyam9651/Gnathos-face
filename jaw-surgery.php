@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Advanced Jaw Surgery (Orthognathic) in Hyderabad | Gnathos Facial Surgery";
+$page_title = "Jaw Surgery Hyderabad | Gnathos Facial Surgery";
 $page_description = "";
+$canonical_url = "https://gnathosface.com/jaw-surgery/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

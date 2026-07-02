@@ -2,6 +2,7 @@
 $path_prefix = "";
 $page_title = "Rhinoplasty in Hyderabad | Gnathos Facial Surgery";
 $page_description = "Expert rhinoplasty surgery in Hyderabad at Gnathos Facial Surgery. Board-certified maxillofacial surgeons specializing in nose reshaping and functional rhinoplasty. Book consultation today.";
+$canonical_url = "https://gnathosface.com/rhinoplasty-treatment/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

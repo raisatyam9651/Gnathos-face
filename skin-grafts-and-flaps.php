@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Skin Grafts and Flaps Treatment Hyderabad | Gnathos Facial Surgery";
+$page_title = "Skin Grafts & Flaps Hyderabad | Gnathos Facial Surgery";
 $page_description = "Expert skin graft and flap surgery in Hyderabad. Dr. Suresh P.L. performs advanced reconstructive procedures for facial trauma, burns, and defects at CARE Hospitals, Banjara Hills.";
+$canonical_url = "https://gnathosface.com/skin-grafts-and-flaps/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

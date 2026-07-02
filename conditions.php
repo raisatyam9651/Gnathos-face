@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Oral & Maxillofacial Conditions We Treat | Gnathos Facial Surgery";
+$page_title = "Oral & Maxillofacial Conditions | Gnathos Facial Surgery";
 $page_description = "Comprehensive information on oral and maxillofacial conditions treated by Dr. Suresh P.L., including TMJ disorders, facial trauma, sleep apnea, jaw misalignment, and oral cancers.";
+$canonical_url = "https://gnathosface.com/conditions/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

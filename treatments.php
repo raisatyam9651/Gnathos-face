@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Oral & Maxillofacial Treatments & Procedures | Gnathos Facial Surgery";
+$page_title = "Oral & Maxillofacial Treatments | Gnathos Facial Surgery";
 $page_description = "Comprehensive listing of oral and maxillofacial surgeries and treatments provided by Dr. Suresh P.L. at Gnathos, including jaw surgery, TMJ arthroscopy, skin grafts, rhinoplasty, and oral cancer treatment.";
+$canonical_url = "https://gnathosface.com/treatments/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

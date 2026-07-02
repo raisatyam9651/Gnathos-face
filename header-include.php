@@ -7,6 +7,14 @@
   <?php if (isset($page_description) && !empty($page_description)): ?>
   <meta content="<?php echo $page_description; ?>" name="description"/>
   <?php endif; ?>
+  <?php if (isset($page_keywords) && !empty($page_keywords)): ?>
+  <meta content="<?php echo $page_keywords; ?>" name="keywords"/>
+  <?php endif; ?>
+  <?php if (isset($canonical_url) && !empty($canonical_url)): ?>
+  <link href="<?php echo $canonical_url; ?>" rel="canonical"/>
+  <?php endif; ?>
+  <meta content="index, follow" name="robots"/>
+  <meta content="Gnathos Facial Surgery" name="author"/>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>

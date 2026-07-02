@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Orthognathic Surgery Hyderabad | Jaw Correction Surgery | Gnathos Facial";
+$page_title = "Orthognathic Surgery Treatment | Gnathos Facial Surgery";
 $page_description = "Expert orthognathic surgery in Hyderabad. Board-certified maxillofacial surgeons at Gnathos Facial offer advanced jaw correction surgery for improved function and aesthetics. Book consultation today.";
+$canonical_url = "https://gnathosface.com/orthognathic-surgery-treatment/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

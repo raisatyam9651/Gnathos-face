@@ -2,6 +2,7 @@
 $path_prefix = "";
 $page_title = "Oral Cancer Treatment Hyderabad | Gnathos Facial Surgery";
 $page_description = "Expert oral cancer surgery in Hyderabad by Dr. Suresh P.L. at CARE Hospitals. Advanced treatment for mouth cancer including surgery, reconstruction, and rehabilitation.";
+$canonical_url = "https://gnathosface.com/oral-cancer-treatment/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

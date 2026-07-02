@@ -2,6 +2,7 @@
 $path_prefix = "";
 $page_title = "Facial Injury Treatment Hyderabad | Gnathos Facial Surgery";
 $page_description = "Expert facial trauma and injury treatment in Hyderabad. Dr. Suresh P.L. provides comprehensive care for facial fractures, soft tissue injuries, and reconstructive surgery at CARE Hospitals, Banjara Hills.";
+$canonical_url = "https://gnathosface.com/facial-injuries/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

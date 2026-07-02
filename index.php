@@ -2,6 +2,7 @@
 $path_prefix = "";
 $page_title = "Gnathos Facial &amp; Dr. Suresh | Maxillofacial Surgery";
 $page_description = "";
+$canonical_url = "https://gnathosface.com/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
@@ -209,7 +210,7 @@ include $path_prefix . 'header.php';
 <div class="group bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
 <div class="h-48 bg-surface-container-low overflow-hidden relative">
 <img alt="Rhinoplasty" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-500" src="asset/rhinoplasty.png"/>
-<img alt="Gnathos Logo Watermark" class="absolute bottom-2 right-2 w-12 opacity-30 pointer-events-none" src="http://127.0.0.1:5500/asset/gna-logop.png"/>
+<img alt="Gnathos Logo Watermark" class="absolute bottom-2 right-2 w-12 opacity-30 pointer-events-none" src="asset/gna-logop.png"/>
 <div class="absolute inset-0 bg-primary-container/10 group-hover:bg-transparent transition-colors duration-300"></div>
 </div>
 <div class="p-8 flex flex-col grow">

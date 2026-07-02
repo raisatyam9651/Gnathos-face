@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Oral Cancer Symptoms, Causes & Treatment in Hyderabad | Gnathos Facial Surgery";
+$page_title = "Oral Cancer Symptoms & Treatment | Gnathos Facial Surgery";
 $page_description = "Learn about oral cancer symptoms, risk factors, and treatment options in Hyderabad. Expert oral cancer care at CARE Hospitals with Dr. Suresh P.L. Early detection saves lives.";
+$canonical_url = "https://gnathosface.com/oral-cancer/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

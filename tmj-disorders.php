@@ -2,6 +2,7 @@
 $path_prefix = "";
 $page_title = "Advanced TMJ Treatment Hyderabad | Gnathos Facial Surgery";
 $page_description = "";
+$canonical_url = "https://gnathosface.com/tmj-disorders/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

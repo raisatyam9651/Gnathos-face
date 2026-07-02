@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "TMJ Arthroscopy Hyderabad | Minimally Invasive Jaw Joint Surgery | Gnathos Facial";
+$page_title = "TMJ Arthroscopy Hyderabad | Gnathos Facial Surgery";
 $page_description = "";
+$canonical_url = "https://gnathosface.com/tmj-arthroscopy/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

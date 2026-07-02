@@ -2,6 +2,7 @@
 $path_prefix = "";
 $page_title = "Cosmetic Facial Surgery Hyderabad | Gnathos Facial Surgery";
 $page_description = "Transform your appearance with expert cosmetic facial surgery in Hyderabad. Dr. Suresh P.L. and Dr. Navatha Mortha offer facial contouring, rhinoplasty, and aesthetic procedures at CARE Hospitals, Banjara Hills.";
+$canonical_url = "https://gnathosface.com/cosmetic-facial-surgery-treatment/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>

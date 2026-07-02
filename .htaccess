@@ -4,8 +4,33 @@ RewriteEngine on
 RewriteRule ^services(\.php)?/?$ /treatments [R=301,L,NC]
 RewriteRule ^contact\.php$ /#contact [R=301,L,NC]
 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}\.php -f 
+# --- BEGIN GNA-Face-Blogs Routing ---
+
+# 1) Block broken / legacy WordPress asset & pagination requests under /blogs/ so they
+#    don't generate 404s or expose the old wp-content path. Send them to /blogs/.
+RewriteRule ^blogs/wp-content/.*$ /blogs/ [R=301,L]
+RewriteRule ^blogs/category/.*$ /blogs/ [R=301,L]
+RewriteRule ^blogs/page/.*$ /blogs/ [R=301,L]
+RewriteRule ^blogs/feed/?$ /blogs/ [R=301,L]
+RewriteRule ^blogs/tag/.*$ /blogs/ [R=301,L]
+RewriteRule ^blogs/author/.*$ /blogs/ [R=301,L]
+
+# 2) Force a trailing slash on every /blogs/<slug> -> /blogs/<slug>/ to match
+#    the canonical URLs declared in every blog file. This avoids duplicate-content
+#    issues between the bare-slug and trailing-slash variants.
+RewriteCond %{REQUEST_URI} ^/blogs/[a-z0-9-]+$
+RewriteRule ^(blogs/[a-z0-9-]+)$ $1/ [R=301,L]
+
+# 3) Map clean /blogs/<slug>/ to the matching PHP file under /blogs/.
+#    Also accepts the bare /blogs/<slug> form for compatibility.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blogs/([a-z0-9-]+)/?$ /blogs/$1.php [L]
+
+# --- END GNA-Face-Blogs Routing ---
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
 # To externally redirect /dir/foo.php to /dir/foo

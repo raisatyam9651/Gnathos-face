@@ -1,7 +1,8 @@
 <?php
 $path_prefix = "";
-$page_title = "Orthognathic Surgery Hyderabad | Jaw Correction Surgery | Gnathos Facial";
+$page_title = "Orthognathic Surgery | Gnathos Facial Surgery";
 $page_description = "Expert orthognathic surgery in Hyderabad by Dr. Suresh P.L. Corrective jaw surgery for bite alignment, facial asymmetry, and jaw reconstruction at CARE Hospitals, Banjara Hills.";
+$canonical_url = "https://gnathosface.com/orthognathic-surgery/";
 include $path_prefix . 'header-include.php';
 include $path_prefix . 'header.php';
 ?>
