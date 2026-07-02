@@ -28,6 +28,108 @@ include $path_prefix . 'header.php';
 
             <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
                 <div class="h-56 overflow-hidden bg-surface-container-low">
+                    <img alt="Why Does My Face Feel Tight? Causes, Anxiety &amp; Treatment Options" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=201"/>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Patient Guides</span>
+                    <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">Why Does My Face Feel Tight? Causes, Anxiety &amp; Treatment Options</h3>
+                    <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
+                        Explore the common medical, psychological, and dental causes of facial tightness, including anxiety and TMJ, and learn about treatment options.
+                    </p>
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/why-does-my-face-feel-tight/">
+                        Read Article
+                        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
+                <div class="h-56 overflow-hidden bg-surface-container-low">
+                    <img alt="Face Muscles Tightening Due to Anxiety: Symptoms &amp; Relief" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=202"/>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Patient Guides</span>
+                    <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">Face Muscles Tightening Due to Anxiety: Symptoms &amp; Relief</h3>
+                    <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
+                        Anxiety can manifest physically as facial muscle tightness, jaw clenching, and tension headaches. Learn how stress affects your facial muscles and how to find relief.
+                    </p>
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/face-muscles-tightening-due-to-anxiety/">
+                        Read Article
+                        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
+                <div class="h-56 overflow-hidden bg-surface-container-low">
+                    <img alt="Tense Face and Jaw Pain: When It’s More Than Just Stress" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=203"/>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Patient Guides</span>
+                    <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">Tense Face and Jaw Pain: When It’s More Than Just Stress</h3>
+                    <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
+                        Struggling with a tense face and persistent jaw pain? Find out when these symptoms point to TMJ disorders, bruxism, or dental issues, and when to seek a specialist.
+                    </p>
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/tense-face-and-jaw-pain/">
+                        Read Article
+                        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
+                <div class="h-56 overflow-hidden bg-surface-container-low">
+                    <img alt="Can a Migraine Cause Facial Numbness? What You Should Know" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=204"/>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Patient Guides</span>
+                    <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">Can a Migraine Cause Facial Numbness? What You Should Know</h3>
+                    <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
+                        Yes — migraines can cause facial numbness, especially during the aura phase or in hemiplegic migraines. Learn why it happens and when to consult a specialist.
+                    </p>
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/can-a-migraine-cause-facial-numbness/">
+                        Read Article
+                        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
+                <div class="h-56 overflow-hidden bg-surface-container-low">
+                    <img alt="Can Allergies Cause Facial Pain or Numbness?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=205"/>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Patient Guides</span>
+                    <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">Can Allergies Cause Facial Pain or Numbness?</h3>
+                    <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
+                        Allergic rhinitis can lead to sinus congestion, facial pressure, and pain. Learn how allergies trigger these symptoms and whether they can cause facial numbness.
+                    </p>
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/can-allergies-cause-facial-pain-or-numbness/">
+                        Read Article
+                        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
+                <div class="h-56 overflow-hidden bg-surface-container-low">
+                    <img alt="Sinus Infection and Jaw Pain: Symptoms &amp; When to See a Specialist" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=206"/>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Patient Guides</span>
+                    <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">Sinus Infection and Jaw Pain: Symptoms &amp; When to See a Specialist</h3>
+                    <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
+                        Learn about the close relationship between sinus infections and jaw pain, the anatomical link to upper teeth, symptoms to watch for, and treatment options.
+                    </p>
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/sinus-infection-and-jaw-pain/">
+                        Read Article
+                        <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </article>
+
+            <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300 flex flex-col">
+                <div class="h-56 overflow-hidden bg-surface-container-low">
                     <img alt="Can a Sinus Infection Cause Jaw Pain?" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=101"/>
                 </div>
                 <div class="p-6 flex flex-col grow">
