@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Cosmetic</span>
             </nav>
@@ -98,7 +98,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you are considering <a href="best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance.php">best facial cosmetic surgery</a> options for the midface, rhinoplasty often sits at the top of that conversation.
+                        If you are considering <a href="/blogs/best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance/">best facial cosmetic surgery</a> options for the midface, rhinoplasty often sits at the top of that conversation.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -156,7 +156,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        The same principle applies to <a href="can-jaw-surgery-improve-facial-appearance.php">jaw surgery for appearance</a>: structural stability and aesthetics are planned together for a result that lasts.
+                        The same principle applies to <a href="/blogs/can-jaw-surgery-improve-facial-appearance/">jaw surgery for appearance</a>: structural stability and aesthetics are planned together for a result that lasts.
                     </p>
 
                     <h2 id="open-vs-closed" class="scroll-mt-24">Open vs Closed Approach</h2>
@@ -180,7 +180,7 @@ include $path_prefix . 'header.php';
                     <h2 id="septoplasty-turbinates" class="scroll-mt-24">Septoplasty and Turbinate Reduction</h2>
 
                     <p>
-                        Septoplasty straightens a deviated septum. It is frequently combined with rhinoplasty in a single operation, especially after a <a href="broken-jaw-symptoms.php">broken nose or broken jaw</a> injury.
+                        Septoplasty straightens a deviated septum. It is frequently combined with rhinoplasty in a single operation, especially after a <a href="/blogs/broken-jaw-symptoms/">broken nose or broken jaw</a> injury.
                     </p>
 
                     <p>
@@ -218,7 +218,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If your nose injury happened recently, read our guide on <a href="facial-trauma-first-aid-steps-everyone-must-know-in-emergencies.php">facial trauma first aid</a> before your consultation.
+                        If your nose injury happened recently, read our guide on <a href="/blogs/facial-trauma-first-aid-steps-everyone-must-know-in-emergencies/">facial trauma first aid</a> before your consultation.
                     </p>
 
                     <h2 id="pre-op-planning" class="scroll-mt-24">Pre-Operative Planning</h2>
@@ -240,7 +240,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If sinus symptoms are part of your history, we may also evaluate the relationship between the sinuses and the jaw, as discussed in <a href="can-a-sinus-infection-cause-jaw-pain.php">sinus and jaw pain</a>.
+                        If sinus symptoms are part of your history, we may also evaluate the relationship between the sinuses and the jaw, as discussed in <a href="/blogs/can-a-sinus-infection-cause-jaw-pain/">sinus and jaw pain</a>.
                     </p>
 
                     <h2 id="surgery-recovery" class="scroll-mt-24">The Surgery and Recovery</h2>
@@ -262,7 +262,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        For a broader view of what healing looks like after facial surgery, see our timeline on <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">recovery after facial surgery</a>.
+                        For a broader view of what healing looks like after facial surgery, see our timeline on <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">recovery after facial surgery</a>.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -290,7 +290,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Most complications are uncommon and manageable when surgery is performed by an experienced, qualified specialist. A clear understanding of the general <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php">maxillofacial surgery risks</a> helps you prepare.
+                        Most complications are uncommon and manageable when surgery is performed by an experienced, qualified specialist. A clear understanding of the general <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/">maxillofacial surgery risks</a> helps you prepare.
                     </p>
 
                     <p>
@@ -304,7 +304,7 @@ include $path_prefix . 'header.php';
                     <h2 id="choosing-surgeon" class="scroll-mt-24">Choosing the Right Surgeon</h2>
 
                     <p>
-                        Rhinoplasty is best performed by a surgeon trained extensively in nasal anatomy and airway function. In India, that training pathway is described in our guide on <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php">maxillofacial surgeon training</a>.
+                        Rhinoplasty is best performed by a surgeon trained extensively in nasal anatomy and airway function. In India, that training pathway is described in our guide on <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/">maxillofacial surgeon training</a>.
                     </p>
 
                     <p>
@@ -312,7 +312,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Your consultation should feel like a conversation, not a sales pitch. If you are in Hyderabad, our detailed guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through the practical checks.
+                        Your consultation should feel like a conversation, not a sales pitch. If you are in Hyderabad, our detailed guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through the practical checks.
                     </p>
 
                     <p>
@@ -476,21 +476,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="maxillomandibular-advancement-for-osa.php" class="block">
+            <a href="/blogs/maxillomandibular-advancement-for-osa/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Airway Surgery</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Maxillomandibular Advancement for OSA</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="dental-implants-vs-bone-grafts.php" class="block">
+            <a href="/blogs/dental-implants-vs-bone-grafts/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Reconstruction</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Dental Implants vs. Bone Grafts: What You Need to Know</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="evolution-of-tmj-arthroscopy.php" class="block">
+            <a href="/blogs/evolution-of-tmj-arthroscopy/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Surgical Techniques</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">The Evolution of TMJ Arthroscopy: Minimally Invasive Solutions</h4>
             </a>

@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Reconstruction</span>
             </nav>
@@ -105,7 +105,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        The longer a tooth has been missing, the more bone you tend to lose. Many patients we see at Gnathos Facial Surgery arrive years after an extraction, often unaware that the ridge beneath has thinned considerably. Recognising the <a href="what-are-the-symptoms-of-jaw-disease.php" class="text-secondary hover:underline">symptoms of jaw disease</a> early can prevent this kind of silent bone loss.
+                        The longer a tooth has been missing, the more bone you tend to lose. Many patients we see at Gnathos Facial Surgery arrive years after an extraction, often unaware that the ridge beneath has thinned considerably. Recognising the <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="text-secondary hover:underline">symptoms of jaw disease</a> early can prevent this kind of silent bone loss.
                     </p>
 
                     <p>
@@ -114,7 +114,7 @@ include $path_prefix . 'header.php';
 
                     <h3>When Is Bone Insufficient?</h3>
                     <p>
-                        Bone is typically considered insufficient for an implant when its height is below 6–8 mm or its width is under 5 mm. Common causes include long-standing tooth loss, severe periodontitis, trauma from <a href="broken-jaw-symptoms.php" class="text-secondary hover:underline">broken jaw symptoms</a> that went untreated, long-term denture wear, cysts, and tumour resections.
+                        Bone is typically considered insufficient for an implant when its height is below 6–8 mm or its width is under 5 mm. Common causes include long-standing tooth loss, severe periodontitis, trauma from <a href="/blogs/broken-jaw-symptoms/" class="text-secondary hover:underline">broken jaw symptoms</a> that went untreated, long-term denture wear, cysts, and tumour resections.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10"><img alt="Insufficient jawbone for dental implant" class="w-full h-full object-cover" src="https://picsum.photos/1200/675?random=182"/></div>
@@ -215,21 +215,21 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        In severe bone loss of the upper jaw, zygomatic implants anchor into the cheekbone, bypassing the need for major grafting. Patients with <a href="symptoms-of-impacted-wisdom-tooth.php" class="text-secondary hover:underline">impacted wisdom teeth</a> and other complex presentations benefit from similarly tailored planning.
+                        In severe bone loss of the upper jaw, zygomatic implants anchor into the cheekbone, bypassing the need for major grafting. Patients with <a href="/blogs/symptoms-of-impacted-wisdom-tooth/" class="text-secondary hover:underline">impacted wisdom teeth</a> and other complex presentations benefit from similarly tailored planning.
                     </p>
 
                     <h2 id="options-risks-cost" class="scroll-mt-24">Options, Risks, and Cost</h2>
                     <h3>Who Performs the Procedure?</h3>
                     <p>
-                        Dental implants are placed by an implantologist, a periodontist trained in gum and bone support, or a maxillofacial surgeon. Complex cases involving bone loss, sinus anatomy, or full-mouth rehabilitation are best handled by a <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="text-secondary hover:underline">maxillofacial surgeon's training</a> background.
+                        Dental implants are placed by an implantologist, a periodontist trained in gum and bone support, or a maxillofacial surgeon. Complex cases involving bone loss, sinus anatomy, or full-mouth rehabilitation are best handled by a <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="text-secondary hover:underline">maxillofacial surgeon's training</a> background.
                     </p>
 
                     <p>
-                        If you are unsure <a href="what-type-of-doctor-do-i-need-to-see-for-tmj.php" class="text-secondary hover:underline">which doctor to consult</a>, start with a clinical and radiographic evaluation. A CBCT scan will reveal whether your bone is ready or whether a graft is needed first.
+                        If you are unsure <a href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/" class="text-secondary hover:underline">which doctor to consult</a>, start with a clinical and radiographic evaluation. A CBCT scan will reveal whether your bone is ready or whether a graft is needed first.
                     </p>
 
                     <p>
-                        Choosing the right surgeon matters. Review credentials, case experience, sterilisation standards, and the technology used. Our guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="text-secondary hover:underline">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through the key questions to ask.
+                        Choosing the right surgeon matters. Review credentials, case experience, sterilisation standards, and the technology used. Our guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="text-secondary hover:underline">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through the key questions to ask.
                     </p>
 
                     <h3>Risks and Complications</h3>
@@ -238,7 +238,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Warning signs such as persistent pain, swelling, pus, or numbness deserve prompt attention. Read about <a href="symptoms-of-jaw-infection-after-the-root-canal.php" class="text-secondary hover:underline">jaw infection after root canal</a> to understand the patterns of infection that may also occur around grafts and implants. Being aware of broader <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php" class="text-secondary hover:underline">maxillofacial surgery risks</a> helps you prepare realistically.
+                        Warning signs such as persistent pain, swelling, pus, or numbness deserve prompt attention. Read about <a href="/blogs/symptoms-of-jaw-infection-after-the-root-canal/" class="text-secondary hover:underline">jaw infection after root canal</a> to understand the patterns of infection that may also occur around grafts and implants. Being aware of broader <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/" class="text-secondary hover:underline">maxillofacial surgery risks</a> helps you prepare realistically.
                     </p>
 
                     <h3>Cost Comparison</h3>
@@ -256,7 +256,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        The combined journey, from extraction or loss to a final crown on an implant, generally spans 4 to 12 months. Recovery is steady, and most patients return to normal routines within a week of each surgical stage. For a broader view of <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php" class="text-secondary hover:underline">recovery after jaw surgery</a>, our timeline guide covers what to expect at each step.
+                        The combined journey, from extraction or loss to a final crown on an implant, generally spans 4 to 12 months. Recovery is steady, and most patients return to normal routines within a week of each surgical stage. For a broader view of <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/" class="text-secondary hover:underline">recovery after jaw surgery</a>, our timeline guide covers what to expect at each step.
                     </p>
 
                     <h3>How to Choose the Right Option</h3>
@@ -406,21 +406,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
                         
         <div class="group cursor-pointer">
-            <a href="recovery-protocols-jaw-reconstruction.php" class="block">
+            <a href="/blogs/recovery-protocols-jaw-reconstruction/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Evidence-Based Recovery Protocols for Jaw Reconstruction</h4>
             </a>
         </div>
         
         <div class="group cursor-pointer">
-            <a href="maxillomandibular-advancement-for-osa.php" class="block">
+            <a href="/blogs/maxillomandibular-advancement-for-osa/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Airway Surgery</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Maxillomandibular Advancement for OSA</h4>
             </a>
         </div>
         
         <div class="group cursor-pointer">
-            <a href="understanding-facial-trauma-management.php" class="block">
+            <a href="/blogs/understanding-facial-trauma-management/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Trauma Care</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Understanding Facial Trauma Management</h4>
             </a>

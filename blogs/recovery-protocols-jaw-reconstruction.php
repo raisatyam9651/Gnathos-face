@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Patient Guides</span>
             </nav>
@@ -100,7 +100,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Without a structured plan, patients run into avoidable problems. These include infection, non-union of bone, displacement of the plates, mouth opening that never fully recovers, and chronic nerve pain. A disciplined protocol reduces these <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php">risks and complications</a> and shortens the time it takes you to return to normal life.
+                        Without a structured plan, patients run into avoidable problems. These include infection, non-union of bone, displacement of the plates, mouth opening that never fully recovers, and chronic nerve pain. A disciplined protocol reduces these <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/">risks and complications</a> and shortens the time it takes you to return to normal life.
                     </p>
 
                     <p>
@@ -198,7 +198,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you had <a href="what-is-orthognathic-surgery.php">orthognathic surgery</a> for bite correction, expect a short adjustment period with your new occlusion. Most patients adapt within four to six weeks.
+                        If you had <a href="/blogs/what-is-orthognathic-surgery/">orthognathic surgery</a> for bite correction, expect a short adjustment period with your new occlusion. Most patients adapt within four to six weeks.
                     </p>
 
                     <h2 id="activity-followup" class="scroll-mt-24">Activity Progression and Long-Term Follow-Up</h2>
@@ -212,7 +212,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Follow-up visits happen at one week, three weeks, six weeks, three months, six months, and one year. Imaging, usually an orthopantomogram or CBCT, is taken at six weeks and again at six months to confirm bone healing. For full details on the <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">complete recovery timeline</a>, see our dedicated guide.
+                        Follow-up visits happen at one week, three weeks, six weeks, three months, six months, and one year. Imaging, usually an orthopantomogram or CBCT, is taken at six weeks and again at six months to confirm bone healing. For full details on the <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">complete recovery timeline</a>, see our dedicated guide.
                     </p>
 
                     <p>
@@ -231,7 +231,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you had jaw surgery after trauma, review our pages on <a href="facial-trauma-first-aid-steps-everyone-must-know-in-emergencies.php">facial trauma first aid</a>, <a href="broken-jaw-symptoms.php">broken jaw symptoms</a>, and <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php">emergency treatment for facial injuries</a>. For tumour-related cases, awareness of <a href="what-are-the-symptoms-of-oral-cancer.php">oral cancer symptoms</a> remains important even after reconstruction.
+                        If you had jaw surgery after trauma, review our pages on <a href="/blogs/facial-trauma-first-aid-steps-everyone-must-know-in-emergencies/">facial trauma first aid</a>, <a href="/blogs/broken-jaw-symptoms/">broken jaw symptoms</a>, and <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/">emergency treatment for facial injuries</a>. For tumour-related cases, awareness of <a href="/blogs/what-are-the-symptoms-of-oral-cancer/">oral cancer symptoms</a> remains important even after reconstruction.
                     </p>
 
                     <p>
@@ -239,7 +239,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Choosing the right surgeon from the start is the single best protection against a difficult recovery. Our guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through credentials, experience, and questions to ask. For a broader perspective, read the <a href="jaw-surgery-orthognathic-complete-guide-for-patients.php">orthognathic surgery guide for patients</a>.
+                        Choosing the right surgeon from the start is the single best protection against a difficult recovery. Our guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through credentials, experience, and questions to ask. For a broader perspective, read the <a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/">orthognathic surgery guide for patients</a>.
                     </p>
 
                     <hr class="my-12 border-surface-container-high" />
@@ -380,21 +380,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="early-detection-in-oral-cancers.php" class="block">
+            <a href="/blogs/early-detection-in-oral-cancers/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Oncology</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Early Detection in Oral Cancers</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="maxillomandibular-advancement-for-osa.php" class="block">
+            <a href="/blogs/maxillomandibular-advancement-for-osa/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Airway Surgery</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Maxillomandibular Advancement for OSA</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="cosmetic-facial-surgery-beyond-basics.php" class="block">
+            <a href="/blogs/cosmetic-facial-surgery-beyond-basics/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Cosmetic</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Cosmetic Facial Surgery: Beyond the Basics</h4>
             </a>

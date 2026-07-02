@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Cosmetic</span>
             </nav>
@@ -102,7 +102,7 @@ include $path_prefix . 'header.php';
                         Skeletal cosmetic surgery works on the bones of the face. It is the most powerful tool we have to change facial proportions because bone dictates the framework on which soft tissue sits.
                     </p>
                     <p>
-                        <a href="what-is-orthognathic-surgery.php">Orthognathic surgery</a> repositions the upper jaw (maxilla) and lower jaw (mandible). It corrects a long face, a gummy smile, an underbite, or a small lower jaw. Many patients see this purely as <a href="can-jaw-surgery-improve-facial-appearance.php">jaw surgery for appearance</a>, but the same operation also fixes bite problems and, in many cases, <a href="can-jaw-surgery-help-with-sleep-apnea.php">jaw surgery for sleep apnoea</a>.
+                        <a href="/blogs/what-is-orthognathic-surgery/">Orthognathic surgery</a> repositions the upper jaw (maxilla) and lower jaw (mandible). It corrects a long face, a gummy smile, an underbite, or a small lower jaw. Many patients see this purely as <a href="/blogs/can-jaw-surgery-improve-facial-appearance/">jaw surgery for appearance</a>, but the same operation also fixes bite problems and, in many cases, <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/">jaw surgery for sleep apnoea</a>.
                     </p>
                     <p>
                         Genioplasty reshapes the chin. It can advance a recessed chin, reduce a prominent chin, or correct vertical height. It is often combined with orthognathic surgery for balanced results.
@@ -111,7 +111,7 @@ include $path_prefix . 'header.php';
                         Cheek (malar) augmentation builds midface projection. It can use implants or repositioning of the cheekbone. The orbital region may be reshaped to open the eyes, correct bulging, or rebuild the socket after trauma.
                     </p>
                     <p>
-                        Mandibular angle surgery narrows or squares the jawline. It is popular among patients who feel their lower face is too wide or too soft. In every case, the surgeon studies <a href="causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons.php">facial asymmetry</a> carefully, because no face is perfectly symmetric, and small differences are normal.
+                        Mandibular angle surgery narrows or squares the jawline. It is popular among patients who feel their lower face is too wide or too soft. In every case, the surgeon studies <a href="/blogs/causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons/">facial asymmetry</a> carefully, because no face is perfectly symmetric, and small differences are normal.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -146,7 +146,7 @@ include $path_prefix . 'header.php';
                         In a closed rhinoplasty, all incisions sit inside the nose. There is no external scar and swelling is often shorter. It suits simpler reshaping.
                     </p>
                     <p>
-                        Functional rhinoplasty focuses on breathing. It straightens a deviated septum, reduces turbinates, or repairs a collapsed valve. Many Indian patients benefit from a combined functional and cosmetic rhinoplasty, which addresses both appearance and airflow in a single operation. If you are exploring the <a href="best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance.php">best facial cosmetic surgery</a> options, rhinoplasty is consistently among the most requested.
+                        Functional rhinoplasty focuses on breathing. It straightens a deviated septum, reduces turbinates, or repairs a collapsed valve. Many Indian patients benefit from a combined functional and cosmetic rhinoplasty, which addresses both appearance and airflow in a single operation. If you are exploring the <a href="/blogs/best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance/">best facial cosmetic surgery</a> options, rhinoplasty is consistently among the most requested.
                     </p>
 
                     <!-- Inline CTA -->
@@ -169,7 +169,7 @@ include $path_prefix . 'header.php';
                         The benefits are a single anaesthetic, a single recovery, and a more harmonious result. The trade-off is longer operating time and slightly higher risk. Your surgeon should explain the balance clearly and help you decide.
                     </p>
                     <p>
-                        In some cases, staging is wiser. For example, a patient who wants orthognathic surgery, rhinoplasty, and a lip lift may do the jaw surgery first, recover fully, and then plan the nose and lip. This is especially relevant when <a href="can-braces-fix-an-asymmetrical-jaw.php">braces for jaw asymmetry</a> are also part of the treatment.
+                        In some cases, staging is wiser. For example, a patient who wants orthognathic surgery, rhinoplasty, and a lip lift may do the jaw surgery first, recover fully, and then plan the nose and lip. This is especially relevant when <a href="/blogs/can-braces-fix-an-asymmetrical-jaw/">braces for jaw asymmetry</a> are also part of the treatment.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -187,7 +187,7 @@ include $path_prefix . 'header.php';
                         Laser and radiofrequency (RF) devices resurface skin, tighten tissue, and treat pigmentation. Chemical peels exfoliate the top layer of skin to improve tone and texture. Microneedling with or without PRP stimulates collagen and is widely used for acne scars.
                     </p>
                     <p>
-                        Non-surgical hair restoration uses PRP, growth factor therapy, or low-level laser to slow loss and improve density. These treatments work best when the underlying cause of hair loss is also addressed. For anyone exploring <a href="best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance.php">best facial cosmetic surgery</a> paths, a non-surgical plan can be a smart first step.
+                        Non-surgical hair restoration uses PRP, growth factor therapy, or low-level laser to slow loss and improve density. These treatments work best when the underlying cause of hair loss is also addressed. For anyone exploring <a href="/blogs/best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance/">best facial cosmetic surgery</a> paths, a non-surgical plan can be a smart first step.
                     </p>
 
                     <h2 id="surgeon" class="scroll-mt-24">Choosing the Right Surgeon</h2>
@@ -195,7 +195,7 @@ include $path_prefix . 'header.php';
                         The surgeon you choose matters more than the procedure. Look for a maxillofacial or plastic surgeon who is board-certified, performs the procedure regularly, and can show you before-and-after photos of their own patients.
                     </p>
                     <p>
-                        During your consultation, notice whether the surgeon listens, examines your face carefully, and explains the trade-offs of each option. A good surgeon will also tell you when surgery is not the right answer. If you are in Hyderabad, our guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through the questions to ask.
+                        During your consultation, notice whether the surgeon listens, examines your face carefully, and explains the trade-offs of each option. A good surgeon will also tell you when surgery is not the right answer. If you are in Hyderabad, our guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">how to choose the best maxillofacial surgeon in Hyderabad</a> walks you through the questions to ask.
                     </p>
                     <p>
                         Beware of surgeons who offer every procedure under one roof without a clear area of focus. Also be cautious of unusually low fees, rushed consultations, or pressure to book on the day. Cosmetic surgery is elective. You have time to choose well.
@@ -231,7 +231,7 @@ include $path_prefix . 'header.php';
                         Blepharoplasty and lip lift recovery is usually 7 to 10 days. Sutures come out within a week, and bruising settles within two weeks. Facelift and neck lift recovery takes 2 to 3 weeks for social readiness, with final settling over 2 to 3 months.
                     </p>
                     <p>
-                        Orthognathic and genioplasty surgery typically requires 2 weeks of soft diet and rest, 4 to 6 weeks before strenuous activity, and 6 to 12 months for the final bite and facial contour to settle. Our detailed guide on <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">recovery after jaw surgery</a> explains what to expect at each stage.
+                        Orthognathic and genioplasty surgery typically requires 2 weeks of soft diet and rest, 4 to 6 weeks before strenuous activity, and 6 to 12 months for the final bite and facial contour to settle. Our detailed guide on <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">recovery after jaw surgery</a> explains what to expect at each stage.
                     </p>
                     <p>
                         Rhinoplasty swelling is most visible in the first 2 weeks. The nose continues to refine for up to a year. Avoid heavy glasses, contact sports, and sun exposure during healing.
@@ -246,7 +246,7 @@ include $path_prefix . 'header.php';
                         Every surgery carries risk. Common general risks include bleeding, infection, scarring, and reactions to anaesthesia. Procedure-specific risks include nerve injury, asymmetry, and the need for revision.
                     </p>
                     <p>
-                        For facial procedures, temporary numbness, swelling, and bruising are common. They usually settle with time. Less common but more serious risks include facial nerve weakness, poor wound healing, and skin loss in smokers. Our article on <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php">maxillofacial surgery risks</a> explains how careful planning and post-op care reduce these events.
+                        For facial procedures, temporary numbness, swelling, and bruising are common. They usually settle with time. Less common but more serious risks include facial nerve weakness, poor wound healing, and skin loss in smokers. Our article on <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/">maxillofacial surgery risks</a> explains how careful planning and post-op care reduce these events.
                     </p>
                     <p>
                         To lower your risk, choose an accredited facility, follow pre- and post-op instructions closely, avoid smoking, and disclose every medication and supplement you take. Honest conversations with your surgeon protect you.
@@ -415,21 +415,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="maxillomandibular-advancement-for-osa.php" class="block">
+            <a href="/blogs/maxillomandibular-advancement-for-osa/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Airway Surgery</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Maxillomandibular Advancement for OSA</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="role-of-3d-virtual-planning.php" class="block">
+            <a href="/blogs/role-of-3d-virtual-planning/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Technology</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">The Role of 3D Virtual Planning in Maxillofacial Procedures</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="recovery-protocols-jaw-reconstruction.php" class="block">
+            <a href="/blogs/recovery-protocols-jaw-reconstruction/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Evidence-Based Recovery Protocols for Jaw Reconstruction</h4>
             </a>

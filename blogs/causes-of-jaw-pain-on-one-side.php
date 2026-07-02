@@ -15,9 +15,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Patient Guides</span>
             </nav>
@@ -84,7 +84,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Salivary gland problems</strong> — stones or infection in the parotid or submandibular gland</li>
                         <li><strong>Cardiac referred pain</strong> — heart attack can occasionally present as left jaw pain</li>
                     </ul>
-                    <p>Because the list is long, a careful history and exam (and sometimes imaging) is essential. If you're also noticing facial puffiness or other symptoms, see <a href="what-are-the-symptoms-of-jaw-disease.php" class="font-semibold text-secondary">our full jaw-disease symptom guide</a>.</p>
+                    <p>Because the list is long, a careful history and exam (and sometimes imaging) is essential. If you're also noticing facial puffiness or other symptoms, see <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="font-semibold text-secondary">our full jaw-disease symptom guide</a>.</p>
 
                     <h2 id="tmj" class="scroll-mt-24">TMJ Disorders (The Most Common Cause)</h2>
                     <p>The TMJ is a paired joint — you have a left and a right one, and they don't always behave the same way. One-sided TMJ pain can be caused by:</p>
@@ -94,22 +94,22 @@ include $path_prefix . 'header.php';
                         <li><strong>Synovitis</strong> — inflammation of the joint lining</li>
                         <li><strong>Trauma</strong> — a past jaw injury that left one joint damaged</li>
                     </ul>
-                    <p>Treatment ranges from soft diet and physiotherapy to arthrocentesis (joint wash) or arthroscopy. For severe or persistent cases, surgical options are available. Read more about <a href="what-is-tmj-disorder.php" class="font-semibold text-secondary">what TMJ disorder really is</a> and the latest minimally-invasive treatments in our article on <a href="evolution-of-tmj-arthroscopy.php" class="font-semibold text-secondary">TMJ arthroscopy</a>.</p>
+                    <p>Treatment ranges from soft diet and physiotherapy to arthrocentesis (joint wash) or arthroscopy. For severe or persistent cases, surgical options are available. Read more about <a href="/blogs/what-is-tmj-disorder/" class="font-semibold text-secondary">what TMJ disorder really is</a> and the latest minimally-invasive treatments in our article on <a href="/blogs/evolution-of-tmj-arthroscopy/" class="font-semibold text-secondary">TMJ arthroscopy</a>.</p>
 
                     <h2 id="dental" class="scroll-mt-24">Dental Causes</h2>
                     <p>Almost any dental problem on one side can refer pain to the jaw:</p>
                     <ul>
                         <li>Tooth abscess (periapical infection)</li>
                         <li>Cracked or fractured tooth</li>
-                        <li>Failed root canal — see <a href="symptoms-of-jaw-infection-after-the-root-canal.php" class="font-semibold text-secondary">symptoms of jaw infection after a root canal</a></li>
-                        <li>Partially erupted or impacted wisdom tooth — see <a href="symptoms-of-impacted-wisdom-tooth.php" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a></li>
+                        <li>Failed root canal — see <a href="/blogs/symptoms-of-jaw-infection-after-the-root-canal/" class="font-semibold text-secondary">symptoms of jaw infection after a root canal</a></li>
+                        <li>Partially erupted or impacted wisdom tooth — see <a href="/blogs/symptoms-of-impacted-wisdom-tooth/" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a></li>
                         <li>Severe gum disease (periodontitis) with bone loss</li>
                         <li>Dental decay reaching the nerve</li>
                     </ul>
                     <p>Dental pain is usually well-localised to one tooth, and the offending tooth is often sensitive to hot, cold, or biting pressure. A dental X-ray and pulp test confirm the diagnosis quickly.</p>
 
                     <h2 id="sinus-ear" class="scroll-mt-24">Sinus &amp; Ear Causes</h2>
-                    <p>The <a href="can-a-sinus-infection-cause-jaw-pain.php" class="font-semibold text-secondary">maxillary sinus sits directly above the upper back teeth</a>, and most sinus infections are one-sided. The <a href="does-ear-infection-cause-jaw-pain.php" class="font-semibold text-secondary">ear canal lies just behind the TMJ</a>, so middle-ear infections or eustachian-tube problems can refer pain to the jaw on the same side.</p>
+                    <p>The <a href="/blogs/can-a-sinus-infection-cause-jaw-pain/" class="font-semibold text-secondary">maxillary sinus sits directly above the upper back teeth</a>, and most sinus infections are one-sided. The <a href="/blogs/does-ear-infection-cause-jaw-pain/" class="font-semibold text-secondary">ear canal lies just behind the TMJ</a>, so middle-ear infections or eustachian-tube problems can refer pain to the jaw on the same side.</p>
                     <p>Look for accompanying symptoms like nasal congestion, ear fullness, hearing changes, or fever.</p>
 
                     <h2 id="nerve" class="scroll-mt-24">Nerve &amp; Muscle Causes</h2>
@@ -120,12 +120,12 @@ include $path_prefix . 'header.php';
                     <p>Some causes of one-sided jaw pain need urgent evaluation:</p>
                     <ul>
                         <li>Sudden severe jaw pain with chest pain, sweating, or shortness of breath — <strong>could be a heart attack</strong></li>
-                        <li>Jaw pain after trauma with misalignment, numbness, or inability to open — see <a href="broken-jaw-symptoms.php" class="font-semibold text-secondary">broken jaw symptoms</a></li>
+                        <li>Jaw pain after trauma with misalignment, numbness, or inability to open — see <a href="/blogs/broken-jaw-symptoms/" class="font-semibold text-secondary">broken jaw symptoms</a></li>
                         <li>High fever with jaw swelling and difficulty swallowing — possible deep-space infection</li>
                         <li>Trismus (inability to open mouth) with throat pain and fever — possible peritonsillar abscess</li>
                         <li>Sudden numbness or weakness in the face — possible nerve emergency</li>
                     </ul>
-                    <p>For an emergency in Hyderabad, see our <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="font-semibold text-secondary">24/7 facial injury emergency page</a>.</p>
+                    <p>For an emergency in Hyderabad, see our <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="font-semibold text-secondary">24/7 facial injury emergency page</a>.</p>
 
                     <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
                         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
@@ -175,7 +175,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Rarely. Persistent unexplained jaw pain, especially with a lump, ulcer, or numbness, should be evaluated. See <a href="what-are-the-symptoms-of-oral-cancer.php" class="font-semibold text-secondary">oral cancer symptoms</a> for warning signs.
+                                Rarely. Persistent unexplained jaw pain, especially with a lump, ulcer, or numbness, should be evaluated. See <a href="/blogs/what-are-the-symptoms-of-oral-cancer/" class="font-semibold text-secondary">oral cancer symptoms</a> for warning signs.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -202,7 +202,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Yes — impaction is usually on one side. See <a href="symptoms-of-impacted-wisdom-tooth.php" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a> and <a href="can-wisdom-teeth-cause-tmj.php" class="font-semibold text-secondary">whether wisdom teeth cause TMJ</a>.
+                                Yes — impaction is usually on one side. See <a href="/blogs/symptoms-of-impacted-wisdom-tooth/" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a> and <a href="/blogs/can-wisdom-teeth-cause-tmj/" class="font-semibold text-secondary">whether wisdom teeth cause TMJ</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -211,7 +211,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                A maxillofacial surgeon is often the best starting point because they evaluate joint, dental, sinus, nerve, and muscle causes in one visit. See <a href="what-type-of-doctor-do-i-need-to-see-for-tmj.php" class="font-semibold text-secondary">which doctor to see for jaw pain</a>.
+                                A maxillofacial surgeon is often the best starting point because they evaluate joint, dental, sinus, nerve, and muscle causes in one visit. See <a href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/" class="font-semibold text-secondary">which doctor to see for jaw pain</a>.
                             </p>
                         </details>
                     </div>
@@ -269,21 +269,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
                         <div class="group cursor-pointer">
-                            <a href="how-to-get-rid-of-jaw-pain-on-one-side.php" class="block">
+                            <a href="/blogs/how-to-get-rid-of-jaw-pain-on-one-side/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">How to Get Rid of Jaw Pain on One Side</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="what-is-tmj-disorder.php" class="block">
+                            <a href="/blogs/what-is-tmj-disorder/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">What Is TMJ Disorder?</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="can-a-sinus-infection-cause-jaw-pain.php" class="block">
+                            <a href="/blogs/can-a-sinus-infection-cause-jaw-pain/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Can a Sinus Infection Cause Jaw Pain?</h4>
                             </a>

@@ -36,7 +36,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Sinus infections can mimic toothache and jaw pain. Learn how the maxillary sinus relates to the upper teeth and when to see a specialist.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="can-a-sinus-infection-cause-jaw-pain.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/can-a-sinus-infection-cause-jaw-pain/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -53,7 +53,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         One-sided jaw pain has many possible causes — from TMJ disorders to dental infections. Here's how to identify the most likely culprit.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="causes-of-jaw-pain-on-one-side.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/causes-of-jaw-pain-on-one-side/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -70,7 +70,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Ear infections and TMJ problems can feel similar because the joint sits right next to the ear canal. Learn how to tell them apart.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="does-ear-infection-cause-jaw-pain.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/does-ear-infection-cause-jaw-pain/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -87,7 +87,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Not every jaw problem is dental, and not every jaw problem is ear-related. Here's who to see for persistent TMJ symptoms.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="what-type-of-doctor-do-i-need-to-see-for-tmj.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -104,7 +104,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Most root canals heal smoothly, but a small number can develop jaw infection. Recognising the warning signs leads to faster treatment.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="symptoms-of-jaw-infection-after-the-root-canal.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/symptoms-of-jaw-infection-after-the-root-canal/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -121,7 +121,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Impacted or infected wisdom teeth can refer pain to the jaw joint. Understand the relationship and when removal is recommended.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="can-wisdom-teeth-cause-tmj.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/can-wisdom-teeth-cause-tmj/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -138,7 +138,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Braces can correct many asymmetries — but not all. Learn when orthodontics alone is enough and when surgery is also needed.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="can-braces-fix-an-asymmetrical-jaw.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/can-braces-fix-an-asymmetrical-jaw/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -155,7 +155,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         A broken jaw requires urgent specialist care. Recognising the symptoms — pain, swelling, malocclusion, numbness — speeds up treatment.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="broken-jaw-symptoms.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/broken-jaw-symptoms/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -172,7 +172,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Orthognathic surgery is one of the most powerful facial cosmetic procedures. See the changes it can produce and the principles behind them.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="can-jaw-surgery-improve-facial-appearance.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/can-jaw-surgery-improve-facial-appearance/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -189,7 +189,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Almost everyone has some facial asymmetry. But when does it become a concern? Here are the common causes and what to do about them.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -206,7 +206,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Survival for oral cancer depends heavily on stage at diagnosis. Here are the statistics, and the early signs that change everything.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="how-long-can-you-live-with-oral-cancer-survival-facts-explained.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/how-long-can-you-live-with-oral-cancer-survival-facts-explained/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -223,7 +223,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         A quick-reference guide to the first minutes after a facial injury — what to do, what not to do, and when to call for help.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="facial-trauma-first-aid-steps-everyone-must-know-in-emergencies.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/facial-trauma-first-aid-steps-everyone-must-know-in-emergencies/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -240,7 +240,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Practical, evidence-based steps to relieve one-sided jaw pain at home — and the signs that mean you should see a specialist now.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="how-to-get-rid-of-jaw-pain-on-one-side.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/how-to-get-rid-of-jaw-pain-on-one-side/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -257,7 +257,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Both treat oral health, but their training and scope are very different. Here's when to see which — and how to find the right one.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -274,7 +274,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Maxillomandibular advancement is one of the most effective surgical treatments for obstructive sleep apnea. Here's how it works.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="can-jaw-surgery-help-with-sleep-apnea.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/can-jaw-surgery-help-with-sleep-apnea/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -291,7 +291,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Most TMJ problems can be permanently resolved. This guide walks you through the conservative and surgical options that actually work.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="how-to-cure-tmj-permanently.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/how-to-cure-tmj-permanently/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -308,7 +308,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         A "herniated TMJ" is really a displaced disc. Learn what causes it, what it sounds and feels like, and the modern treatments available.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -325,7 +325,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Corrective jaw surgery repositions the upper jaw, lower jaw, or both to fix problems that braces alone cannot solve.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="what-is-orthognathic-surgery.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/what-is-orthognathic-surgery/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -342,7 +342,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Impacted wisdom teeth are extremely common. Knowing the early symptoms helps prevent infection, cyst formation, and damage to neighbouring teeth.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="symptoms-of-impacted-wisdom-tooth.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/symptoms-of-impacted-wisdom-tooth/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -359,7 +359,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Choosing the right maxillofacial surgeon affects your safety, comfort, and outcome. Here's a checklist of credentials, technology, and patient experience to look for.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -376,7 +376,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Every surgery carries risks. Here are the common side effects and complications of maxillofacial surgery, how to prevent them, and what to expect during recovery.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -393,7 +393,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Jaw disease covers infections, cysts, tumors, arthritis, and bone disorders. Learn to recognise the symptoms and when to seek specialist care.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="what-are-the-symptoms-of-jaw-disease.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/what-are-the-symptoms-of-jaw-disease/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -410,7 +410,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         TMJ disorder affects the jaw joints and surrounding muscles. Learn its causes, symptoms, diagnosis, and the full range of treatment options available today.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="what-is-tmj-disorder.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/what-is-tmj-disorder/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -427,7 +427,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         What to expect week by week after jaw surgery — bone healing, swelling, diet, return to work, and tips for a smooth recovery.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -444,7 +444,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Facial injuries need fast, expert care. Here's what to do in the first minutes after a facial fracture, laceration, or dental trauma in Hyderabad.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="emergency-treatment-for-facial-injuries-near-hyderbaad.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -461,7 +461,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         A complete guide to orthognathic jaw surgery — indications, planning, procedure, recovery, risks, and long-term outcomes.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="jaw-surgery-orthognathic-complete-guide-for-patients.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -478,7 +478,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Oral cancer can affect the lips, tongue, gums, cheeks, and throat. Learn the early signs, risk factors, and why prompt evaluation by a specialist matters.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="what-are-the-symptoms-of-oral-cancer.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/what-are-the-symptoms-of-oral-cancer/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -495,7 +495,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         Modern facial cosmetic surgery goes beyond aesthetics — it can improve function, balance, and confidence. Explore the best procedures for natural-looking results.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>
@@ -512,7 +512,7 @@ include $path_prefix . 'header.php';
                     <p class="font-body-md text-on-surface-variant mb-6 line-clamp-3 grow">
                         A clear explanation of orthognathic surgery — why it's done, exactly how the procedure works, what recovery feels like, and the long-term benefits for bite, breathing, and facial balance.
                     </p>
-                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained.php">
+                    <a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary uppercase tracking-wider hover:opacity-80 transition-opacity mt-auto" href="/blogs/what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained/">
                         Read Article
                         <span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </a>

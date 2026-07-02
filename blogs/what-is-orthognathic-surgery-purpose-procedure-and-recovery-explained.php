@@ -11,8 +11,8 @@ include $path_prefix . 'header.php';
 <main>
 <div class="bg-surface-container-low border-b border-surface-container-high py-8"><div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
 <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-<a href="../index.php" class="hover:text-secondary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<a href="index.php" class="hover:text-secondary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/" class="hover:text-secondary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/blogs/" class="hover:text-secondary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
 <span class="text-secondary">Surgical Techniques</span></nav>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6 leading-tight max-w-4xl">Orthognathic Surgery: Purpose, Procedure &amp; Recovery Explained</h1>
 <div class="flex items-center gap-6"><div class="flex items-center gap-3">
@@ -28,7 +28,7 @@ include $path_prefix . 'header.php';
 <p class="text-xl leading-relaxed text-primary/80 font-medium italic mb-8 border-l-4 border-secondary pl-6">Orthognathic surgery corrects jaw position when braces alone cannot fix the bite, the airway, or facial balance. The operation typically lasts 1.5–5 hours under general anaesthesia, uses incisions hidden inside the mouth, and most patients return to desk work within two weeks, with the final result visible at 6–12 months.</p>
 <h2 id="summary" class="scroll-mt-24">Quick Summary</h2>
 <p>Orthognathic surgery — also called corrective jaw surgery — moves the upper jaw, lower jaw, or chin into a planned new position. Surgeons do it when braces alone can't fix a skeletal problem. The procedure is planned in 3D, performed through the mouth, and fixed with titanium plates. Recovery takes around six weeks for daily life and up to twelve months for the final bite and facial contour.</p>
-<p>This page walks you through the full picture: why the surgery exists, what it actually corrects, how the day unfolds, the orthodontic work before and after, the real recovery timeline, the risks, the long-term stability, and what orthognathic surgery costs in India. For a deeper dive into the conditions that justify surgery, see our guide on <a href="what-is-orthognathic-surgery.php" class="font-semibold text-secondary">what orthognathic surgery is and who it helps</a>.</p>
+<p>This page walks you through the full picture: why the surgery exists, what it actually corrects, how the day unfolds, the orthodontic work before and after, the real recovery timeline, the risks, the long-term stability, and what orthognathic surgery costs in India. For a deeper dive into the conditions that justify surgery, see our guide on <a href="/blogs/what-is-orthognathic-surgery/" class="font-semibold text-secondary">what orthognathic surgery is and who it helps</a>.</p>
 <div class="bg-surface-container-lowest p-6 rounded-xl border border-surface-container-high my-10 not-prose shadow-sm">
 <h3 class="font-headline-sm text-[20px] text-primary mb-4 flex items-center gap-2"><span class="material-symbols-outlined text-secondary">format_list_bulleted</span>Table of Contents</h3>
 <ul class="space-y-3 font-body-md text-on-surface-variant list-none p-0 m-0">
@@ -50,14 +50,14 @@ include $path_prefix . 'header.php';
 <ul>
 <li>Severe underbite, overbite, or open bite</li>
 <li>Facial asymmetry that affects chewing or appearance</li>
-<li>Obstructive sleep apnea — see our guide to <a href="can-jaw-surgery-help-with-sleep-apnea.php" class="font-semibold text-secondary">jaw surgery for sleep apnea</a></li>
+<li>Obstructive sleep apnea — see our guide to <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/" class="font-semibold text-secondary">jaw surgery for sleep apnea</a></li>
 <li>TMJ disorders caused by jaw position</li>
 <li>Difficulty chewing, speaking, or breathing</li>
 <li>Post-traumatic or post-cancer reconstruction</li>
 <li>Congenital conditions such as cleft lip and palate</li>
 <li>Long-face or short-face growth patterns</li>
 </ul>
-<p>The deeper context lives in <a href="what-is-orthognathic-surgery.php" class="font-semibold text-secondary">what orthognathic surgery is</a>. If you're weighing surgery against orthodontics alone, our post on <a href="can-braces-fix-an-asymmetrical-jaw.php" class="font-semibold text-secondary">whether braces can fix an asymmetrical jaw</a> lays out where each option stops and starts.</p>
+<p>The deeper context lives in <a href="/blogs/what-is-orthognathic-surgery/" class="font-semibold text-secondary">what orthognathic surgery is</a>. If you're weighing surgery against orthodontics alone, our post on <a href="/blogs/can-braces-fix-an-asymmetrical-jaw/" class="font-semibold text-secondary">whether braces can fix an asymmetrical jaw</a> lays out where each option stops and starts.</p>
 <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10"><img alt="Surgeon reviewing 3D virtual surgical plan for orthognathic case" class="w-full h-full object-cover" src="https://picsum.photos/1200/675?random=orthognathic-virtual-plan"/></div>
 <h2 id="functional" class="scroll-mt-24">Functional Problems It Solves</h2>
 <p>The functional gains from orthognathic surgery are usually the reason surgeons recommend it. A jaw that sits in the wrong place forces the teeth, muscles, and airway to compensate — and those compensations break down over time.</p>
@@ -76,7 +76,7 @@ include $path_prefix . 'header.php';
 <li>Visible facial asymmetry at rest or when smiling</li>
 <li>A flat or under-projecting midface</li>
 </ul>
-<p>The 3D plan lets you preview the predicted facial change before surgery. Friends and family may not pinpoint what changed — they just say you look better. Our post on <a href="can-jaw-surgery-improve-facial-appearance.php" class="font-semibold text-secondary">whether jaw surgery improves facial appearance</a> goes deeper into the cosmetic outcomes, and our breakdown of <a href="causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons.php" class="font-semibold text-secondary">the common causes of facial asymmetry</a> helps identify when the issue is skeletal versus soft-tissue.</p>
+<p>The 3D plan lets you preview the predicted facial change before surgery. Friends and family may not pinpoint what changed — they just say you look better. Our post on <a href="/blogs/can-jaw-surgery-improve-facial-appearance/" class="font-semibold text-secondary">whether jaw surgery improves facial appearance</a> goes deeper into the cosmetic outcomes, and our breakdown of <a href="/blogs/causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons/" class="font-semibold text-secondary">the common causes of facial asymmetry</a> helps identify when the issue is skeletal versus soft-tissue.</p>
 <h2 id="procedure" class="scroll-mt-24">The Procedure Step by Step</h2>
 <ul>
 <li><strong>Pre-op records:</strong> cone-beam CT scan, intraoral scans, photographs, and bite registrations are taken. These feed the virtual surgical plan.</li>
@@ -89,7 +89,7 @@ include $path_prefix . 'header.php';
 <li><strong>Closure:</strong> the gum incisions are closed with dissolving stitches. No stitches need removal.</li>
 <li><strong>Waking up:</strong> in the recovery room, with light elastic guidance between the upper and lower teeth to guide the bite while muscles adapt.</li>
 </ul>
-<p>Modern surgery uses virtual planning to predict the result with sub-millimetre accuracy. For a full walk-through from a patient's perspective, see <a href="jaw-surgery-orthognathic-complete-guide-for-patients.php" class="font-semibold text-secondary">our complete orthognathic patient guide</a>.</p>
+<p>Modern surgery uses virtual planning to predict the result with sub-millimetre accuracy. For a full walk-through from a patient's perspective, see <a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/" class="font-semibold text-secondary">our complete orthognathic patient guide</a>.</p>
 <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10"><img alt="Operating room setup for orthognathic surgery with surgical wafers" class="w-full h-full object-cover" src="https://picsum.photos/1200/675?random=orthognathic-or-setup"/></div>
 <h2 id="pre-surgery" class="scroll-mt-24">Pre-Surgery Orthodontics (6–18 Months)</h2>
 <p>Orthognathic surgery is rarely a one-day event. Most patients spend 9–18 months in braces before the operation. This phase is called <strong>decompensation</strong>.</p>
@@ -113,7 +113,7 @@ include $path_prefix . 'header.php';
 <li><strong>Month 3–6:</strong> bite fully settled. Chewing and speech feel natural. Final facial contour emerges.</li>
 <li><strong>Month 6–12:</strong> final result visible. Residual numbness usually resolves. Plates fully integrated with bone.</li>
 </ul>
-<p>See <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php" class="font-semibold text-secondary">complete recovery timeline and care tips</a> for a detailed day-by-day guide, and <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php" class="font-semibold text-secondary">risks and complications of maxillofacial surgery</a> for what to watch for.</p>
+<p>See <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/" class="font-semibold text-secondary">complete recovery timeline and care tips</a> for a detailed day-by-day guide, and <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/" class="font-semibold text-secondary">risks and complications of maxillofacial surgery</a> for what to watch for.</p>
 <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10"><img alt="Patient recovering at home two weeks after orthognathic surgery" class="w-full h-full object-cover" src="https://picsum.photos/1200/675?random=orthognathic-recovery-home"/></div>
 <h2 id="risks" class="scroll-mt-24">Risks &amp; Complications</h2>
 <p>Orthognathic surgery is a planned, elective procedure performed on healthy patients. Serious complications are uncommon — most published series report major complication rates under 2%. The risks you should know about:</p>
@@ -126,7 +126,7 @@ include $path_prefix . 'header.php';
 <li><strong>Bad split:</strong> an unfavourable fracture line during the osteotomy, usually managed in the same operation by extending the cut or using additional fixation.</li>
 <li><strong>Bleeding and airway issues:</strong> managed in hospital; very uncommon.</li>
 </ul>
-<p>Choosing an experienced surgeon minimises these. Our guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a> walks through what credentials and case volume to look for.</p>
+<p>Choosing an experienced surgeon minimises these. Our guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a> walks through what credentials and case volume to look for.</p>
 <h2 id="results" class="scroll-mt-24">Results &amp; Long-Term Stability</h2>
 <p>Long-term outcome data is strong. Studies following patients 5–10 years after surgery show bite stability in 85–95% of cases when the surgery is virtually planned and the case is well executed. The most stable movements are upper-jaw advancements and lower-jaw setbacks. The least stable are large advancements of the lower jaw, where 10–20% of cases show some forward relapse.</p>
 <p>What changes permanently:</p>
@@ -138,7 +138,7 @@ include $path_prefix . 'header.php';
 <li>Retainers worn forever after orthodontics</li>
 <li>Quality-of-life gains are usually dramatic and permanent</li>
 </ul>
-<p>For patients whose primary concern is appearance, see our post on <a href="can-jaw-surgery-improve-facial-appearance.php" class="font-semibold text-secondary">whether orthognathic surgery changes your face</a>, and for those considering facial surgery more broadly, <a href="best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance.php" class="font-semibold text-secondary">our overview of the best facial cosmetic procedures</a> lays out the full landscape.</p>
+<p>For patients whose primary concern is appearance, see our post on <a href="/blogs/can-jaw-surgery-improve-facial-appearance/" class="font-semibold text-secondary">whether orthognathic surgery changes your face</a>, and for those considering facial surgery more broadly, <a href="/blogs/best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance/" class="font-semibold text-secondary">our overview of the best facial cosmetic procedures</a> lays out the full landscape.</p>
 <h2 id="cost" class="scroll-mt-24">Cost &amp; Insurance in India</h2>
 <p>Orthognathic surgery is reconstructive, not cosmetic, when the primary indication is functional — bite correction, breathing, or speech. Most Indian health insurers cover orthognathic surgery when there's documented functional need, including obstructive sleep apnea.</p>
 <p>Approximate out-of-pocket ranges in India, 2026:</p>
@@ -202,11 +202,11 @@ include $path_prefix . 'header.php';
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm border border-surface-container-high">
 <h3 class="font-headline-sm text-xl text-primary mb-6">Related Articles</h3>
 <div class="space-y-6 flex flex-col">
-<div class="group cursor-pointer"><a href="what-is-orthognathic-surgery.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/what-is-orthognathic-surgery/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Surgical Techniques</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">What Is Orthognathic Surgery?</h4>
 </a></div>
-<div class="group cursor-pointer"><a href="jaw-surgery-orthognathic-complete-guide-for-patients.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Surgical Techniques</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Jaw Surgery: Complete Patient Guide</h4>
 </a></div>

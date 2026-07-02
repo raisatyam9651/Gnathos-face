@@ -15,9 +15,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Patient Guides</span>
             </nav>
@@ -78,7 +78,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Skeletal asymmetry</strong> — the jaw bones themselves are different sizes or positions. This is the hardest type to fix with braces alone. <strong>Orthognathic surgery is usually needed.</strong></li>
                         <li><strong>Soft-tissue asymmetry</strong> — the muscles or fat on one side differ from the other. Braces and jaw surgery can't fix this — facial sculpting or fat grafting may help.</li>
                     </ul>
-                    <p>For more detail on each cause, see <a href="causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons.php" class="font-semibold text-secondary">causes of facial asymmetry</a>.</p>
+                    <p>For more detail on each cause, see <a href="/blogs/causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons/" class="font-semibold text-secondary">causes of facial asymmetry</a>.</p>
 
                     <h2 id="braces-yes" class="scroll-mt-24">When Braces Are Enough</h2>
                     <p>Braces alone can produce dramatic results when the asymmetry is mainly dental or functional. They straighten the teeth, balance the smile line, and let the bite settle into a centred position.</p>
@@ -114,7 +114,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Jaw surgery</strong> — the upper and/or lower jaw is repositioned, with or without a chin recontouring</li>
                         <li><strong>Post-surgical orthodontics (6–9 months)</strong> — fine-tunes the bite</li>
                     </ol>
-                    <p>This approach is what we describe in detail in our <a href="what-is-orthognathic-surgery.php" class="font-semibold text-secondary">guide to orthognathic surgery</a>, the <a href="what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained.php" class="font-semibold text-secondary">purpose, procedure and recovery explainer</a>, and the <a href="jaw-surgery-orthognathic-complete-guide-for-patients.php" class="font-semibold text-secondary">complete jaw surgery guide for patients</a>.</p>
+                    <p>This approach is what we describe in detail in our <a href="/blogs/what-is-orthognathic-surgery/" class="font-semibold text-secondary">guide to orthognathic surgery</a>, the <a href="/blogs/what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained/" class="font-semibold text-secondary">purpose, procedure and recovery explainer</a>, and the <a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/" class="font-semibold text-secondary">complete jaw surgery guide for patients</a>.</p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
                         <img alt="3D CT scan planning of orthognathic jaw surgery for asymmetry" class="w-full h-full object-cover" src="https://picsum.photos/1000/560?random=orthognathic-plan"/>
@@ -122,7 +122,7 @@ include $path_prefix . 'header.php';
 
                     <h2 id="camouflage" class="scroll-mt-24">Camouflage Orthodontics and Asymmetric Extractions</h2>
                     <p>When a patient declines surgery, or when the asymmetry is mild enough to hide, an orthodontist can <strong>camouflage</strong> the problem by moving only the teeth. This is called orthodontic camouflage, and it relies on asymmetric extraction patterns — pulling a tooth on one side of the arch but not the other, or extracting different teeth in the upper and lower jaws, so the arches line up at the midline even though the bones are still slightly off.</p>
-                    <p>Camouflage is most successful when the asymmetry is less than 4–5 mm and the jaw joint is healthy. It will not change the underlying skeletal pattern, and it can put extra stress on the jaw joint over time. Patients with clicking, locking, or TMJ pain are usually steered toward combined surgery instead — read more in <a href="herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means.php" class="font-semibold text-secondary">what TMJ clicking, locking or pain really means</a> and <a href="can-wisdom-teeth-cause-tmj.php" class="font-semibold text-secondary">whether wisdom teeth can cause TMJ issues</a>.</p>
+                    <p>Camouflage is most successful when the asymmetry is less than 4–5 mm and the jaw joint is healthy. It will not change the underlying skeletal pattern, and it can put extra stress on the jaw joint over time. Patients with clicking, locking, or TMJ pain are usually steered toward combined surgery instead — read more in <a href="/blogs/herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means/" class="font-semibold text-secondary">what TMJ clicking, locking or pain really means</a> and <a href="/blogs/can-wisdom-teeth-cause-tmj/" class="font-semibold text-secondary">whether wisdom teeth can cause TMJ issues</a>.</p>
 
                     <h2 id="results" class="scroll-mt-24">What Results to Expect</h2>
                     <p>The two main paths give very different outcomes, and the right one for you depends on what your scans show.</p>
@@ -130,9 +130,9 @@ include $path_prefix . 'header.php';
                         <li><strong>Braces only (dental case):</strong> a straighter, more symmetrical smile in 12–24 months; no facial-skeleton change</li>
                         <li><strong>Combined braces + surgery:</strong> correction of the underlying facial asymmetry; permanent result; dramatic improvement in bite, breathing, and appearance</li>
                     </ul>
-                    <p>Combined orthognathic treatment also has functional benefits that braces alone cannot offer. Patients with asymmetry often breathe better through the nose, sleep better at night, and chew more comfortably after surgery. See also <a href="can-jaw-surgery-improve-facial-appearance.php" class="font-semibold text-secondary">how jaw surgery improves facial appearance</a> and <a href="can-jaw-surgery-help-with-sleep-apnea.php" class="font-semibold text-secondary">whether jaw surgery can help with sleep apnea</a> for the cosmetic and airway side of the outcome.</p>
+                    <p>Combined orthognathic treatment also has functional benefits that braces alone cannot offer. Patients with asymmetry often breathe better through the nose, sleep better at night, and chew more comfortably after surgery. See also <a href="/blogs/can-jaw-surgery-improve-facial-appearance/" class="font-semibold text-secondary">how jaw surgery improves facial appearance</a> and <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/" class="font-semibold text-secondary">whether jaw surgery can help with sleep apnea</a> for the cosmetic and airway side of the outcome.</p>
                     <p>Stability is excellent when retainers are worn as instructed. Long-term studies of combined orthodontic-orthognathic care show the skeletal correction remains stable in roughly 85–90% of patients a decade after surgery, provided retainers are used and any underlying condylar growth has settled.</p>
-                    <p>Costs vary widely depending on whether you need braces only, surgery only, or both, and on the brackets, hospital, and anaesthesia used. A specialist consultation with imaging is the only reliable way to get a written quote for your specific case. To plan treatment with an experienced team, see <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a>, and for the wider range of facial procedures that can be combined with jaw correction, see our <a href="best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance.php" class="font-semibold text-secondary">guide to the best facial cosmetic surgery procedures</a>.</p>
+                    <p>Costs vary widely depending on whether you need braces only, surgery only, or both, and on the brackets, hospital, and anaesthesia used. A specialist consultation with imaging is the only reliable way to get a written quote for your specific case. To plan treatment with an experienced team, see <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a>, and for the wider range of facial procedures that can be combined with jaw correction, see our <a href="/blogs/best-facial-cosmetic-surgery-best-procedures-to-improve-your-appearance/" class="font-semibold text-secondary">guide to the best facial cosmetic surgery procedures</a>.</p>
 
                     <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
                         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
@@ -173,7 +173,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Plan for 18–24 months total — about a year of pre-surgical orthodontics, the surgery itself, then 6–9 months of post-surgical orthodontics. See <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php" class="font-semibold text-secondary">the full recovery timeline</a>.
+                                Plan for 18–24 months total — about a year of pre-surgical orthodontics, the surgery itself, then 6–9 months of post-surgical orthodontics. See <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/" class="font-semibold text-secondary">the full recovery timeline</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -200,7 +200,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Modern orthognathic surgery is very safe when planned with 3D imaging and performed by an experienced maxillofacial surgeon. Read about <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php" class="font-semibold text-secondary">risks and complications</a>.
+                                Modern orthognathic surgery is very safe when planned with 3D imaging and performed by an experienced maxillofacial surgeon. Read about <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/" class="font-semibold text-secondary">risks and complications</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -218,7 +218,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                For a clear plan, see a maxillofacial surgeon first. They can determine whether the case is dental-only (then an orthodontist) or skeletal (then a combined plan). See <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="font-semibold text-secondary">how to choose one</a>.
+                                For a clear plan, see a maxillofacial surgeon first. They can determine whether the case is dental-only (then an orthodontist) or skeletal (then a combined plan). See <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="font-semibold text-secondary">how to choose one</a>.
                             </p>
                         </details>
                     </div>
@@ -276,21 +276,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
                         <div class="group cursor-pointer">
-                            <a href="causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons.php" class="block">
+                            <a href="/blogs/causes-of-facial-asymmetry-common-medical-dental-and-structural-reasons/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Causes of Facial Asymmetry</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="what-is-orthognathic-surgery.php" class="block">
+                            <a href="/blogs/what-is-orthognathic-surgery/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Surgical Techniques</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">What Is Orthognathic Surgery?</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="can-jaw-surgery-improve-facial-appearance.php" class="block">
+                            <a href="/blogs/can-jaw-surgery-improve-facial-appearance/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Can Jaw Surgery Improve Facial Appearance?</h4>
                             </a>

@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Technology</span>
             </nav>
@@ -98,7 +98,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        The plan is then translated back into the operating room through 3D-printed surgical splints, cutting guides, anatomical models, and patient-specific implants. For a deeper primer on the underlying procedure, see our guide on <a href="what-is-orthognathic-surgery.php">orthognathic surgery</a> and the broader <a href="jaw-surgery-orthognathic-complete-guide-for-patients.php">complete orthognathic patient guide</a>.
+                        The plan is then translated back into the operating room through 3D-printed surgical splints, cutting guides, anatomical models, and patient-specific implants. For a deeper primer on the underlying procedure, see our guide on <a href="/blogs/what-is-orthognathic-surgery/">orthognathic surgery</a> and the broader <a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/">complete orthognathic patient guide</a>.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10"><img alt="Surgeon reviewing 3D virtual surgical plan on a workstation" class="w-full h-full object-cover" src="https://picsum.photos/1200/600?random=101"/></div>
@@ -132,11 +132,11 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        A facial surface scan, taken with a structured-light or stereophotogrammetry system, records the soft-tissue envelope. It allows the surgeon to preview the predicted facial result after bone movement, which is particularly useful when discussing <a href="can-jaw-surgery-improve-facial-appearance.php">jaw surgery for facial appearance</a>.
+                        A facial surface scan, taken with a structured-light or stereophotogrammetry system, records the soft-tissue envelope. It allows the surgeon to preview the predicted facial result after bone movement, which is particularly useful when discussing <a href="/blogs/can-jaw-surgery-improve-facial-appearance/">jaw surgery for facial appearance</a>.
                     </p>
 
                     <p>
-                        A model scan of the dental cast is sometimes added when highly detailed occlusal anatomy is required, for example in full-mouth rehabilitation or complex implant planning that may be combined with <a href="dental-implants-vs-bone-grafts.php">dental implants and bone grafts</a>.
+                        A model scan of the dental cast is sometimes added when highly detailed occlusal anatomy is required, for example in full-mouth rehabilitation or complex implant planning that may be combined with <a href="/blogs/dental-implants-vs-bone-grafts/">dental implants and bone grafts</a>.
                     </p>
 
                     <h2 id="software" class="scroll-mt-24">Software Used in VSP</h2>
@@ -206,7 +206,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Genioplasty, often the finishing touch in <a href="what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained.php">purpose, procedure and recovery of orthognathic surgery</a>, is planned with millimetre-level control of chin projection, height, and width. Patients see a realistic soft-tissue preview before consenting to the procedure.
+                        Genioplasty, often the finishing touch in <a href="/blogs/what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained/">purpose, procedure and recovery of orthognathic surgery</a>, is planned with millimetre-level control of chin projection, height, and width. Patients see a realistic soft-tissue preview before consenting to the procedure.
                     </p>
 
                     <p>
@@ -224,7 +224,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Knowing the typical <a href="broken-jaw-symptoms.php">broken jaw symptoms</a> helps patients reach a trauma-ready centre quickly, but it is the digital workflow that determines the quality of the final repair.
+                        Knowing the typical <a href="/blogs/broken-jaw-symptoms/">broken jaw symptoms</a> helps patients reach a trauma-ready centre quickly, but it is the digital workflow that determines the quality of the final repair.
                     </p>
 
                     <h2 id="reconstruction" class="scroll-mt-24">VSP for Jaw Reconstruction</h2>
@@ -238,7 +238,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Dental implant planning is layered on top of the reconstructed jaw. The implant positions are chosen so that the final prosthesis has good support and a natural emergence profile. This often dovetails with <a href="dental-implants-vs-bone-grafts.php">dental implants and bone grafts</a> when there is a residual ridge deficiency.
+                        Dental implant planning is layered on top of the reconstructed jaw. The implant positions are chosen so that the final prosthesis has good support and a natural emergence profile. This often dovetails with <a href="/blogs/dental-implants-vs-bone-grafts/">dental implants and bone grafts</a> when there is a residual ridge deficiency.
                     </p>
 
                     <h2 id="distraction" class="scroll-mt-24">VSP for Distraction Osteogenesis</h2>
@@ -266,7 +266,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Where the joint replacement is part of a combined orthognathic procedure, VSP unifies both operations into a single, sequenced plan. This is important when treating <a href="can-jaw-surgery-help-with-sleep-apnea.php">jaw surgery for sleep apnoea</a> in patients with retrognathic mandibles and compromised airways.
+                        Where the joint replacement is part of a combined orthognathic procedure, VSP unifies both operations into a single, sequenced plan. This is important when treating <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/">jaw surgery for sleep apnoea</a> in patients with retrognathic mandibles and compromised airways.
                     </p>
 
                     <h2 id="splints-psi" class="scroll-mt-24">Custom Splints and Patient-Specific Implants</h2>
@@ -296,7 +296,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Published audits report reductions in theatre time of 30 to 90 minutes for routine bimaxillary orthognathic surgery, and larger savings in complex reconstruction. Less time under anaesthesia means a quicker wake-up and an easier <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">recovery after jaw surgery</a>.
+                        Published audits report reductions in theatre time of 30 to 90 minutes for routine bimaxillary orthognathic surgery, and larger savings in complex reconstruction. Less time under anaesthesia means a quicker wake-up and an easier <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">recovery after jaw surgery</a>.
                     </p>
 
                     <h2 id="outcomes" class="scroll-mt-24">Outcomes and Patient Communication</h2>
@@ -306,11 +306,11 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        The conversation shifts from abstract promises to a visual plan. Patients understand the magnitude of movement, the location of incisions, and the expected change in their profile. This is particularly valuable in aesthetic-led discussions about <a href="can-jaw-surgery-improve-facial-appearance.php">jaw surgery for facial appearance</a>.
+                        The conversation shifts from abstract promises to a visual plan. Patients understand the magnitude of movement, the location of incisions, and the expected change in their profile. This is particularly valuable in aesthetic-led discussions about <a href="/blogs/can-jaw-surgery-improve-facial-appearance/">jaw surgery for facial appearance</a>.
                     </p>
 
                     <p>
-                        Functional outcomes also improve. Better-placed jaws mean better chewing, clearer speech, easier breathing, and reduced joint loading. Combined with sound surgical technique, VSP lowers the risk of revision surgery and protects the patient from <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php">maxillofacial surgery risks</a> such as nerve injury and plate malposition.
+                        Functional outcomes also improve. Better-placed jaws mean better chewing, clearer speech, easier breathing, and reduced joint loading. Combined with sound surgical technique, VSP lowers the risk of revision surgery and protects the patient from <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/">maxillofacial surgery risks</a> such as nerve injury and plate malposition.
                     </p>
 
                     <h2 id="cost" class="scroll-mt-24">Cost-Benefit Analysis</h2>
@@ -324,7 +324,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Choosing the right surgeon is part of the value equation. A specialist who has invested in a complete digital workflow will deliver a more predictable result than one who does not. Our guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">how to choose the best maxillofacial surgeon in Hyderabad</a> walks through the practical questions to ask at consultation.
+                        Choosing the right surgeon is part of the value equation. A specialist who has invested in a complete digital workflow will deliver a more predictable result than one who does not. Our guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">how to choose the best maxillofacial surgeon in Hyderabad</a> walks through the practical questions to ask at consultation.
                     </p>
 
                     <h2 id="future" class="scroll-mt-24">The Future of VSP</h2>
@@ -498,21 +498,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="understanding-facial-trauma-management.php" class="block">
+            <a href="/blogs/understanding-facial-trauma-management/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Trauma Care</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Understanding Facial Trauma Management</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="early-detection-in-oral-cancers.php" class="block">
+            <a href="/blogs/early-detection-in-oral-cancers/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Oncology</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Early Detection in Oral Cancers</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="cosmetic-facial-surgery-beyond-basics.php" class="block">
+            <a href="/blogs/cosmetic-facial-surgery-beyond-basics/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Cosmetic</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Cosmetic Facial Surgery: Beyond the Basics</h4>
             </a>

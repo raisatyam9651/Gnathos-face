@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Trauma Care</span>
             </nav>
@@ -100,7 +100,7 @@ include $path_prefix . 'header.php';
                     <h2 id="role-surgeon" class="scroll-mt-24">The Role of the Maxillofacial Surgeon</h2>
 
                     <p>
-                        A maxillofacial surgeon is the specialist who manages fractures of the facial skeleton, complex soft-tissue injuries and dentoalveolar trauma. The <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php">maxillofacial surgeon's training</a> bridges dentistry, medicine and advanced surgical reconstruction.
+                        A maxillofacial surgeon is the specialist who manages fractures of the facial skeleton, complex soft-tissue injuries and dentoalveolar trauma. The <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/">maxillofacial surgeon's training</a> bridges dentistry, medicine and advanced surgical reconstruction.
                     </p>
 
                     <p>
@@ -108,7 +108,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you are searching for the right specialist, our guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">how to choose the best maxillofacial surgeon in Hyderabad</a> outlines credentials, experience and red flags to watch for.
+                        If you are searching for the right specialist, our guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">how to choose the best maxillofacial surgeon in Hyderabad</a> outlines credentials, experience and red flags to watch for.
                     </p>
 
                     <!-- Inline CTA -->
@@ -138,11 +138,11 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Knowing <a href="facial-trauma-first-aid-steps-everyone-must-know-in-emergencies.php">facial trauma first aid</a> steps helps bystanders stabilise a patient until the ambulance arrives. Basic actions control bleeding, protect the airway and prevent further damage.
+                        Knowing <a href="/blogs/facial-trauma-first-aid-steps-everyone-must-know-in-emergencies/">facial trauma first aid</a> steps helps bystanders stabilise a patient until the ambulance arrives. Basic actions control bleeding, protect the airway and prevent further damage.
                     </p>
 
                     <p>
-                        For patients in and around the city, our dedicated service for <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php">emergency facial injury care</a> is structured around the same ATLS priorities.
+                        For patients in and around the city, our dedicated service for <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/">emergency facial injury care</a> is structured around the same ATLS priorities.
                     </p>
 
                     <h2 id="imaging" class="scroll-mt-24">Imaging in Facial Trauma</h2>
@@ -194,7 +194,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Alveolar fractures are often seen with dental injuries or with <a href="symptoms-of-impacted-wisdom-tooth.php">impacted wisdom teeth</a> that have weakened the surrounding bone.
+                        Alveolar fractures are often seen with dental injuries or with <a href="/blogs/symptoms-of-impacted-wisdom-tooth/">impacted wisdom teeth</a> that have weakened the surrounding bone.
                     </p>
 
                     <h3>Mandibular Fractures</h3>
@@ -204,7 +204,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Recognising <a href="broken-jaw-symptoms.php">broken jaw symptoms</a> early, such as malocclusion, pain on biting, numbness of the lower lip and limited mouth opening, speeds up referral.
+                        Recognising <a href="/blogs/broken-jaw-symptoms/">broken jaw symptoms</a> early, such as malocclusion, pain on biting, numbness of the lower lip and limited mouth opening, speeds up referral.
                     </p>
 
                     <p>
@@ -218,7 +218,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Patients typically present with a flattened midface, mobile upper jaw, epistaxis and malocclusion. Surgical correction often involves <a href="what-is-orthognathic-surgery.php">orthognathic surgery</a> principles to re-establish facial height and projection.
+                        Patients typically present with a flattened midface, mobile upper jaw, epistaxis and malocclusion. Surgical correction often involves <a href="/blogs/what-is-orthognathic-surgery/">orthognathic surgery</a> principles to re-establish facial height and projection.
                     </p>
 
                     <h3>Zygomaticomaxillary Complex Fractures</h3>
@@ -276,7 +276,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Staged surgery is used for complex injuries. Initial surgery controls damage, while later stages address bone defects, scarring and any need for <a href="what-is-orthognathic-surgery.php">orthognathic surgery</a> refinement.
+                        Staged surgery is used for complex injuries. Initial surgery controls damage, while later stages address bone defects, scarring and any need for <a href="/blogs/what-is-orthognathic-surgery/">orthognathic surgery</a> refinement.
                     </p>
 
                     <p>
@@ -302,11 +302,11 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        For a day-by-day guide, read our detailed page on <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">recovery after jaw surgery</a>, which covers jaw wiring, splints and physiotherapy timelines.
+                        For a day-by-day guide, read our detailed page on <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">recovery after jaw surgery</a>, which covers jaw wiring, splints and physiotherapy timelines.
                     </p>
 
                     <p>
-                        Open discussion about <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php">maxillofacial surgery risks</a> helps you recognise early warning signs such as persistent fever, worsening pain, sudden swelling or visual change.
+                        Open discussion about <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/">maxillofacial surgery risks</a> helps you recognise early warning signs such as persistent fever, worsening pain, sudden swelling or visual change.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -473,21 +473,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="early-detection-in-oral-cancers.php" class="block">
+            <a href="/blogs/early-detection-in-oral-cancers/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Oncology</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Early Detection in Oral Cancers</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="dental-implants-vs-bone-grafts.php" class="block">
+            <a href="/blogs/dental-implants-vs-bone-grafts/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Reconstruction</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Dental Implants vs. Bone Grafts: What You Need to Know</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="cosmetic-facial-surgery-beyond-basics.php" class="block">
+            <a href="/blogs/cosmetic-facial-surgery-beyond-basics/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Cosmetic</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Cosmetic Facial Surgery: Beyond the Basics</h4>
             </a>

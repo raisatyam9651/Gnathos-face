@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Surgical Techniques</span>
             </nav>
@@ -88,7 +88,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you are just beginning to understand <a href="what-is-tmj-disorder.php">what TMJ disorder is</a>, think of arthroscopy as the middle step between a simple washout and open joint surgery.
+                        If you are just beginning to understand <a href="/blogs/what-is-tmj-disorder/">what TMJ disorder is</a>, think of arthroscopy as the middle step between a simple washout and open joint surgery.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -154,7 +154,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Level 3 covers advanced procedures such as disc repositioning, disc suturing and coblation of retrodiscal tissue. These steps demand greater skill and are reserved for carefully selected joints, often in younger patients with <a href="herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means.php">TMJ disc displacement</a> that has not responded to simpler treatment.
+                        Level 3 covers advanced procedures such as disc repositioning, disc suturing and coblation of retrodiscal tissue. These steps demand greater skill and are reserved for carefully selected joints, often in younger patients with <a href="/blogs/herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means/">TMJ disc displacement</a> that has not responded to simpler treatment.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -168,11 +168,11 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Patients often ask <a href="can-wisdom-teeth-cause-tmj.php">can wisdom teeth cause TMJ</a> symptoms that need surgery. Wisdom teeth rarely cause the locking and disc problems that arthroscopy treats, so they are usually addressed separately if required.
+                        Patients often ask <a href="/blogs/can-wisdom-teeth-cause-tmj/">can wisdom teeth cause TMJ</a> symptoms that need surgery. Wisdom teeth rarely cause the locking and disc problems that arthroscopy treats, so they are usually addressed separately if required.
                     </p>
 
                     <p>
-                        Before surgery, you undergo a detailed clinical examination, an MRI to map the disc and a cone-beam CT (CBCT) to study the bony contours. <a href="causes-of-jaw-pain-on-one-side.php">One-sided jaw pain</a> with joint noise or restricted opening is the most common trigger for this workup.
+                        Before surgery, you undergo a detailed clinical examination, an MRI to map the disc and a cone-beam CT (CBCT) to study the bony contours. <a href="/blogs/causes-of-jaw-pain-on-one-side/">One-sided jaw pain</a> with joint noise or restricted opening is the most common trigger for this workup.
                     </p>
 
                     <p>
@@ -184,7 +184,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Choosing the right surgeon matters here. If you are searching for <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">how to choose the best maxillofacial surgeon in Hyderabad</a>, look for someone trained in both arthroscopy and open joint surgery, so that the full range of options is on the table.
+                        Choosing the right surgeon matters here. If you are searching for <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">how to choose the best maxillofacial surgeon in Hyderabad</a>, look for someone trained in both arthroscopy and open joint surgery, so that the full range of options is on the table.
                     </p>
 
                     <h2 id="recovery" class="scroll-mt-24">Recovery, Success Rates and the Future</h2>
@@ -206,7 +206,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Recovery follows a clear arc. Acute swelling settles in a week, mouth opening improves steadily over four to six weeks, and a structured physiotherapy programme is essential to lock in the gains. The pattern is similar to <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">recovery after jaw surgery</a>, although the timeline is shorter because no bones are cut.
+                        Recovery follows a clear arc. Acute swelling settles in a week, mouth opening improves steadily over four to six weeks, and a structured physiotherapy programme is essential to lock in the gains. The pattern is similar to <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">recovery after jaw surgery</a>, although the timeline is shorter because no bones are cut.
                     </p>
 
                     <p>
@@ -214,15 +214,15 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you have tried splints, medicines and physiotherapy without success, arthroscopy may be the step that finally settles your symptoms. For many patients it is also the route to <a href="how-to-cure-tmj-permanently.php">how to cure TMJ permanently</a> when conservative care alone cannot.
+                        If you have tried splints, medicines and physiotherapy without success, arthroscopy may be the step that finally settles your symptoms. For many patients it is also the route to <a href="/blogs/how-to-cure-tmj-permanently/">how to cure TMJ permanently</a> when conservative care alone cannot.
                     </p>
 
                     <p>
-                        Concerns about facial symmetry, bite or appearance are best handled by a <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php">maxillofacial surgeon's training</a> that covers both joints and jaws. The same surgeon can advise whether arthroscopy, orthognathic surgery or a staged combination suits your case, including situations where <a href="can-braces-fix-an-asymmetrical-jaw.php">braces for asymmetric jaw</a> alignment form part of the plan.
+                        Concerns about facial symmetry, bite or appearance are best handled by a <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/">maxillofacial surgeon's training</a> that covers both joints and jaws. The same surgeon can advise whether arthroscopy, orthognathic surgery or a staged combination suits your case, including situations where <a href="/blogs/can-braces-fix-an-asymmetrical-jaw/">braces for asymmetric jaw</a> alignment form part of the plan.
                     </p>
 
                     <p>
-                        Knowing <a href="what-type-of-doctor-do-i-need-to-see-for-tmj.php">which doctor for TMJ</a> is the right first step. A maxillofacial surgeon with arthroscopy experience can guide you through diagnosis, imaging and treatment without defaulting to open surgery.
+                        Knowing <a href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/">which doctor for TMJ</a> is the right first step. A maxillofacial surgeon with arthroscopy experience can guide you through diagnosis, imaging and treatment without defaulting to open surgery.
                     </p>
 
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
@@ -367,21 +367,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="understanding-facial-trauma-management.php" class="block">
+            <a href="/blogs/understanding-facial-trauma-management/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Trauma Care</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Understanding Facial Trauma Management</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="recovery-protocols-jaw-reconstruction.php" class="block">
+            <a href="/blogs/recovery-protocols-jaw-reconstruction/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Evidence-Based Recovery Protocols for Jaw Reconstruction</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="rhinoplasty-balancing-aesthetics-function.php" class="block">
+            <a href="/blogs/rhinoplasty-balancing-aesthetics-function/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Cosmetic</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Rhinoplasty: Balancing Aesthetics and Function</h4>
             </a>

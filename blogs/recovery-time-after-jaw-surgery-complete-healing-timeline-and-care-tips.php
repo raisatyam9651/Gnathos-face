@@ -11,8 +11,8 @@ include $path_prefix . 'header.php';
 <main>
 <div class="bg-surface-container-low border-b border-surface-container-high py-8"><div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
 <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-<a href="../index.php" class="hover:text-primary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/" class="hover:text-primary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
 <span class="text-secondary">Patient Guides</span></nav>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6 leading-tight max-w-4xl">Recovery Time After Jaw Surgery: Complete Healing Timeline &amp; Care Tips</h1>
 <div class="flex items-center gap-6"><div class="flex items-center gap-3">
@@ -43,7 +43,7 @@ include $path_prefix . 'header.php';
 <li><a href="#faq" class="hover:text-secondary transition-colors flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-secondary">arrow_right</span>Frequently Asked Questions</a></li>
 </ul></div>
 <h2 id="day" class="scroll-mt-24">Day 0: After Surgery</h2>
-<p>You wake up in the recovery room with mild inter-maxillary elastics holding the jaws in their new position. Your face feels numb, your nose feels blocked, and your throat is sore from the breathing tube. These sensations are normal and settle within hours. The maxillofacial surgery team will keep you in recovery for 3 to 6 hours, monitoring bleeding, swelling, and nausea, before moving you to a room or, in many cases, sending you home the same day or the next morning. For an overview of what happens in the operating room, see our guide to <a href="what-is-orthognathic-surgery.php" class="font-semibold text-secondary">what orthognathic surgery actually involves</a>.</p>
+<p>You wake up in the recovery room with mild inter-maxillary elastics holding the jaws in their new position. Your face feels numb, your nose feels blocked, and your throat is sore from the breathing tube. These sensations are normal and settle within hours. The maxillofacial surgery team will keep you in recovery for 3 to 6 hours, monitoring bleeding, swelling, and nausea, before moving you to a room or, in many cases, sending you home the same day or the next morning. For an overview of what happens in the operating room, see our guide to <a href="/blogs/what-is-orthognathic-surgery/" class="font-semibold text-secondary">what orthognathic surgery actually involves</a>.</p>
 <ul>
 <li>Wake up in recovery with mild elastics between the jaws</li>
 <li>Mild nausea from anaesthesia — usually settles in a few hours</li>
@@ -83,7 +83,7 @@ include $path_prefix . 'header.php';
 <li><strong>Month 3 to 6:</strong> residual numbness fades. Chewing and speech feel natural</li>
 <li><strong>Month 6 to 12:</strong> final result visible. Orthodontic detailing completed. Retainers fitted</li>
 </ul>
-<p>For a deeper look at how the bite is finalised, see our guide on <a href="jaw-surgery-orthognathic-complete-guide-for-patients.php" class="font-semibold text-secondary">the complete orthognathic surgery journey for patients</a>, and for what the surgery is actually trying to achieve functionally, read <a href="what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained.php" class="font-semibold text-secondary">the purpose, procedure, and recovery explained</a>.</p>
+<p>For a deeper look at how the bite is finalised, see our guide on <a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/" class="font-semibold text-secondary">the complete orthognathic surgery journey for patients</a>, and for what the surgery is actually trying to achieve functionally, read <a href="/blogs/what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained/" class="font-semibold text-secondary">the purpose, procedure, and recovery explained</a>.</p>
 <h2 id="diet" class="scroll-mt-24">Diet Progression Chart</h2>
 <p>Diet progression is the single most practical question patients ask, and it follows a fixed four-stage ladder. Liquids for the first 2 weeks, purees from week 2 to 3, soft-chew from week 3 to 6, and a near-normal diet from week 6 onward. The jaw bone is not healed at week 6 — that takes 6 to 8 weeks — but the soft tissues and the fixation plates are stable enough for normal chewing force. Avoid hard, crunchy, or chewy foods (raw carrot, toast crusts, nuts, sticky toffee) until week 8 to 10.</p>
 <ul>
@@ -96,7 +96,7 @@ include $path_prefix . 'header.php';
 <p>Activity is gradually reintroduced through the recovery. Walking begins on day 0 itself — short walks around the house reduce swelling and lower the risk of blood clots. Light cardio (stationary cycling, slow treadmill) is allowed from week 2 to 3. Running, swimming, and yoga restart from week 4 to 6. Heavy lifting, contact sports, and anything that risks a blow to the jaw (cricket, football, martial arts) are off the table until at least week 10 to 12, and most surgeons recommend a custom mouth-guard for sport thereafter. Driving is allowed once you are off opioid painkillers and can turn your head comfortably — usually around week 1 to 2 for most patients.</p>
 <h2 id="speeds" class="scroll-mt-24">What Speeds Healing and What Slows It</h2>
 <p>Healing is faster when you eat enough protein (1.2 to 1.5 g per kg of body weight per day from week 1 onward), sleep at least 8 hours with the head elevated, walk daily, and keep every follow-up appointment. Healing is slower when you smoke (nicotine constricts the small blood vessels that feed the bone), skip antibiotics, use a straw in the first 2 weeks (the suction disturbs clots), drink alcohol in the first 2 weeks, or skip the mouth-opening exercises.</p>
-<p>Oral hygiene is the variable most patients underestimate. The fixation plates and screws inside the mouth are titanium and integrate with bone, but the gum margins around them harbour plaque. Twice-daily brushing and chlorhexidine rinses keep those margins healthy and prevent the gum inflammation that would otherwise slow recovery. For the full list of risks that poor oral hygiene and other factors can cause, see <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php" class="font-semibold text-secondary">side effects, risks, and complications after maxillofacial surgery</a>.</p>
+<p>Oral hygiene is the variable most patients underestimate. The fixation plates and screws inside the mouth are titanium and integrate with bone, but the gum margins around them harbour plaque. Twice-daily brushing and chlorhexidine rinses keep those margins healthy and prevent the gum inflammation that would otherwise slow recovery. For the full list of risks that poor oral hygiene and other factors can cause, see <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/" class="font-semibold text-secondary">side effects, risks, and complications after maxillofacial surgery</a>.</p>
 <h2 id="redflags" class="scroll-mt-24">When to Call Your Surgeon</h2>
 <p>Most recoveries are uneventful, but a small number of patients develop a complication that needs urgent attention. Call your surgeon the same day if you notice any of the following: sudden increase in swelling after day 5 (rather than steady decrease), fever above 38 degrees Celsius, foul-smelling discharge from the incision or from the nose, sudden heavy bleeding, sudden loss of vision or double vision, sudden severe headache with neck stiffness, or a new asymmetric bite with elastics off. Sudden severe pain on one side, or a feeling that a plate has shifted, also warrants an urgent review. Do not wait for the next scheduled appointment if any of these appear.</p>
 <h2 id="braces" class="scroll-mt-24">Braces Come Off and the Final Bite Sets</h2>
@@ -114,8 +114,8 @@ include $path_prefix . 'header.php';
 <li>Keep all follow-up appointments</li>
 <li>Be patient with numbness — recovery is slow but real</li>
 </ul>
-<p>If you are still deciding whether surgery is right for you, it helps to read about <a href="can-jaw-surgery-improve-facial-appearance.php" class="font-semibold text-secondary">how jaw surgery improves facial appearance</a> and <a href="can-jaw-surgery-help-with-sleep-apnea.php" class="font-semibold text-secondary">whether jaw surgery can help with sleep apnea</a> — both are common reasons patients come in for a consultation. For an emergency facial injury context, our piece on <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="font-semibold text-secondary">emergency treatment for facial injuries near Hyderabad</a> explains when maxillofacial care is time-critical. And if you are looking for the right specialist, start with <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a>.</p>
-<p>For risks and how to prevent them, see <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php" class="font-semibold text-secondary">side effects, risks, and complications</a>.</p>
+<p>If you are still deciding whether surgery is right for you, it helps to read about <a href="/blogs/can-jaw-surgery-improve-facial-appearance/" class="font-semibold text-secondary">how jaw surgery improves facial appearance</a> and <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/" class="font-semibold text-secondary">whether jaw surgery can help with sleep apnea</a> — both are common reasons patients come in for a consultation. For an emergency facial injury context, our piece on <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="font-semibold text-secondary">emergency treatment for facial injuries near Hyderabad</a> explains when maxillofacial care is time-critical. And if you are looking for the right specialist, start with <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a>.</p>
+<p>For risks and how to prevent them, see <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/" class="font-semibold text-secondary">side effects, risks, and complications</a>.</p>
 <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
 <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
 <span class="material-symbols-outlined text-[40px] text-secondary mb-4 relative z-10">medical_services</span>
@@ -158,11 +158,11 @@ include $path_prefix . 'header.php';
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm border border-surface-container-high">
 <h3 class="font-headline-sm text-xl text-primary mb-6">Related Articles</h3>
 <div class="space-y-6 flex flex-col">
-<div class="group cursor-pointer"><a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Side Effects of Maxillofacial Surgery</h4>
 </a></div>
-<div class="group cursor-pointer"><a href="what-is-orthognathic-surgery.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/what-is-orthognathic-surgery/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Surgical Techniques</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">What Is Orthognathic Surgery?</h4>
 </a></div>

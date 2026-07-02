@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Oncology</span>
             </nav>
@@ -147,7 +147,7 @@ include $path_prefix . 'header.php';
                         Persistent hoarseness, unexplained numbness of the tongue or lip, and loose teeth without an obvious dental cause can all signal an underlying malignancy. If any of these persist beyond two weeks, see a specialist.
                     </p>
                     <p>
-                        Recognising <a href="what-are-the-symptoms-of-oral-cancer.php" class="text-secondary underline-offset-4 hover:underline">oral cancer symptoms</a> early gives you the best chance of a complete cure. The disease is far easier to treat when it is small.
+                        Recognising <a href="/blogs/what-are-the-symptoms-of-oral-cancer/" class="text-secondary underline-offset-4 hover:underline">oral cancer symptoms</a> early gives you the best chance of a complete cure. The disease is far easier to treat when it is small.
                     </p>
 
                     <!-- Inline CTA -->
@@ -208,10 +208,10 @@ include $path_prefix . 'header.php';
                         Your dentist is often the first person to spot a suspicious area. Dentists trained in oral medicine and maxillofacial specialists carry out a structured head and neck examination and refer onward when needed.
                     </p>
                     <p>
-                        If you are not sure <a href="what-type-of-doctor-do-i-need-to-see-for-tmj.php" class="text-secondary underline-offset-4 hover:underline">which doctor to consult</a> for a mouth lesion, start with your dentist or a maxillofacial surgeon. They will guide the next steps.
+                        If you are not sure <a href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/" class="text-secondary underline-offset-4 hover:underline">which doctor to consult</a> for a mouth lesion, start with your dentist or a maxillofacial surgeon. They will guide the next steps.
                     </p>
                     <p>
-                        Knowing <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="text-secondary underline-offset-4 hover:underline">a maxillofacial surgeon's training</a> helps you understand who is best placed to evaluate and biopsy a suspicious oral lesion.
+                        Knowing <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="text-secondary underline-offset-4 hover:underline">a maxillofacial surgeon's training</a> helps you understand who is best placed to evaluate and biopsy a suspicious oral lesion.
                     </p>
 
                     <h2 id="workup" class="scroll-mt-24">Diagnostic Workup and Imaging</h2>
@@ -246,7 +246,7 @@ include $path_prefix . 'header.php';
                         Stage IV disease means the cancer is large, has spread to lymph nodes or beyond, and requires combined surgery, radiotherapy, and often chemotherapy. The five-year survival drops to around 30 percent.
                     </p>
                     <p>
-                        The difference between catching cancer early and catching it late is the difference between a small operation and a life-changing one. For a deeper look at outcomes, read about <a href="how-long-can-you-live-with-oral-cancer-survival-facts-explained.php" class="text-secondary underline-offset-4 hover:underline">oral cancer survival facts</a> explained in plain language.
+                        The difference between catching cancer early and catching it late is the difference between a small operation and a life-changing one. For a deeper look at outcomes, read about <a href="/blogs/how-long-can-you-live-with-oral-cancer-survival-facts-explained/" class="text-secondary underline-offset-4 hover:underline">oral cancer survival facts</a> explained in plain language.
                     </p>
                     <p>
                         Early detection does not only save lives. It also reduces the extent of surgery, the need for reconstruction, and the long-term impact on speech, swallowing, and appearance.
@@ -277,16 +277,16 @@ include $path_prefix . 'header.php';
                         If you have jaw pain, swelling, or sudden dental symptoms alongside a mouth lesion, seek urgent review. Some patients confuse early cancer with dental infection, which can delay diagnosis.
                     </p>
                     <p>
-                        Persistent symptoms after dental work, such as suspected <a href="symptoms-of-jaw-infection-after-the-root-canal.php" class="text-secondary underline-offset-4 hover:underline">jaw infection after root canal</a>, still need a careful look to rule out other causes.
+                        Persistent symptoms after dental work, such as suspected <a href="/blogs/symptoms-of-jaw-infection-after-the-root-canal/" class="text-secondary underline-offset-4 hover:underline">jaw infection after root canal</a>, still need a careful look to rule out other causes.
                     </p>
                     <p>
-                        Likewise, what may feel like routine <a href="what-are-the-symptoms-of-jaw-disease.php" class="text-secondary underline-offset-4 hover:underline">symptoms of jaw disease</a> can occasionally mask an underlying tumour. Persistent, unexplained signs deserve a thorough assessment.
+                        Likewise, what may feel like routine <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="text-secondary underline-offset-4 hover:underline">symptoms of jaw disease</a> can occasionally mask an underlying tumour. Persistent, unexplained signs deserve a thorough assessment.
                     </p>
                     <p>
-                        Trauma and sudden jaw symptoms need a different pathway. Recognising <a href="broken-jaw-symptoms.php" class="text-secondary underline-offset-4 hover:underline">broken jaw symptoms</a> early is important if injury is involved, and our team provides <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="text-secondary underline-offset-4 hover:underline">facial injury emergency care</a> when urgent treatment is needed.
+                        Trauma and sudden jaw symptoms need a different pathway. Recognising <a href="/blogs/broken-jaw-symptoms/" class="text-secondary underline-offset-4 hover:underline">broken jaw symptoms</a> early is important if injury is involved, and our team provides <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="text-secondary underline-offset-4 hover:underline">facial injury emergency care</a> when urgent treatment is needed.
                     </p>
                     <p>
-                        Choosing the right specialist matters. If you are looking for guidance on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="text-secondary underline-offset-4 hover:underline">how to choose the best maxillofacial surgeon in Hyderabad</a>, focus on training, experience with oncology cases, and access to a multi-disciplinary team.
+                        Choosing the right specialist matters. If you are looking for guidance on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="text-secondary underline-offset-4 hover:underline">how to choose the best maxillofacial surgeon in Hyderabad</a>, focus on training, experience with oncology cases, and access to a multi-disciplinary team.
                     </p>
 
                     <blockquote>
@@ -431,21 +431,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="evolution-of-tmj-arthroscopy.php" class="block">
+            <a href="/blogs/evolution-of-tmj-arthroscopy/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Surgical Techniques</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">The Evolution of TMJ Arthroscopy: Minimally Invasive Solutions</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="rhinoplasty-balancing-aesthetics-function.php" class="block">
+            <a href="/blogs/rhinoplasty-balancing-aesthetics-function/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Cosmetic</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Rhinoplasty: Balancing Aesthetics and Function</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="recovery-protocols-jaw-reconstruction.php" class="block">
+            <a href="/blogs/recovery-protocols-jaw-reconstruction/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Evidence-Based Recovery Protocols for Jaw Reconstruction</h4>
             </a>

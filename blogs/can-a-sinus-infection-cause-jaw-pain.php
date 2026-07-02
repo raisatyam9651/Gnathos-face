@@ -15,9 +15,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Patient Guides</span>
             </nav>
@@ -72,7 +72,7 @@ include $path_prefix . 'header.php';
 
                     <h2 id="anatomy" class="scroll-mt-24">The Anatomy: Why Sinuses &amp; Jaw Are Linked</h2>
                     <p>The maxillary sinuses are air-filled cavities located inside the cheekbones, directly above the roots of the upper molars and premolars. In many people, the bone separating the sinus floor from the tooth roots is paper-thin — sometimes just a millimetre or two. They share the same nerve supply (the infraorbital and posterior superior alveolar nerves), so pain originating in the sinus cavity is often felt as tooth or jaw pain.</p>
-                    <p>Because of this intimate anatomical relationship, dental infections can spread upward into the sinus (causing odontogenic sinusitis), and sinus infections can radiate downward into the teeth and jaw. For a deeper look at the wider topic of <a href="causes-of-jaw-pain-on-one-side.php" class="font-semibold text-secondary">jaw pain on one side</a> — including other causes — read our dedicated guide.</p>
+                    <p>Because of this intimate anatomical relationship, dental infections can spread upward into the sinus (causing odontogenic sinusitis), and sinus infections can radiate downward into the teeth and jaw. For a deeper look at the wider topic of <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="font-semibold text-secondary">jaw pain on one side</a> — including other causes — read our dedicated guide.</p>
 
                     <h2 id="how" class="scroll-mt-24">How Sinusitis Causes Jaw Pain</h2>
                     <p>When the lining of the maxillary sinus becomes inflamed and swollen, the sinus cannot drain properly. Fluid accumulates, pressure builds, and the inflammation irritates the nerves that run along the floor of the sinus. The brain, which doesn't always know exactly where the signal is coming from, often interprets this as tooth or jaw pain — a phenomenon called <strong>referred pain</strong>.</p>
@@ -83,7 +83,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Shared nerve pathways</strong> that confuse the brain's pain map</li>
                         <li><strong>Postnasal drip</strong> that irritates the throat and jaw muscles</li>
                     </ul>
-                    <p>Sinus-related jaw pain is most often felt in the upper back teeth and the upper jaw, but it can radiate to the lower jaw as well. If you're also dealing with facial swelling or pressure, see <a href="what-are-the-symptoms-of-jaw-disease.php" class="font-semibold text-secondary">the full list of jaw disease symptoms</a> to rule out other causes.</p>
+                    <p>Sinus-related jaw pain is most often felt in the upper back teeth and the upper jaw, but it can radiate to the lower jaw as well. If you're also dealing with facial swelling or pressure, see <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="font-semibold text-secondary">the full list of jaw disease symptoms</a> to rule out other causes.</p>
 
                     <h2 id="symptoms" class="scroll-mt-24">Symptoms to Watch For</h2>
                     <p>Sinusitis-related jaw pain usually comes with other sinus symptoms. Look for:</p>
@@ -95,7 +95,7 @@ include $path_prefix . 'header.php';
                         <li>Pain in multiple upper back teeth (rather than one specific tooth)</li>
                         <li>Pain that worsens with sudden head movements or lying down</li>
                         <li>Fatigue, low-grade fever, and general malaise</li>
-                        <li>Ear fullness or <a href="does-ear-infection-cause-jaw-pain.php" class="font-semibold text-secondary">ear-related discomfort</a></li>
+                        <li>Ear fullness or <a href="/blogs/does-ear-infection-cause-jaw-pain/" class="font-semibold text-secondary">ear-related discomfort</a></li>
                     </ul>
                     <p>Symptoms lasting less than 4 weeks are <strong>acute sinusitis</strong>. Beyond 12 weeks, it becomes <strong>chronic sinusitis</strong> and may need specialist evaluation.</p>
 
@@ -108,7 +108,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Associated symptoms:</strong> sinus pain comes with nasal congestion and facial pressure; dental pain may have gum swelling or a visible cavity</li>
                         <li><strong>Pain triggers:</strong> sinus pain worsens with head movement; dental pain often worsens at night</li>
                     </ul>
-                    <p>When in doubt, see both a dentist and a maxillofacial specialist. At <a href="index.php" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we work closely with endodontists and ENT surgeons to pinpoint the source of facial pain quickly.</p>
+                    <p>When in doubt, see both a dentist and a maxillofacial specialist. At <a href="/" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we work closely with endodontists and ENT surgeons to pinpoint the source of facial pain quickly.</p>
 
                     <h2 id="treatment" class="scroll-mt-24">Treatment &amp; When to See a Specialist</h2>
                     <p>Most acute sinus infections resolve with conservative treatment:</p>
@@ -127,7 +127,7 @@ include $path_prefix . 'header.php';
                         <li>Recurrent sinus infections (more than 3–4 per year)</li>
                         <li>Suspected dental origin (odontogenic sinusitis) — this often needs both ENT and dental treatment</li>
                     </ul>
-                    <p>For persistent or recurrent cases, a CBCT scan of the sinuses and jaw gives a clear picture. If a tooth is the source, <a href="symptoms-of-jaw-infection-after-the-root-canal.php" class="font-semibold text-secondary">root canal infections and jaw symptoms</a> may need to be addressed together.</p>
+                    <p>For persistent or recurrent cases, a CBCT scan of the sinuses and jaw gives a clear picture. If a tooth is the source, <a href="/blogs/symptoms-of-jaw-infection-after-the-root-canal/" class="font-semibold text-secondary">root canal infections and jaw symptoms</a> may need to be addressed together.</p>
 
                     <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
                         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
@@ -150,7 +150,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Less commonly than upper jaw pain, but yes. Referred pain, muscle tension from clenching due to discomfort, and postnasal drip can all cause lower-jaw and <a href="causes-of-jaw-pain-on-one-side.php" class="font-semibold text-secondary">unilateral jaw pain</a>.
+                                Less commonly than upper jaw pain, but yes. Referred pain, muscle tension from clenching due to discomfort, and postnasal drip can all cause lower-jaw and <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="font-semibold text-secondary">unilateral jaw pain</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -186,7 +186,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Rarely, but yes. Long-standing odontogenic sinusitis can lead to osteomyelitis of the upper jaw. This is a serious condition that requires prompt specialist treatment — see <a href="what-are-the-symptoms-of-jaw-disease.php" class="font-semibold text-secondary">jaw disease symptoms</a> for warning signs.
+                                Rarely, but yes. Long-standing odontogenic sinusitis can lead to osteomyelitis of the upper jaw. This is a serious condition that requires prompt specialist treatment — see <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="font-semibold text-secondary">jaw disease symptoms</a> for warning signs.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -271,21 +271,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
                         <div class="group cursor-pointer">
-                            <a href="causes-of-jaw-pain-on-one-side.php" class="block">
+                            <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Causes of Jaw Pain on One Side</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="does-ear-infection-cause-jaw-pain.php" class="block">
+                            <a href="/blogs/does-ear-infection-cause-jaw-pain/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Does an Ear Infection Cause Jaw Pain?</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="symptoms-of-jaw-infection-after-the-root-canal.php" class="block">
+                            <a href="/blogs/symptoms-of-jaw-infection-after-the-root-canal/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Symptoms of Jaw Infection After a Root Canal</h4>
                             </a>

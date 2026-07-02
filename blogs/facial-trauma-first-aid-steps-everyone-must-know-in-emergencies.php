@@ -11,8 +11,8 @@ include $path_prefix . 'header.php';
 <main>
 <div class="bg-surface-container-low border-b border-surface-container-high py-8"><div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
 <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-<a href="../index.php" class="hover:text-primary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/" class="hover:text-primary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
 <span class="text-secondary">Trauma Care</span></nav>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6 leading-tight max-w-4xl">Facial Trauma First Aid</h1>
 <div class="flex items-center gap-6"><div class="flex items-center gap-3">
@@ -74,10 +74,10 @@ include $path_prefix . 'header.php';
 <li>Sit upright; do not lie flat</li>
 <li>Support the jaw with a hand or bandage — do not try to realign</li>
 <li>Cold compress on the side to reduce swelling</li>
-<li>Do not eat or drink — go straight to the emergency department. See <a href="broken-jaw-symptoms.php" class="font-semibold text-secondary">broken jaw symptoms</a></li>
+<li>Do not eat or drink — go straight to the emergency department. See <a href="/blogs/broken-jaw-symptoms/" class="font-semibold text-secondary">broken jaw symptoms</a></li>
 </ul>
 <p>A broken jaw, or mandible fracture, is one of the most common facial injuries in India after a two-wheeler fall. Typical signs are pain on biting, a change in the way the teeth meet, swelling along the lower jaw, bruising under the tongue, and numbness in the lower lip or chin. If you suspect one, the priority is airway and immobilization. Lean the person slightly forward so saliva and blood drain out of the mouth rather than back into the throat. Support the jaw from below with the palm of your hand or a soft triangular bandage. If you have a clean handkerchief, fold it under the chin and tie it loosely over the top of the head as a temporary sling. Do not pull the jaw into alignment.</p>
-<p>Cold helps. Wrap a few ice cubes or a packet of frozen peas in a thin cotton cloth and hold it against the swollen side for 15 minutes, then off for 15 minutes. Do not place ice directly on a wound where bone is exposed or where skin is broken. Most importantly, do not let the person eat or drink. Surgery is often needed within hours, and an empty stomach is safer for anaesthesia. For a detailed clinical overview, see <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php" class="font-semibold text-secondary">risks and complications of maxillofacial surgery</a>, and for what recovery looks like afterwards, our <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php" class="font-semibold text-secondary">jaw surgery healing timeline guide</a>.</p>
+<p>Cold helps. Wrap a few ice cubes or a packet of frozen peas in a thin cotton cloth and hold it against the swollen side for 15 minutes, then off for 15 minutes. Do not place ice directly on a wound where bone is exposed or where skin is broken. Most importantly, do not let the person eat or drink. Surgery is often needed within hours, and an empty stomach is safer for anaesthesia. For a detailed clinical overview, see <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/" class="font-semibold text-secondary">risks and complications of maxillofacial surgery</a>, and for what recovery looks like afterwards, our <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/" class="font-semibold text-secondary">jaw surgery healing timeline guide</a>.</p>
 <p><strong>Knocked-out tooth:</strong></p>
 <ul>
 <li>Hold the tooth by the crown (top), not the root</li>
@@ -87,7 +87,7 @@ include $path_prefix . 'header.php';
 </ul>
 <p>An avulsed (knocked-out) permanent tooth is one of the few true time-critical dental emergencies. The periodontal ligament cells on the root start to die within minutes of leaving the socket. The best chance of saving the tooth is to re-implant it within 60 minutes, ideally within 30.</p>
 <p>Pick the tooth up by the white crown only. Do not touch the root. If the tooth is dirty, rinse it gently for 10 seconds with cold milk, saline, or the patient's own saliva. Do not scrub, do not use soap, do not let it dry out. For an adult tooth, push it gently back into the socket with the crown facing the correct way, then have the person bite on a clean cloth to hold it in place. For a child or an unconscious person, do not re-implant a primary (milk) tooth — store it and let a paediatric dentist decide. If re-implantation is not possible, store the tooth in a small container of cold milk. Saline is fine. Plain water is a last resort, but the cells last longer in milk.</p>
-<p>Speed matters more than technique here. Get to a dentist or <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="font-semibold text-secondary">qualified maxillofacial surgeon</a> immediately. If it is after hours, go to the nearest dental hospital emergency room rather than waiting until morning.</p>
+<p>Speed matters more than technique here. Get to a dentist or <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="font-semibold text-secondary">qualified maxillofacial surgeon</a> immediately. If it is after hours, go to the nearest dental hospital emergency room rather than waiting until morning.</p>
 <p><strong>Severe facial bleeding:</strong></p>
 <ul>
 <li>Apply firm, direct pressure with clean gauze for at least 10 minutes</li>
@@ -145,7 +145,7 @@ include $path_prefix . 'header.php';
 <li>Severe facial deformity</li>
 <li>Clear fluid from nose or ear</li>
 </ul>
-<p>For non-life-threatening facial injuries in Hyderabad, see our <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="font-semibold text-secondary">24/7 facial injury service</a>. For a fuller picture of the clinical side, see <a href="understanding-facial-trauma-management.php" class="font-semibold text-secondary">how facial trauma is managed</a>.</p>
+<p>For non-life-threatening facial injuries in Hyderabad, see our <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="font-semibold text-secondary">24/7 facial injury service</a>. For a fuller picture of the clinical side, see <a href="/blogs/understanding-facial-trauma-management/" class="font-semibold text-secondary">how facial trauma is managed</a>.</p>
 <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
 <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
 <span class="material-symbols-outlined text-[40px] text-secondary mb-4 relative z-10">emergency</span>
@@ -162,7 +162,7 @@ include $path_prefix . 'header.php';
 <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm"><summary class="font-headline-sm text-primary text-[18px] flex justify-between items-center list-none font-semibold">Should I put ice on a facial injury?<span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span></summary><p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">Yes — wrapped in cloth, 15 minutes on and 15 minutes off, for the first 24–48 hours. This reduces swelling and pain.</p></details>
 <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm"><summary class="font-headline-sm text-primary text-[18px] flex justify-between items-center list-none font-semibold">What if someone is unconscious after facial trauma?<span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span></summary><p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">Place them in the recovery position (on their side), check breathing, and call emergency services. Do not move them if neck pain is present.</p></details>
 <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm"><summary class="font-headline-sm text-primary text-[18px] flex justify-between items-center list-none font-semibold">Can I take painkillers after a facial injury?<span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span></summary><p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">Paracetamol is safe. Avoid aspirin or ibuprofen if there is active bleeding, as they thin the blood. Discuss with a doctor if unsure.</p></details>
-<details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm"><summary class="font-headline-sm text-primary text-[18px] flex justify-between items-center list-none font-semibold">Where can I get 24/7 facial trauma care in Hyderabad?<span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span></summary><p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">Gnathos Facial Surgery provides round-the-clock facial trauma care. See our <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="font-semibold text-secondary">emergency facial injury page</a>.</p></details>
+<details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm"><summary class="font-headline-sm text-primary text-[18px] flex justify-between items-center list-none font-semibold">Where can I get 24/7 facial trauma care in Hyderabad?<span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span></summary><p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">Gnathos Facial Surgery provides round-the-clock facial trauma care. See our <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="font-semibold text-secondary">emergency facial injury page</a>.</p></details>
 </div></div>
 <div class="bg-surface-container-low p-8 rounded-2xl border border-surface-container-high flex flex-col md:flex-row gap-6 items-center mt-12">
 <div class="w-24 h-24 rounded-full overflow-hidden shrink-0 shadow-md"><img alt="Dr. Navatha Mortha" class="w-full h-full object-cover" src="/asset/dr-navatha-mortha-facial.webp"/></div>
@@ -184,11 +184,11 @@ include $path_prefix . 'header.php';
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm border border-surface-container-high">
 <h3 class="font-headline-sm text-xl text-primary mb-6">Related Articles</h3>
 <div class="space-y-6 flex flex-col">
-<div class="group cursor-pointer"><a href="broken-jaw-symptoms.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/broken-jaw-symptoms/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Trauma Care</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Broken Jaw Symptoms</h4>
 </a></div>
-<div class="group cursor-pointer"><a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Trauma Care</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Emergency Treatment for Facial Injuries</h4>
 </a></div>

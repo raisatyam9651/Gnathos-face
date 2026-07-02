@@ -11,8 +11,8 @@ include $path_prefix . 'header.php';
 <main>
 <div class="bg-surface-container-low border-b border-surface-container-high py-8"><div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
 <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-<a href="../index.php" class="hover:text-primary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
-<a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/" class="hover:text-primary transition-colors">Home</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
+<a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a><span class="material-symbols-outlined text-[16px]">chevron_right</span>
 <span class="text-secondary">Patient Guides</span></nav>
 <h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6 leading-tight max-w-4xl">Side Effects of Maxillofacial Surgery: Risks, Complications &amp; Prevention</h1>
 <div class="flex items-center gap-6"><div class="flex items-center gap-3">
@@ -26,7 +26,7 @@ include $path_prefix . 'header.php';
 <img alt="Side effects, risks, and complications of maxillofacial surgery" class="w-full h-full object-cover" src="https://picsum.photos/1200/600?random=maxillofacial-risks"/></div>
 <div class="prose prose-lg prose-headings:font-headline-md prose-headings:text-primary prose-p:font-body-md prose-p:text-on-surface-variant prose-a:text-secondary prose-ul:my-6 prose-li:my-2 prose-p:my-4 prose-headings:mt-10 prose-headings:mb-4 prose-img:my-8 max-w-none">
 <p class="text-xl leading-relaxed text-primary/80 font-medium italic mb-8 border-l-4 border-secondary pl-6">Every surgery has risks. The good news is that the side effects of maxillofacial surgery are well studied, mostly temporary, and largely preventable with the right surgeon and the right preparation.</p>
-<p>Maxillofacial surgery — whether performed for facial trauma, jaw alignment, tumour removal, or reconstructive purposes — carries a defined set of risks and complications. Major complication rates sit below 5% in most elective cases, and most side effects resolve within weeks to months. Understanding these risks before surgery helps you prepare, follow recovery instructions correctly, and recognise early warning signs if anything goes wrong. This guide covers the common short-term side effects, longer-term changes, rare but serious complications, and the practical steps you can take to lower your risk before and after <a href="what-is-orthognathic-surgery.php" class="font-semibold text-secondary">orthognathic and other maxillofacial procedures</a>.</p>
+<p>Maxillofacial surgery — whether performed for facial trauma, jaw alignment, tumour removal, or reconstructive purposes — carries a defined set of risks and complications. Major complication rates sit below 5% in most elective cases, and most side effects resolve within weeks to months. Understanding these risks before surgery helps you prepare, follow recovery instructions correctly, and recognise early warning signs if anything goes wrong. This guide covers the common short-term side effects, longer-term changes, rare but serious complications, and the practical steps you can take to lower your risk before and after <a href="/blogs/what-is-orthognathic-surgery/" class="font-semibold text-secondary">orthognathic and other maxillofacial procedures</a>.</p>
 <div class="bg-surface-container-lowest p-6 rounded-xl border border-surface-container-high my-10 not-prose shadow-sm">
 <h3 class="font-headline-sm text-[20px] text-primary mb-4 flex items-center gap-2"><span class="material-symbols-outlined text-secondary">format_list_bulleted</span>Table of Contents</h3>
 <ul class="space-y-3 font-body-md text-on-surface-variant list-none p-0 m-0">
@@ -72,7 +72,7 @@ include $path_prefix . 'header.php';
 <li><strong>Plate or screw sensation</strong> — some patients feel thin plates under the gum, especially in cold weather; removable if bothersome</li>
 <li><strong>TMJ adaptation</strong> — the jaw joints adapt to the new position; mild clicking or stiffness can occur temporarily</li>
 </ul>
-<p>These long-term changes are usually minor. If they affect function or comfort, small touch-up procedures or hardware removal can be discussed during your follow-up visits. To learn how these changes fit into the overall recovery journey, see our guide on <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php" class="font-semibold text-secondary">complete healing timeline and care tips after jaw surgery</a>.</p>
+<p>These long-term changes are usually minor. If they affect function or comfort, small touch-up procedures or hardware removal can be discussed during your follow-up visits. To learn how these changes fit into the overall recovery journey, see our guide on <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/" class="font-semibold text-secondary">complete healing timeline and care tips after jaw surgery</a>.</p>
 <h2 id="complications" class="scroll-mt-24">Serious Complications</h2>
 <p>These are uncommon in experienced hands but should be discussed openly during your consent visit.</p>
 <ul>
@@ -95,10 +95,10 @@ include $path_prefix . 'header.php';
 <h3>Bleeding</h3>
 <p>Significant bleeding is rare. Most patients notice minor oozing from the incision site for the first day or two. Blood transfusion is needed in fewer than 1% of elective cases. Patients on blood thinners are asked to stop them before surgery under medical supervision.</p>
 <h3>Jaw joint (TMJ) issues</h3>
-<p>The temporomandibular joints adapt to the new bite, but in some patients pre-existing TMJ symptoms can worsen or new symptoms can appear. Clicking, mild ache, or stiffness usually settles with physiotherapy and bite stabilisation. Persistent symptoms may need targeted TMJ treatment. Read more about TMJ causes and care in our <a href="what-is-tmj-disorder.php" class="font-semibold text-secondary">TMJ disorder overview</a>.</p>
+<p>The temporomandibular joints adapt to the new bite, but in some patients pre-existing TMJ symptoms can worsen or new symptoms can appear. Clicking, mild ache, or stiffness usually settles with physiotherapy and bite stabilisation. Persistent symptoms may need targeted TMJ treatment. Read more about TMJ causes and care in our <a href="/blogs/what-is-tmj-disorder/" class="font-semibold text-secondary">TMJ disorder overview</a>.</p>
 <h3>Anaesthesia-related risks</h3>
 <p>Modern anaesthesia is very safe for elective maxillofacial surgery. Risks include sore throat, nausea, and very rarely allergic reactions or breathing complications. Your anaesthesiologist will review your medical history, allergies, and previous reactions during the pre-anaesthesia check to minimise these risks.</p>
-<p>For procedure-specific risks, see <a href="what-is-orthognathic-surgery.php" class="font-semibold text-secondary">orthognathic surgery</a>, <a href="jaw-surgery-orthognathic-complete-guide-for-patients.php" class="font-semibold text-secondary">our complete jaw surgery guide for patients</a>, and <a href="facial-trauma-first-aid-steps-everyone-must-know-in-emergencies.php" class="font-semibold text-secondary">facial trauma care</a>. If your surgery is planned to address airway or sleep-related issues, the risks and benefits differ — see <a href="can-jaw-surgery-help-with-sleep-apnea.php" class="font-semibold text-secondary">can jaw surgery help with sleep apnea</a> for details.</p>
+<p>For procedure-specific risks, see <a href="/blogs/what-is-orthognathic-surgery/" class="font-semibold text-secondary">orthognathic surgery</a>, <a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/" class="font-semibold text-secondary">our complete jaw surgery guide for patients</a>, and <a href="/blogs/facial-trauma-first-aid-steps-everyone-must-know-in-emergencies/" class="font-semibold text-secondary">facial trauma care</a>. If your surgery is planned to address airway or sleep-related issues, the risks and benefits differ — see <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/" class="font-semibold text-secondary">can jaw surgery help with sleep apnea</a> for details.</p>
 <h2 id="risk-factors" class="scroll-mt-24">Risk Factors That Increase Complications</h2>
 <p>Not every patient carries the same level of risk. The most common factors that raise complication rates after maxillofacial surgery include:</p>
 <ul>
@@ -118,7 +118,7 @@ include $path_prefix . 'header.php';
 <h2 id="prevention" class="scroll-mt-24">Prevention &amp; Risk Reduction</h2>
 <p>The biggest predictors of a safe surgery are:</p>
 <ul>
-<li><strong>Choose the right surgeon</strong> — see <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a></li>
+<li><strong>Choose the right surgeon</strong> — see <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a></li>
 <li><strong>Optimise your health</strong> — stop smoking, control diabetes, address anaemia, lose weight if needed</li>
 <li><strong>Follow pre-op instructions</strong> — fasting, medications, orthodontics</li>
 <li><strong>Follow post-op instructions</strong> — diet, hygiene, medications, jaw exercises, follow-ups</li>
@@ -155,7 +155,7 @@ include $path_prefix . 'header.php';
 <li>Difficulty breathing or swallowing</li>
 <li>Loose hardware, broken elastics, or a sudden change in your bite</li>
 </ul>
-<p>For acute facial injuries after surgery — such as a fall, a blow to the face, or a suspected <a href="broken-jaw-symptoms.php" class="font-semibold text-secondary">broken jaw</a> — seek emergency care immediately. Our guide on <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="font-semibold text-secondary">emergency treatment for facial injuries near Hyderabad</a> outlines what to do in those situations.</p>
+<p>For acute facial injuries after surgery — such as a fall, a blow to the face, or a suspected <a href="/blogs/broken-jaw-symptoms/" class="font-semibold text-secondary">broken jaw</a> — seek emergency care immediately. Our guide on <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="font-semibold text-secondary">emergency treatment for facial injuries near Hyderabad</a> outlines what to do in those situations.</p>
 <h2 id="recovery-expectations" class="scroll-mt-24">Realistic Recovery Expectations</h2>
 <p>Recovery after maxillofacial surgery is a staged process. Most patients can expect:</p>
 <ul>
@@ -203,11 +203,11 @@ include $path_prefix . 'header.php';
 <div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm border border-surface-container-high">
 <h3 class="font-headline-sm text-xl text-primary mb-6">Related Articles</h3>
 <div class="space-y-6 flex flex-col">
-<div class="group cursor-pointer"><a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Recovery Time After Jaw Surgery</h4>
 </a></div>
-<div class="group cursor-pointer"><a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="block">
+<div class="group cursor-pointer"><a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="block">
 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">How to Choose the Best Maxillofacial Surgeon in Hyderabad</h4>
 </a></div>

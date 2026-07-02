@@ -15,9 +15,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Patient Guides</span>
             </nav>
@@ -54,7 +54,7 @@ include $path_prefix . 'header.php';
                     <p class="text-xl leading-relaxed text-primary/80 font-medium italic mb-8 border-l-4 border-secondary pl-6">
                         For most TMJ problems, a maxillofacial surgeon is the right starting point. They evaluate the joint, the teeth, the muscles, and the nerves in a single visit — and direct you to other specialists only if needed.
                     </p>
-                    <p>TMJ (temporomandibular joint) symptoms often blur the line between dental, muscular, neurological, and ENT problems. Many patients spend months cycling through the wrong clinics before they see the doctor who actually treats the jaw joint. This guide explains which specialist to see, what they actually do, and how to avoid the doctor-hopping trap. If you want a deeper look at the condition itself, start with <a href="what-is-tmj-disorder.php" class="font-semibold text-secondary">what TMJ disorder really means</a>.</p>
+                    <p>TMJ (temporomandibular joint) symptoms often blur the line between dental, muscular, neurological, and ENT problems. Many patients spend months cycling through the wrong clinics before they see the doctor who actually treats the jaw joint. This guide explains which specialist to see, what they actually do, and how to avoid the doctor-hopping trap. If you want a deeper look at the condition itself, start with <a href="/blogs/what-is-tmj-disorder/" class="font-semibold text-secondary">what TMJ disorder really means</a>.</p>
 
                     <div class="bg-surface-container-lowest p-6 rounded-xl border border-surface-container-high my-10 not-prose shadow-sm">
                         <h3 class="font-headline-sm text-[20px] text-primary mb-4 flex items-center gap-2">
@@ -87,13 +87,13 @@ include $path_prefix . 'header.php';
                     <p>Some general dentists and most prosthodontists take a special interest in occlusion and TMJ. They manage occlusal (bite-related) causes, design long-term splint therapy, and rebuild worn-down bites that overload the joint. If your TMJ problem is clearly linked to a recent bite change — a new crown, a lost back tooth, a long-standing open bite — this is the right starting clinician. They work closely with the maxillofacial surgeon when the joint itself is damaged.</p>
 
                     <h3>The oral and maxillofacial surgeon's role</h3>
-                    <p>The <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="font-semibold text-secondary">oral and maxillofacial surgeon</a> is the only clinician trained across both dentistry and surgery of the face. For TMJ, they perform joint injections (corticosteroid, hyaluronic acid), arthrocentesis (washing the joint with sterile fluid), arthroscopy (keyhole surgery with a camera), and open joint surgery for advanced disease. They also manage TMJ related to trauma, jaw deformities, and failed prior treatment. For most patients with locking, restricted opening, or persistent pain, the maxillofacial surgeon is the appropriate single doctor to start with.</p>
+                    <p>The <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="font-semibold text-secondary">oral and maxillofacial surgeon</a> is the only clinician trained across both dentistry and surgery of the face. For TMJ, they perform joint injections (corticosteroid, hyaluronic acid), arthrocentesis (washing the joint with sterile fluid), arthroscopy (keyhole surgery with a camera), and open joint surgery for advanced disease. They also manage TMJ related to trauma, jaw deformities, and failed prior treatment. For most patients with locking, restricted opening, or persistent pain, the maxillofacial surgeon is the appropriate single doctor to start with.</p>
 
                     <h3>The orofacial pain specialist</h3>
                     <p>Orofacial pain is a formally recognised dental subspecialty focused on chronic pain of the face, mouth, and jaws. An orofacial pain specialist is often the most qualified clinician to diagnose complex, long-standing TMJ pain — particularly when multiple causes overlap (joint + muscle + nerve + behavioural). They use a combination of medications, occlusal appliances, behavioural therapy, and minimally invasive procedures. If your pain has lasted more than three months and no single cause has been found, an orofacial pain specialist is the right next step.</p>
 
                     <h3>The physiotherapist's role</h3>
-                    <p>A physiotherapist trained in craniomandibular therapy handles the muscular side of TMJ — tight masseters, weak pterygoids, poor head and neck posture, and protective muscle guarding. Treatment includes manual therapy inside the mouth and on the neck, jaw exercises, posture correction, and dry needling. Physiotherapy is rarely enough on its own for a structurally damaged joint, but it is almost always part of a complete plan. For jaw muscle retraining and posture-related pain, see how <a href="how-to-get-rid-of-jaw-pain-on-one-side.php" class="font-semibold text-secondary">jaw pain on one side</a> responds to conservative care.</p>
+                    <p>A physiotherapist trained in craniomandibular therapy handles the muscular side of TMJ — tight masseters, weak pterygoids, poor head and neck posture, and protective muscle guarding. Treatment includes manual therapy inside the mouth and on the neck, jaw exercises, posture correction, and dry needling. Physiotherapy is rarely enough on its own for a structurally damaged joint, but it is almost always part of a complete plan. For jaw muscle retraining and posture-related pain, see how <a href="/blogs/how-to-get-rid-of-jaw-pain-on-one-side/" class="font-semibold text-secondary">jaw pain on one side</a> responds to conservative care.</p>
 
                     <h3>The ENT's role</h3>
                     <p>Because the TMJ sits less than a centimetre from the ear canal, TMJ inflammation often mimics an ear problem — ear fullness, muffled hearing, tinnitus, even vertigo. An ENT rules out middle-ear infection, eustachian tube dysfunction, and inner-ear disease. If the ear is normal and TMJ tenderness is present on exam, the ENT will often refer back to a maxillofacial surgeon. ENT involvement is most useful in the first consultation when symptoms are ambiguous.</p>
@@ -110,7 +110,7 @@ include $path_prefix . 'header.php';
                     <h3>The psychologist's role</h3>
                     <p>Chronic TMJ pain is strongly linked to stress, sleep disturbance, bruxism (clenching), and catastrophising. A psychologist or behavioural therapist helps with sleep hygiene, stress reduction, and techniques like CBT for chronic pain. This is not "the pain is in your head" — it is recognition that pain processing involves the brain, and that improving sleep and stress often reduces joint load and pain intensity measurably.</p>
 
-                    <p>For an in-depth comparison of dental and surgical scopes, read <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="font-semibold text-secondary">dentist vs maxillofacial surgeon</a>.</p>
+                    <p>For an in-depth comparison of dental and surgical scopes, read <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="font-semibold text-secondary">dentist vs maxillofacial surgeon</a>.</p>
 
                     <h2 id="when" class="scroll-mt-24">When to See Each Type</h2>
                     <ul>
@@ -121,7 +121,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Multiple joint pain or systemic symptoms</strong> — rheumatologist</li>
                         <li><strong>Chronic pain not responding to treatment</strong> — pain specialist</li>
                     </ul>
-                    <p>For deeper context, see <a href="causes-of-jaw-pain-on-one-side.php" class="font-semibold text-secondary">causes of one-sided jaw pain</a> and <a href="how-to-cure-tmj-permanently.php" class="font-semibold text-secondary">how to cure TMJ permanently</a>.</p>
+                    <p>For deeper context, see <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="font-semibold text-secondary">causes of one-sided jaw pain</a> and <a href="/blogs/how-to-cure-tmj-permanently/" class="font-semibold text-secondary">how to cure TMJ permanently</a>.</p>
 
                     <h2 id="avoid" class="scroll-mt-24">How to Avoid Doctor-Hopping</h2>
                     <p>The single biggest frustration for TMJ patients is being passed from one doctor to another. To minimise this:</p>
@@ -131,7 +131,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Get the right imaging upfront</strong> — a CBCT of the jaws and an MRI of the joints give most of the answers</li>
                         <li><strong>Ask whether the specialist works in a multidisciplinary team</strong> — the best TMJ clinics include a maxillofacial surgeon, an orthodontist, a pain specialist, and a physiotherapist under one roof</li>
                     </ol>
-                    <p>At <a href="index.php" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we follow exactly this model — a single visit typically produces a clear diagnosis and a plan. See <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a>.</p>
+                    <p>At <a href="/" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we follow exactly this model — a single visit typically produces a clear diagnosis and a plan. See <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="font-semibold text-secondary">how to choose the best maxillofacial surgeon in Hyderabad</a>.</p>
 
                     <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
                         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
@@ -190,7 +190,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                A CBCT scan for the bony detail, and often an MRI to see the disc and soft tissues. Read about <a href="role-of-3d-virtual-planning.php" class="font-semibold text-secondary">3D virtual planning in maxillofacial procedures</a>.
+                                A CBCT scan for the bony detail, and often an MRI to see the disc and soft tissues. Read about <a href="/blogs/role-of-3d-virtual-planning/" class="font-semibold text-secondary">3D virtual planning in maxillofacial procedures</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -199,7 +199,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Mild TMJ symptoms often improve with self-care. Persistent pain, clicking, or locking usually needs professional treatment. See <a href="how-to-cure-tmj-permanently.php" class="font-semibold text-secondary">how to cure TMJ permanently</a>.
+                                Mild TMJ symptoms often improve with self-care. Persistent pain, clicking, or locking usually needs professional treatment. See <a href="/blogs/how-to-cure-tmj-permanently/" class="font-semibold text-secondary">how to cure TMJ permanently</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -217,7 +217,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Yes. Look for a maxillofacial surgeon with TMJ-specific training, in-house CBCT and MRI, and a multidisciplinary team. See <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php" class="font-semibold text-secondary">our checklist for choosing one</a>.
+                                Yes. Look for a maxillofacial surgeon with TMJ-specific training, in-house CBCT and MRI, and a multidisciplinary team. See <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/" class="font-semibold text-secondary">our checklist for choosing one</a>.
                             </p>
                         </details>
                     </div>
@@ -275,21 +275,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
                         <div class="group cursor-pointer">
-                            <a href="what-is-tmj-disorder.php" class="block">
+                            <a href="/blogs/what-is-tmj-disorder/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">What Is TMJ Disorder?</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="how-to-cure-tmj-permanently.php" class="block">
+                            <a href="/blogs/how-to-cure-tmj-permanently/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">How to Cure TMJ Permanently</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="block">
+                            <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Dentist vs Maxillofacial Surgeon</h4>
                             </a>

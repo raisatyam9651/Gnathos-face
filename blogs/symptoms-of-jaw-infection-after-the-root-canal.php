@@ -15,9 +15,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Patient Guides</span>
             </nav>
@@ -71,7 +71,7 @@ include $path_prefix . 'header.php';
                         <li>The tooth was not restored with a crown in time</li>
                         <li>An adjacent tooth or the surrounding bone was already infected</li>
                     </ul>
-                    <p>Each of these pathways lets bacteria re-enter the sealed canal system and travel through the apical foramen — the tiny opening at the root tip — into the surrounding jawbone. Once there, the infection triggers inflammation, pus formation, and gradual bone resorption. Over time, the body may attempt to drain the pus through a sinus tract on the gum, producing the classic "gum boil" you may have read about in <a href="causes-of-jaw-pain-on-one-side.php" class="font-semibold text-secondary">our guide to one-sided jaw pain causes</a>.</p>
+                    <p>Each of these pathways lets bacteria re-enter the sealed canal system and travel through the apical foramen — the tiny opening at the root tip — into the surrounding jawbone. Once there, the infection triggers inflammation, pus formation, and gradual bone resorption. Over time, the body may attempt to drain the pus through a sinus tract on the gum, producing the classic "gum boil" you may have read about in <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="font-semibold text-secondary">our guide to one-sided jaw pain causes</a>.</p>
                     <p>Cracked roots are a particularly common cause of persistent infection after root canal. A vertical root fracture often cannot be seen on a standard X-ray and may only be confirmed with a CBCT scan or after extraction. If you grind your teeth or have had a large post placed inside the tooth, your risk of a crack is higher.</p>
                     <div class="aspect-[16/9] w-full rounded-2xl overflow-hidden shadow-lg border border-surface-container-high my-10">
                         <img alt="Dental periapical X-ray showing a dark radiolucent area at the root tip indicating reinfection after root canal therapy" class="w-full h-full object-cover" src="https://picsum.photos/1200/600?random=periapical-xray"/>
@@ -92,7 +92,7 @@ include $path_prefix . 'header.php';
                         <li>Swelling of the gum near the treated tooth</li>
                         <li>Low-grade fever</li>
                     </ul>
-                    <p>A sinus tract is one of the most reliable signs that the canal system is still infected. The tract is essentially a small drain that the body builds to release pus from the bone into the mouth. You may notice a salty taste, or the boil may come and go. Treating only the visible pimple is pointless — the source inside the tooth must be re-treated. This pattern overlaps with what patients describe in our article on <a href="symptoms-of-impacted-wisdom-tooth.php" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a>, where gum infection also produces a sinus tract.</p>
+                    <p>A sinus tract is one of the most reliable signs that the canal system is still infected. The tract is essentially a small drain that the body builds to release pus from the bone into the mouth. You may notice a salty taste, or the boil may come and go. Treating only the visible pimple is pointless — the source inside the tooth must be re-treated. This pattern overlaps with what patients describe in our article on <a href="/blogs/symptoms-of-impacted-wisdom-tooth/" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a>, where gum infection also produces a sinus tract.</p>
 
                     <h2 id="late" class="scroll-mt-24">Late / Serious Symptoms</h2>
                     <p>These suggest the infection is spreading and need same-day evaluation:</p>
@@ -105,7 +105,7 @@ include $path_prefix . 'header.php';
                         <li>Dental abscess with pus drainage into the mouth</li>
                         <li>Tooth mobility (loose tooth)</li>
                     </ul>
-                    <p>If you experience any of these, go to an emergency dental or maxillofacial service immediately. Trismus combined with swelling under the tongue or in the neck is a red flag for <a href="broken-jaw-symptoms.php" class="font-semibold text-secondary">deep neck space infection</a>, which can compromise the airway and requires urgent surgical drainage. For an emergency in Hyderabad, see our <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="font-semibold text-secondary">24/7 facial injury emergency page</a>.</p>
+                    <p>If you experience any of these, go to an emergency dental or maxillofacial service immediately. Trismus combined with swelling under the tongue or in the neck is a red flag for <a href="/blogs/broken-jaw-symptoms/" class="font-semibold text-secondary">deep neck space infection</a>, which can compromise the airway and requires urgent surgical drainage. For an emergency in Hyderabad, see our <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="font-semibold text-secondary">24/7 facial injury emergency page</a>.</p>
 
                     <h2 id="abscess-types" class="scroll-mt-24">Abscess vs Cellulitis vs Osteomyelitis</h2>
                     <p>Not every jaw infection is the same. The terminology affects treatment and prognosis:</p>
@@ -114,7 +114,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Cellulitis</strong> — a diffuse, spreading soft-tissue infection without a defined pus pocket. The face looks swollen and feels doughy. Treated with IV antibiotics plus removal of the source.</li>
                         <li><strong>Osteomyelitis</strong> — infection that has spread into the jawbone itself. Rare, but serious. More common in patients with diabetes, immunosuppression, or poor blood supply. Often needs long-term IV antibiotics and surgical debridement.</li>
                     </ul>
-                    <p>Cellulitis and osteomyelitis can develop when an abscess is ignored for weeks. Distinguishing them matters because a localised abscess can sometimes be drained through the gum, while osteomyelitis may require removal of dead bone (sequestrectomy) at a maxillofacial surgery centre. If your swelling is rapidly expanding, do not wait — read our page on <a href="what-are-the-symptoms-of-jaw-disease.php" class="font-semibold text-secondary">the broader symptoms of jaw disease</a> to know when escalation is appropriate.</p>
+                    <p>Cellulitis and osteomyelitis can develop when an abscess is ignored for weeks. Distinguishing them matters because a localised abscess can sometimes be drained through the gum, while osteomyelitis may require removal of dead bone (sequestrectomy) at a maxillofacial surgery centre. If your swelling is rapidly expanding, do not wait — read our page on <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="font-semibold text-secondary">the broader symptoms of jaw disease</a> to know when escalation is appropriate.</p>
 
                     <h2 id="why-prompt" class="scroll-mt-24">Why Prompt Treatment Matters</h2>
                     <p>A jaw infection will not sit still. Bacteria travel along fascial planes from the tooth root into the cheek, the submandibular space under the jaw, and in severe cases the mediastinum (the space behind the breastbone). Every hour of delay increases the risk of airway compromise, sepsis, and bone loss.</p>
@@ -139,7 +139,7 @@ include $path_prefix . 'header.php';
                         <li>You have facial swelling spreading toward the eye or neck</li>
                         <li>The root canal has failed and the tooth needs to be re-treated or removed</li>
                     </ul>
-                    <p>Endodontists are dentists who specialise in root canal procedures and retreatments. Maxillofacial surgeons manage infections that have spread beyond the tooth into the bone or soft tissues of the face and neck. If you are unsure which one you need, see also <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="font-semibold text-secondary">when to see a dentist vs a maxillofacial surgeon</a> and <a href="what-type-of-doctor-do-i-need-to-see-for-tmj.php" class="font-semibold text-secondary">our guide to choosing the right specialist for jaw symptoms</a>.</p>
+                    <p>Endodontists are dentists who specialise in root canal procedures and retreatments. Maxillofacial surgeons manage infections that have spread beyond the tooth into the bone or soft tissues of the face and neck. If you are unsure which one you need, see also <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="font-semibold text-secondary">when to see a dentist vs a maxillofacial surgeon</a> and <a href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/" class="font-semibold text-secondary">our guide to choosing the right specialist for jaw symptoms</a>.</p>
 
                     <h2 id="treatment" class="scroll-mt-24">Treatment Options</h2>
                     <p>Treatment depends on the extent of infection:</p>
@@ -152,7 +152,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Bone grafting</strong> — to fill the defect left by infection before placing an implant</li>
                     </ul>
                     <p>Antibiotics are commonly prescribed but cannot replace mechanical treatment. They reduce bacterial load temporarily so the body can fight the infection, but the source inside the tooth or bone must still be removed. Stopping antibiotics early or using them alone is one of the most common reasons infections recur.</p>
-                    <p>For teeth that cannot be saved, the combination of extraction, bone grafting, and implant placement is often staged over 3–6 months. At <a href="index.php" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we manage complex dental infections that have spread to the jaw, including <a href="dental-implants-vs-bone-grafts.php" class="font-semibold text-secondary">dental implants and bone grafts</a> when teeth cannot be saved. Patients who also have jaw stiffness or clicking after treatment are sometimes referred for TMJ evaluation — read <a href="can-wisdom-teeth-cause-tmj.php" class="font-semibold text-secondary">whether wisdom teeth can cause TMJ</a> to understand the overlap.</p>
+                    <p>For teeth that cannot be saved, the combination of extraction, bone grafting, and implant placement is often staged over 3–6 months. At <a href="/" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we manage complex dental infections that have spread to the jaw, including <a href="/blogs/dental-implants-vs-bone-grafts/" class="font-semibold text-secondary">dental implants and bone grafts</a> when teeth cannot be saved. Patients who also have jaw stiffness or clicking after treatment are sometimes referred for TMJ evaluation — read <a href="/blogs/can-wisdom-teeth-cause-tmj/" class="font-semibold text-secondary">whether wisdom teeth can cause TMJ</a> to understand the overlap.</p>
 
                     <h2 id="recovery" class="scroll-mt-24">Recovery and Healing Timeline</h2>
                     <p>Recovery depends on the procedure. After incision and drainage plus antibiotics, swelling usually improves within 48–72 hours, and the surgical site heals in 1–2 weeks. After retreatment, mild tenderness can last up to a week. After apicoectomy, expect 2–3 days of swelling and a week before sutures are removed.</p>
@@ -167,7 +167,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Treat grinding or clenching</strong> — a night guard protects the tooth from cracks that can re-introduce infection.</li>
                         <li><strong>Do not ignore new symptoms</strong> — a small gum boil or dull ache is much easier to treat than a swollen face.</li>
                     </ul>
-                    <p>If you are also dealing with jaw pain on one side that is unrelated to the tooth, see <a href="how-to-get-rid-of-jaw-pain-on-one-side.php" class="font-semibold text-secondary">our practical guide to one-sided jaw pain relief</a>. And if you have a history of smoking or alcohol use, be aware that persistent non-healing ulcers in the mouth warrant a separate evaluation — read <a href="what-are-the-symptoms-of-oral-cancer.php" class="font-semibold text-secondary">the symptoms of oral cancer</a> for the warning signs.</p>
+                    <p>If you are also dealing with jaw pain on one side that is unrelated to the tooth, see <a href="/blogs/how-to-get-rid-of-jaw-pain-on-one-side/" class="font-semibold text-secondary">our practical guide to one-sided jaw pain relief</a>. And if you have a history of smoking or alcohol use, be aware that persistent non-healing ulcers in the mouth warrant a separate evaluation — read <a href="/blogs/what-are-the-symptoms-of-oral-cancer/" class="font-semibold text-secondary">the symptoms of oral cancer</a> for the warning signs.</p>
 
                     <div class="bg-surface-container-lowest p-6 rounded-xl border border-surface-container-high my-10 not-prose shadow-sm">
                         <h3 class="font-headline-sm text-[20px] text-primary mb-4 flex items-center gap-2">
@@ -193,7 +193,7 @@ include $path_prefix . 'header.php';
                         <li>The tooth was not restored with a crown in time</li>
                         <li>An adjacent tooth or the surrounding bone was already infected</li>
                     </ul>
-                    <p>When this happens, infection can spread from the tooth into the jawbone, producing the symptoms described below. See also <a href="what-are-the-symptoms-of-jaw-disease.php" class="font-semibold text-secondary">the full list of jaw disease symptoms</a> for related signs.</p>
+                    <p>When this happens, infection can spread from the tooth into the jawbone, producing the symptoms described below. See also <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="font-semibold text-secondary">the full list of jaw disease symptoms</a> for related signs.</p>
 
                     <h2 id="early" class="scroll-mt-24">Early Warning Signs</h2>
                     <p>These usually appear within days to weeks of the root canal and should prompt a call to your dentist or specialist:</p>
@@ -218,7 +218,7 @@ include $path_prefix . 'header.php';
                         <li>Dental abscess with pus drainage into the mouth</li>
                         <li>Tooth mobility (loose tooth)</li>
                     </ul>
-                    <p>If you experience any of these, go to an emergency dental or maxillofacial service immediately. For an emergency in Hyderabad, see our <a href="emergency-treatment-for-facial-injuries-near-hyderbaad.php" class="font-semibold text-secondary">24/7 facial injury emergency page</a>.</p>
+                    <p>If you experience any of these, go to an emergency dental or maxillofacial service immediately. For an emergency in Hyderabad, see our <a href="/blogs/emergency-treatment-for-facial-injuries-near-hyderbaad/" class="font-semibold text-secondary">24/7 facial injury emergency page</a>.</p>
 
                     <h2 id="when" class="scroll-mt-24">When to See a Specialist</h2>
                     <p>A general dentist handles most root canals. But you should see a maxillofacial specialist (or an endodontist) if:</p>
@@ -229,7 +229,7 @@ include $path_prefix . 'header.php';
                         <li>You have facial swelling spreading toward the eye or neck</li>
                         <li>The root canal has failed and the tooth needs to be re-treated or removed</li>
                     </ul>
-                    <p>See also <a href="difference-between-a-dentist-and-a-maxillofacial-surgeon.php" class="font-semibold text-secondary">when to see a dentist vs a maxillofacial surgeon</a>.</p>
+                    <p>See also <a href="/blogs/difference-between-a-dentist-and-a-maxillofacial-surgeon/" class="font-semibold text-secondary">when to see a dentist vs a maxillofacial surgeon</a>.</p>
 
                     <h2 id="treatment" class="scroll-mt-24">Treatment Options</h2>
                     <p>Treatment depends on the extent of infection:</p>
@@ -241,7 +241,7 @@ include $path_prefix . 'header.php';
                         <li><strong>Tooth extraction</strong> — when the tooth cannot be saved, followed by implant or bridge</li>
                         <li><strong>Bone grafting</strong> — to fill the defect left by infection before placing an implant</li>
                     </ul>
-                    <p>At <a href="index.php" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we manage complex dental infections that have spread to the jaw, including <a href="dental-implants-vs-bone-grafts.php" class="font-semibold text-secondary">dental implants and bone grafts</a> when teeth cannot be saved.</p>
+                    <p>At <a href="/" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we manage complex dental infections that have spread to the jaw, including <a href="/blogs/dental-implants-vs-bone-grafts/" class="font-semibold text-secondary">dental implants and bone grafts</a> when teeth cannot be saved.</p>
 
                     <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
                         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
@@ -282,7 +282,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Persistent pain on biting, gum swelling, a gum boil, or an X-ray showing a dark area at the root tip all suggest failure. See <a href="herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means.php" class="font-semibold text-secondary">how jaw and tooth pain can be related</a>.
+                                Persistent pain on biting, gum swelling, a gum boil, or an X-ray showing a dark area at the root tip all suggest failure. See <a href="/blogs/herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means/" class="font-semibold text-secondary">how jaw and tooth pain can be related</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -385,21 +385,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
                         <div class="group cursor-pointer">
-                            <a href="what-are-the-symptoms-of-jaw-disease.php" class="block">
+                            <a href="/blogs/what-are-the-symptoms-of-jaw-disease/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">What Are the Symptoms of Jaw Disease?</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="causes-of-jaw-pain-on-one-side.php" class="block">
+                            <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Causes of Jaw Pain on One Side</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="dental-implants-vs-bone-grafts.php" class="block">
+                            <a href="/blogs/dental-implants-vs-bone-grafts/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Reconstruction</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Dental Implants vs. Bone Grafts</h4>
                             </a>

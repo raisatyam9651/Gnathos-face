@@ -15,9 +15,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights &amp; Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Patient Guides</span>
             </nav>
@@ -72,7 +72,7 @@ include $path_prefix . 'header.php';
 
                     <h2 id="anatomy" class="scroll-mt-24">Why the Ear and Jaw Overlap</h2>
                     <p>The temporomandibular joint (TMJ) sits just in front of the ear canal, separated from it by a paper-thin wall of bone. They share the same nerve supply (the auriculotemporal nerve and branches of the trigeminal nerve), and they use many of the same muscles. So when one is inflamed, the other is almost always affected.</p>
-                    <p>Because the brain often can't tell exactly where the pain signal is coming from, ear pain can be felt as jaw pain, and jaw pain can be felt as ear pain. This overlap is the reason <a href="causes-of-jaw-pain-on-one-side.php" class="font-semibold text-secondary">one-sided jaw pain</a> is so often misdiagnosed.</p>
+                    <p>Because the brain often can't tell exactly where the pain signal is coming from, ear pain can be felt as jaw pain, and jaw pain can be felt as ear pain. This overlap is the reason <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="font-semibold text-secondary">one-sided jaw pain</a> is so often misdiagnosed.</p>
 
                     <h2 id="ear" class="scroll-mt-24">How Ear Infections Cause Jaw Pain</h2>
                     <p>An ear infection — whether it's otitis externa (outer ear), otitis media (middle ear), or mastoiditis — produces inflammation and pressure. That inflammation can spread to the TMJ through the shared nerve pathways, and the pressure changes in the middle ear are felt as discomfort in the jaw on the same side.</p>
@@ -86,7 +86,7 @@ include $path_prefix . 'header.php';
                     <p>Each produces inflammation that, by proximity and shared nerves, refers pain to the jaw.</p>
 
                     <h2 id="tmj" class="scroll-mt-24">How TMJ Problems Mimic Ear Infections</h2>
-                    <p>It's just as common for TMJ disorders to look like ear problems. Many patients first visit an ENT surgeon for what turns out to be a jaw-joint issue. Common <a href="what-is-tmj-disorder.php" class="font-semibold text-secondary">TMJ symptoms that mimic ear infection</a> include:</p>
+                    <p>It's just as common for TMJ disorders to look like ear problems. Many patients first visit an ENT surgeon for what turns out to be a jaw-joint issue. Common <a href="/blogs/what-is-tmj-disorder/" class="font-semibold text-secondary">TMJ symptoms that mimic ear infection</a> include:</p>
                     <ul>
                         <li>Ear fullness or pressure</li>
                         <li>Earache without fever</li>
@@ -95,7 +95,7 @@ include $path_prefix . 'header.php';
                         <li>Dizziness or imbalance</li>
                         <li>Pain in front of the ear, especially with chewing or yawning</li>
                     </ul>
-                    <p>You can read more about the structural causes in our article on <a href="herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means.php" class="font-semibold text-secondary">herniated TMJ and disc displacement</a>.</p>
+                    <p>You can read more about the structural causes in our article on <a href="/blogs/herniated-tmj-jaw-clicking-locking-or-pain-heres-what-it-really-means/" class="font-semibold text-secondary">herniated TMJ and disc displacement</a>.</p>
 
                     <h2 id="differences" class="scroll-mt-24">How to Tell the Difference</h2>
                     <p>Use this comparison to help identify the source of your pain:</p>
@@ -114,7 +114,7 @@ include $path_prefix . 'header.php';
                     <p>Treatment depends entirely on the cause:</p>
                     <ul>
                         <li><strong>Ear infection</strong> — antibiotics (if bacterial), ear drops, pain relief, and follow-up with an ENT specialist</li>
-                        <li><strong>TMJ disorder</strong> — soft diet, hot/cold packs, jaw exercises, a night guard, medication, and specialist treatment if persistent (see <a href="how-to-cure-tmj-permanently.php" class="font-semibold text-secondary">how to cure TMJ permanently</a>)</li>
+                        <li><strong>TMJ disorder</strong> — soft diet, hot/cold packs, jaw exercises, a night guard, medication, and specialist treatment if persistent (see <a href="/blogs/how-to-cure-tmj-permanently/" class="font-semibold text-secondary">how to cure TMJ permanently</a>)</li>
                     </ul>
                     <p>See a specialist promptly if you have:</p>
                     <ul>
@@ -122,9 +122,9 @@ include $path_prefix . 'header.php';
                         <li>Fever, ear discharge, or hearing loss</li>
                         <li>Severe pain that prevents eating or sleeping</li>
                         <li>Jaw locking or inability to open the mouth fully</li>
-                        <li>Any of the <a href="broken-jaw-symptoms.php" class="font-semibold text-secondary">symptoms of a broken jaw</a> after trauma</li>
+                        <li>Any of the <a href="/blogs/broken-jaw-symptoms/" class="font-semibold text-secondary">symptoms of a broken jaw</a> after trauma</li>
                     </ul>
-                    <p>At <a href="index.php" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we routinely evaluate ear–jaw overlap symptoms and can direct you to the right specialist quickly. See our guide on <a href="what-type-of-doctor-do-i-need-to-see-for-tmj.php" class="font-semibold text-secondary">which doctor to see for jaw pain</a>.</p>
+                    <p>At <a href="/" class="font-semibold text-secondary">Gnathos Facial Surgery</a>, we routinely evaluate ear–jaw overlap symptoms and can direct you to the right specialist quickly. See our guide on <a href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/" class="font-semibold text-secondary">which doctor to see for jaw pain</a>.</p>
 
                     <div class="my-12 p-8 md:p-10 bg-gradient-to-br from-primary via-primary-container to-primary rounded-2xl border border-primary-fixed/20 text-center not-prose shadow-xl relative overflow-hidden">
                         <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)] pointer-events-none"></div>
@@ -147,7 +147,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Yes. Severe ear infections can cause swelling in front of and below the ear, sometimes making the jaw look puffy. If swelling is significant, see a specialist the same day to rule out <a href="symptoms-of-jaw-infection-after-the-root-canal.php" class="font-semibold text-secondary">jaw infection</a> or abscess.
+                                Yes. Severe ear infections can cause swelling in front of and below the ear, sometimes making the jaw look puffy. If swelling is significant, see a specialist the same day to rule out <a href="/blogs/symptoms-of-jaw-infection-after-the-root-canal/" class="font-semibold text-secondary">jaw infection</a> or abscess.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -165,7 +165,7 @@ include $path_prefix . 'header.php';
                                 <span class="material-symbols-outlined group-open:rotate-180 transition-transform text-secondary">expand_more</span>
                             </summary>
                             <p class="mt-4 font-body-md text-on-surface-variant leading-relaxed">
-                                Yes — impacted lower wisdom teeth are a classic cause of referred ear-jaw pain on the same side. See <a href="symptoms-of-impacted-wisdom-tooth.php" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a> and <a href="can-wisdom-teeth-cause-tmj.php" class="font-semibold text-secondary">whether wisdom teeth cause TMJ</a>.
+                                Yes — impacted lower wisdom teeth are a classic cause of referred ear-jaw pain on the same side. See <a href="/blogs/symptoms-of-impacted-wisdom-tooth/" class="font-semibold text-secondary">impacted wisdom tooth symptoms</a> and <a href="/blogs/can-wisdom-teeth-cause-tmj/" class="font-semibold text-secondary">whether wisdom teeth cause TMJ</a>.
                             </p>
                         </details>
                         <details class="group border border-surface-container-high rounded-xl bg-surface-container-lowest p-6 cursor-pointer open:bg-surface-container-low transition-colors shadow-sm">
@@ -268,21 +268,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
                         <div class="group cursor-pointer">
-                            <a href="what-is-tmj-disorder.php" class="block">
+                            <a href="/blogs/what-is-tmj-disorder/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">What Is TMJ Disorder?</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="causes-of-jaw-pain-on-one-side.php" class="block">
+                            <a href="/blogs/causes-of-jaw-pain-on-one-side/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Causes of Jaw Pain on One Side</h4>
                             </a>
                         </div>
 
                         <div class="group cursor-pointer">
-                            <a href="can-wisdom-teeth-cause-tmj.php" class="block">
+                            <a href="/blogs/can-wisdom-teeth-cause-tmj/" class="block">
                                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Can Wisdom Teeth Cause TMJ?</h4>
                             </a>

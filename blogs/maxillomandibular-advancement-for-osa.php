@@ -16,9 +16,9 @@ include $path_prefix . 'header.php';
     <div class="bg-surface-container-low border-b border-surface-container-high py-8">
         <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant font-label-md uppercase tracking-wider mb-6">
-                <a href="../index.php" class="hover:text-primary transition-colors">Home</a>
+                <a href="/" class="hover:text-primary transition-colors">Home</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
-                <a href="index.php" class="hover:text-primary transition-colors">Insights & Blogs</a>
+                <a href="/blogs/" class="hover:text-primary transition-colors">Insights & Blogs</a>
                 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
                 <span class="text-secondary">Airway Surgery</span>
             </nav>
@@ -98,7 +98,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        This is why the position of your maxilla and mandible is central to airway size. Bringing both jaws forward physically opens the space behind the tongue. That simple anatomical idea is the foundation of <a href="can-jaw-surgery-help-with-sleep-apnea.php">jaw surgery for sleep apnoea</a>.
+                        This is why the position of your maxilla and mandible is central to airway size. Bringing both jaws forward physically opens the space behind the tongue. That simple anatomical idea is the foundation of <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/">jaw surgery for sleep apnoea</a>.
                     </p>
 
                     <!-- Inline Image: Airway anatomy -->
@@ -109,7 +109,7 @@ include $path_prefix . 'header.php';
                     <h2 id="what-is-mma" class="scroll-mt-24">What is Maxillomandibular Advancement</h2>
 
                     <p>
-                        Maxillomandibular advancement, often shortened to MMA, is a combined <a href="what-is-orthognathic-surgery.php">orthognathic surgery</a> that moves both the upper jaw (maxilla) and the lower jaw (mandible) forward by about 8 to 12 millimetres.
+                        Maxillomandibular advancement, often shortened to MMA, is a combined <a href="/blogs/what-is-orthognathic-surgery/">orthognathic surgery</a> that moves both the upper jaw (maxilla) and the lower jaw (mandible) forward by about 8 to 12 millimetres.
                     </p>
 
                     <p>
@@ -151,7 +151,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you are unsure whether your jaw position contributes to your symptoms, our guide on <a href="can-jaw-surgery-help-with-sleep-apnea.php">jaw surgery for sleep apnoea</a> explains how anatomy and apnoea are linked.
+                        If you are unsure whether your jaw position contributes to your symptoms, our guide on <a href="/blogs/can-jaw-surgery-help-with-sleep-apnea/">jaw surgery for sleep apnoea</a> explains how anatomy and apnoea are linked.
                     </p>
 
                     <h2 id="pre-op" class="scroll-mt-24">Pre-Operative Workup</h2>
@@ -196,7 +196,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        If you want a deeper look at the technical background, our explainer on the <a href="what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained.php">purpose, procedure and recovery of orthognathic surgery</a> walks through each step in detail.
+                        If you want a deeper look at the technical background, our explainer on the <a href="/blogs/what-is-orthognathic-surgery-purpose-procedure-and-recovery-explained/">purpose, procedure and recovery of orthognathic surgery</a> walks through each step in detail.
                     </p>
 
                     <h2 id="recovery" class="scroll-mt-24">Recovery and Healing</h2>
@@ -214,7 +214,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Full bony union takes about six to eight weeks. By three months, most patients are eating normally and have resumed exercise. Final facial settling continues for up to a year. Detailed milestones are mapped in our <a href="recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips.php">recovery timeline</a> guide.
+                        Full bony union takes about six to eight weeks. By three months, most patients are eating normally and have resumed exercise. Final facial settling continues for up to a year. Detailed milestones are mapped in our <a href="/blogs/recovery-time-after-jaw-surgery-complete-healing-timeline-and-care-tips/">recovery timeline</a> guide.
                     </p>
 
                     <!-- Inline Image: Recovery -->
@@ -286,7 +286,7 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        A detailed breakdown of what to watch for is available in our article on the <a href="side-effects-of-maxillofacial-surgery-risks-complications-and-prevention.php">side effects of maxillofacial surgery</a>.
+                        A detailed breakdown of what to watch for is available in our article on the <a href="/blogs/side-effects-of-maxillofacial-surgery-risks-complications-and-prevention/">side effects of maxillofacial surgery</a>.
                     </p>
 
                     <h2 id="appearance" class="scroll-mt-24">How MMA Changes Facial Appearance</h2>
@@ -300,11 +300,11 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Changes are discussed in detail during VSP. We show you a predicted soft-tissue outcome before surgery so you know what to expect. To understand how jaw repositioning affects appearance more broadly, read about <a href="can-jaw-surgery-improve-facial-appearance.php">jaw surgery for facial appearance</a>.
+                        Changes are discussed in detail during VSP. We show you a predicted soft-tissue outcome before surgery so you know what to expect. To understand how jaw repositioning affects appearance more broadly, read about <a href="/blogs/can-jaw-surgery-improve-facial-appearance/">jaw surgery for facial appearance</a>.
                     </p>
 
                     <p>
-                        If you want a complete patient-side view, our <a href="jaw-surgery-orthognathic-complete-guide-for-patients.php">complete orthognathic guide for patients</a> covers planning, surgery, and the months that follow.
+                        If you want a complete patient-side view, our <a href="/blogs/jaw-surgery-orthognathic-complete-guide-for-patients/">complete orthognathic guide for patients</a> covers planning, surgery, and the months that follow.
                     </p>
 
                     <h2 id="cost" class="scroll-mt-24">Cost of MMA in India</h2>
@@ -328,11 +328,11 @@ include $path_prefix . 'header.php';
                     </p>
 
                     <p>
-                        Choosing the right surgeon matters. Look for a maxillofacial surgeon with fellowship training in orthognathic surgery and a track record in airway surgery. Practical selection tips are in our guide on <a href="how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad.php">how to choose the best maxillofacial surgeon in Hyderabad</a>.
+                        Choosing the right surgeon matters. Look for a maxillofacial surgeon with fellowship training in orthognathic surgery and a track record in airway surgery. Practical selection tips are in our guide on <a href="/blogs/how-to-choose-the-best-maxillofacial-surgeon-in-hyderabad/">how to choose the best maxillofacial surgeon in Hyderabad</a>.
                     </p>
 
                     <p>
-                        If you are unsure which specialist handles airway surgery, our overview on <a href="what-type-of-doctor-do-i-need-to-see-for-tmj.php">which doctor to consult for sleep apnoea surgery</a> clarifies the referral pathway. Always rule out acute trauma first by reviewing <a href="broken-jaw-symptoms.php">broken jaw symptoms</a> if a recent injury is in the picture.
+                        If you are unsure which specialist handles airway surgery, our overview on <a href="/blogs/what-type-of-doctor-do-i-need-to-see-for-tmj/">which doctor to consult for sleep apnoea surgery</a> clarifies the referral pathway. Always rule out acute trauma first by reviewing <a href="/blogs/broken-jaw-symptoms/">broken jaw symptoms</a> if a recent injury is in the picture.
                     </p>
 
                     <hr class="my-12 border-surface-container-high" />
@@ -473,21 +473,21 @@ include $path_prefix . 'header.php';
                     <div class="space-y-6 flex flex-col">
 
         <div class="group cursor-pointer">
-            <a href="cosmetic-facial-surgery-beyond-basics.php" class="block">
+            <a href="/blogs/cosmetic-facial-surgery-beyond-basics/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Cosmetic</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Cosmetic Facial Surgery: Beyond the Basics</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="recovery-protocols-jaw-reconstruction.php" class="block">
+            <a href="/blogs/recovery-protocols-jaw-reconstruction/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Patient Guides</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Evidence-Based Recovery Protocols for Jaw Reconstruction</h4>
             </a>
         </div>
 
         <div class="group cursor-pointer">
-            <a href="understanding-facial-trauma-management.php" class="block">
+            <a href="/blogs/understanding-facial-trauma-management/" class="block">
                 <span class="text-xs font-semibold text-secondary uppercase tracking-wider mb-1 block">Trauma Care</span>
                 <h4 class="font-headline-sm text-lg text-primary leading-snug group-hover:text-secondary transition-colors">Understanding Facial Trauma Management</h4>
             </a>
