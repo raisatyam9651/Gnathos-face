@@ -436,9 +436,6 @@ include $path_prefix . 'header.php';
 <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
 <!-- Blog Post 1 -->
 <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300">
-<div class="h-48 overflow-hidden bg-surface-container-low">
-<img alt="The Evolution of TMJ Arthroscopy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=1"/>
-</div>
 <div class="p-6">
 <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Surgical Techniques</span>
 <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">The Evolution of TMJ Arthroscopy: Minimally Invasive Solutions</h3>
@@ -453,9 +450,6 @@ include $path_prefix . 'header.php';
 </article>
 <!-- Blog Post 2 -->
 <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300">
-<div class="h-48 overflow-hidden bg-surface-container-low">
-<img alt="Recovery Protocols for Jaw Reconstruction" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=2"/>
-</div>
 <div class="p-6">
 <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Patient Guide</span>
 <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">Evidence-Based Recovery Protocols for Jaw Reconstruction</h3>
@@ -470,9 +464,6 @@ include $path_prefix . 'header.php';
 </article>
 <!-- Blog Post 3 -->
 <article class="bg-surface-container-lowest rounded-xl shadow-md border border-surface-container-high overflow-hidden group hover:shadow-[0_20px_40px_rgba(26,43,72,0.1)] transition-all duration-300">
-<div class="h-48 overflow-hidden bg-surface-container-low">
-<img alt="Advancements in 3D Surgical Planning" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://picsum.photos/800/600?random=3"/>
-</div>
 <div class="p-6">
 <span class="font-label-sm text-secondary uppercase tracking-wider mb-3 block">Clinical Technology</span>
 <h3 class="font-headline-sm text-[22px] text-primary mb-3 leading-snug">The Role of 3D Virtual Planning in Maxillofacial Procedures</h3>
