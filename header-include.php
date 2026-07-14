@@ -2,6 +2,7 @@
 <html class="light" lang="en">
 <head>
   <meta charset="utf-8"/>
+  <meta name="google-site-verification" content="51g92ic704Mi2kKEPdV1MYkR5TVfLSZLAfwHTM1mCek" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title><?php echo isset($page_title) ? $page_title : "Gnathos Facial &amp; Dr. Suresh | Maxillofacial Surgery"; ?></title>
   <?php if (isset($page_description) && !empty($page_description)): ?>
