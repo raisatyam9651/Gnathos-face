@@ -15,9 +15,28 @@
   <?php endif; ?>
   <meta content="index, follow" name="robots"/>
   <meta content="Gnathos Facial Surgery" name="author"/>
+  <meta content="maxillofacial surgeon in Hyderabad, TMJ, jaw surgery, facial trauma" name="geo.region" />
+  <meta content="IN-TG" name="geo.placename" />
+  <meta content="Hyderabad, Gachibowli" name="geo.position" />
+  <meta content="17.4401;78.3683" name="ICBM" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="<?php echo isset($page_title) ? $page_title : 'Gnathos Facial'; ?>" />
+  <meta property="og:description" content="<?php echo isset($page_description) ? $page_description : ''; ?>" />
+  <meta property="og:url" content="<?php echo isset($canonical_url) ? $canonical_url : 'https://gnathosface.com'; ?>" />
+  <meta property="og:site_name" content="Gnathos Facial" />
+  <meta property="og:image" content="https://gnathosface.com/asset/og-image.jpg" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<?php echo isset($page_title) ? $page_title : 'Gnathos Facial'; ?>" />
+  <meta name="twitter:description" content="<?php echo isset($page_description) ? $page_description : ''; ?>" />
+  <meta name="twitter:image" content="https://gnathosface.com/asset/og-image.jpg" />
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;family=Cormorant+Garamond:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
   <script id="tailwind-config">
     tailwind.config = {
       darkMode: "class",

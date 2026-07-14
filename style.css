@@ -1,54 +1,101 @@
-/* Custom Stylesheet for Gnathos Facial Surgery / Dr. Suresh Maxillofacial Portfolio */
+/* =============================================================
+   Gnathos Facial — Editorial Medical stylesheet
+   Tokens, medical-site utility classes, motion + a11y.
+   ============================================================= */
 
-/* Body default styling */
+:root {
+    --warm: #F8F5EF;
+    --warm-deep: #EFE9DC;
+    --navy: #0E2A47;
+    --navy-2: #1a3a5c;
+    --steel: #1F6F8B;
+    --steel-soft: #5b8fa6;
+    --trauma: #C8392E;
+    --trauma-deep: #a9302a;
+    --slate: #5A6573;
+    --slate-soft: #8a929b;
+    --hairline: rgba(14, 42, 71, 0.12);
+    --hairline-soft: rgba(14, 42, 71, 0.07);
+}
+
 body {
-    background-color: #f7f9fb;
-    color: #191c1e;
+    background-color: var(--warm);
+    color: var(--navy);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-/* Material symbols custom rendering */
-.material-symbols-outlined {
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+/* ── Typography utilities ─────────────────────────────────────── */
+.gna-serif { font-family: 'Cormorant Garamond','Playfair Display',Georgia,serif; font-weight: 500; letter-spacing: -0.01em; }
+.gna-serif-i { font-family: 'Cormorant Garamond',serif; font-style: italic; font-weight: 400; }
+.gna-eyebrow { font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; }
+.gna-link { position: relative; display: inline-flex; align-items: center; gap: .5rem; }
+.gna-link::after { content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 1px; background: currentColor; transform: scaleX(.4); transform-origin: left; transition: transform .4s ease; }
+.gna-link:hover::after { transform: scaleX(1); }
+
+/* ── Buttons ──────────────────────────────────────────────────── */
+.gna-btn { display: inline-flex; align-items: center; gap: .55rem; padding: .85rem 1.5rem; font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; transition: all .25s ease; background: transparent; cursor: pointer; border-radius: 4px; }
+.gna-btn-primary { background: var(--navy); color: white; border: 1px solid var(--navy); }
+.gna-btn-primary:hover { background: var(--steel); border-color: var(--steel); }
+.gna-btn-emergency { background: var(--trauma); color: white; border: 1px solid var(--trauma); }
+.gna-btn-emergency:hover { background: var(--trauma-deep); border-color: var(--trauma-deep); }
+.gna-btn-outline { background: transparent; color: var(--navy); border: 1px solid var(--navy); }
+.gna-btn-outline:hover { background: var(--navy); color: white; }
+.gna-btn-whatsapp { background: #25D366; color: white; border: 1px solid #25D366; }
+.gna-btn-whatsapp:hover { background: #1ebe5b; border-color: #1ebe5b; }
+
+/* ── Cards (no shadows; hairline border) ──────────────────────── */
+.gna-card { background: white; border: 1px solid var(--hairline); border-radius: 8px; transition: border-color .25s ease, transform .25s ease; }
+.gna-card:hover { border-color: var(--steel); }
+.gna-card-img { transition: transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease; }
+.gna-card:hover .gna-card-img { transform: scale(1.04); }
+
+/* ── Emergency strip (always-on trust signal) ─────────────────── */
+.gna-emergency { background: var(--trauma); color: white; }
+.gna-emergency a { color: white; text-decoration: none; }
+.gna-emergency a:hover { text-decoration: underline; }
+
+/* ── Hairline dividers ────────────────────────────────────────── */
+.gna-rule { border-color: var(--hairline); }
+.gna-rule-soft { border-color: var(--hairline-soft); }
+.gna-rule-light { border-color: rgba(248,245,239,0.18); }
+.gna-divider { border: 0; border-top: 1px solid var(--hairline); margin: 0; }
+
+/* ── Focus (a11y) ─────────────────────────────────────────────── */
+:focus-visible { outline: 2px solid var(--steel); outline-offset: 2px; border-radius: 2px; }
+.gna-nav-item:focus-within > .gna-nav-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+.gna-nav-menu { opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .2s ease, transform .2s ease, visibility 0s linear .2s; }
+.gna-nav-item:hover > .gna-nav-menu,
+.gna-nav-item:focus-within > .gna-nav-menu {
+    opacity: 1; visibility: visible; transform: translateY(0);
+    transition: opacity .2s ease, transform .2s ease, visibility 0s;
 }
-.material-symbols-outlined[data-weight="fill"] {
-    font-variation-settings: 'FILL' 1;
+.gna-mobile-menu { transition: transform .3s ease, opacity .3s ease; }
+.gna-mobile-menu[data-open="false"] { transform: translateX(100%); opacity: 0; pointer-events: none; }
+.gna-mobile-menu[data-open="true"] { transform: translateX(0); opacity: 1; pointer-events: auto; }
+
+/* ── Material Symbols (legacy) ────────────────────────────────── */
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.material-symbols-outlined[data-weight="fill"] { font-variation-settings: 'FILL' 1; }
+.icon-fill-1 { font-variation-settings: 'FILL' 1; }
+.icon-fill-0 { font-variation-settings: 'FILL' 0; }
+.icon-weight-300 { font-variation-settings: 'wght' 300; }
+
+/* ── Soft reveal (respects motion-reduce) ─────────────────────── */
+.gna-reveal { opacity: 0; transform: translateY(16px); transition: opacity .8s ease, transform .8s ease; }
+.gna-reveal.is-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+    .gna-reveal { opacity: 1; transform: none; transition: none; }
+    .gna-card-img, .gna-card, .gna-link::after, .gna-btn { transition: none !important; }
+    *, *::before, *::after { animation-duration: 0s !important; animation-iteration-count: 1 !important; transition-duration: 0s !important; }
 }
 
-/* Custom classes replacing inline styles */
-.icon-fill-1 {
-    font-variation-settings: 'FILL' 1;
-}
-.icon-fill-0 {
-    font-variation-settings: 'FILL' 0;
-}
-.icon-weight-300 {
-    font-variation-settings: 'wght' 300;
-}
+/* ── Native disclosure widgets ────────────────────────────────── */
+details > summary { list-style: none; cursor: pointer; }
+details > summary::-webkit-details-marker { display: none; }
 
-/* Visual effects classes */
-.ambient-shadow {
-    box-shadow: 0 10px 40px -10px rgba(26, 43, 72, 0.05);
-}
-.hover-lift {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.hover-lift:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 50px -10px rgba(26, 43, 72, 0.08);
-}
-.glass-panel {
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(224, 227, 229, 0.5);
-}
-.gradient-overlay {
-    background: linear-gradient(to right, rgba(3, 22, 50, 0.6) 0%, rgba(3, 22, 50, 0.2) 100%);
-}
-
-/* Custom Details/Summary Styles for FAQ */
-details > summary {
-    list-style: none;
-}
-details > summary::-webkit-details-marker {
-    display: none;
-}
+/* ── Legacy utility classes (preserved for inner pages) ───────── */
+.ambient-shadow { box-shadow: 0 10px 40px -10px rgba(26,43,72,0.05); }
+.hover-lift { transition: transform .3s ease, box-shadow .3s ease; }
+.hover-lift:hover { transform: translateY(-4px); box-shadow: 0 15px 50px -10px rgba(26,43,72,0.08); }
+.glass-panel { background: rgba(255,255,255,0.9); backdrop-filter: blur(12px); border: 1px solid rgba(224,227,229,0.5); }
+.gradient-overlay { background: linear-gradient(to right, rgba(3,22,50,0.6) 0%, rgba(3,22,50,0.2) 100%); }
