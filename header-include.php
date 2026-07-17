@@ -202,5 +202,21 @@
   <!-- Alternative ToChat Widget (Commented out)
   <script defer src="https://widget.tochat.be/bundle.js?key=6365b4c8-3167-4e13-ad05-384397c5d4af"></script>
   -->
+  <!-- Usermaven Analytics -->
+  <script type="text/javascript">
+    (function () {
+      window.usermaven = window.usermaven || (function () { (window.usermavenQ = window.usermavenQ || []).push(arguments); })
+      var t = document.createElement('script'),
+        s = document.getElementsByTagName('script')[0];
+      t.defer = true;
+      t.id = 'um-tracker';
+      t.setAttribute('data-tracking-host', "https://events.usermaven.com")
+      t.setAttribute('data-key', 'UMnSaqUG0F');
+      t.setAttribute('data-autocapture', 'true');
+      t.setAttribute('data-form-tracking', 'all');
+      t.src = 'https://t.usermaven.com/lib.js';
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
 </head>
 <body class="antialiased">
