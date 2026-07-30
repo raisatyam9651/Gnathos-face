@@ -178,8 +178,6 @@ include $path_prefix . 'header.php';
 }
 </script>
 
-<main>
-
 <!-- ── I. HERO — surgeon portrait + emergency panel ───────────────── -->
 <section class="bg-[#F8F5EF] border-b gna-rule">
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 pt-12 md:pt-16 pb-16 md:pb-24">
@@ -189,13 +187,13 @@ include $path_prefix . 'header.php';
       <div class="lg:col-span-7 order-2 lg:order-1">
         <!-- Eyebrow / context -->
         <div class="flex items-center gap-3 mb-6">
-          <span class="inline-block w-8 h-px bg-[var(--steel)]"></span>
-          <span class="gna-eyebrow text-[var(--steel)]">Maxillofacial &amp; Facial Reconstructive Surgery</span>
+          <span class="inline-block w-8 h-px bg-[var(--steel)] shrink-0"></span>
+          <span class="gna-eyebrow text-[var(--steel)] min-w-0">Maxillofacial &amp; Facial Reconstructive Surgery</span>
         </div>
 
         <!-- Headline -->
-        <h1 class="gna-serif text-[40px] sm:text-[52px] lg:text-[64px] leading-[1.02] tracking-[-0.015em] text-[var(--navy)] mb-6">
-          Surgery for the face, the jaw,<br/>
+        <h1 class="gna-serif gna-h1 text-[var(--navy)] mb-6">
+          Surgery for the face, the jaw,<br class="hidden sm:block"/>
           and the joint <span class="gna-serif-i text-[var(--steel)]">that connects them.</span>
         </h1>
 
@@ -210,17 +208,17 @@ include $path_prefix . 'header.php';
             <span class="gna-eyebrow text-[var(--slate)]">Surgeon</span>
             <span class="font-semibold text-[var(--navy)]">Dr. Suresh, MDS</span>
           </div>
-          <div class="text-[var(--slate-soft)]">·</div>
+          <div class="text-[var(--slate-soft)]" aria-hidden="true">·</div>
           <div class="flex items-center gap-2 text-[13px]">
             <span class="gna-eyebrow text-[var(--slate)]">Practice</span>
             <span class="font-semibold text-[var(--navy)]">Est. 2004</span>
           </div>
-          <div class="text-[var(--slate-soft)]">·</div>
+          <div class="text-[var(--slate-soft)]" aria-hidden="true">·</div>
           <div class="flex items-center gap-2 text-[13px]">
             <span class="gna-eyebrow text-[var(--slate)]">Procedures</span>
             <span class="font-semibold text-[var(--navy)]">5,000+</span>
           </div>
-          <div class="text-[var(--slate-soft)]">·</div>
+          <div class="text-[var(--slate-soft)]" aria-hidden="true">·</div>
           <div class="flex items-center gap-2 text-[13px]">
             <span class="gna-eyebrow text-[var(--slate)]">Hospital</span>
             <span class="font-semibold text-[var(--navy)]">CARE Hospitals</span>
@@ -228,37 +226,41 @@ include $path_prefix . 'header.php';
         </div>
 
         <!-- CTAs -->
-        <div class="flex flex-wrap items-center gap-3 mb-8">
-          <a href="#contact" class="gna-btn gna-btn-primary">Book Appointment →</a>
-          <a href="https://wa.me/919000666476?text=Hello%20Gnathos%20team%2C%20I%27d%20like%20a%20consultation." target="_blank" rel="noopener" class="gna-btn gna-btn-whatsapp">WhatsApp Us</a>
-          <a href="tel:+919000666476" class="gna-btn gna-btn-outline">Call +91 90006 66476</a>
+        <div class="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3 mb-8">
+          <a href="#contact" class="gna-btn gna-btn-primary w-full sm:w-auto">Book Appointment →</a>
+          <a href="https://wa.me/919000666476?text=Hello%20Gnathos%20team%2C%20I%27d%20like%20a%20consultation." target="_blank" rel="noopener" class="gna-btn gna-btn-whatsapp w-full sm:w-auto">WhatsApp Us</a>
+          <a href="tel:+919000666476" class="gna-btn gna-btn-outline w-full sm:w-auto">Call +91 90006 66476</a>
         </div>
 
         <!-- Trust micro-line -->
         <div class="flex flex-wrap items-center gap-x-5 gap-y-2 gna-eyebrow text-[var(--slate)]">
-          <span class="flex items-center gap-1.5">
-            <span class="text-[var(--steel)]">✓</span> NABH-accredited
+          <span class="flex items-center gap-1.5" role="img" aria-label="Rated 4.9 out of 5 from 187 Google reviews">
+            <span class="text-[var(--steel)]" aria-hidden="true">★</span> <strong class="font-semibold text-[var(--navy)]">4.9</strong> · 187 reviews
           </span>
-          <span class="text-[var(--slate-soft)]">·</span>
+          <span class="text-[var(--slate-soft)]" aria-hidden="true">·</span>
           <span class="flex items-center gap-1.5">
-            <span class="text-[var(--steel)]">✓</span> AOMSI Member
+            <span class="text-[var(--steel)]" aria-hidden="true">✓</span> NABH-accredited
           </span>
-          <span class="text-[var(--slate-soft)]">·</span>
+          <span class="text-[var(--slate-soft)]" aria-hidden="true">·</span>
           <span class="flex items-center gap-1.5">
-            <span class="text-[var(--steel)]">✓</span> Cashless Insurance
+            <span class="text-[var(--steel)]" aria-hidden="true">✓</span> AOMSI Member
+          </span>
+          <span class="text-[var(--slate-soft)]" aria-hidden="true">·</span>
+          <span class="flex items-center gap-1.5">
+            <span class="text-[var(--steel)]" aria-hidden="true">✓</span> Cashless Insurance
           </span>
         </div>
       </div>
 
       <!-- Right: surgeon portrait + emergency card -->
-      <div class="lg:col-span-5 order-1 lg:order-2">
+      <div class="lg:col-span-5 order-1 lg:order-2 mb-10 lg:mb-0">
         <div class="relative">
           <!-- Surgeon portrait -->
           <div class="aspect-[4/5] overflow-hidden rounded-md border gna-rule bg-[var(--warm-deep)]">
-            <img src="asset/Dr.-Suresh.webp" alt="Dr. Suresh, MDS — Maxillofacial Surgeon" class="w-full h-full object-cover" style="object-position: center 22%;"/>
+            <img src="asset/Dr.-Suresh.webp" alt="Dr. Suresh, MDS — Maxillofacial Surgeon" width="300" height="335" fetchpriority="high" decoding="async" class="w-full h-full object-cover" style="object-position: center 22%;"/>
           </div>
           <!-- Identity caption (anchored, not floating disconnected) -->
-          <div class="absolute -bottom-5 left-4 right-4 md:left-6 md:right-auto md:max-w-[320px] bg-white border gna-rule rounded-md p-4 shadow-md">
+          <div class="absolute -bottom-5 left-4 right-4 md:left-6 md:right-auto md:max-w-[320px] bg-white border gna-rule rounded-md p-4 gna-float">
             <div class="flex items-center gap-3">
               <div class="w-11 h-11 rounded-full bg-[var(--warm-deep)] overflow-hidden shrink-0 border gna-rule">
                 <img src="asset/dr-navatha-mortha-facial.webp" alt="" aria-hidden="true" class="w-full h-full object-cover"/>
@@ -271,7 +273,7 @@ include $path_prefix . 'header.php';
           </div>
 
           <!-- Emergency overlay card -->
-          <div class="hidden lg:block absolute -top-6 -right-6 bg-[var(--trauma)] text-white rounded-md p-5 max-w-[220px] shadow-lg">
+          <div class="hidden lg:block absolute -top-6 -right-6 bg-[var(--trauma)] text-white rounded-md p-5 max-w-[220px] gna-float ring-1 ring-black/10">
             <div class="flex items-center gap-2 mb-2">
               <span class="w-2 h-2 bg-white rounded-full animate-pulse" aria-hidden="true"></span>
               <span class="gna-eyebrow text-white">Trauma Line</span>
@@ -336,25 +338,28 @@ include $path_prefix . 'header.php';
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-10 md:py-14">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-center">
       <div class="md:col-span-3">
-        <p class="gna-eyebrow text-[var(--steel)] mb-2">Tell us what's wrong</p>
-        <p class="gna-serif text-[22px] md:text-[26px] leading-[1.1] text-[var(--navy)]">I have a problem with my…</p>
+        <div class="flex items-center gap-3 mb-3">
+          <span class="inline-block w-8 h-px bg-[var(--steel)]"></span>
+          <span class="gna-eyebrow text-[var(--steel)]">Tell us what's wrong</span>
+        </div>
+        <h2 class="gna-serif text-[22px] md:text-[26px] leading-[1.1] text-[var(--navy)]">I have a problem with my…</h2>
       </div>
       <div class="md:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-3">
-        <a href="tmj-disorders.php" class="gna-card p-5 md:p-6 hover:bg-white transition-all group" aria-label="Jaw pain — TMJ disorders">
+        <a href="tmj-disorders.php" class="gna-card gna-triage p-5 md:p-6 transition-all group" aria-label="Jaw pain — TMJ disorders">
           <svg class="w-7 h-7 mb-3 text-[var(--steel)] group-hover:text-[var(--navy)] transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M8 3c-2.5 0-4 1.5-4 4v3c0 1.5.5 2.5 1 4 .5 1.5.5 2.5.5 4 0 2 1 3 2.5 3s2-1 2-3v-1h4v1c0 2 .5 3 2 3s2.5-1 2.5-3c0-1.5 0-2.5.5-4 .5-1.5 1-2.5 1-4V7c0-2.5-1.5-4-4-4-1 0-1.5.3-2 1-.5-.7-1-1-2-1-1.5 0-2 .5-2 1"/>
           </svg>
           <div class="font-semibold text-[14px] md:text-[15px] text-[var(--navy)]">Jaw</div>
           <div class="text-[12px] text-[var(--slate)] mt-1">Pain, clicking, locking</div>
         </a>
-        <a href="facial-injuries.php" class="gna-card p-5 md:p-6 hover:bg-white transition-all group" aria-label="Facial injury — fractures and trauma">
+        <a href="facial-injuries.php" class="gna-card gna-triage p-5 md:p-6 transition-all group" aria-label="Facial injury — fractures and trauma">
           <svg class="w-7 h-7 mb-3 text-[var(--trauma)] group-hover:text-[var(--navy)] transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M12 2a3 3 0 0 1 3 3v1.5c0 1 .5 2 1 2.5l3 3c1 1 1.5 2 1.5 3.5 0 2-1.5 3.5-3.5 3.5h-1c-1 0-1.5.5-1.5 1.5v2c0 1-1 2-2 2h-3c-1 0-2-1-2-2v-2c0-1-.5-1.5-1.5-1.5h-1C2 18.5.5 17 .5 15c0-1.5.5-2.5 1.5-3.5l3-3c.5-.5 1-1.5 1-2.5V5a3 3 0 0 1 3-3z"/>
           </svg>
           <div class="font-semibold text-[14px] md:text-[15px] text-[var(--navy)]">Face</div>
           <div class="text-[12px] text-[var(--slate)] mt-1">Fracture, accident, laceration</div>
         </a>
-        <a href="oral-cancer.php" class="gna-card p-5 md:p-6 hover:bg-white transition-all group" aria-label="Mouth lesion or growth">
+        <a href="oral-cancer.php" class="gna-card gna-triage p-5 md:p-6 transition-all group" aria-label="Mouth lesion or growth">
           <svg class="w-7 h-7 mb-3 text-[var(--steel)] group-hover:text-[var(--navy)] transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M9 3v2m6-2v2M8 7h8c1 0 2 1 2 2v8c0 2.5-2.5 4.5-6 4.5S6 19.5 6 17V9c0-1 1-2 2-2z"/>
             <path d="M10 12h4"/>
@@ -362,7 +367,7 @@ include $path_prefix . 'header.php';
           <div class="font-semibold text-[14px] md:text-[15px] text-[var(--navy)]">Mouth</div>
           <div class="text-[12px] text-[var(--slate)] mt-1">Lesion, growth, ulcer</div>
         </a>
-        <a href="rhinoplasty.php" class="gna-card p-5 md:p-6 hover:bg-white transition-all group" aria-label="Nasal surgery or breathing issues">
+        <a href="rhinoplasty.php" class="gna-card gna-triage p-5 md:p-6 transition-all group" aria-label="Nasal surgery or breathing issues">
           <svg class="w-7 h-7 mb-3 text-[var(--steel)] group-hover:text-[var(--navy)] transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M12 3c-3 0-5 2-5 5 0 1.5.5 3 1 4.5l1 3c.5 1.5 1 2.5 1 4 0 2 .5 3.5 2 3.5s2-1.5 2-3.5c0-1.5.5-2.5 1-4l1-3c.5-1.5 1-3 1-4.5 0-3-2-5-5-5z"/>
           </svg>
@@ -379,32 +384,35 @@ include $path_prefix . 'header.php';
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-20 md:py-28">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-start">
       <div class="md:col-span-4">
-        <p class="gna-eyebrow text-[var(--steel)] mb-3">§ About the Practice</p>
-        <h2 class="gna-serif text-[36px] md:text-[48px] leading-[1.05] text-[var(--navy)]">Hyderabad's focused maxillofacial surgery practice.</h2>
+        <div class="flex items-center gap-3 mb-3">
+          <span class="inline-block w-8 h-px bg-[var(--steel)]"></span>
+          <span class="gna-eyebrow text-[var(--steel)]">About the Practice</span>
+        </div>
+        <h2 class="gna-serif gna-h2 text-[var(--navy)]">Hyderabad's focused maxillofacial surgery practice.</h2>
       </div>
       <div class="md:col-span-7 md:col-start-6 text-[16px] leading-[1.7] text-[var(--slate)] space-y-5">
-        <p>Dr. Suresh founded Gnathos in Hyderabad in 2004 after a decade of tertiary-care academic maxillofacial surgery. The practice has never expanded into adjacent specialties. The choice was deliberate: stay focused on the face, the jaws, and the joint in front of the ear.</p>
+        <p class="gna-serif text-[21px] md:text-[25px] leading-[1.45] text-[var(--navy)]">Dr. Suresh founded Gnathos in Hyderabad in 2004 after a decade of tertiary-care academic maxillofacial surgery. The practice has never expanded into adjacent specialties. The choice was deliberate: stay focused on the face, the jaws, and the joint in front of the ear.</p>
         <p>Dr. Navatha Mortha joined as a second consultant surgeon in 2018, extending the practice's reach into TMJ arthroscopy and orthognathic surgery. Both surgeons continue to operate five days a week at hospitals across Hyderabad, publish in peer-reviewed journals, and consult on complex cases referred from across Telangana and Andhra Pradesh.</p>
         <p>Surgery takes place at NABH-accredited hospitals in Hyderabad — primarily <a href="#contact" class="gna-link font-medium">CARE Hospitals, Banjara Hills</a>, with additional operating privileges at KIMS, Apollo Spectra, and Yashoda Hospitals. This gives patients access to full ICU, anaesthesia, and emergency backup that a standalone clinic cannot.</p>
       </div>
     </div>
 
     <!-- Quick stats -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mt-16 pt-10 border-t gna-rule">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-6 md:gap-8 mt-16 pt-10 border-t gna-rule md:divide-x md:divide-[var(--hairline)] md:[&>*]:pl-8 md:[&>*:first-child]:pl-0">
       <div>
-        <div class="gna-serif text-[44px] md:text-[56px] leading-none text-[var(--navy)]">20<sup class="text-[16px] text-[var(--steel)]">+</sup></div>
+        <div class="gna-serif gna-stat text-[var(--navy)]">20<sup class="text-[16px] text-[var(--steel)]">+</sup></div>
         <div class="gna-eyebrow text-[var(--slate)] mt-3">Years Operating</div>
       </div>
       <div>
-        <div class="gna-serif text-[44px] md:text-[56px] leading-none text-[var(--navy)]">5,000<sup class="text-[16px] text-[var(--steel)]">+</sup></div>
+        <div class="gna-serif gna-stat text-[var(--navy)]">5,000<sup class="text-[16px] text-[var(--steel)]">+</sup></div>
         <div class="gna-eyebrow text-[var(--slate)] mt-3">Procedures</div>
       </div>
       <div>
-        <div class="gna-serif text-[44px] md:text-[56px] leading-none text-[var(--navy)]">15<sup class="text-[16px] text-[var(--steel)]">+</sup></div>
+        <div class="gna-serif gna-stat text-[var(--navy)]">15<sup class="text-[16px] text-[var(--steel)]">+</sup></div>
         <div class="gna-eyebrow text-[var(--slate)] mt-3">Publications</div>
       </div>
       <div>
-        <div class="gna-serif text-[44px] md:text-[56px] leading-none text-[var(--navy)]">2</div>
+        <div class="gna-serif gna-stat text-[var(--navy)]">2</div>
         <div class="gna-eyebrow text-[var(--slate)] mt-3">Consultant Surgeons</div>
       </div>
     </div>
@@ -416,8 +424,11 @@ include $path_prefix . 'header.php';
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-20 md:py-28">
     <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
       <div class="max-w-2xl">
-        <p class="gna-eyebrow text-[var(--steel)] mb-3">Conditions &amp; Procedures</p>
-        <h2 class="gna-serif text-[36px] md:text-[48px] leading-[1.05] text-[var(--navy)]">Six specialties. One practice.</h2>
+        <div class="flex items-center gap-3 mb-3">
+          <span class="inline-block w-8 h-px bg-[var(--steel)]"></span>
+          <span class="gna-eyebrow text-[var(--steel)]">Conditions &amp; Procedures</span>
+        </div>
+        <h2 class="gna-serif gna-h2 text-[var(--navy)]">Six specialties. One practice.</h2>
         <p class="text-[15px] leading-[1.65] text-[var(--slate)] mt-3 max-w-xl">Browse by the problem that brought you here, or jump to a specific surgery. Each page covers diagnosis, options, recovery, and what to bring to your first visit.</p>
       </div>
       <a href="conditions.php" class="hidden md:inline-flex gna-eyebrow gna-link text-[var(--navy)] self-end">All conditions →</a>
@@ -427,7 +438,7 @@ include $path_prefix . 'header.php';
       <!-- TMJ -->
       <a href="tmj-disorders.php" class="gna-card overflow-hidden flex flex-col">
         <div class="aspect-[4/3] overflow-hidden">
-          <img src="asset/tmj_disorders_before_after.png" alt="TMJ disorders" class="w-full h-full object-cover gna-card-img"/>
+          <img src="asset/tmj_disorders_before_after.webp" alt="TMJ disorders — before and after" width="840" height="840" loading="lazy" decoding="async" class="w-full h-full object-cover gna-card-img"/>
         </div>
         <div class="p-5 md:p-6 flex flex-col grow">
           <div class="gna-eyebrow text-[var(--steel)] mb-3">01 · Temporomandibular</div>
@@ -440,7 +451,7 @@ include $path_prefix . 'header.php';
       <!-- Facial injuries -->
       <a href="facial-injuries.php" class="gna-card overflow-hidden flex flex-col">
         <div class="aspect-[4/3] overflow-hidden">
-          <img src="asset/facial_injuries_before_after.png" alt="Facial injuries and trauma" class="w-full h-full object-cover gna-card-img"/>
+          <img src="asset/facial_injuries_before_after.webp" alt="Facial injury and fracture repair — before and after" width="840" height="840" loading="lazy" decoding="async" class="w-full h-full object-cover gna-card-img"/>
         </div>
         <div class="p-5 md:p-6 flex flex-col grow">
           <div class="gna-eyebrow text-[var(--trauma)] mb-3">02 · Trauma · 24/7</div>
@@ -453,7 +464,7 @@ include $path_prefix . 'header.php';
       <!-- Orthognathic -->
       <a href="orthognathic-surgery.php" class="gna-card overflow-hidden flex flex-col">
         <div class="aspect-[4/3] overflow-hidden">
-          <img src="asset/jaw_reconstruction_before_after.png" alt="Orthognathic jaw surgery" class="w-full h-full object-cover gna-card-img"/>
+          <img src="asset/jaw_reconstruction_before_after.webp" alt="Orthognathic jaw surgery — before and after" width="840" height="840" loading="lazy" decoding="async" class="w-full h-full object-cover gna-card-img"/>
         </div>
         <div class="p-5 md:p-6 flex flex-col grow">
           <div class="gna-eyebrow text-[var(--steel)] mb-3">03 · Skeletal Correction</div>
@@ -466,7 +477,7 @@ include $path_prefix . 'header.php';
       <!-- Rhinoplasty -->
       <a href="rhinoplasty.php" class="gna-card overflow-hidden flex flex-col">
         <div class="aspect-[4/3] overflow-hidden">
-          <img src="asset/rhinoplasty.png" alt="Rhinoplasty surgery" class="w-full h-full object-cover gna-card-img"/>
+          <img src="asset/rhinoplasty.webp" alt="Rhinoplasty and septoplasty — before and after" width="840" height="840" loading="lazy" decoding="async" class="w-full h-full object-cover gna-card-img"/>
         </div>
         <div class="p-5 md:p-6 flex flex-col grow">
           <div class="gna-eyebrow text-[var(--steel)] mb-3">04 · Functional &amp; Aesthetic</div>
@@ -479,7 +490,7 @@ include $path_prefix . 'header.php';
       <!-- Sleep apnea -->
       <a href="obstructive-sleep-apnea.php" class="gna-card overflow-hidden flex flex-col">
         <div class="aspect-[4/3] overflow-hidden">
-          <img src="asset/osa_before_after.png" alt="Sleep apnea surgery" class="w-full h-full object-cover gna-card-img"/>
+          <img src="asset/osa_before_after.webp" alt="Sleep apnea surgery — before and after" width="840" height="840" loading="lazy" decoding="async" class="w-full h-full object-cover gna-card-img"/>
         </div>
         <div class="p-5 md:p-6 flex flex-col grow">
           <div class="gna-eyebrow text-[var(--steel)] mb-3">05 · Airway</div>
@@ -492,7 +503,7 @@ include $path_prefix . 'header.php';
       <!-- Oral cancer -->
       <a href="oral-cancer.php" class="gna-card overflow-hidden flex flex-col">
         <div class="aspect-[4/3] overflow-hidden">
-          <img src="asset/oral_cancers_before_after.png" alt="Oral cancer surgery" class="w-full h-full object-cover gna-card-img"/>
+          <img src="asset/oral_cancers_before_after.webp" alt="Oral cancer resection and reconstruction — before and after" width="840" height="840" loading="lazy" decoding="async" class="w-full h-full object-cover gna-card-img"/>
         </div>
         <div class="p-5 md:p-6 flex flex-col grow">
           <div class="gna-eyebrow text-[var(--steel)] mb-3">06 · Oncology</div>
@@ -506,18 +517,18 @@ include $path_prefix . 'header.php';
 </section>
 
 <!-- ── V. Credentials / affiliations strip ────────────────────────── -->
-<section class="bg-[#F8F5EF] border-y gna-rule">
+<section class="bg-white border-y gna-rule">
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-10">
     <p class="gna-eyebrow text-[var(--slate)] text-center mb-6">Operating Privileges &amp; Professional Affiliations</p>
     <div class="flex flex-wrap items-center justify-center gap-x-8 md:gap-x-12 gap-y-4 text-[14px] md:text-[16px]">
       <div class="gna-serif font-semibold text-[var(--navy)]">CARE Hospitals</div>
-      <div class="text-[var(--slate-soft)]">·</div>
+      <div class="text-[var(--slate-soft)]" aria-hidden="true">·</div>
       <div class="gna-serif font-semibold text-[var(--navy)]">KIMS</div>
-      <div class="text-[var(--slate-soft)]">·</div>
+      <div class="text-[var(--slate-soft)]" aria-hidden="true">·</div>
       <div class="gna-serif font-semibold text-[var(--navy)]">Apollo Spectra</div>
-      <div class="text-[var(--slate-soft)]">·</div>
+      <div class="text-[var(--slate-soft)]" aria-hidden="true">·</div>
       <div class="gna-serif font-semibold text-[var(--navy)]">Yashoda</div>
-      <div class="text-[var(--slate-soft)]">·</div>
+      <div class="text-[var(--slate-soft)]" aria-hidden="true">·</div>
       <div class="gna-eyebrow text-[var(--slate)]">AOMSI · IAOMS · NABH</div>
     </div>
     <p class="text-center text-[13px] text-[var(--slate)] mt-6 max-w-2xl mx-auto">Surgery takes place only at NABH-accredited facilities with full ICU, anaesthesia, and emergency backup.</p>
@@ -529,7 +540,7 @@ include $path_prefix . 'header.php';
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-20 md:py-28">
     <div class="text-center mb-14 md:mb-16 max-w-3xl mx-auto">
       <p class="gna-eyebrow text-[var(--steel)] mb-3">§ Our Surgeons</p>
-      <h2 class="gna-serif text-[36px] md:text-[48px] leading-[1.05] text-[var(--navy)]">Two consultants.<br/>One operating philosophy.</h2>
+      <h2 class="gna-serif gna-h2 text-[var(--navy)]">Two consultants.<br/>One operating philosophy.</h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 max-w-5xl mx-auto">
@@ -537,7 +548,7 @@ include $path_prefix . 'header.php';
       <!-- Dr. Suresh -->
       <article class="gna-card overflow-hidden">
         <div class="aspect-[4/5] bg-[var(--warm-deep)] overflow-hidden">
-          <img src="asset/Dr.-Suresh.webp" alt="Portrait of Dr. Suresh, MDS" class="w-full h-full object-cover"/>
+          <img src="asset/Dr.-Suresh.webp" alt="Portrait of Dr. Suresh, MDS" width="300" height="335" loading="lazy" decoding="async" class="w-full h-full object-cover"/>
         </div>
         <div class="p-7 md:p-8">
           <div class="gna-eyebrow text-[var(--steel)] mb-2">Consultant · Surgeon I</div>
@@ -556,7 +567,7 @@ include $path_prefix . 'header.php';
       <!-- Dr. Navatha -->
       <article class="gna-card overflow-hidden">
         <div class="aspect-[4/5] bg-[var(--warm-deep)] overflow-hidden">
-          <img src="asset/dr-navatha-mortha-facial.webp" alt="Portrait of Dr. Navatha Mortha, MDS" class="w-full h-full object-cover"/>
+          <img src="asset/dr-navatha-mortha-facial.webp" alt="Portrait of Dr. Navatha Mortha, MDS" width="300" height="335" loading="lazy" decoding="async" class="w-full h-full object-cover"/>
         </div>
         <div class="p-7 md:p-8">
           <div class="gna-eyebrow text-[var(--steel)] mb-2">Consultant · Surgeon II</div>
@@ -581,13 +592,13 @@ include $path_prefix . 'header.php';
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-20 md:py-28">
     <div class="mb-12 md:mb-16 max-w-2xl">
       <p class="gna-eyebrow text-[var(--steel)] mb-3">§ Patient Accounts</p>
-      <h2 class="gna-serif text-[36px] md:text-[48px] leading-[1.05] text-[var(--navy)]">Patients, in their own words.</h2>
+      <h2 class="gna-serif gna-h2 text-[var(--navy)]">Patients, in their own words.</h2>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
 
       <figure class="gna-card p-7 md:p-8 flex flex-col">
-        <div class="flex gap-1 text-[var(--steel)] mb-5">★ ★ ★ ★ ★</div>
+        <div role="img" aria-label="Rated 5 out of 5" class="flex gap-1 text-[var(--steel)] mb-5"><span aria-hidden="true">★ ★ ★ ★ ★</span></div>
         <blockquote class="gna-serif text-[18px] leading-[1.5] text-[var(--navy)] mb-6 grow">
           "Two years of jaw pain, four conservative treatments that didn't work. Dr. Suresh walked me through the arthroscopy images on a screen before the operation. I went home the next morning and ate soft food by week three."
         </blockquote>
@@ -598,7 +609,7 @@ include $path_prefix . 'header.php';
       </figure>
 
       <figure class="gna-card p-7 md:p-8 flex flex-col">
-        <div class="flex gap-1 text-[var(--steel)] mb-5">★ ★ ★ ★ ★</div>
+        <div role="img" aria-label="Rated 5 out of 5" class="flex gap-1 text-[var(--steel)] mb-5"><span aria-hidden="true">★ ★ ★ ★ ★</span></div>
         <blockquote class="gna-serif text-[18px] leading-[1.5] text-[var(--navy)] mb-6 grow">
           "My son had a complex facial fracture after a road accident. The team met us at the ER at 2am, operated at sunrise. Six weeks later he looks like himself. I cannot overstate what that meant for our family."
         </blockquote>
@@ -609,7 +620,7 @@ include $path_prefix . 'header.php';
       </figure>
 
       <figure class="gna-card p-7 md:p-8 flex flex-col">
-        <div class="flex gap-1 text-[var(--steel)] mb-5">★ ★ ★ ★ ★</div>
+        <div role="img" aria-label="Rated 5 out of 5" class="flex gap-1 text-[var(--steel)] mb-5"><span aria-hidden="true">★ ★ ★ ★ ★</span></div>
         <blockquote class="gna-serif text-[18px] leading-[1.5] text-[var(--navy)] mb-6 grow">
           "Orthognathic surgery was a bigger decision than my wedding. The 3D planning session at Gnathos made it feel like a project with measurable steps, not a leap of faith. I'm a year out and chewing, smiling, sleeping better."
         </blockquote>
@@ -624,12 +635,12 @@ include $path_prefix . 'header.php';
 </section>
 
 <!-- ── VIII. Insurance / payment trust line ───────────────────────── -->
-<section class="bg-[var(--navy)] text-white border-y gna-rule-light">
+<section id="insurance" class="bg-[var(--navy)] text-white border-y gna-rule-light">
   <div class="max-w-[1280px] mx-auto px-4 md:px-8 py-12 md:py-14">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
       <div class="md:col-span-1">
         <p class="gna-eyebrow text-white/60 mb-2">Payment &amp; Insurance</p>
-        <h3 class="gna-serif text-[24px] md:text-[28px] leading-[1.15] text-white">Cashless and EMI options.</h3>
+        <h2 class="gna-serif text-[24px] md:text-[28px] leading-[1.15] text-white">Cashless and EMI options.</h2>
       </div>
       <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6 text-[14px]">
         <div class="border-l-2 border-[var(--steel)] pl-4">
@@ -685,7 +696,7 @@ include $path_prefix . 'header.php';
         <p class="text-[13px] leading-[1.55] text-[var(--slate)] mb-4">Resection, neck dissection, and microvascular reconstruction at CARE Hospitals, Banjara Hills.</p>
         <span class="text-[12px] font-semibold text-[var(--steel)] gna-link">Read more →</span>
       </a>
-      <a href="sleep-apnea.php" class="gna-card p-6 group block">
+      <a href="obstructive-sleep-apnea.php" class="gna-card p-6 group block">
         <div class="gna-eyebrow text-[var(--steel)] mb-2">Service</div>
         <h3 class="gna-serif text-[22px] text-[var(--navy)] leading-[1.15] mb-2 group-hover:text-[var(--steel)] transition-colors">Sleep apnea surgery</h3>
         <p class="text-[13px] leading-[1.55] text-[var(--slate)] mb-4">Maxillomandibular advancement and UPPP for OSA when CPAP isn't tolerated — Hyderabad practice.</p>
@@ -713,13 +724,13 @@ include $path_prefix . 'header.php';
     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12">
       <div class="md:col-span-4">
         <p class="gna-eyebrow text-[var(--steel)] mb-3">§ Before you book</p>
-        <h2 class="gna-serif text-[36px] md:text-[44px] leading-[1.05] text-[var(--navy)] mb-4">Common questions, answered honestly.</h2>
+        <h2 class="gna-serif gna-h2 text-[var(--navy)] mb-4">Common questions, answered honestly.</h2>
         <p class="text-[14px] leading-[1.65] text-[var(--slate)]">If your question isn't here, message us on WhatsApp and we'll answer within the hour during clinic hours.</p>
       </div>
       <div class="md:col-span-8 divide-y gna-rule">
         <details class="group py-6">
           <summary class="flex justify-between items-start gap-6 cursor-pointer list-none">
-            <span class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium">How long is recovery from orthognathic surgery?</span>
+            <h3 class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium m-0">How long is recovery from orthognathic surgery?</h3>
             <span class="text-[24px] text-[var(--steel)] group-open:rotate-45 transition-transform duration-300 shrink-0 leading-none mt-1" aria-hidden="true">+</span>
           </summary>
           <p class="mt-4 text-[15px] leading-[1.7] text-[var(--slate)] max-w-2xl">Return to non-strenuous work takes two to three weeks. Skeletal healing continues for nine to twelve months. We schedule reviews at week one, week four, three months, six months, and twelve months.</p>
@@ -727,7 +738,7 @@ include $path_prefix . 'header.php';
 
         <details class="group py-6">
           <summary class="flex justify-between items-start gap-6 cursor-pointer list-none">
-            <span class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium">Is TMJ surgery always required for jaw pain?</span>
+            <h3 class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium m-0">Is TMJ surgery always required for jaw pain?</h3>
             <span class="text-[24px] text-[var(--steel)] group-open:rotate-45 transition-transform duration-300 shrink-0 leading-none mt-1" aria-hidden="true">+</span>
           </summary>
           <p class="mt-4 text-[15px] leading-[1.7] text-[var(--slate)] max-w-2xl">No. Surgery is reserved for cases where conservative care — splints, physiotherapy, medication, occlusal adjustment — has failed and structural joint disease is confirmed on imaging. Roughly seventy percent of TMJ patients we see never reach the operating theatre.</p>
@@ -735,7 +746,7 @@ include $path_prefix . 'header.php';
 
         <details class="group py-6">
           <summary class="flex justify-between items-start gap-6 cursor-pointer list-none">
-            <span class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium">Do you treat facial trauma emergencies?</span>
+            <h3 class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium m-0">Do you treat facial trauma emergencies?</h3>
             <span class="text-[24px] text-[var(--steel)] group-open:rotate-45 transition-transform duration-300 shrink-0 leading-none mt-1" aria-hidden="true">+</span>
           </summary>
           <p class="mt-4 text-[15px] leading-[1.7] text-[var(--slate)] max-w-2xl">Yes. We coordinate with CARE Hospitals' emergency department for immediate facial trauma — mandibular, orbital, zygomatic, nasal, and pan-facial fractures. The trauma line is answered 24/7 by a member of the surgical team.</p>
@@ -743,7 +754,7 @@ include $path_prefix . 'header.php';
 
         <details class="group py-6">
           <summary class="flex justify-between items-start gap-6 cursor-pointer list-none">
-            <span class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium">How much does a consultation cost?</span>
+            <h3 class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium m-0">How much does a consultation cost?</h3>
             <span class="text-[24px] text-[var(--steel)] group-open:rotate-45 transition-transform duration-300 shrink-0 leading-none mt-1" aria-hidden="true">+</span>
           </summary>
           <p class="mt-4 text-[15px] leading-[1.7] text-[var(--slate)] max-w-2xl">A first consultation runs forty-five minutes and includes imaging review where available. The fee is fixed and disclosed at booking. Surgical quotes are issued in writing after the planning consultation — never verbally on the first visit.</p>
@@ -751,7 +762,7 @@ include $path_prefix . 'header.php';
 
         <details class="group py-6">
           <summary class="flex justify-between items-start gap-6 cursor-pointer list-none">
-            <span class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium">Do you accept insurance?</span>
+            <h3 class="gna-serif text-[20px] md:text-[24px] leading-[1.25] text-[var(--navy)] font-medium m-0">Do you accept insurance?</h3>
             <span class="text-[24px] text-[var(--steel)] group-open:rotate-45 transition-transform duration-300 shrink-0 leading-none mt-1" aria-hidden="true">+</span>
           </summary>
           <p class="mt-4 text-[15px] leading-[1.7] text-[var(--slate)] max-w-2xl">Cashless treatment is available with Star Health, ICICI Lombard, HDFC ERGO, and New India Assurance. For procedures above ₹50,000, no-cost EMI is available through Bajaj Finserv. Our coordinator walks patients through pre-authorisation before admission.</p>
@@ -769,7 +780,7 @@ include $path_prefix . 'header.php';
       <!-- Left info column -->
       <div class="lg:col-span-5">
         <p class="gna-eyebrow text-[var(--steel)] mb-3">§ Make contact</p>
-        <h2 class="gna-serif text-[40px] md:text-[56px] leading-[1.05] text-[var(--navy)] mb-5">Request a consultation.</h2>
+        <h2 class="gna-serif gna-h2-lg text-[var(--navy)] mb-5">Request a consultation.</h2>
         <p class="text-[15px] leading-[1.65] text-[var(--slate)] max-w-md mb-10">Our coordinator will respond within twenty-four hours with available appointment windows and what to bring to your first visit.</p>
 
         <div class="space-y-5">
@@ -820,16 +831,16 @@ include $path_prefix . 'header.php';
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <div>
                 <label class="block gna-eyebrow text-[var(--slate)] mb-2" for="contact-name">Full name <span class="text-[var(--trauma)]" aria-hidden="true">*</span></label>
-                <input class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[15px] text-[var(--navy)] focus:outline-none focus:border-[var(--steel)] focus:ring-2 focus:ring-[var(--steel)]/30 transition-all" id="contact-name" name="name" type="text" required aria-required="true" autocomplete="name" placeholder="As on your records"/>
+                <input class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[16px] text-[var(--navy)] focus:outline-none focus-visible:border-[var(--steel)] focus-visible:ring-2 focus-visible:ring-[var(--steel)] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F8F5EF] transition-all" id="contact-name" name="name" type="text" required aria-required="true" autocomplete="name" placeholder="As on your records"/>
               </div>
               <div>
                 <label class="block gna-eyebrow text-[var(--slate)] mb-2" for="contact-phone">Phone <span class="text-[var(--trauma)]" aria-hidden="true">*</span></label>
-                <input class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[15px] text-[var(--navy)] focus:outline-none focus:border-[var(--steel)] focus:ring-2 focus:ring-[var(--steel)]/30 transition-all" id="contact-phone" name="phone" type="tel" required aria-required="true" autocomplete="tel" placeholder="+91"/>
+                <input class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[16px] text-[var(--navy)] focus:outline-none focus-visible:border-[var(--steel)] focus-visible:ring-2 focus-visible:ring-[var(--steel)] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F8F5EF] transition-all" id="contact-phone" name="phone" type="tel" required aria-required="true" autocomplete="tel" placeholder="+91"/>
               </div>
             </div>
             <div>
               <label class="block gna-eyebrow text-[var(--slate)] mb-2" for="contact-treatment">Reason for visit</label>
-              <select class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[15px] text-[var(--navy)] focus:outline-none focus:border-[var(--steel)] focus:ring-2 focus:ring-[var(--steel)]/30 transition-all appearance-none" id="contact-treatment" name="treatment">
+              <select class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[16px] text-[var(--navy)] focus:outline-none focus-visible:border-[var(--steel)] focus-visible:ring-2 focus-visible:ring-[var(--steel)] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F8F5EF] transition-all appearance-none" id="contact-treatment" name="treatment">
                 <option value="">Select a specialty…</option>
                 <option>TMJ disorders / jaw pain</option>
                 <option>Facial injury or fracture</option>
@@ -843,7 +854,7 @@ include $path_prefix . 'header.php';
             </div>
             <div>
               <label class="block gna-eyebrow text-[var(--slate)] mb-2" for="contact-date">Preferred date</label>
-              <input class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[15px] text-[var(--navy)] focus:outline-none focus:border-[var(--steel)] focus:ring-2 focus:ring-[var(--steel)]/30 transition-all" id="contact-date" name="preferred_date" type="date"/>
+              <input class="w-full px-4 py-3 rounded-md border gna-rule bg-[#F8F5EF] text-[16px] text-[var(--navy)] focus:outline-none focus-visible:border-[var(--steel)] focus-visible:ring-2 focus-visible:ring-[var(--steel)] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F8F5EF] transition-all" id="contact-date" name="preferred_date" type="date"/>
               <p class="text-[12px] text-[var(--slate)] mt-1.5">Optional. We'll confirm availability within 24 hours.</p>
             </div>
 
@@ -851,9 +862,14 @@ include $path_prefix . 'header.php';
               Book Appointment
             </button>
 
+            <div class="flex items-center justify-center gap-2 pt-1">
+              <span class="text-[12px] text-[var(--slate)]">Prefer a faster reply?</span>
+              <a href="https://wa.me/919000666476?text=Hello%20Gnathos%20team%2C%20I%27d%20like%20a%20consultation." target="_blank" rel="noopener" class="text-[12px] font-semibold text-[var(--steel)] gna-link">Message us on WhatsApp →</a>
+            </div>
+
             <p class="text-[12px] text-[var(--slate)] leading-[1.55]">By submitting, you consent to the practice contacting you about your enquiry. We do not share patient information.</p>
 
-            <div class="hidden text-center py-3 px-4 rounded-md border border-[var(--steel)] text-[var(--steel)] text-[14px] font-medium bg-white" id="form-success" role="status" aria-live="polite">
+            <div tabindex="-1" class="hidden text-center py-3 px-4 rounded-md border border-[var(--steel)] text-[var(--steel)] text-[14px] font-medium bg-white" id="form-success" role="status" aria-live="polite">
               Thank you. The clinical coordinator will be in touch within 24 hours.
             </div>
           </form>
@@ -927,17 +943,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const mm = String(today.getMonth() + 1).padStart(2, '0');
     const dd = String(today.getDate()).padStart(2, '0');
     dateInput.min = `${yyyy}-${mm}-${dd}`;
-  }
-  if ('IntersectionObserver' in window) {
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(en => {
-        if (en.isIntersecting) {
-          en.target.classList.add('is-in');
-          io.unobserve(en.target);
-        }
-      });
-    }, { threshold: 0.08 });
-    document.querySelectorAll('section').forEach(s => io.observe(s));
   }
 });
 </script>

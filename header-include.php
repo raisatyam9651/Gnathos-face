@@ -35,9 +35,19 @@
   <meta name="twitter:title" content="<?php echo isset($page_title) ? $page_title : 'Gnathos Facial'; ?>" />
   <meta name="twitter:description" content="<?php echo isset($page_description) ? $page_description : ''; ?>" />
   <meta name="twitter:image" content="https://gnathosface.com/asset/og-image.jpg" />
+  <!-- Establish early connections to critical third-party origins (faster LCP) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin/>
+  <link rel="dns-prefetch" href="https://app.wacrs.com"/>
+  <link rel="dns-prefetch" href="https://t.usermaven.com"/>
+  <link rel="dns-prefetch" href="https://events.usermaven.com"/>
+
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@600;700&amp;family=Cormorant+Garamond:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <!-- Material Symbols is used only by inner pages — load it non-render-blocking -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/></noscript>
   <script id="tailwind-config">
     tailwind.config = {
       darkMode: "class",

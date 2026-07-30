@@ -16,6 +16,12 @@
     --slate-soft: #8a929b;
     --hairline: rgba(14, 42, 71, 0.12);
     --hairline-soft: rgba(14, 42, 71, 0.07);
+    /* Radius scale — two deliberate steps */
+    --r-sm: 4px;   /* controls: buttons, inputs, pills */
+    --r-md: 6px;   /* surfaces: cards, images, panels */
+    /* One restrained lift, used only on elements that float over imagery */
+    --gna-lift: 0 14px 34px -18px rgba(14, 42, 71, 0.28);
+    --gna-strip-h: 44px; /* measured fallback for the sticky emergency strip */
 }
 
 body {
@@ -24,16 +30,27 @@ body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
+/* Smooth in-page navigation; anchors clear the sticky strip + masthead */
+html { scroll-behavior: smooth; }
+:where(section[id], [id]) { scroll-margin-top: calc(var(--gna-strip-h, 44px) + 5rem); }
+
 /* ── Typography utilities ─────────────────────────────────────── */
-.gna-serif { font-family: 'Cormorant Garamond','Playfair Display',Georgia,serif; font-weight: 500; letter-spacing: -0.01em; }
+.gna-serif { font-family: 'Cormorant Garamond','Playfair Display',Georgia,serif; font-weight: 500; letter-spacing: -0.01em; text-wrap: balance; }
 .gna-serif-i { font-family: 'Cormorant Garamond',serif; font-style: italic; font-weight: 400; }
+
+/* Fluid display sizes — scale smoothly across the mobile range instead of
+   snapping at one breakpoint. Applied to hero H1, section H2s and stats. */
+.gna-h1   { font-size: clamp(2.1rem, 1.05rem + 5vw, 4rem);  line-height: 1.03; letter-spacing: -0.015em; }
+.gna-h2   { font-size: clamp(2.05rem, 1.4rem + 2.6vw, 3rem); line-height: 1.06; }
+.gna-h2-lg{ font-size: clamp(2.25rem, 1.3rem + 4vw, 3.5rem); line-height: 1.05; }
+.gna-stat { font-size: clamp(2.25rem, 1.4rem + 3.6vw, 3.5rem); line-height: 1; }
 .gna-eyebrow { font-family: 'Inter', sans-serif; font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 500; }
 .gna-link { position: relative; display: inline-flex; align-items: center; gap: .5rem; }
 .gna-link::after { content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 1px; background: currentColor; transform: scaleX(.4); transform-origin: left; transition: transform .4s ease; }
 .gna-link:hover::after { transform: scaleX(1); }
 
 /* ── Buttons ──────────────────────────────────────────────────── */
-.gna-btn { display: inline-flex; align-items: center; gap: .55rem; padding: .85rem 1.5rem; font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; transition: all .25s ease; background: transparent; cursor: pointer; border-radius: 4px; }
+.gna-btn { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; min-height: 44px; line-height: 1; padding: .85rem 1.5rem; font-family: 'Inter', sans-serif; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; transition: all .25s ease; background: transparent; cursor: pointer; border-radius: var(--r-sm); }
 .gna-btn-primary { background: var(--navy); color: white; border: 1px solid var(--navy); }
 .gna-btn-primary:hover { background: var(--steel); border-color: var(--steel); }
 .gna-btn-emergency { background: var(--trauma); color: white; border: 1px solid var(--trauma); }
@@ -44,10 +61,18 @@ body {
 .gna-btn-whatsapp:hover { background: #1ebe5b; border-color: #1ebe5b; }
 
 /* ── Cards (no shadows; hairline border) ──────────────────────── */
-.gna-card { background: white; border: 1px solid var(--hairline); border-radius: 8px; transition: border-color .25s ease, transform .25s ease; }
-.gna-card:hover { border-color: var(--steel); }
+.gna-card { background: white; border: 1px solid var(--hairline); border-radius: var(--r-md); transition: border-color .25s ease, transform .25s ease; }
+.gna-card:hover { border-color: var(--steel); transform: translateY(-2px); }
 .gna-card-img { transition: transform .7s cubic-bezier(.2,.7,.2,1), filter .5s ease; }
 .gna-card:hover .gna-card-img { transform: scale(1.04); }
+
+/* Triage cards sit on a warm section: warm by default so hover-to-white reads */
+.gna-triage { background: var(--warm); }
+.gna-triage:hover { background: #fff; }
+
+/* The single controlled "lift" — only for surfaces floating over imagery
+   (hero overlay cards) and menus, so the page stays otherwise flat/hairline */
+.gna-float { box-shadow: var(--gna-lift); }
 
 /* ── Emergency strip (always-on trust signal) ─────────────────── */
 .gna-emergency { background: var(--trauma); color: white; }
@@ -62,6 +87,13 @@ body {
 
 /* ── Focus (a11y) ─────────────────────────────────────────────── */
 :focus-visible { outline: 2px solid var(--steel); outline-offset: 2px; border-radius: 2px; }
+/* Steel is invisible on navy/trauma surfaces — use a warm outline there (>7:1) */
+.gna-emergency a:focus-visible,
+footer a:focus-visible,
+footer button:focus-visible,
+.bg-\[var\(--navy\)\] a:focus-visible,
+.bg-\[var\(--trauma\)\] a:focus-visible,
+.gna-actionbar a:focus-visible { outline-color: #F8F5EF; outline-offset: 2px; }
 .gna-nav-item:focus-within > .gna-nav-menu { opacity: 1; visibility: visible; transform: translateY(0); }
 .gna-nav-menu { opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity .2s ease, transform .2s ease, visibility 0s linear .2s; }
 .gna-nav-item:hover > .gna-nav-menu,
@@ -80,11 +112,15 @@ body {
 .icon-fill-0 { font-variation-settings: 'FILL' 0; }
 .icon-weight-300 { font-variation-settings: 'wght' 300; }
 
-/* ── Soft reveal (respects motion-reduce) ─────────────────────── */
-.gna-reveal { opacity: 0; transform: translateY(16px); transition: opacity .8s ease, transform .8s ease; }
-.gna-reveal.is-in { opacity: 1; transform: none; }
+/* ── Sticky mobile action bar (Call · WhatsApp · Book) ─────────── */
+.gna-actionbar { transform: translateY(110%); transition: transform .3s cubic-bezier(.2,.7,.2,1); }
+.gna-actionbar.is-visible { transform: translateY(0); }
+@media (max-width: 1023px) { body { padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px)); } }
+
+/* ── Motion preferences ───────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
-    .gna-reveal { opacity: 1; transform: none; transition: none; }
+    html { scroll-behavior: auto; }
+    .gna-actionbar { transition: none; }
     .gna-card-img, .gna-card, .gna-link::after, .gna-btn { transition: none !important; }
     *, *::before, *::after { animation-duration: 0s !important; animation-iteration-count: 1 !important; transition-duration: 0s !important; }
 }

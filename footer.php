@@ -1,6 +1,7 @@
 <!-- ── Map plate (continues from page above) ───────────────────────── -->
 <div class="w-full h-[350px] md:h-[400px] overflow-hidden relative bg-[var(--navy)]">
   <iframe
+    title="Map — Gnathos Facial, Regency Prime, Jayabheri Pine Valley, Gachibowli, Hyderabad"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6119556239087!2d78.3722385!3d17.430400400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9377bfbc844d%3A0x89619bc38eaa02ca!2sGnathos!5e0!3m2!1sen!2sin!4v1779796141375!5m2!1sen!2sin"
     width="100%" height="100%" style="border:0; filter: grayscale(60%) contrast(1.02) brightness(0.95);" allowfullscreen="" loading="lazy"
     referrerpolicy="no-referrer-when-downgrade" class="w-full h-full hover:!filter-none transition-all duration-500">
@@ -32,7 +33,7 @@
       <!-- 1. Practice -->
       <div>
         <div class="flex items-center gap-3 mb-5">
-          <img alt="Gnathos Facial" class="h-8 w-auto brightness-0 invert" src="/asset/gna-logop.png"/>
+          <img alt="Gnathos Facial" class="h-8 w-auto brightness-0 invert" src="/asset/gna-logop.png" width="300" height="71"/>
         </div>
         <p class="text-[14px] leading-[1.65] text-white/85 mb-6">
           Advanced oral and maxillofacial surgical care in Hyderabad. Led by Dr. Suresh and Dr. Navatha Mortha.
@@ -47,7 +48,7 @@
 
       <!-- 2. By Symptom -->
       <div>
-        <h4 class="gna-eyebrow text-white/50 mb-6">By Symptom</h4>
+        <h3 class="gna-eyebrow text-white/50 mb-6">By Symptom</h3>
         <ul class="space-y-2.5 text-[14px]">
           <li><a href="<?php echo $path_prefix; ?>tmj-disorders.php" class="text-white/85 gna-link hover:text-white">Jaw pain &amp; clicking (TMJ)</a></li>
           <li><a href="<?php echo $path_prefix; ?>facial-injuries.php" class="text-white/85 gna-link hover:text-white">Facial injury / fracture</a></li>
@@ -60,7 +61,7 @@
 
       <!-- 3. Our Doctors -->
       <div>
-        <h4 class="gna-eyebrow text-white/50 mb-6">Our Doctors</h4>
+        <h3 class="gna-eyebrow text-white/50 mb-6">Our Doctors</h3>
         <ul class="space-y-2.5 text-[14px]">
           <li><a class="text-white/85 gna-link hover:text-white" href="<?php echo $path_prefix; ?>index.php#doctors">Dr. Suresh, MDS</a></li>
           <li><a class="text-white/85 gna-link hover:text-white" href="<?php echo $path_prefix; ?>index.php#doctors">Dr. Navatha Mortha, MDS</a></li>
@@ -74,15 +75,15 @@
 
       <!-- 4. Patient Resources -->
       <div>
-        <h4 class="gna-eyebrow text-white/50 mb-6">Patient Resources</h4>
+        <h3 class="gna-eyebrow text-white/50 mb-6">Patient Resources</h3>
         <ul class="space-y-2.5 text-[14px]">
           <li><a href="<?php echo $path_prefix; ?>index.php#stories" class="text-white/85 gna-link hover:text-white">Patient Stories</a></li>
           <li><a href="<?php echo $path_prefix; ?>index.php#faq" class="text-white/85 gna-link hover:text-white">FAQ &amp; Recovery</a></li>
           <li><a href="<?php echo $path_prefix; ?>blogs/" class="text-white/85 gna-link hover:text-white">Journal</a></li>
           <li class="pt-3 mt-3 border-t gna-rule-light">
-            <a class="text-white/85 gna-link hover:text-white" href="#">Insurance &amp; EMI</a>
+            <a class="text-white/85 gna-link hover:text-white" href="<?php echo $path_prefix; ?>index.php#insurance">Insurance &amp; EMI</a>
           </li>
-          <li><a class="text-white/85 gna-link hover:text-white" href="#">Consultation Fee</a></li>
+          <li><a class="text-white/85 gna-link hover:text-white" href="<?php echo $path_prefix; ?>index.php#faq">Consultation Fee</a></li>
           <li><a class="text-white/85 gna-link hover:text-white" href="#">Privacy Policy</a></li>
         </ul>
         <div class="mt-6 pt-6 border-t gna-rule-light">
@@ -111,16 +112,36 @@
     <!-- Bottom bar -->
     <div class="pt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-[12px] text-white/50">
       <p>© 2026 Gnathos Maxillofacial Surgery · All rights reserved</p>
-      <div class="flex flex-wrap gap-x-5 gap-y-2">
-        <a href="#" class="hover:text-white transition-colors">Privacy</a>
-        <a href="#" class="hover:text-white transition-colors">Terms</a>
-        <a href="#" class="hover:text-white transition-colors">Clinical Governance</a>
-        <a href="#" class="hover:text-white transition-colors">Accessibility</a>
+      <div class="flex flex-wrap gap-x-5 gap-y-1">
+        <a href="#" class="inline-block py-2 -my-1 hover:text-white transition-colors">Privacy</a>
+        <a href="#" class="inline-block py-2 -my-1 hover:text-white transition-colors">Terms</a>
+        <a href="#" class="inline-block py-2 -my-1 hover:text-white transition-colors">Clinical Governance</a>
+        <a href="#" class="inline-block py-2 -my-1 hover:text-white transition-colors">Accessibility</a>
       </div>
     </div>
 
   </div>
 </footer>
+
+<!-- ── Sticky mobile action bar (Call · WhatsApp · Book) ──────────── -->
+<div id="gna-actionbar" class="gna-actionbar lg:hidden fixed inset-x-0 bottom-0 z-[54] grid grid-cols-3 border-t gna-rule bg-[#F8F5EF]"
+  style="padding-bottom: env(safe-area-inset-bottom, 0px);" aria-label="Quick actions">
+  <a href="tel:+919000666476" class="gna-btn gna-btn-outline justify-center !rounded-none !border-0 !border-r !border-[var(--hairline)] !py-3.5 !text-[11px]">Call</a>
+  <a href="https://wa.me/919000666476?text=Hello%20Gnathos%20team%2C%20I%27d%20like%20a%20consultation." target="_blank" rel="noopener" class="gna-btn gna-btn-whatsapp justify-center !rounded-none !border-0 !py-3.5 !text-[11px]">WhatsApp</a>
+  <a href="<?php echo $path_prefix; ?>index.php#contact" class="gna-btn gna-btn-primary justify-center !rounded-none !border-0 !py-3.5 !text-[11px]">Book</a>
+</div>
+<script>
+  (function () {
+    var bar = document.getElementById('gna-actionbar');
+    if (!bar) return;
+    function toggle() {
+      if (window.scrollY > 520) bar.classList.add('is-visible');
+      else bar.classList.remove('is-visible');
+    }
+    toggle();
+    window.addEventListener('scroll', toggle, { passive: true });
+  })();
+</script>
 
 </main>
 </body>
