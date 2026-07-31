@@ -9,6 +9,7 @@ $is_blog_active = strpos($_SERVER['PHP_SELF'], '/blogs/') !== false || strpos($_
 <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:z-[70] focus:top-2 focus:left-2 focus:bg-[var(--navy)] focus:text-white focus:px-4 focus:py-2 focus:rounded gna-eyebrow">Skip to content</a>
 
 <!-- ── 1. Emergency strip (sticky top, click-to-call) ──────────── -->
+<?php if (!$is_blog_active): ?>
 <div id="gna-emergency-strip"
   class="gna-emergency w-full text-[12px] md:text-[13px] py-2 px-4 md:px-8 flex items-center justify-between gap-3 sticky top-0 z-[60]">
   <div class="flex items-center gap-2 md:gap-3 min-w-0">
@@ -26,9 +27,10 @@ $is_blog_active = strpos($_SERVER['PHP_SELF'], '/blogs/') !== false || strpos($_
     </a>
   </div>
 </div>
+<?php endif; ?>
 
 <!-- ── 2. Main masthead ────────────────────────────────────────── -->
-<header class="w-full bg-[#F8F5EF] border-b gna-rule sticky z-50" style="top: var(--gna-strip-h, 44px);">
+<header class="w-full bg-[#F8F5EF] border-b gna-rule sticky z-50" style="<?php echo $is_blog_active ? 'top: 0;' : 'top: var(--gna-strip-h, 44px);'; ?>">
   <div class="max-w-[1280px] mx-auto px-4 md:px-8">
     <div class="flex items-center justify-between py-3 md:py-4 gap-4">
       <!-- Logo -->
@@ -43,7 +45,7 @@ $is_blog_active = strpos($_SERVER['PHP_SELF'], '/blogs/') !== false || strpos($_
 
         <!-- Conditions -->
         <div class="gna-nav-item relative">
-          <button
+          <button onmousedown="event.preventDefault()"
             class="gna-eyebrow <?php echo $is_conditions_active ? 'text-[var(--steel)]' : 'text-[var(--navy)] hover:text-[var(--steel)]'; ?> flex items-center gap-1 transition-colors"
             aria-expanded="false" aria-haspopup="true" aria-controls="nav-conditions">
             Conditions <span class="text-[9px] transition-transform" aria-hidden="true">▾</span>
@@ -80,7 +82,7 @@ $is_blog_active = strpos($_SERVER['PHP_SELF'], '/blogs/') !== false || strpos($_
 
         <!-- Treatments -->
         <div class="gna-nav-item relative">
-          <button
+          <button onmousedown="event.preventDefault()"
             class="gna-eyebrow <?php echo $is_treatments_active ? 'text-[var(--steel)]' : 'text-[var(--navy)] hover:text-[var(--steel)]'; ?> flex items-center gap-1 transition-colors"
             aria-expanded="false" aria-haspopup="true" aria-controls="nav-treatments">
             Treatments <span class="text-[9px] transition-transform" aria-hidden="true">▾</span>
